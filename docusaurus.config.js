@@ -20,8 +20,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'dsc10', // Usually your GitHub org/user name.
+  projectName: 'bpd-reference', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -66,9 +66,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'bpd',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'bpd Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -76,11 +76,10 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'documentation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/m1nce/bpd-reference?tab=readme-ov-file',
             label: 'GitHub',
             position: 'right',
           },
@@ -90,46 +89,42 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'documentation',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'course links',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'dsc10.com',
+                href: 'https://dsc10.com/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'edstem',
+                href: 'https://edstem.org/us/courses/57461/discussion/',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'gradescope',
+                href: 'https://www.gradescope.com/courses/757097',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'more',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/m1nce/bpd-reference?tab=readme-ov-file',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Minchan Kim Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

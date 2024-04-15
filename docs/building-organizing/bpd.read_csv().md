@@ -23,4 +23,4 @@ pets = bpd.read_csv('pets.csv')
 pets
 ```
 
-<DataFrameComponent data={'{"Species":{"0":"dog","1":"cat","2":"cat","3":"dog","4":"dog","5":"hamster","6":"hamster"},"Color":{"0":"black","1":"golden","2":"black","3":"white","4":"black","5":"black","6":"golden"},"Weight":{"0":40.0,"1":15.0,"2":20.0,"3":80.0,"4":25.0,"5":1.0,"6":0.25},"Age":{"0":5.0,"1":8.0,"2":9.0,"3":2.0,"4":0.5,"5":3.0,"6":0.2}}'} />
+<DataFrameComponent data={'{"columns":["Species","Color","Weight","Age"],"index":[0,1,2,3,4,5,6],"data":[["dog","black",40.0,5.0],["cat","golden",15.0,8.0],["cat","black",20.0,9.0],["dog","white",80.0,2.0],["dog","black",25.0,0.5],["hamster","black",1.0,3.0],["hamster","golden",0.25,0.2]]}'} />
