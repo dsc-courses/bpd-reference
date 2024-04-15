@@ -38,7 +38,7 @@ By default, a browser window will open at `http://localhost:3000`
 
 Major frameworks/libraries/languages used in this project:
 
-* [![Node.js][Node.js]][Node.js-url]
+[![Node.js][Node.js]][Node.js-url]
 
 <!-- LICENSE -->
 ## License
