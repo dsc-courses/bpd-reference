@@ -1,0 +1,27 @@
+/* function.css */
+
+.base {
+    max-width: 800px; /* Limit the width for better readability */
+    margin: 0 auto; /* Center the block in the middle of the page */
+    padding-top: 5px; /* Add some padding to top */
+    padding-left: 20px; /* Add some padding to left */
+    font-family: 'Arial', sans-serif; /* A more modern font */
+}
+
+.base p {
+    color: #333; /* Darker text for better readability */
+    line-height: 1.6; /* More space between lines */
+    margin-bottom: 0px;
+    margin-top: 1em;
+}
+
+.base dl {
+    display: grid;
+    margin-top: 0px;
+}
+
+.base dt {
+    font-weight: bold; /* Make the term bold */
+    text-align: left; /* Right-align the term for a tabular look */
+    padding-right: 0.5em; /* Add some space before the description */
+}
