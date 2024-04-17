@@ -12,7 +12,7 @@ import '../../src/css/function.css';
 
     <dl>
         <dt className='term'>Input:</dt>
-        <dd className='parameter'>columns: <em>string or list</em></dd>
+        <dd className='parameter'>columns : <em>string or list</em></dd>
         <dd className='parameter-description'>column name(s) to drop.</dd>
 
         <dt className='term'>Returns:</dt>

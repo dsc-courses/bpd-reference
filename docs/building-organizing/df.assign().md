@@ -12,9 +12,9 @@ import '../../src/css/function.css';
     
     <dl>
         <dt className='term'>Input:</dt>
-        <dd className='parameter'>name_of_column: <em>str</em></dd>
+        <dd className='parameter'>name_of_column : <em>str</em></dd>
         <dd className='parameter-description'>Name of column to assign list to.</dd>
-        <dd className='parameter'>column_data: <em>list</em></dd>
+        <dd className='parameter'>column_data : <em>list</em></dd>
         <dd className='parameter-description'>Data the column names contains.</dd>
 
         <dt className='term'>Returns:</dt>

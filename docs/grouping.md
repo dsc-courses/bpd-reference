@@ -13,19 +13,19 @@ import '../src/css/function.css';
     This can be used to group large amounts of data and compute operations on these groups.</p>
 
     <dl>
-        <dt>Input:</dt>
-        <dd>by: column, or list of operations</dd>
-        <dd>Group by the column specified. If list, groups from left to right.</dd>
+        <dt className='term'>Input:</dt>
+        <dd className='parameter'>by : column, or list of operations</dd>
+        <dd className='parameter-description'>Group by the column specified. If list, groups from left to right.</dd>
 
-        <dt>Returns:</dt>
+        <dt className='term'>Returns:</dt>
         <dd>df_gb - groupby object that contains information about the groups.</dd>
 
-        <dt>Return Type:</dt>
+        <dt className='term'>Return Type:</dt>
         <dd>DataFrameGroupBy</dd>
     </dl>
 </div>
 
-```python3
+```python
 pets
 ```
 

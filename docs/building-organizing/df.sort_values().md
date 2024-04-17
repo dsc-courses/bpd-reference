@@ -13,12 +13,12 @@ import '../../src/css/function.css';
     <dl>
         <dt className='term'>Input:</dt>
         <dd className='parameter'>column_name : <em>string</em></dd>
-        <dd className='parameter-description'>column name to sort by</dd>
-        <dd className='parameter'>ascending : <em>boolean</em></dd>
+        <dd className='parameter-description'>column name to sort by.</dd>
+        <dd className='parameter'>ascending : <em>boolean, default 'True'</em></dd>
         <dd className='parameter-description'>sort ascending vs. descending.</dd>
 
         <dt className='term'>Returns:</dt>
-        <dd>df_sorted - A new DataFrame with the specified column sorted in ascending/descending</dd>
+        <dd>df_sorted - A new DataFrame with the specified column sorted in ascending/descending.</dd>
 
         <dt className='term'>Return Type:</dt>
         <dd>DataFrame</dd>

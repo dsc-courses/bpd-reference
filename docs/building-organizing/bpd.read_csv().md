@@ -12,7 +12,7 @@ import '../../src/css/function.css';
 
     <dl>
         <dt className='term'>Input:</dt>
-        <dd className='parameter'>filepath: <em>string, path object, file-like object.</em></dd>
+        <dd className='parameter'>filepath : <em>string, path object, file-like object.</em></dd>
         <dd className='parameter-description'>Any valid string path is acceptable. The string could also be a URL.</dd>
 
         <dt className='term'>Returns:</dt>

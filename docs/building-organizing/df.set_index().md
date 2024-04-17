@@ -12,7 +12,7 @@ import '../../src/css/function.css';
     
     <dl>
         <dt className='term'>Input:</dt>
-        <dd className='parameter'>column_name: <em>string</em></dd>
+        <dd className='parameter'>column_name : <em>string</em></dd>
         <dd className='parameter-description'>column name to make as the index</dd>
 
         <dt className='term'>Returns:</dt>
