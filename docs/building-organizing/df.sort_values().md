@@ -25,14 +25,14 @@ import '../../src/css/function.css';
     </dl>
 </div>
 
-```python3
+```python
 pets = pets.sort_values(by='Weight', ascending=True)
 pets
 ```
 
 <DataFrameComponent data={'{"columns":["Species","Color","Weight","Age"],"index":[6,5,1,2,4,0,3],"data":[["hamster","golden",0.25,0.2],["hamster","black",1.0,3.0],["cat","golden",15.0,8.0],["cat","black",20.0,9.0],["dog","black",25.0,0.5],["dog","black",40.0,5.0],["dog","white",80.0,2.0]]}'}/>
 
-```python3
+```python
 pets = pets.sort_values(by='Age', ascending=False)
 pets
 ```

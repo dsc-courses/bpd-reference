@@ -26,7 +26,7 @@ In this documentation, `df` is a DataFrame, `ser` is a Series, and `arr` is an a
 ---
 
 For all examples, refer to the following DataFrame.
-```python3
+```python
 pets
 ```
 

@@ -29,8 +29,8 @@
     background-color: #eaeaea; /* Light grey background for the term */
     color: #000; /* Default text color */
     display: inline-block; /* Makes the background extend only to the end of the text */
-    padding: 0 4px; /* Adds some padding to the left and right of the text */
-    margin-right: 10px; /* Adds some space after the term before the description starts */
+    padding-left: 0.5em; /* Adds some padding to the left of the text */
+    margin-right: 0.5em; /* Adds some space after the term before the description starts */
 }
   
 /* Changes the term background and text color in dark mode */
