@@ -11,10 +11,10 @@ import '../../src/css/function.css';
     <p><strong>Moves the index to a column</strong></p>
     
     <dl>
-        <dt>Returns:</dt>
+        <dt className='term'>Returns:</dt>
         <dd>df_without_idx - A new DataFrame without the column set as the index</dd>
 
-        <dt>Return Type:</dt>
+        <dt className='term'>Return Type:</dt>
         <dd>DataFrame</dd>
     </dl>
 </div>

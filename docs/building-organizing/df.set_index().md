@@ -5,20 +5,20 @@ sidebar_position: 5
 import DataFrameComponent from '../../components/DataFrameComponent.jsx';
 import '../../src/css/function.css';
 
-<code>df.reset_index()</code>
+<code>df.set_index()</code>
 
 <div className='base'>
     <p><strong>Moves a column to the index</strong></p>
     
     <dl>
-        <dt>Input:</dt>
-        <dd>column_name: str</dd>
-        <dd>column name to make as the index</dd>
+        <dt className='term'>Input:</dt>
+        <dd className='parameter'>column_name: <em>string</em></dd>
+        <dd className='parameter-description'>column name to make as the index</dd>
 
-        <dt>Returns:</dt>
+        <dt className='term'>Returns:</dt>
         <dd>df_with_idx - A new DataFrame with the column set as the index</dd>
 
-        <dt>Return Type:</dt>
+        <dt className='term'>Return Type:</dt>
         <dd>DataFrame</dd>
     </dl>
 </div>

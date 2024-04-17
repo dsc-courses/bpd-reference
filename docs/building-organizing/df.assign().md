@@ -11,16 +11,16 @@ import '../../src/css/function.css';
     <p><strong>Adds/replaces a column. name_of_column should not have quotes or spaces.</strong></p>
     
     <dl>
-        <dt>Input:</dt>
-        <dd>name_of_column: str</dd>
-        <dd>Name of column to assign list to.</dd>
-        <dd>column_data: list</dd>
-        <dd>Data the column names contains.</dd>
+        <dt className='term'>Input:</dt>
+        <dd className='parameter'>name_of_column: <em>str</em></dd>
+        <dd className='parameter-description'>Name of column to assign list to.</dd>
+        <dd className='parameter'>column_data: <em>list</em></dd>
+        <dd className='parameter-description'>Data the column names contains.</dd>
 
-        <dt>Returns:</dt>
+        <dt className='term'>Returns:</dt>
         <dd>df_with_cols - A new DataFrame with the columns in addition to all the existing columns.</dd>
 
-        <dt>Return Type:</dt>
+        <dt className='term'>Return Type:</dt>
         <dd>DataFrame</dd>
     </dl>
 </div>

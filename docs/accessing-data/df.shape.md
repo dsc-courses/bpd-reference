@@ -11,13 +11,13 @@ import '../../src/css/function.css';
     <p><strong>Return a tuple representing the dimensionality of the DataFrame.</strong></p>
 
     <dl>
-        <dt>Returns:</dt>
+        <dt className='term'>Returns:</dt>
         <dd>a tuple representing the dimensionality of the DataFrame.</dd>
 
-        <dt>Return Type:</dt>
+        <dt className='term'>Return Type:</dt>
         <dd>Tuple</dd>
 
-        <dt>Note:</dt>
+        <dt className='term'>Note:</dt>
         <dd>If `df.shape[0]`, returns the number of <strong>observations (rows)</strong> in the DataFrame.</dd>
         <dd>If `df.shape[1]`, returns the number of <strong>variables (columns)</strong> in the DataFrame.</dd>
     </dl>

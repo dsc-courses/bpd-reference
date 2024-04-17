@@ -11,16 +11,16 @@ import '../../src/css/function.css';
     <p><strong>Sorts the entire DataFrame in ascending order by the values in the column. `ascending` can be omitted, as it's default value is `True`</strong></p>
     
     <dl>
-        <dt className="term">Input:</dt>
-        <dd className='parameter'>column_name : str</dd>
+        <dt className='term'>Input:</dt>
+        <dd className='parameter'>column_name : <em>string</em></dd>
         <dd className='parameter-description'>column name to sort by</dd>
-        <dd className='parameter'>ascending : boolean</dd>
+        <dd className='parameter'>ascending : <em>boolean</em></dd>
         <dd className='parameter-description'>sort ascending vs. descending.</dd>
 
-        <dt className="term">Returns:</dt>
+        <dt className='term'>Returns:</dt>
         <dd>df_sorted - A new DataFrame with the specified column sorted in ascending/descending</dd>
 
-        <dt className="term">Return Type:</dt>
+        <dt className='term'>Return Type:</dt>
         <dd>DataFrame</dd>
     </dl>
 </div>

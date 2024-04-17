@@ -9,16 +9,16 @@ import '../../src/css/function.css';
 
 <div className='base'>
     <p><strong>Read a comma-separated values (csv) file into DataFrame.</strong></p>
-    
-    <dl>
-        <dt>Input:</dt>
-        <dd>filepath: str, path object, file-like object.</dd>
-        <dd>Any valid string path is acceptable. The string could also be a URL.</dd>
 
-        <dt>Returns:</dt>
+    <dl>
+        <dt className='term'>Input:</dt>
+        <dd className='parameter'>filepath: <em>string, path object, file-like object.</em></dd>
+        <dd className='parameter-description'>Any valid string path is acceptable. The string could also be a URL.</dd>
+
+        <dt className='term'>Returns:</dt>
         <dd>df - DataFrame with read csv file.</dd>
 
-        <dt>Return Type:</dt>
+        <dt className='term'>Return Type:</dt>
         <dd>DataFrame</dd>
     </dl>
 </div>

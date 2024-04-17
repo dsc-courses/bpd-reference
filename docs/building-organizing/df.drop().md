@@ -9,16 +9,16 @@ import '../../src/css/function.css';
 
 <div className='base'>
     <p><strong>Drops a single column, or every column in a list of column names.</strong></p>
-    
-    <dl>
-        <dt>Input:</dt>
-        <dd>columns: str or list</dd>
-        <dd>column name(s) to drop.</dd>
 
-        <dt>Returns:</dt>
+    <dl>
+        <dt className='term'>Input:</dt>
+        <dd className='parameter'>columns: <em>string or list</em></dd>
+        <dd className='parameter-description'>column name(s) to drop.</dd>
+
+        <dt className='term'>Returns:</dt>
         <dd>df_without_cols - A new DataFrame without the column(s) specified in the method</dd>
 
-        <dt>Return Type:</dt>
+        <dt className='term'>Return Type:</dt>
         <dd>DataFrame</dd>
     </dl>
 </div>
