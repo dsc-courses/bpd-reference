@@ -9,7 +9,6 @@
 }
 
 .base p {
-    color: #333; /* Darker text for better readability */
     line-height: 1.6; /* More space between lines */
     margin-bottom: 0px;
     margin-top: 1em;
@@ -24,4 +23,10 @@
     font-weight: bold; /* Make the term bold */
     text-align: left; /* Right-align the term for a tabular look */
     padding-right: 0.5em; /* Add some space before the description */
+}
+
+.dataframe-container {
+    /* Assuming you want the DataFrame to fit the width of its container and allow for scrolling if necessary */
+    overflow-x: auto;
+    margin: 0 auto; /* This centers the table if it's smaller than the container */
 }
