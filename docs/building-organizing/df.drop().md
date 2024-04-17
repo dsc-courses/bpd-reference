@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 import DataFrameComponent from '../../components/DataFrameComponent.jsx';
 import '../../src/css/function.css';
 
@@ -5,6 +9,7 @@ import '../../src/css/function.css';
 
 <div className='base'>
     <p><strong>Drops a single column, or every column in a list of column names.</strong></p>
+    
     <dl>
         <dt>Input:</dt>
         <dd>columns: str or list</dd>

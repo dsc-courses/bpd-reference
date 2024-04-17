@@ -1,10 +1,15 @@
+---
+sidebar_position: 5
+---
+
 import DataFrameComponent from '../../components/DataFrameComponent.jsx';
 import '../../src/css/function.css';
 
-<code>df.set_index(column_name)</code>
+<code>df.reset_index()</code>
 
 <div className='base'>
     <p><strong>Moves a column to the index</strong></p>
+    
     <dl>
         <dt>Input:</dt>
         <dd>column_name: str</dd>

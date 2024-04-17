@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 import DataFrameComponent from '../../components/DataFrameComponent.jsx';
 import '../../src/css/function.css';
 
@@ -5,6 +9,7 @@ import '../../src/css/function.css';
 
 <div className='base'>
     <p><strong>Read a comma-separated values (csv) file into DataFrame.</strong></p>
+    
     <dl>
         <dt>Input:</dt>
         <dd>filepath: str, path object, file-like object.</dd>

@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 import DataFrameComponent from '../../components/DataFrameComponent.jsx';
 import '../../src/css/function.css';
 
@@ -5,6 +9,7 @@ import '../../src/css/function.css';
 
 <div className='base'>
     <p><strong>Adds/replaces a column. name_of_column should not have quotes or spaces.</strong></p>
+    
     <dl>
         <dt>Input:</dt>
         <dd>name_of_column: str</dd>

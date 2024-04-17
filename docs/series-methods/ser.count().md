@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 import DataFrameComponent from '../../components/DataFrameComponent.jsx';
 import '../../src/css/function.css';
 

@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 import '../../src/css/function.css';
 
 <code>bpd.DataFrame()</code>
