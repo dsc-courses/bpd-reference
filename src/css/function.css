@@ -27,16 +27,16 @@
 
 .term {
     background-color: #eaeaea; /* Light grey background for the term */
+    color: #000; /* Default text color */
     display: inline-block; /* Makes the background extend only to the end of the text */
     padding: 0 4px; /* Adds some padding to the left and right of the text */
     margin-right: 10px; /* Adds some space after the term before the description starts */
 }
-
-@media (prefers-color-scheme: dark) {
-    .term {
-      background-color: #333; /* Darker background for dark mode */
-      color: #fff; /* Light text color for dark mode */
-    }
+  
+/* Changes the term background and text color in dark mode */
+[data-theme='dark'] .term {
+    background-color: #333; 
+    color: #fff; 
 }
 
 .parameter {
