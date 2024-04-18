@@ -8,7 +8,7 @@ import '../../src/css/function.css';
 <code>df.shape</code>
 
 <div className='base'>
-    <p><strong>Return a tuple representing the dimensionality of the DataFrame. TEST CHANGE!</strong></p>
+    <p><strong>Return a tuple representing the dimensionality of the DataFrame.</strong></p>
 
     <dl>
         <dt className='term'>Returns:</dt>
