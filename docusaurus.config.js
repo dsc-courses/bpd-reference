@@ -13,14 +13,14 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://m1nce.github.io',
+  url: 'https://dsc-courses.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/bpd-reference/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'm1nce', // Usually your GitHub org/user name.
+  organizationName: 'dsc-courses', // Usually your GitHub org/user name.
   projectName: 'bpd-reference', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -47,7 +47,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/m1nce/bpd-reference',
+            'https://github.com/dsc-courses/bpd-reference',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -76,7 +76,7 @@ const config = {
             label: 'documentation',
           },
           {
-            href: 'https://github.com/m1nce/bpd-reference?tab=readme-ov-file',
+            href: 'https://github.com/dsc-courses/bpd-reference',
             label: 'GitHub',
             position: 'right',
           },
