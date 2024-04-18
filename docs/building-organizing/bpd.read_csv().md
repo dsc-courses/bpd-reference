@@ -23,6 +23,8 @@ import '../../src/css/function.css';
     </dl>
 </div>
 
+---
+
 ```python
 pets = bpd.read_csv('pets.csv')
 pets

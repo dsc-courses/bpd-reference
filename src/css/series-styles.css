@@ -1,0 +1,28 @@
+.series-container {
+    max-width: 300px; 
+    margin: 0; /* Move Series to left */
+}
+  
+.series-list {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+}
+  
+.series-item {
+    display: flex; /* Enables flexible box layout */
+    justify-content: space-between; /* Spaces out the index and value */
+    padding: 0.5em; /* Padding for each item */
+}
+
+.series-item:last-child {
+    border-bottom: none; /* Removes border from the last item */
+}
+  
+.series-footer {
+    text-align: left; /* Align the footer text to the left */
+    font-style: italic; /* Italicize the footer text */
+    font-size: 1em; /* Smaller font size for the footer */
+    padding: 0.5em; /* Padding for the footer */
+}
+  

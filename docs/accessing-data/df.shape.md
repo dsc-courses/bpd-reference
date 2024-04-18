@@ -23,6 +23,8 @@ import '../../src/css/function.css';
     </dl>
 </div>
 
+---
+
 ```python
 pets
 ```

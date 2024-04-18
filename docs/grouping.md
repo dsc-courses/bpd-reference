@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 import DataFrameComponent from '../components/DataFrameComponent.jsx';
@@ -24,6 +24,8 @@ import '../src/css/function.css';
         <dd>DataFrameGroupBy</dd>
     </dl>
 </div>
+
+---
 
 ```python
 pets

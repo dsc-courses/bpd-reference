@@ -19,6 +19,8 @@ import '../../src/css/function.css';
     </dl>
 </div>
 
+---
+
 ```python
 pets = pets.assign(ID=['dog_001', 'cat_001', 'cat_002', 'dog_002', 'dog_003', 'ham_001', 'ham_002'])
 pets

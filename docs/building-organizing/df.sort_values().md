@@ -25,6 +25,8 @@ import '../../src/css/function.css';
     </dl>
 </div>
 
+---
+
 ```python
 pets = pets.sort_values(by='Weight', ascending=True)
 pets
