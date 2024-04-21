@@ -30,6 +30,7 @@
     color: #000; /* Default text color */
     display: inline-block; /* Makes the background extend only to the end of the text */
     padding-left: 0.5em; /* Adds some padding to the left of the text */
+    margin-top: 0.75em; /* Adds some space above the term */
     margin-right: 0.5em; /* Adds some space after the term before the description starts */
 }
   
@@ -40,7 +41,7 @@
 }
 
 .parameter {
-    font-weight: bold; /* Make the input bold */
+    font-weight: 800; /* Make the input bold */
 }
 
 .parameter-description {

@@ -1,0 +1,2 @@
+Possible/Future Changes:
+1. Use JavaScript plotting libraries to create matplotlib style plots instead of using static images.

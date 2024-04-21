@@ -34,7 +34,7 @@ import '../../src/css/function.css';
 
         <dt className='term'>Return Type:</dt>
         <dd>Matplotlib plot</dd>
-
+        
         <dt className='term'>Note:</dt>
         <dd>In a histogram, only the last bin is inclusive of the right endpoint!</dd>
         <dd>The bins you specity don't have to include all data values; data values not in any bin won't be shown in the histogram.</dd>
