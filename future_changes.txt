@@ -1,2 +1,3 @@
 Possible/Future Changes:
-1. Use JavaScript plotting libraries to create matplotlib style plots instead of using static images.
+1. Create graphics that pertain to dsc10 and babypandas.
+2. Use JavaScript plotting libraries to create matplotlib style plots instead of using static images.

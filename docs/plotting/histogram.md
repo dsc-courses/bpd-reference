@@ -44,8 +44,13 @@ import '../../src/css/function.css';
 ---
 
 ```python
-pets = bpd.read_csv('pets.csv')
-pets
+pets.plot(kind='hist', y='Age', bins=np.arange(0, 15, 3), density=True)
 ```
 
-<DataFrameComponent data={'{"columns":["Species","Color","Weight","Age"],"index":[0,1,2,3,4,5,6],"data":[["dog","black",40.0,5.0],["cat","golden",15.0,8.0],["cat","black",20.0,9.0],["dog","white",80.0,2.0],["dog","black",25.0,0.5],["hamster","black",1.0,3.0],["hamster","golden",0.25,0.2]]}'} />
+![Histogram example 1](/img/histogram/histex1.png)
+
+```python
+pets.plot(kind='hist', y='Weight', bins=5, density=True)
+```
+
+![Histogram example 2](/img/histogram/histex2.png)
