@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-import DataFrameComponent from '../../components/DataFrameComponent.jsx';
+import SeriesComponent from '../../components/SeriesComponent.jsx';
 import '../../src/css/function.css';
 
 <code>ser.count()</code>
@@ -14,12 +14,13 @@ import '../../src/css/function.css';
 <br />
 
 ```python3
-pets
+weight_ser = pets_mini.get('Weight')
+weight_ser
 ```
-<DataFrameComponent data={'{"columns":["Species","Color","Weight","Age"],"index":[0,1,2,3,4,5,6],"data":[["dog","black",40.0,5.0],["cat","golden",15.0,8.0],["cat","black",20.0,9.0],["dog","white",80.0,2.0],["dog","black",25.0,0.5],["hamster","black",1.0,3.0],["hamster","golden",0.25,0.2]]}'} />
+<SeriesComponent data={'{"name":"Weight","dtype":"float64", "index":["dog_001","cat_001","cat_002","dog_002","dog_003","ham_001","ham_002","cat_003"],"data":[40.0,1.5,15.0,80.0,25.0,1.0,0.25,10.0]}'} />
 
 ```python
 weight_ser = pets.get('Weight')
 weight_ser.count()
 ```
-7
+8

@@ -1,8 +1,7 @@
 ---
 sidebar_position: 2
 ---
-
-import DataFrameComponent from '../../components/DataFrameComponent.jsx';
+import SeriesComponent from '../../components/SeriesComponent.jsx';
 import '../../src/css/function.css';
 
 <code>ser.max()</code>
@@ -14,13 +13,12 @@ import '../../src/css/function.css';
 <br />
 
 ```python3
-pets_mini = pets.take(np.arange(7))
-pets_mini 
+weight_ser = pets_mini.get('Weight')
+weight_ser
 ```
-<DataFrameComponent data={'{"columns":["ID","Species","Color","Weight","Age","Is_Cat","Owner_Comment"],"index":[0,1,2,3,4,5,6],"data":[["dog_001","dog","black",40.0,5.0,false,"      There are no bad dogs, only bad owners."],["cat_001","cat","golden",1.5,0.2,true,"My best birthday present ever!!!"],["cat_002","cat","black",15.0,9.0,true,"****All you need is love and a cat.****"],["dog_002","dog","white",80.0,2.0,false,"Love is a wet nose and a wagging tail."],["dog_003","dog","black",25.0,0.5,false,"Be the person your dog thinks you are."],["ham_001","hamster","black",1.0,3.0,false,"No, thank you!"],["ham_002","hamster","golden",0.25,0.2,false,"No, thank you!"]]}'} />
+<SeriesComponent data={'{"name":"Weight","dtype":"float64", "index":["dog_001","cat_001","cat_002","dog_002","dog_003","ham_001","ham_002","cat_003"],"data":[40.0,1.5,15.0,80.0,25.0,1.0,0.25,10.0]}'} />
 
 ```python
-weight_ser = pets_mini.get('Weight')
 weight_ser.max()
 ```
 80.0
