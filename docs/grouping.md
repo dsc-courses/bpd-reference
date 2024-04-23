@@ -23,8 +23,10 @@ import '../src/css/function.css';
     </dl>
 </div>
 
-<p><strong>Aggregate Methods</strong></p>
-<code>.mean()</code> &nbsp; <code>.median()</code> &nbsp; <code>.count()</code> &nbsp; <code>.max()</code> &nbsp; <code>.min()</code> &nbsp; <code>.sum()</code> 
+<div className='base'>
+    <p><strong>Aggregate Methods</strong></p>
+    <code>.mean()</code> &nbsp; <code>.median()</code> &nbsp; <code>.count()</code> &nbsp; <code>.max()</code> &nbsp; <code>.min()</code> &nbsp; <code>.sum()</code> 
+</div>
 
 <code>df.groupby(column_name).aggregate_method()</code>
 
