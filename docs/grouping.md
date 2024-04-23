@@ -13,19 +13,18 @@ import '../src/css/function.css';
     <p>A groupby operation groups large amounts of data based on the column name(s)</p>
 
     <dl>
-        <dt className='term'>Note:</dt>
-        <dd>Grouping without an <strong>aggregate method</strong> will return a DataFrameGroupBy object (not DataFrame)</dd>
-
         <dt className='term'>Input:</dt>
         <dd className='parameter'>column_name : <em>string</em></dd>
         <dd className='parameter-description'>Groups by the column specified. The column becomes the index.</dd>
         <dd className='parameter'>column_names : <em>list</em> (of strings)</dd>
         <dd className='parameter-description'>Groups by all listed columns, starting with the first one in the list. The columns become the indices.</dd>
+        <dt className='term'>Note:</dt>
+        <dd>Grouping without an <strong>aggregate method</strong> will return a DataFrameGroupBy object (not DataFrame)</dd>
     </dl>
 </div>
 
 <p><strong>Aggregate Methods</strong></p>
-<code>.mean()</code> &nbsp; <code>.median()</code> &nbsp; <code>.count()</code> &nbsp; <code>.max()</code> <code>.min()</code> &nbsp; <code>.sum()</code> 
+<code>.mean()</code> &nbsp; <code>.median()</code> &nbsp; <code>.count()</code> &nbsp; <code>.max()</code> &nbsp; <code>.min()</code> &nbsp; <code>.sum()</code> 
 <div className='base'>
     <dl>
         <dt className='term'>Returns:</dt>
