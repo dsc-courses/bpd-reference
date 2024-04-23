@@ -18,20 +18,22 @@ import '../src/css/function.css';
 
         <dt className='term'>Input:</dt>
         <dd className='parameter'>column_name : <em>string</em></dd>
-        <dd className='parameter-description'>Group by the column specified.</dd>
+        <dd className='parameter-description'>Groups by the column specified. The column becomes the index.</dd>
         <dd className='parameter'>column_names : <em>list</em> (of strings)</dd>
-        <dd className='parameter-description'>Groups by all listed columns, starting with the first one in the list.</dd>
+        <dd className='parameter-description'>Groups by all listed columns, starting with the first one in the list. The columns become the indices.</dd>
+    </dl>
+</div>
 
+<p><strong>Aggregate Methods</strong></p>
+<code>.mean()</code> &nbsp; <code>.median()</code> &nbsp; <code>.count()</code> &nbsp; <code>.max()</code> <code>.min()</code> &nbsp; <code>.sum()</code> 
+<div className='base'>
+    <dl>
         <dt className='term'>Returns:</dt>
         <dd>df_gb - groupby object that contains information about the groups.</dd>
 
         <dt className='term'>Return Type:</dt>
         <dd>DataFrameGroupBy</dd>
     </dl>
-
-<p><strong>Aggregate Methods</strong></p>
-<code>.mean()</code> <code>.median()</code> <code>.count()</code> <code>.max()</code> <code>.min()</code> <code>.sum()</code> 
-
 </div>
 
 ---
