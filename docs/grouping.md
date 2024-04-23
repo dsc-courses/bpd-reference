@@ -18,26 +18,15 @@ import '../src/css/function.css';
         <dd className='parameter-description'>Groups by the column specified. The column becomes the index.</dd>
         <dd className='parameter'>column_names : <em>list</em> (of strings)</dd>
         <dd className='parameter-description'>Groups by all listed columns, starting with the first one in the list. The columns become the indices.</dd>
-        <dt className='term'>Note:</dt>
-        <dd>Grouping without an <strong>aggregate method</strong> will return a DataFrameGroupBy object (not DataFrame)</dd>
-    </dl>
-</div>
 
-<div className='base'>
-    <p><strong>Aggregate Methods</strong></p>
-    <code>.mean()</code> &nbsp; <code>.median()</code> &nbsp; <code>.count()</code> &nbsp; <code>.max()</code> &nbsp; <code>.min()</code> &nbsp; <code>.sum()</code> 
-</div>
-
-<code>df.groupby(column_name).aggregate_method()</code>
-
-<div className='base'>
-
-    <dl>
         <dt className='term'>Returns:</dt>
         <dd>A new DataFrame with the parameter column(s) as the index and all other columns grouped.</dd>
 
         <dt className='term'>Return Type:</dt>
         <dd>DataFrame</dd>
+
+        <dt className='term'>Note:</dt>
+        <dd>Grouping without an <strong>aggregate method</strong> will return <strong>DataFrameGroupBy (not a DataFrame)</strong></dd>
     </dl>
 </div>
 
