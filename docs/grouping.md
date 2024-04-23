@@ -14,7 +14,7 @@ import '../src/css/function.css';
 
     <dl>
         <dt className='term'>Note:</dt>
-        <dd>`df.groupby(column(s))` without an <strong>aggregate method</strong> will return a DataFrameGroupBy object, not a DataFrame.</dd>
+        <dd>Grouping without an <strong>aggregate method</strong> will return a DataFrameGroupBy object (not DataFrame)</dd>
 
         <dt className='term'>Input:</dt>
         <dd className='parameter'>columns : <em>string</em>, or <em>list</em> of column names</dd>
