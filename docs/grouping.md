@@ -5,10 +5,10 @@ sidebar_position: 5
 import DataFrameComponent from '../components/DataFrameComponent.jsx';
 import '../src/css/function.css';
 
-<code>df.groupby(column_name)</code><p><strong>or</strong></p><code>df.groupby([column_names])</code>
+<code>df.groupby(column_name)</code><strong>or</strong><code>df.groupby([column_names])</code>
 
 <div className='base'>
-    <p><strong>Group DataFrame by values in columns specified in <em>column_name</em> or a list of <em>column_names</em></strong></p>.
+    <p><strong>Group DataFrame by values in columns specified in <em>column_name</em> or a list of <em>column_names</em></strong>.</p>
     
     <p>A groupby operation groups large amounts of data based on the column name(s)</p>
 
