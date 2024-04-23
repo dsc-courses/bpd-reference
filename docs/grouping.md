@@ -17,9 +17,9 @@ import '../src/css/function.css';
         <dd>Grouping without an <strong>aggregate method</strong> will return a DataFrameGroupBy object (not DataFrame)</dd>
 
         <dt className='term'>Input:</dt>
-        <dd className='parameter'>column_name : <em>string</em>
+        <dd className='parameter'>column_name : <em>string</em></dd>
         <dd className='parameter-description'>Group by the column specified.</dd>
-        <dd className='parameter'>column_names : <em>list</em> (of strings)
+        <dd className='parameter'>column_names : <em>list</em> (of strings)</dd>
         <dd className='parameter-description'>Groups by all listed columns, starting with the first one in the list.</dd>
 
         <dt className='term'>Returns:</dt>
