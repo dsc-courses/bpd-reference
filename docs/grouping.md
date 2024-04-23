@@ -24,9 +24,10 @@ import '../src/css/function.css';
 
     <p><strong>Aggregate Methods</strong></p>
     <code>.mean()</code> &nbsp; <code>.median()</code> &nbsp; <code>.count()</code> &nbsp; <code>.max()</code> &nbsp; <code>.min()</code> &nbsp; <code>.sum()</code> 
+
 </div>
 
-<code>df.groupby(column_name).aggregate_method()</code>
+<strong>ex. </strong><code>df.groupby(column_name).aggregate_method()</code>
 
 <div className='base'>
 
