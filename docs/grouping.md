@@ -21,17 +21,21 @@ import '../src/css/function.css';
         <dt className='term'>Note:</dt>
         <dd>Grouping without an <strong>aggregate method</strong> will return a DataFrameGroupBy object (not DataFrame)</dd>
     </dl>
+
+    <p><strong>Aggregate Methods</strong></p>
+    <code>.mean()</code> &nbsp; <code>.median()</code> &nbsp; <code>.count()</code> &nbsp; <code>.max()</code> &nbsp; <code>.min()</code> &nbsp; <code>.sum()</code> 
 </div>
 
-<p><strong>Aggregate Methods</strong></p>
-<code>.mean()</code> &nbsp; <code>.median()</code> &nbsp; <code>.count()</code> &nbsp; <code>.max()</code> &nbsp; <code>.min()</code> &nbsp; <code>.sum()</code> 
+<code>df.groupby(column_name).aggregate_method()</code>
+
 <div className='base'>
+
     <dl>
         <dt className='term'>Returns:</dt>
-        <dd>df_gb - groupby object that contains information about the groups.</dd>
+        <dd>A new DataFrame with the parameter column(s) as the index and all other columns grouped.</dd>
 
         <dt className='term'>Return Type:</dt>
-        <dd>DataFrameGroupBy</dd>
+        <dd>DataFrame</dd>
     </dl>
 </div>
 
