@@ -20,13 +20,13 @@ import '../src/css/function.css';
         <dd className='parameter-description'>Groups by all listed columns, starting with the first one in the list. The columns become the indices.</dd>
         <dt className='term'>Note:</dt>
         <dd>Grouping without an <strong>aggregate method</strong> will return a DataFrameGroupBy object (not DataFrame)</dd>
-        <p><strong>Aggregate Methods</strong></p>
-        <code>.mean()</code> &nbsp; <code>.median()</code> &nbsp; <code>.count()</code> &nbsp; <code>.max()</code> &nbsp; <code>.min()</code> &nbsp; <code>.sum()</code> 
     </dl>
-
 </div>
 
-<strong>ex. </strong><code>df.groupby(column_name).aggregate_method()</code>
+<p><strong>Aggregate Methods</strong></p>
+<code>.mean()</code> &nbsp; <code>.median()</code> &nbsp; <code>.count()</code> &nbsp; <code>.max()</code> &nbsp; <code>.min()</code> &nbsp; <code>.sum()</code> 
+
+<code>df.groupby(column_name).aggregate_method()</code>
 
 <div className='base'>
 
