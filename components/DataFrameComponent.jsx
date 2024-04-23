@@ -32,7 +32,11 @@ const DataFrameComponent = ({ data }) => {
             <tr key={rowIndex}>
               <td>{indexValues[rowIndex]}</td> {/* Render index values */}
               {row.map((cell, cellIndex) => (
-                <td key={cellIndex}>{cell}</td>
+                // <td key={cellIndex}>{cell}</td>
+                <td key={cellIndex}>
+                  {/* Render boolean values as strings */}
+                  {typeof cell === 'boolean' ? cell.toString().charAt(0).toUpperCase() + cell.toString().slice(1) : cell}
+                </td>
               ))}
             </tr>
           ))}
