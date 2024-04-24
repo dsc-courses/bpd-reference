@@ -29,6 +29,7 @@ import '../../src/css/function.css';
         <dd>Grouping without an <strong>aggregate method</strong> will return <strong>DataFrameGroupBy (not a DataFrame)</strong></dd>
 
         <p><strong>Aggregate Methods</strong></p>
+        <p>Click on an aggregate method below to see how it works!</p>
         [<code>.mean()</code>](/docs/grouping/aggregation/mean()) &nbsp; [<code>.median()</code>](/docs/grouping/aggregation/median()) &nbsp; [<code>.count()</code>](/docs/grouping/aggregation/count()) &nbsp; [<code>.max()</code>](/docs/grouping/aggregation/max()) &nbsp; [<code>.min()</code>](/docs/grouping/aggregation/min()) &nbsp; [<code>.sum()</code>](/docs/grouping/aggregation/sum())
     </dl>
 </div>
