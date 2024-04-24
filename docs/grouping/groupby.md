@@ -2,8 +2,8 @@
 sidebar_position: 7
 ---
 
-import DataFrameComponent from '../components/DataFrameComponent.jsx';
-import '../src/css/function.css';
+import DataFrameComponent from '../../components/DataFrameComponent.jsx';
+import '../../src/css/function.css';
 
 <code>df.groupby(column_name)</code><strong>or</strong><code>df.groupby([column_names])</code>
 
@@ -27,6 +27,9 @@ import '../src/css/function.css';
 
         <dt className='term'>Note:</dt>
         <dd>Grouping without an <strong>aggregate method</strong> will return <strong>DataFrameGroupBy (not a DataFrame)</strong></dd>
+
+        <p><strong>Aggregate Methods</strong></p>
+        [<code>.mean()</code>](/docs/grouping/aggregation/mean()) &nbsp; [<code>.median()</code>](/docs/grouping/aggregation/median()) &nbsp; [<code>.count()</code>](/docs/grouping/aggregation/count()) &nbsp; [<code>.max()</code>](/docs/grouping/aggregation/max()) &nbsp; [<code>.min()</code>](/docs/grouping/aggregation/min()) &nbsp; [<code>.sum()</code>](/docs/grouping/aggregation/sum())
     </dl>
 </div>
 
