@@ -1,7 +1,7 @@
 /* function.css */
 
 .base {
-    max-width: 800px; /* Limit the width for better readability */
+    min-width: 800px; /* Limit the width for better readability */
     margin: 0 auto; /* Center the block in the middle of the page */
     padding-top: 5px; /* Add some padding to top */
     padding-left: 20px; /* Add some padding to left */
