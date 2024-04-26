@@ -7,7 +7,7 @@ import '../../src/css/function.css';
 
 <code>def function_name(parameters):</code>
 
-div className='base'>
+<div className='base'>
     <p><strong>Still working on it</strong>.</p>
 </div>
 
