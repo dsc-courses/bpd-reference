@@ -1,5 +1,5 @@
 .series-container {
-    max-width: 300px; 
+    max-width: 500px; 
     margin: 0; /* Move Series to left */
 }
   
@@ -10,9 +10,14 @@
 }
   
 .series-item {
-    display: flex; /* Enables flexible box layout */
-    justify-content: space-between; /* Spaces out the index and value */
+    display: grid; /* Enables flexible box layout */
+    grid-template-columns: auto 1fr; /* Two columns: index and value */
+    gap: 1em;
     padding: 0.5em; /* Padding for each item */
+}
+
+.series-value {
+    text-align: right;
 }
 
 .series-item:last-child {
@@ -25,4 +30,3 @@
     font-size: 1em; /* Smaller font size for the footer */
     padding: 0.5em; /* Padding for the footer */
 }
-  
