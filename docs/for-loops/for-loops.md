@@ -19,7 +19,7 @@ import '../../src/css/function.css';
         <dd className='parameter'>sequence : <em>iterable object</em></dd>
         <dd className='parameter-description'>e.g. Arrays, Lists, Strings</dd>
         <dd className='parameter'>loop body : <em>.</em></dd>
-        <dd className='parameter-description'>Code to be executed for every element of sequence. </dd>
+        <dd className='parameter-description'>Code to be executed for every element in sequence. </dd>
 
         <dt className='term'>Results:</dt>
         <dd>Output of loop body</dd>
