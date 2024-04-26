@@ -18,7 +18,7 @@ import '../../src/css/function.css';
         sequence at some point in the loop. Any valid variable is acceptable.</dd>
         <dd className='parameter'>sequence : <em>iterable object</em></dd>
         <dd className='parameter-description'>e.g. Arrays, Lists, Strings</dd>
-        <dd className='parameter'>loop body : <em>.</em></dd>
+        <dd className='parameter'>loop body : <em></em></dd>
         <dd className='parameter-description'>Code to be executed for every element in sequence. </dd>
 
         <dt className='term'>Results:</dt>
