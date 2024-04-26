@@ -32,11 +32,11 @@ pets = pets.sort_values(by='Weight', ascending=True)
 pets
 ```
 
-<DataFrameComponent data={'{"columns":["Species","Color","Weight","Age"],"index":[6,5,1,2,4,0,3],"data":[["hamster","golden",0.25,0.2],["hamster","black",1.0,3.0],["cat","golden",15.0,8.0],["cat","black",20.0,9.0],["dog","black",25.0,0.5],["dog","black",40.0,5.0],["dog","white",80.0,2.0]]}'}/>
+<DataFrameComponent data={'{"columns":["ID","Species","Color","Weight","Age","Is_Cat","Owner_Comment"],"index":[6,5,1,7,2,4,0,3],"data":[["ham_002","hamster","golden",0.25,0.2,false,"No, thank you!"],["ham_001","hamster","black",1.0,3.0,false,"No, thank you!"],["cat_001","cat","golden",1.5,0.2,true,"My best birthday present ever!!!"],["cat_003","cat","black",10.0,0.0,true,"No, thank you!"],["cat_002","cat","black",15.0,9.0,true,"****All you need is love and a cat.****"],["dog_003","dog","black",25.0,0.5,false,"Be the person your dog thinks you are."],["dog_001","dog","black",40.0,5.0,false,"      There are no bad dogs, only bad owners."],["dog_002","dog","white",80.0,2.0,false,"Love is a wet nose and a wagging tail."]]}'}/>
 
 ```python
 pets = pets.sort_values(by='Age', ascending=False)
 pets
 ```
 
-<DataFrameComponent data={'{"columns":["Species","Color","Weight","Age"],"index":[2,1,0,5,3,4,6],"data":[["cat","black",20.0,9.0],["cat","golden",15.0,8.0],["dog","black",40.0,5.0],["hamster","black",1.0,3.0],["dog","white",80.0,2.0],["dog","black",25.0,0.5],["hamster","golden",0.25,0.2]]}'} />
+<DataFrameComponent data={'{"columns":["ID","Species","Color","Weight","Age","Is_Cat","Owner_Comment"],"index":[2,0,5,3,4,1,6,7],"data":[["cat_002","cat","black",15.0,9.0,true,"****All you need is love and a cat.****"],["dog_001","dog","black",40.0,5.0,false,"      There are no bad dogs, only bad owners."],["ham_001","hamster","black",1.0,3.0,false,"No, thank you!"],["dog_002","dog","white",80.0,2.0,false,"Love is a wet nose and a wagging tail."],["dog_003","dog","black",25.0,0.5,false,"Be the person your dog thinks you are."],["cat_001","cat","golden",1.5,0.2,true,"My best birthday present ever!!!"],["ham_002","hamster","golden",0.25,0.2,false,"No, thank you!"],["cat_003","cat","black",10.0,0.0,true,"No, thank you!"]]}'} />
