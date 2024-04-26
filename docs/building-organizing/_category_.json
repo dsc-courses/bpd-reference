@@ -1,9 +1,0 @@
-{
-    "label": "building and organizing DataFrames",
-    "position": 2,
-    "link": {
-      "type": "generated-index",
-      "description": "Each function/method creates a new DataFrame. Remember to save it!"
-    }
-}
-  
