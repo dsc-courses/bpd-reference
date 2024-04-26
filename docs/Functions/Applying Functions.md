@@ -47,6 +47,3 @@ pets.get('Weight').apply(np.sqrt)
 ```
 
 <SeriesComponent data='{"name":"Weights","dtype":"float64", "index":["0","1","2","3","4","5","6","7"],"data":["6.324555","3.872983","4.472136","8.944272","5.000000","1.000000","0.500000"]}' />
-
-
-
