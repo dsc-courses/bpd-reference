@@ -14,11 +14,12 @@ import '../../src/css/function.css';
     <dl>
         <dt className='term'>Components:</dt>
         <dd className='parameter'>loop variable : <em>variable</em></dd>
-        <dd className='parameter-description'>Any valid variable is acceptable.</dd>
+        <dd className='parameter-description'>Variable that will take on the value of every element in the 
+        sequence at some point in the loop. Any valid variable is acceptable.</dd>
         <dd className='parameter'>sequence : <em>iterable object</em></dd>
         <dd className='parameter-description'>e.g. Arrays, Lists, Strings</dd>
         <dd className='parameter'>loop body : <em>.</em></dd>
-        <dd className='parameter-description'>Code to be executed for every element of sequence </dd>
+        <dd className='parameter-description'>Code to be executed for every element in sequence. </dd>
 
         <dt className='term'>Results:</dt>
         <dd>Output of loop body</dd>
