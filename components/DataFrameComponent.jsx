@@ -30,7 +30,7 @@ const DataFrameComponent = ({ data }) => {
         <tbody>
           {rows.map((row, rowIndex) => (
             <tr key={rowIndex}>
-              <td>{indexValues[rowIndex]}</td> {/* Render index values */}
+              <td className="index-value">{indexValues[rowIndex]}</td> {/* Render index values */}
               {row.map((cell, cellIndex) => (
                 // <td key={cellIndex}>{cell}</td>
                 <td key={cellIndex}>

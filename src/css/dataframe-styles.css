@@ -21,3 +21,7 @@
 .dataframe-container {
   overflow-x: auto; /* Allows table to be scrollable if it's too wide. */
 }
+
+.index-value {
+  font-weight: bold;
+}

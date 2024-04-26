@@ -56,11 +56,18 @@ pets_info
 pets.merge(pets_info, left_on='ID', right_on='Pet_ID')
 ```
 
-<DataFrameComponent data={'{"columns":["ID","Species","Color","Weight","Age","Pet_ID","Breed","Owner"],"index":[0,1,2,3,4,5],"data":[["dog_001","dog","black",40.0,5.0,"dog_001","Labrador","Jason"],["cat_001","cat","golden",15.0,8.0,"cat_001","Sphinx","Lauren"],["cat_002","cat","black",20.0,9.0,"cat_002","Siamese","Cassidy"],["dog_002","dog","white",80.0,2.0,"dog_002","Chihuahua","Bobby"],["dog_003","dog","black",25.0,0.5,"dog_003","Labrador","Dhruv"],["ham_001","hamster","black",1.0,3.0,"ham_001","Roborovski","Cassidy"]]}'} />
+<DataFrameComponent data={'{"columns":["ID","Species","Color","Weight","Age","Is_Cat","Owner_Comment","Pet_ID","Breed","Owner"],"index":[0,1,2,3,4,5],"data":[["dog_001","dog","black",40.0,5.0,false,"      There are no bad dogs, only bad owners.","dog_001","Labrador","Jason"],["cat_001","cat","golden",1.5,0.2,true,"My best birthday present ever!!!","cat_001","Sphinx","Lauren"],["cat_002","cat","black",15.0,9.0,true,"****All you need is love and a cat.****","cat_002","Siamese","Cassidy"],["dog_002","dog","white",80.0,2.0,false,"Love is a wet nose and a wagging tail.","dog_002","Chihuahua","Bobby"],["dog_003","dog","black",25.0,0.5,false,"Be the person your dog thinks you are.","dog_003","Labrador","Dhruv"],["ham_001","hamster","black",1.0,3.0,false,"No, thank you!","ham_001","Roborovski","Cassidy"]]}'} />
 
 ```python
 pets_info = pets_info.set_index('Pet_ID')
 pets.merge(pets_info, left_on='ID', right_index=True)
 ```
 
-<DataFrameComponent data={'{"columns":["ID","Species","Color","Weight","Age","Breed","Owner"],"index":[0,1,2,3,4,5],"data":[["dog_001","dog","black",40.0,5.0,"Labrador","Jason"],["cat_001","cat","golden",15.0,8.0,"Sphinx","Lauren"],["cat_002","cat","black",20.0,9.0,"Siamese","Cassidy"],["dog_002","dog","white",80.0,2.0,"Chihuahua","Bobby"],["dog_003","dog","black",25.0,0.5,"Labrador","Dhruv"],["ham_001","hamster","black",1.0,3.0,"Roborovski","Cassidy"]]}'} />
+<DataFrameComponent data={'{"columns":["ID","Species","Color","Weight","Age","Is_Cat","Owner_Comment","Breed","Owner"],"index":[0,1,2,3,4,5],"data":[["dog_001","dog","black",40.0,5.0,false,"      There are no bad dogs, only bad owners.","Labrador","Jason"],["cat_001","cat","golden",1.5,0.2,true,"My best birthday present ever!!!","Sphinx","Lauren"],["cat_002","cat","black",15.0,9.0,true,"****All you need is love and a cat.****","Siamese","Cassidy"],["dog_002","dog","white",80.0,2.0,false,"Love is a wet nose and a wagging tail.","Chihuahua","Bobby"],["dog_003","dog","black",25.0,0.5,false,"Be the person your dog thinks you are.","Labrador","Dhruv"],["ham_001","hamster","black",1.0,3.0,false,"No, thank you!","Roborovski","Cassidy"]]}'} />
+
+```python
+pets_info2 = pets_info.assign(ID = pets_info.index)
+pets.merge(pets_info2, on='ID')
+```
+
+<DataFrameComponent data={'{"columns":["ID","Species","Color","Weight","Age","Is_Cat","Owner_Comment","Breed","Owner"],"index":[0,1,2,3,4,5],"data":[["dog_001","dog","black",40.0,5.0,false,"      There are no bad dogs, only bad owners.","Labrador","Jason"],["cat_001","cat","golden",1.5,0.2,true,"My best birthday present ever!!!","Sphinx","Lauren"],["cat_002","cat","black",15.0,9.0,true,"****All you need is love and a cat.****","Siamese","Cassidy"],["dog_002","dog","white",80.0,2.0,false,"Love is a wet nose and a wagging tail.","Chihuahua","Bobby"],["dog_003","dog","black",25.0,0.5,false,"Be the person your dog thinks you are.","Labrador","Dhruv"],["ham_001","hamster","black",1.0,3.0,false,"No, thank you!","Roborovski","Cassidy"]]}'} />

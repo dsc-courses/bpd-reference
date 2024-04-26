@@ -26,17 +26,16 @@ import '../../src/css/function.css';
 ---
 
 ```python
-pets = pets.assign(ID=['dog_001', 'cat_001', 'cat_002', 'dog_002', 'dog_003', 'ham_001', 'ham_002'],
-                   New_column_1=['this', 'is', 'a', 'new', 'column', 'I', 'assigned'], 
+pets = pets.assign(New_column_1=['this', 'is', 'a', 'new', 'column', 'I', 'assigned'], 
                   New_column_2=['this', 'is', 'another', 'new', 'column', 'I', 'assigned'])
 pets
 ```
 
-<DataFrameComponent data={'{"columns":["Species","Color","Weight","Age","ID","New_column_1","New_column_2"],"index":[0,1,2,3,4,5,6],"data":[["dog","black",40.0,5.0,"dog_001","this","this"],["cat","golden",15.0,8.0,"cat_001","is","is"],["cat","black",20.0,9.0,"cat_002","a","another"],["dog","white",80.0,2.0,"dog_002","new","new"],["dog","black",25.0,0.5,"dog_003","column","column"],["hamster","black",1.0,3.0,"ham_001","I","I"],["hamster","golden",0.25,0.2,"ham_002","assigned","assigned"]]}'} />
+<DataFrameComponent data={'{"columns":["ID","Species","Color","Weight","Age","Is_Cat","Owner_Comment","New_column_1","New_column_2"],"index":[0,1,2,3,4,5,6,7],"data":[["dog_001","dog","black",40.0,5.0,false,"      There are no bad dogs, only bad owners.","this","this"],["cat_001","cat","golden",1.5,0.2,true,"My best birthday present ever!!!","is","is"],["cat_002","cat","black",15.0,9.0,true,"****All you need is love and a cat.****","a","another"],["dog_002","dog","white",80.0,2.0,false,"Love is a wet nose and a wagging tail.","new","new"],["dog_003","dog","black",25.0,0.5,false,"Be the person your dog thinks you are.","column","column"],["ham_001","hamster","black",1.0,3.0,false,"No, thank you!","I","I"],["ham_002","hamster","golden",0.25,0.2,false,"No, thank you!","assigned","assigned"],["cat_003","cat","black",10.0,0.0,true,"No, thank you!",".","."]]}'} />
 
 ```python3
 pets = pets.drop(columns=['New_column_1', 'New_column_2'])
 pets
 ```
 
-<DataFrameComponent data={'{"columns":["Species","Color","Weight","Age","ID"],"index":[0,1,2,3,4,5,6],"data":[["dog","black",40.0,5.0,"dog_001"],["cat","golden",15.0,8.0,"cat_001"],["cat","black",20.0,9.0,"cat_002"],["dog","white",80.0,2.0,"dog_002"],["dog","black",25.0,0.5,"dog_003"],["hamster","black",1.0,3.0,"ham_001"],["hamster","golden",0.25,0.2,"ham_002"]]}'} />
+<DataFrameComponent data={'{"columns":["ID","Species","Color","Weight","Age","Is_Cat","Owner_Comment"],"index":[0,1,2,3,4,5,6,7],"data":[["dog_001","dog","black",40.0,5.0,false,"      There are no bad dogs, only bad owners."],["cat_001","cat","golden",1.5,0.2,true,"My best birthday present ever!!!"],["cat_002","cat","black",15.0,9.0,true,"****All you need is love and a cat.****"],["dog_002","dog","white",80.0,2.0,false,"Love is a wet nose and a wagging tail."],["dog_003","dog","black",25.0,0.5,false,"Be the person your dog thinks you are."],["ham_001","hamster","black",1.0,3.0,false,"No, thank you!"],["ham_002","hamster","golden",0.25,0.2,false,"No, thank you!"],["cat_003","cat","black",10.0,0.0,true,"No, thank you!"]]}'} />
