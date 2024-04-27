@@ -4,7 +4,7 @@ sidebar_position: 8
 import SeriesComponent from '../../components/SeriesComponent.jsx';
 import '../../src/css/function.css';
 
-<code>ser.str.split() or ser.str.split(seperator)</code>
+<code>ser.str.split()</code><strong>or</strong><code>ser.str.split(seperator)</code>
 
 <div className='base'>
     <p><strong>Splits each string element in the Series from the beginning, at the specified seperator/delimiter string.</strong></p>
@@ -22,10 +22,9 @@ import '../../src/css/function.css';
     </dl>
 </div>
 
+---
 
-<br />
-
-```python3
+```python
 comment_ser = pets.get('Owner_Comment')
 comment_ser
 ```

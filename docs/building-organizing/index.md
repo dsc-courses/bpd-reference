@@ -1,5 +1,5 @@
 ---
-title: "building and organizing DataFrames"
+title: "Building and Organizing DataFrames"
 ---
 import '../../src/css/chapters.css';
 
