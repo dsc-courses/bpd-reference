@@ -9,8 +9,8 @@ import '../../src/css/function.css';
 
 <div className='base'>
     <p><strong>Merges two DataFrames by specified columns or indexes, using the specified type of merge.</strong></p>
-    
     <dl>
+        <!-- Parameters -->
         <dt className='term'>Input:</dt>
         <dd className='parameter'>right : <em>DataFrame</em></dd>
         <dd className='parameter-description'>DataFrame to merge with.</dd>
@@ -26,16 +26,20 @@ import '../../src/css/function.css';
         <dd className='parameter-description'>Use index from left DataFrame as join key(s).</dd>
         <dd className='parameter'>right_index : <em>boolean, default False</em></dd>
         <dd className='parameter-description'>Use index from right DataFrame as join key(s).</dd>
-
+        <!-- Returns -->
         <dt className='term'>Returns:</dt>
         <dd>df_merged - A new DataFrame with the two DataFrames merged on the specified input combinations.</dd>
-
+        <!-- Return Type -->
         <dt className='term'>Return Type:</dt>
         <dd>DataFrame</dd>
-
+        <!-- Note -->
         <dt className='term'>Note:</dt>
-        <dd>The number of columns merged on the left and right DataFrames must be the same.</dd>
-        <dd><em>left_on</em> and <em>left_index</em> cannot happen at the same time. Same as <em>right_on</em> and <em>right_index</em>.</dd>
+        <dd>
+            <ul>
+                <li>The number of columns merged on the left and right DataFrames must be the same.</li>
+                <li><em>left_on</em> and <em>left_index</em> cannot happen at the same time. Same as <em>right_on</em> and <em>right_index</em>.</li>
+            </ul>
+        </dd>
     </dl>
 </div>
 

@@ -53,3 +53,7 @@
     overflow-x: auto;
     margin: 0 auto; /* This centers the table if it's smaller than the container */
 }
+
+dd ul li {
+    margin-left: -30px; /* Adjust this value as needed */
+}
