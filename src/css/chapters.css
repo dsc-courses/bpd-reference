@@ -6,7 +6,6 @@
     border-bottom: 1px solid lightgray; /* Add a bottom border to each container */
     padding-bottom: 1em; /* Add some padding to give space above the border */
     margin-bottom: 1em;
-    min-width: 600px;
 }
 
 .method, .description {
