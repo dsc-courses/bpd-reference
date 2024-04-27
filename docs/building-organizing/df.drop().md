@@ -5,7 +5,7 @@ sidebar_position: 4
 import DataFrameComponent from '../../components/DataFrameComponent.jsx';
 import '../../src/css/function.css';
 
-<code>df.drop(columns=column_name or [col_1 name, ..., col_k_name])</code>
+<code>df.drop(columns=column_name or [col_1_name, ..., col_k_name])</code>
 
 <div className='base'>
     <p><strong>Drops a single column, or every column in a list of column names.</strong></p>

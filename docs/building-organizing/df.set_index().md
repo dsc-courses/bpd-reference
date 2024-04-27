@@ -8,7 +8,7 @@ import '../../src/css/function.css';
 <code>df.set_index(column_name)</code>
 
 <div className='base'>
-    <p><strong>Moves a column to the index</strong></p>
+    <p><strong>Moves a column to the index.</strong></p>
     
     <dl>
         <dt className='term'>Input:</dt>
