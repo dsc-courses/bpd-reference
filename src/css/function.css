@@ -57,3 +57,8 @@
 dd ul li {
     margin-left: -30px; /* Adjust this value as needed */
 }
+
+.base small-title {
+    font-size: 20px;
+    line-height: 2;
+}
