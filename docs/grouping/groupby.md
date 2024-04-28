@@ -51,4 +51,4 @@ pets.groupby('Species').count()
 pets.groupby(['Species', 'Color']).count().reset_index()
 ```
 
-<DataFrameComponent data={'{"columns":["ID","Color","Weight","Age"],"index":["cat","dog","hamster"],"data":[[2,2,2,2],[3,3,3,3],[2,2,2,2]]}'} />
+<DataFrameComponent data={'{"columns":["Species","Color","ID","Weight","Age","Is_Cat","Owner_Comment"],"index":[0,1,2,3,4,5],"data":[["cat","black",2,2,2,2,2],["cat","golden",1,1,1,1,1],["dog","black",2,2,2,2,2],["dog","white",1,1,1,1,1],["hamster","black",1,1,1,1,1],["hamster","golden",1,1,1,1,1]]}'} />
