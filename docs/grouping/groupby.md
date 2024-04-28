@@ -47,3 +47,6 @@ pets.groupby('Species').count()
 
 <DataFrameComponent data={'{"columns":["ID","Color","Weight","Age"],"index":["cat","dog","hamster"],"data":[[2,2,2,2],[3,3,3,3],[2,2,2,2]]}'} />
 
+```python
+pets.groupby(['Species', 'Color']).count().reset_index()
+```

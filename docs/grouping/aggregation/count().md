@@ -8,7 +8,12 @@ import '../../../src/css/function.css';
 <code>df.groupby(column_name).count()</code>
 
 <div className='base'>
-    <p><strong>HELLOOOOO</strong>.</p>
+    <p><strong>Returns a DataFrame, with rows as groups, and all columns as the number of rows in each group.</strong></p>
+
+    <dl>
+        <dt className='term'>Note:</dt>
+        <dd>All columns have the same value. It is advised to drop and rename the columns.</dd>
+    </dl>
 </div>
 
 ---
