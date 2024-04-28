@@ -11,7 +11,7 @@ import '../../src/css/function.css';
     
     <dl>
         <dt className='term'>Input:</dt>
-        <dd className='parameter'>seperator : <em>str</em></dd>
+        <dd className='parameter'>seperator : <em>string</em></dd>
         <dd className='parameter-description'>String to split on. If not specified, split on whitespace.</dd>
 
         <dt className='term'>Returns:</dt>

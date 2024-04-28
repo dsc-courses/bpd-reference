@@ -1,5 +1,5 @@
 ---
-sidebar_position: 11
+sidebar_position: 12
 ---
 import SeriesComponent from '../../components/SeriesComponent.jsx';
 import '../../src/css/function.css';

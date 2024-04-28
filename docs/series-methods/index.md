@@ -85,6 +85,15 @@ import '../../src/css/chapters.css';
 
 <div className="method-container">
     <div className="method">
+        [<code>ser.str.strip</code>](ser.str.strip())(to_remove=None)
+    </div>
+    <div className="description">
+        <p>Removes the specified character from each string in the Series from left and right sides.</p>
+    </div>
+</div>
+
+<div className="method-container">
+    <div className="method">
         [<code>ser.str.lower</code>](ser.str.lower())()
     </div>
     <div className="description">
@@ -107,6 +116,15 @@ import '../../src/css/chapters.css';
     </div>
     <div className="description">
         <p>Converts every first character in Series' elements to be capitalized.</p>
+    </div>
+</div>
+
+<div className="method-container">
+    <div className="method">
+        [<code>ser.str.title</code>](ser.str.title())()
+    </div>
+    <div className="description">
+        <p>Converts strings in the Series to be titlecased.</p>
     </div>
 </div>
 
