@@ -40,9 +40,15 @@ comment_ser.str.strip('*')
 ```
 <SeriesComponent data={'{"name":"Owner_Comment","dtype":"object","index":[0,1,2,3,4,5,6,7],"data":["      There are no bad dogs, only bad owners.","My best birthday present ever!!!","All you need is love and a cat.","Love is a wet nose and a wagging tail.","Be the person your dog thinks you are.","No, thank you!","No, thank you!","No, thank you!"]}'} />
 
-
 ```python
 # Notice how nothing changes
-comment_ser.str.strip('thank')
+comment_ser.str.strip('?')
 ```
 <SeriesComponent data={'{"name":"Owner_Comment","dtype":"object","index":[0,1,2,3,4,5,6,7],"data":["      There are no bad dogs, only bad owners.","My best birthday present ever!!!","****All you need is love and a cat.****","Love is a wet nose and a wagging tail.","Be the person your dog thinks you are.","No, thank you!","No, thank you!","No, thank you!"]}'} />
+
+<p><br></br> **Remove a set of characters simultaneously. (e.g. remove both `*` and whitespace)** </p>
+
+```python
+comment_ser.str.strip('* ')
+```
+<SeriesComponent data={'{"name":"Owner_Comment","dtype":"object","index":[0,1,2,3,4,5,6,7],"data":["There are no bad dogs, only bad owners.","My best birthday present ever!!!","All you need is love and a cat.","Love is a wet nose and a wagging tail.","Be the person your dog thinks you are.","No, thank you!","No, thank you!","No, thank you!"]}'} />

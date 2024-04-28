@@ -30,7 +30,7 @@ const SeriesComponent = ({ data }) => {
         {formattedValues.map((formattedValue, index) => (
           <li key={index} className="series-item">
             <span className="series-index">{indexValues[index]}</span>
-            <span className="series-value">{formattedValue}</span>
+            <span className="series-value">{formattedValue === 'true' || formattedValue === 'false'? formattedValue.charAt(0).toUpperCase() + formattedValue.slice(1) : formattedValue}</span>
           </li>
         ))}
       </ul>
