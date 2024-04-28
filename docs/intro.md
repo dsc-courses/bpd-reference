@@ -18,7 +18,7 @@ export const Tag = ({children, color}) => (
     </span>
 );
 
-# BabyPandas documentation
+# BabyPandas Documentation
 
 <Tag color='#FF5733'>Assumption:</Tag>  Assume that `df` is a DataFrame, `ser` is a Series, `arr` is an array, and we already run `import babypandas as bpd` and `import numpy as np`. 
 

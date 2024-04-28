@@ -73,12 +73,13 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'documentation',
+            label: 'Documentation',
           },
           {
             href: 'https://github.com/dsc-courses/bpd-reference',
-            label: 'GitHub',
+            className: 'header-github-link',
             position: 'right',
+            'aria-label': 'GitHub repository',
           },
         ],
       },
@@ -86,16 +87,16 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'docs',
+            title: 'Docs',
             items: [
               {
-                label: 'documentation',
+                label: 'Documentation',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'course links',
+            title: 'Course Links',
             items: [
               {
                 label: 'dsc10.com',
@@ -103,16 +104,18 @@ const config = {
               },
               {
                 label: 'edstem',
+                // update this href every quarter
                 href: 'https://edstem.org/us/courses/57461/discussion/',
               },
               {
                 label: 'gradescope',
+                // update this href every quarter
                 href: 'https://www.gradescope.com/courses/757097',
               },
             ],
           },
           {
-            title: 'more',
+            title: 'More',
             items: [
               {
                 label: 'GitHub',
