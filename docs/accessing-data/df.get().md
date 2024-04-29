@@ -34,7 +34,7 @@ pets
 ```python
 pets.get('Species')
 ```
-<SeriesComponent data={'{"name":"Species","index":[0,1,2,3,4,5,6,7],"data":["dog","cat","cat","dog","dog","hamster","hamster","cat"]}'} /> 
+<SeriesComponent data={'{"name":"Species","index":[0,1,2,3,4,5,6,7],"data":["dog","cat","cat","dog","dog","hamster","hamster","cat"], "dtype":"object"}'} /> 
 
 ```python
 pets.get(['Species'])
