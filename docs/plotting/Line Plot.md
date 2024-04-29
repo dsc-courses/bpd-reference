@@ -32,7 +32,7 @@ import '../../src/css/function.css';
 ---
 
 ```python
-pets.plot(kind='line', x='Age', y='Weight')
+pets.sort_values(by='Age').plot(kind='line', x='Age', y='Weight')
 ```
 
 ![Line plot example 1](/img/line-plot/lineex1.png)
