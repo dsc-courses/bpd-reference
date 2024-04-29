@@ -50,10 +50,10 @@ avg_species_weights
 avg_species_weights.sort_values(by='Weight', ascending=False).plot(kind='bar', x='Species', y='Weight')
 ```
 
-![Histogram example 1](/img/bar-plot/barex1.png)
+![Bar plot example 1](/img/bar-plot/barex1.png)
 
 ```python
 avg_species_weights.sort_values(by='Weight', ascending=True).plot(kind='barh', x='Species', y='Weight')
 ```
 
-![Histogram example 2](/img/bar-plot/barex2.png)
+![Bar plot example 2](/img/bar-plot/barex2.png)
