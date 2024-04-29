@@ -1,11 +1,11 @@
 ---
-sidebar_position: 1
+sidebar_position: 4
 ---
 
 import DataFrameComponent from '../../components/DataFrameComponent.jsx';
 import '../../src/css/function.css';
 
-<code>df.plot(kind='hist', y=data_col, bins=the_bins, density=True, ec='w')</code>
+<code>df.plot(kind='hist', y=data_col, bins=the_bins, density=True)</code>
 
 <div className='base'>
     <p><strong>Create a histogram using a DataFrame.</strong></p>
@@ -27,13 +27,10 @@ import '../../src/css/function.css';
         <dd className='parameter-description'>If False, y-axis plots the number of observations.</dd>
         <dd className='parameter-description'>If True, y-axis plots the probability density.</dd>
 
-        <dd className='parameter'>ec : <em>string</em></dd>
-        <dd className='parameter-description'>Color for histogram bin outlines, use ec='w' for a white outline.</dd>
-
         <!-- Include LaTEX for probability density calculation? -->
 
         <dt className='term'>Returns:</dt>
-        <dd>plot - Matplotlib plot created using [parameters](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.html).</dd>
+        <dd>plot - Matplotlib plot created using parameters.</dd>
 
         <dt className='term'>Return Type:</dt>
         <dd>Matplotlib plot</dd>
@@ -51,13 +48,13 @@ import '../../src/css/function.css';
 ---
 
 ```python
-pets.plot(kind='hist', y='Age', bins=np.arange(0, 15, 3), density=True, ec='w')
+pets.plot(kind='hist', y='Age', bins=np.arange(0, 15, 3), density=True)
 ```
 
 ![Histogram example 1](/img/histogram/histex1.png)
 
 ```python
-pets.plot(kind='hist', y='Weight', bins=5, density=True, ec='w')
+pets.plot(kind='hist', y='Weight', bins=5, density=True)
 ```
 
 ![Histogram example 2](/img/histogram/histex2.png)
