@@ -4,18 +4,18 @@ sidebar_position: 9
 import SeriesComponent from '../../components/SeriesComponent.jsx';
 import '../../src/css/function.css';
 
-<code>ser.str.strip(to_remove=None)</code>
+<code>ser.str.strip(to_strip = None)</code>
 
 <div className='base'>
     <p><strong>Removes the specified character from each string in the Series from left and right sides.</strong></p>
     
     <dl>
         <dt className='term'>Input:</dt>
-        <dd className='parameter'>to_remove : <em>string or None, default None</em></dd>
-        <dd className='parameter-description'>Set or characters to be removed. All combinations of this set of characters will be stripped. If default argument, removes whitespace (including newlines).</dd>
+        <dd className='parameter'>to_strip : <em>string or None, default None</em></dd>
+        <dd className='parameter-description'>A specified character/a set of characters to be removed. All combinations of this set of characters will be stripped. If not specified, removes whitespace (including newlines).</dd>
 
         <dt className='term'>Returns:</dt>
-        <dd>Returns a Series with each element as a list of strings stripped by the specified set of characters.</dd>
+        <dd>Returns a Series with each element as a list of strings stripped by the specified character/set of characters.</dd>
 
         <dt className='term'>Return Type:</dt>
         <dd>Series</dd>

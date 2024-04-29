@@ -4,14 +4,14 @@ sidebar_position: 8
 import SeriesComponent from '../../components/SeriesComponent.jsx';
 import '../../src/css/function.css';
 
-<code>ser.str.split()</code><strong>or</strong><code>ser.str.split(seperator)</code>
+<code>ser.str.split(pat = None)</code>
 
 <div className='base'>
     <p><strong>Splits each string element in the Series from the beginning, at the specified seperator/delimiter string.</strong></p>
     
     <dl>
         <dt className='term'>Input:</dt>
-        <dd className='parameter'>seperator : <em>string</em></dd>
+        <dd className='parameter'>pat : <em>string or None, default None</em></dd>
         <dd className='parameter-description'>String to split on. If not specified, split on whitespace.</dd>
 
         <dt className='term'>Returns:</dt>
