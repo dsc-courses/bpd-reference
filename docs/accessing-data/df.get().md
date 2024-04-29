@@ -6,7 +6,7 @@ import DataFrameComponent from '../../components/DataFrameComponent.jsx';
 import SeriesComponent from '../../components/SeriesComponent.jsx';
 import '../../src/css/function.css';
 
-<code>df.get(key)</code><strong>or</strong><code>df.get([keys])</code>
+<code>df.get(column_name)</code><strong>or</strong><code>df.get([col_1_name, ..., col_k_name])</code>
 
 <div className='base'>
     <p><strong>Return column(s) from DataFrame</strong></p>
