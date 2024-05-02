@@ -4,10 +4,10 @@ sidebar_position: 14
 import SeriesComponent from '../../components/SeriesComponent.jsx';
 import '../../src/css/function.css';
 
-<code>ser.str.replace(old, new, n=-1)</code>
+<code>ser.str.replace(old, new)</code>
 
 <div className='base'>
-    <p><strong>Substitutes the `old` string with the `new` string in each element of the Series, limiting the number of replacements to `n` occurrences.</strong></p>
+    <p><strong>Substitutes all `old` strings with the `new` string for every element of the Series.</strong></p>
 
     <dl>
         <dt className='term'>Input:</dt>
@@ -15,8 +15,6 @@ import '../../src/css/function.css';
         <dd className='parameter-description'>String to replace.</dd>
         <dd className='parameter'>new : <em>string</em></dd>
         <dd className='parameter-description'>Replacement string.</dd>
-        <dd className='parameter'>n : <em>int, default -1</em></dd>
-        <dd className='parameter-description'>Maximum number of occurences to replace. -1 (the default value) means replace all occurences.</dd>
 
         <dt className='term'>Returns:</dt>
         <dd>Returns a Series with the substring old replaced by the new for count number of times.</dd>
@@ -45,11 +43,3 @@ comment_ser.str.replace('dog', 'cat')
 comment_ser.str.replace('dog', 'cat').str.replace('birthday', '🍰')
 ```
 <SeriesComponent data={'{"name":"Owner_Comment","dtype":"object","index":[0,1,2,3,4,5,6,7],"data":["      There are no bad cats, only bad owners.","My best \\ud83c\\udf70 present ever!!!","****All you need is love and a cat.****","Love is a wet nose and a wagging tail.","Be the person your cat thinks you are.","No, thank you!","No, thank you!","No, thank you!"]}'} />
-
-<p><br></br> **Specified number of replacements to make from start.** </p>
-
-```python
-# Only replaces the first instance of 'bad'
-comment_ser.str.replace('bad', 'troublesome', 1)
-```
-<SeriesComponent data={'{"name":"Owner_Comment","dtype":"object","index":[0,1,2,3,4,5,6,7],"data":["      There are no troublesome dogs, only bad owners.","My best birthday present ever!!!","****All you need is love and a cat.****","Love is a wet nose and a wagging tail.","Be the person your dog thinks you are.","No, thank you!","No, thank you!","No, thank you!"]}'} />

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 4
 ---
 
 import SeriesComponent from '../../components/SeriesComponent.jsx';
@@ -8,11 +8,12 @@ import '../../src/css/function.css';
 <code>ser.iloc[position]</code>
 
 <div className='base'>
-    <p><strong>Returns element of series at the given position</strong></p>
-
-    <dt className='term'>Note:</dt>
+    <p><strong>Returns element contained in Series at the given position.</strong></p>
+    <dl>
+        <dt className='term'>Note:</dt>
         <dd>Positions start at 0</dd>
         <dd>Often `ser` comes from `df.get(column_name)`</dd>
+    </dl>
 </div>
 
 ---

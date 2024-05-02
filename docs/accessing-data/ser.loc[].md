@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 import SeriesComponent from '../../components/SeriesComponent.jsx';
@@ -10,8 +10,10 @@ import '../../src/css/function.css';
 <div className='base'>
     <p><strong>Return element of series that corresponds to its row label</strong></p>
 
-    <dt className='term'>Note:</dt>
-        <dd>Often `ser` comes from `df.get(column_name)`</dd>
+    <dl>
+        <dt className='term'>Note:</dt>
+            <dd>Often `ser` comes from `df.get(column_name)`</dd>
+    </dl>
 </div>
 
 ---

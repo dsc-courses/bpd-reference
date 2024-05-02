@@ -1,19 +1,24 @@
 ---
-sidebar_position: 1
+sidebar_position: 5
 ---
 
 import DataFrameComponent from '../../components/DataFrameComponent.jsx';
 import '../../src/css/function.css';
 
-<code>df.index[position]</code>
+<code>df.index</code>
 
 <div className='base'>
-    <p><strong>Return index value at given position</strong></p>
-
+    <!-- Description -->
+    <p><strong>Returns an "array" containing the indices of the DataFrame.</strong></p>
     <dl>
+        <!-- Note -->
         <dt className='term'>Note:</dt>
-            <dd>Positions start at 0</dd>
-            <dd>Negative positions start from the end of the DataFrame</dd>
+        <dd>
+            <ul>
+                <li>Positions start at 0.</li>
+                <li>Negative positions start from the end of the DataFrame.</li>
+            </ul>
+        </dd>
     </dl>
 </div>
 
@@ -35,3 +40,10 @@ pets.index[0]
 pets.index[-3]
 ```
 5
+
+```python
+pets.set_index('ID').index
+```
+Index(['dog_001', 'cat_001', 'cat_002', 'dog_002', 'dog_003', 'ham_001',
+       'ham_002', 'cat_003'],
+      dtype='object', name='ID')

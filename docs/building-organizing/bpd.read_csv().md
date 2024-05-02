@@ -8,16 +8,17 @@ import '../../src/css/function.css';
 <code>bpd.read_csv(filepath)</code>
 
 <div className='base'>
+    <!-- Description -->
     <p><strong>Read a comma-separated values (csv) file into DataFrame.</strong></p>
-
     <dl>
+        <!-- Input -->
         <dt className='term'>Input:</dt>
         <dd className='parameter'>filepath : <em>string, path object, file-like object.</em></dd>
         <dd className='parameter-description'>Any valid string path is acceptable. The string could also be a URL.</dd>
-
+        <!-- Returns -->
         <dt className='term'>Returns:</dt>
         <dd>df - DataFrame with read csv file.</dd>
-
+        <!-- Return Type -->
         <dt className='term'>Return Type:</dt>
         <dd>DataFrame</dd>
     </dl>

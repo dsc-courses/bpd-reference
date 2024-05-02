@@ -130,10 +130,10 @@ import '../../src/css/chapters.css';
 
 <div className="method-container">
     <div className="method">
-        [<code>ser.str.replace</code>](ser.str.replace())(old, new, count=-1)
+        [<code>ser.str.replace</code>](ser.str.replace())(old, new)
     </div>
     <div className="description">
-        <p>Substitutes the 'old' string with the 'new' string in each element of the Series, limiting the number of replacements to 'count' occurrences.</p>
+        <p>Substitutes all `old` strings with the `new` string for every element of the Series.</p>
     </div>
 </div>
 
