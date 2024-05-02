@@ -8,7 +8,7 @@ import '../../src/css/function.css';
 <code>ser.loc[label]</code>
 
 <div className='base'>
-    <p><strong>Return element of series that corresponds to its row label</strong></p>
+    <p><strong>Return element of Series that corresponds to its row label.</strong></p>
 
     <dl>
         <dt className='term'>Note:</dt>

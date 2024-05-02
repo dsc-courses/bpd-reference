@@ -9,7 +9,7 @@ import '../../src/css/function.css';
 <code>df.get(column_name)</code><strong>or</strong><code>df.get([col_1_name, ..., col_k_name])</code>
 
 <div className='base'>
-    <p><strong>Return column(s) from DataFrame</strong></p>
+    <p><strong>Return column(s) from DataFrame.</strong></p>
 
     <dl>
         <dt className='term'>Returns:</dt>
