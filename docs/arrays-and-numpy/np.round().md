@@ -49,6 +49,6 @@ np.round(weight_arr, 0) # Doesn't include decimals
 array([40.,  2., 15., 80., 25.,  1.,  0., 10.])
 
 ```python
-np.round(weight_arr, 0) # Doesn't include decimals
+np.round(weight_arr, 1) # Rounds to the nearest tenth - notice what happens to 0.25!
 ```
 array([40. ,  1.5, 15. , 80. , 25. ,  1. ,  0.2, 10. ])
