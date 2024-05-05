@@ -6,38 +6,45 @@ import DataFrameComponent from '../../components/DataFrameComponent.jsx';
 import SeriesComponent from '../../components/SeriesComponent.jsx';
 import '../../src/css/function.css';
 
-<code>np.append(arr, value)</code>
+<code>np.count_nonzero(arr)</code>
 
 <div className='base'>
-    <p><strong>A copy of arr with value appended to the end. This does not
-    change arr unless you store the result in arr.</strong></p>
+    <p><strong>The number of non-zero entries in arr. True counts as 1, False counts as 0.</strong></p>
 
     <dl>
         <dt className='term'>Input:</dt>
         <dd className='parameter'>arr : <em>array</em></dd>
-        <dd className='parameter-description'>The original array to which a value will be appended.</dd>
-        <dd className='parameter'>value : <em>any type</em></dd>
-        <dd className='parameter-description'>The value to append to the array.</dd>
+        <dd className='parameter-description'>The array to count non-zero entries in.</dd>
 
         <dt className='term'>Returns:</dt>
-        <dd>new_arr - a new array containing the elements of the original array followed by the appended value</dd>
+        <dd>count - The number of non-zero entries in the array.</dd>
 
         <dt className='term'>Return Type:</dt>
-        <dd>array</dd>
+        <dd>integer</dd>
     </dl>
 </div>
 
 ---
 
 ```python
-weight_ser = pets.get('Weight')
-weight_ser
+is_cat_arr = np.array(pets.get('Is_Cat'))
+is_cat_arr
 ```
 
-<SeriesComponent data={'{"name":"Weight","dtype":"float64","index":["dog_001","cat_001","cat_002","dog_002","dog_003","ham_001","ham_002"],"data":[40.0,15.0,20.0,80.0,25.0,1.0,0.25]}'} />
+array([False,  True,  True, False, False, False, False,  True])
 
 ```python
-weight_arr = np.array(weight_ser)
-weight_arr
+np.count_nonzero(is_cat_arr)
 ```
-array([40.  , 15.  , 20.  , 80.  , 25.  ,  1.  ,  0.25])
+3
+
+```python
+age_arr = np.array(pets.get('Age'))
+age_arr
+```
+array([5. , 0.2, 9. , 2. , 0.5, 3. , 0.2, 0. ])
+
+```python
+np.count_nonzero(age_arr)
+```
+7
