@@ -6,26 +6,27 @@ import DataFrameComponent from '../../components/DataFrameComponent.jsx';
 import SeriesComponent from '../../components/SeriesComponent.jsx';
 import '../../src/css/function.css';
 
-<code>np.append(arr, value)</code>
+<code>np.round(arr, decimals)</code>
 
 <div className='base'>
-    <p><strong>A copy of arr with value appended to the end. This does not
-    change arr unless you store the result in arr.</strong></p>
+    <p><strong>Rounds each element of an array to a specified number of decimal places.</strong></p>
 
     <dl>
         <dt className='term'>Input:</dt>
-        <dd className='parameter'>arr : <em>array</em></dd>
-        <dd className='parameter-description'>The original array to which a value will be appended.</dd>
-        <dd className='parameter'>value : <em>any type</em></dd>
-        <dd className='parameter-description'>The value to append to the array.</dd>
+        <dd className='parameter'>arr : <em>array_like</em></dd>
+        <dd className='parameter-description'>Input data, array-like structure containing numerical data to be rounded.</dd>
+        <dd className='parameter'>decimals : <em>int, optional (default=0)</em></dd>
+        <dd className='parameter-description'>Number of decimal places to round to. If omitted, defaults to 0, meaning rounding to the nearest integer.</dd>
 
         <dt className='term'>Returns:</dt>
-        <dd>new_arr - a new array containing the elements of the original array followed by the appended value</dd>
+        <dd>rounded_array - An array of the same shape as `a`, with each element rounded to the specified number of decimal places.</dd>
 
         <dt className='term'>Return Type:</dt>
-        <dd>array</dd>
+        <dd>ndarray</dd>
+        <dd className='return-description'>A new array containing the rounded values.</dd>
     </dl>
 </div>
+
 
 ---
 
@@ -41,3 +42,13 @@ weight_arr = np.array(weight_ser)
 weight_arr
 ```
 array([40.  , 15.  , 20.  , 80.  , 25.  ,  1.  ,  0.25])
+
+```python
+np.round(weight_arr, 0) # Doesn't include decimals
+```
+array([40.,  2., 15., 80., 25.,  1.,  0., 10.])
+
+```python
+np.round(weight_arr, 0) # Doesn't include decimals
+```
+array([40. ,  1.5, 15. , 80. , 25. ,  1. ,  0.2, 10. ])
