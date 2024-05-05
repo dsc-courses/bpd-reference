@@ -38,3 +38,17 @@ weight_arr = np.array(weight_ser)
 weight_arr
 ```
 array([40.  , 15.  , 20.  , 80.  , 25.  ,  1.  ,  0.25])
+
+
+```python
+age_ser = pets.get('Age')
+age_ser
+```
+
+<SeriesComponent data={'{"name":"Age","dtype":"float64","index":[0,1,2,3,4,5,6,7],"data":[5.0,0.2,9.0,2.0,0.5,3.0,0.2,0.0]}'} />
+
+```python
+age_arr = np.array(pets.get('Age'))
+age_arr
+```
+array([5. , 0.2, 9. , 2. , 0.5, 3. , 0.2, 0. ])
