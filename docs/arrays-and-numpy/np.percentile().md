@@ -6,24 +6,24 @@ import DataFrameComponent from '../../components/DataFrameComponent.jsx';
 import SeriesComponent from '../../components/SeriesComponent.jsx';
 import '../../src/css/function.css';
 
-<code>np.append(arr, value)</code>
+<code>np.percentile(arr, p)</code>
 
 <div className='base'>
-    <p><strong>A copy of arr with value appended to the end. This does not
-    change arr unless you store the result in arr.</strong></p>
+    <p><strong>The pth percentile of the numbers in arr.</strong></p>
 
     <dl>
         <dt className='term'>Input:</dt>
         <dd className='parameter'>arr : <em>array</em></dd>
-        <dd className='parameter-description'>The original array to which a value will be appended.</dd>
-        <dd className='parameter'>value : <em>any type</em></dd>
-        <dd className='parameter-description'>The value to append to the array.</dd>
+        <dd className='parameter-description'>The array from which to calculate the percentile.</dd>
+        <dd className='parameter'>p : <em>float or array of floats</em></dd>
+        <dd className='parameter-description'>Percentile or sequence of percentiles to compute, which must be between 0 and 100 inclusive.</dd>
 
         <dt className='term'>Returns:</dt>
-        <dd>new_arr - a new array containing the elements of the original array followed by the appended value</dd>
+        <dd>percentile - The pth percentile of the array values.</dd>
 
         <dt className='term'>Return Type:</dt>
-        <dd>array</dd>
+        <dd>float or ndarray</dd>
+        <dd className='return-description'>The result is a single float if p is a single percentile or an ndarray if multiple percentiles are given.</dd>
     </dl>
 </div>
 
@@ -41,3 +41,8 @@ weight_arr = np.array(weight_ser)
 weight_arr
 ```
 array([40.  , 15.  , 20.  , 80.  , 25.  ,  1.  ,  0.25])
+
+```python
+np.percentile(weight_arr, 50)
+```
+12.5
