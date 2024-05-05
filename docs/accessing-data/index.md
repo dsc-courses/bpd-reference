@@ -43,7 +43,7 @@ import '../../src/css/chapters.css';
 
 <div className="method-container">
     <div className="method">
-        [<code>df.index</code>](df.index())
+        [<code>df.index</code>](df.index)
     </div>
     <div className="description">
         <p>Returns an "array" containing the indices of the DataFrame.</p>
