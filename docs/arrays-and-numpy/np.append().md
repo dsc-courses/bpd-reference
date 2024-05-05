@@ -30,14 +30,7 @@ import '../../src/css/function.css';
 ---
 
 ```python
-weight_ser = pets.get('Weight')
-weight_ser
+np.append(weight_arr, 2)
 ```
 
-<SeriesComponent data={'{"name":"Weight","dtype":"float64","index":["dog_001","cat_001","cat_002","dog_002","dog_003","ham_001","ham_002"],"data":[40.0,15.0,20.0,80.0,25.0,1.0,0.25]}'} />
-
-```python
-weight_arr = np.array(weight_ser)
-weight_arr
-```
-array([40.  , 15.  , 20.  , 80.  , 25.  ,  1.  ,  0.25])
+array([40.  ,  1.5 , 15.  , 80.  , 25.  ,  1.  ,  0.25, 10.  ,  2.  ])
