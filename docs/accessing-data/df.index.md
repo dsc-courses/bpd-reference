@@ -42,8 +42,17 @@ pets.index[-3]
 5
 
 ```python
-pets.set_index('ID').index
+pets_idx = pets.set_index('ID').index
+pets_idx
 ```
 Index(['dog_001', 'cat_001', 'cat_002', 'dog_002', 'dog_003', 'ham_001',
        'ham_002', 'cat_003'],
       dtype='object', name='ID')
+
+<p><br></br> **Convert index to a numpy array. Learn more about this in the [Data Format Conversion](https://dsc-courses.github.io/bpd-reference/docs/data%20format%20conversion/np.array()) section.** </p>
+
+```python
+np.array(pets_idx)
+```
+array(['dog_001', 'cat_001', 'cat_002', 'dog_002', 'dog_003', 'ham_001',
+       'ham_002', 'cat_003'], dtype=object)
