@@ -5,17 +5,15 @@ sidebar_position: 8
 import DataFrameComponent from '../../components/DataFrameComponent.jsx';
 import '../../src/css/function.css';
 
-<code>df.merge(right, how='inner', on=column, left_on=left_column, right_on=right_column, left_index=False, right_index=False)</code>
+<code>df.merge(right, on=column, left_on=left_column, right_on=right_column, left_index=False, right_index=False)</code>
 
 <div className='base'>
-    <p><strong>Merges two DataFrames by specified columns or indexes, using the specified type of merge.</strong></p>
+    <p><strong>Merges two DataFrames by specified columns or indexes.</strong></p>
     <dl>
         <!-- Parameters -->
         <dt className='term'>Input:</dt>
         <dd className='parameter'>right : <em>DataFrame</em></dd>
         <dd className='parameter-description'>DataFrame to merge with.</dd>
-        <dd className='parameter'>how : <em>{'left', 'right', 'outer', 'inner', 'cross'}, default 'inner'</em></dd>
-        <dd className='parameter-description'>Type of merge to be performed.</dd>
         <dd className='parameter'>on : <em>label or list</em></dd>
         <dd className='parameter-description'>Column or index names to join on.</dd>
         <dd className='parameter'>left_on : <em>label, list, or array-like</em></dd>
