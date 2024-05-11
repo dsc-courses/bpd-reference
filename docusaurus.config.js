@@ -71,9 +71,15 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'docsSidebar',
             position: 'left',
             label: 'Documentation',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'statsSidebar',
+            position: 'left',
+            label: 'Statistical Inference',
           },
           {
             href: 'https://github.com/dsc-courses/bpd-reference',
@@ -103,12 +109,12 @@ const config = {
                 href: 'https://dsc10.com/',
               },
               {
-                label: 'edstem',
+                label: 'Edstem',
                 // update this href every quarter
                 href: 'https://edstem.org/us/courses/57461/discussion/',
               },
               {
-                label: 'gradescope',
+                label: 'Gradescope',
                 // update this href every quarter
                 href: 'https://www.gradescope.com/courses/757097',
               },
