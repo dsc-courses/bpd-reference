@@ -47,7 +47,16 @@ import '../../../src/css/chapters.css';
         [<code>df.index</code>](df.index)
     </div>
     <div className="description">
-        <p>Returns an "array" containing the indices of the DataFrame.</p>
+        <p>Returns the indices (row labels) of the DataFrame.</p>
+    </div>
+</div>
+
+<div className="method-container">
+    <div className="method">
+        [<code>df.columns</code>](df.columns)
+    </div>
+    <div className="description">
+        <p>Returns the column labels of the DataFrame.</p>
     </div>
 </div>
 

@@ -1,16 +1,16 @@
 ---
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 import DataFrameComponent from '../../../components/DataFrameComponent.jsx';
 import SeriesComponent from '../../../components/SeriesComponent.jsx';
 import '../../../src/css/function.css';
 
-<code>df.index</code>
+<code>df.columns</code>
 
 <div className='base'>
     <!-- Description -->
-    <p><strong>Returns the indices (row labels) of the DataFrame.</strong></p>
+    <p><strong>Returns the column labels of the DataFrame.</strong></p>
     <dl>
         <!-- Note -->
         <dt className='term'>Note:</dt>
@@ -18,7 +18,6 @@ import '../../../src/css/function.css';
             <ul>
                 <li>Positions start at 0.</li>
                 <li>Negative positions start from the end of the DataFrame.</li>
-                <li>The index of a DataFrame is a series of labels that identify each row. The labels can be integers, strings, or any other hashable type. The index is used for label-based access and alignment, and can be accessed or modified using this attribute.</li>
             </ul>
         </dd>
     </dl>
@@ -34,28 +33,16 @@ pets
 } />
 
 ```python
-pets.index[0]
+pets_cols = pets.columns
+pets_cols
 ```
-0
-
-```python
-pets.index[-3]
-```
-5
-
-```python
-pets_idx = pets.set_index('ID').index
-pets_idx
-```
-Index(['dog_001', 'cat_001', 'cat_002', 'dog_002', 'dog_003', 'ham_001',
-       'ham_002', 'cat_003'],
-      dtype='object', name='ID')
+Index(['ID', 'Species', 'Color', 'Weight', 'Age', 'Is_Cat', 'Owner_Comment'], dtype='object')
 
 <p><br></br> **Convert index to a numpy array. Learn more about this in the [Data Format Conversion](https://dsc-courses.github.io/bpd-reference/docs/documentation/data%20format%20conversion/np.array()) section.** </p>
 
 ```python
-idx_arr = np.array(pets_idx)
-idx_arr
+col_arr = np.array(col_lst)
+col_arr
 ```
-array(['dog_001', 'cat_001', 'cat_002', 'dog_002', 'dog_003', 'ham_001',
-       'ham_002', 'cat_003'], dtype=object)
+array(['ID', 'Species', 'Color', 'Weight', 'Age', 'Is_Cat',
+       'Owner_Comment'], dtype=object)
