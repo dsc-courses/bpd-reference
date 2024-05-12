@@ -16,8 +16,7 @@ import '../../../src/css/function.css';
         <dt className='term'>Note:</dt>
         <dd>
             <ul>
-                <li>Positions start at 0.</li>
-                <li>Negative positions start from the end of the DataFrame.</li>
+                <li>The return type is bpd.Index. Use `np.array()` to convert it to a numpy array.</li>
             </ul>
         </dd>
     </dl>
