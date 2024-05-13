@@ -27,7 +27,7 @@ import '../../../src/css/function.css';
         <dd>DataFrame</dd>
 
         <dt className='term'>Note:</dt>
-        <dd>Grouping without an <strong>aggregate method</strong> will return <strong>DataFrameGroupBy (not a DataFrame)</strong></dd>
+        <dd>A `groupby()` is usually followed by an <strong>aggregate method</strong>. A `groupby()` <strong>without</strong> an aggregate method will return a <strong>DataFrameGroupBy object</strong> rather than a DataFrame</dd>
 
         <small-title><strong>Aggregate Methods</strong></small-title><br></br>
         [<code>.mean()</code>](aggregation/mean()) &nbsp; [<code>.median()</code>](aggregation/median()) &nbsp; [<code>.count()</code>](aggregation/count()) &nbsp; [<code>.max()</code>](aggregation/max()) &nbsp; [<code>.min()</code>](aggregation/min()) &nbsp; [<code>.sum()</code>](aggregation/sum())
