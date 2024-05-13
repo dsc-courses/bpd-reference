@@ -9,15 +9,15 @@ import '../../../src/css/function.css';
 <code>np.array(input)</code>
 
 <div className='base'>
-    <p><strong>Casts an iterable into a list (bpd.Series, df.columns, and list)</strong></p>
+    <p><strong>Casts an iterable (bpd.Series, bpd.Index, and list) into a numpy array</strong></p>
     
     <dl>
         <dt className='term'>Input:</dt>
-        <dd className='parameter'>input : <em>ser, .columns, list</em></dd>
+        <dd className='parameter'>input : <em>ser, df.index, df.columns, list</em></dd>
         <dd className='parameter-description'>Name of series/.columns/list to cast to an array.</dd>
 
         <dt className='term'>Returns:</dt>
-        <dd>df_with_cols - Same input, casted to an array. </dd>
+        <dd>An array with the same elements as the input. </dd>
 
         <dt className='term'>Return Type:</dt>
         <dd>Array</dd>
@@ -42,7 +42,21 @@ weight_arr
 
 array([40. , 15. , 20. , 80. , 25. , 1. , 0.25])
 
-<p><strong>.columns to Array</strong></p>
+<p><strong>bpd.Index to Array</strong></p>
+
+```python
+pets_idx = pets.set_index('ID').index
+pets_idx
+```
+
+Index(['dog_001', 'cat_001', 'cat_002', 'dog_002', 'dog_003', 'ham_001', 'ham_002', 'cat_003'], dtype='object', name='ID')
+
+```python
+#df.index to array
+pets_idx_arr = np.array(pets.set_index('ID').index)
+pets_idx_arr
+```
+array(['dog_001', 'cat_001', 'cat_002', 'dog_002', 'dog_003', 'ham_001', 'ham_002', 'cat_003'], dtype=object)
 
 ```python
 pets_cols = pets.columns
@@ -52,6 +66,7 @@ pet_cols
 Index(['ID', 'Species', 'Color', 'Weight', 'Age', 'Is_Cat', 'Owner_Comment'], dtype='object')
 
 ```python
+#df.columns to array
 pets_cols_arr = np.array(pets.columns)
 pet_cols_arr
 ```
