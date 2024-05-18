@@ -4,25 +4,14 @@ sidebar_label: Permutation Testing
 title: Permutation Testing
 ---
 
-import DataFrameComponent from '../../components/DataFrameComponent.jsx';
+import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
+import GoogleSlides from '@site/components/GoogleSlides.jsx';
 
 <h4><b>Key Idea: We use a permutation test to test whether two samples were drawn from the same population.</b></h4>
 
 The diagram provides an overview of conducting a permutation test, although it references a different dataset. For additional helpful visual guides, please visit the [Diagrams](https://dsc10.com/diagrams/) site.
 
-<iframe
-src="https://docs.google.com/presentation/d/e/2PACX-1vSovXDonR6EmjrT45h4pY1mwmcKFMWVSdgpbKHC5HNTm9sbG7dojvvCDEQCjuk2dk1oA4gmwMogr8ZL/embed?start=true&loop=false&delayms=3000&rm=minimal"
-frameborder="0"
-width="700"
-height="400"
-allowfullscreen="true"
-mozallowfullscreen="true"
-webkitallowfullscreen="true"
-style={{clipPath: 'inset(3.5px 5.5px 8px 5px)'}}></iframe>
-<div style={{ display: 'flex', justifyContent: 'center' }}>
-  <a href="https://docs.google.com/presentation/d/1TTWoQ7FU4tzBGc7EskF6WYccIn1BWQbTSizAiFc2p2o/edit?usp=sharing">(source)</a>
-</div>
-
+<GoogleSlides src="https://docs.google.com/presentation/d/e/2PACX-1vSovXDonR6EmjrT45h4pY1mwmcKFMWVSdgpbKHC5HNTm9sbG7dojvvCDEQCjuk2dk1oA4gmwMogr8ZL/embed?start=true&loop=false&delayms=3000&rm=minimal" />
 
 ---
 
