@@ -17,15 +17,6 @@ import '@site/src/css/chapters.css';
 
 <div className="method-container">
     <div className="method">
-        [<code>df.get</code>](df.get())(column_name)
-    </div>
-    <div className="description">
-        <p>Return column(s) from DataFrame.</p>
-    </div>
-</div>
-
-<div className="method-container">
-    <div className="method">
         [<code>np.append</code>](np.append())(arr, value)
     </div>
     <div className="description">
