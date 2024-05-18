@@ -2,6 +2,11 @@
 sidebar_position: 2
 sidebar_label: Permutation Testing
 title: Permutation Testing
+tags: 
+  - querying 
+  - functions
+  - for-loop 
+  - histogram
 ---
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
