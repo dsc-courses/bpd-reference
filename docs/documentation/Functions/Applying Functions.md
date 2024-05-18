@@ -39,9 +39,20 @@ pets.get('Species').apply(is_dog)
 
 <SeriesComponent data='{"name":"Species","dtype":"bool", "index":["0","1","2","3","4","5","6"],"data":["True","False","False","True","True","False","False"]}' />
 
+---
 
 ```python
 pets.get('Weight').apply(np.sqrt)
 ```
 
 <SeriesComponent data='{"name":"Weights","dtype":"float64", "index":["0","1","2","3","4","5","6","7"],"data":["6.324555","3.872983","4.472136","8.944272","5.000000","1.000000","0.500000"]}' />
+
+---
+
+**(Refer back to [Writing Functions](../documentation/Functions/Writing%20Functions) for categorize_animal.)**
+
+```python
+pets.get('ID').apply(categorize_animal)
+```
+
+<SeriesComponent data='{"name":"description","dtype":"object","index":[0,1,2,3,4,5,6,7],"data":["Adult Normal","Kitten Underweight","Adult Overweight","Adult Overweight","Puppy Normal","Senior Overweight","Young Normal","Kitten Normal"]}' />

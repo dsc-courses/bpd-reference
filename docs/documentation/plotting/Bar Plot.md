@@ -74,3 +74,9 @@ avg_species_weights.sort_values(by='Weight', ascending=True).plot(kind='barh', x
 ```
 
 ![Bar plot example 3](/img/bar-plot/barex2.png)
+
+```python
+pets.groupby('Species').count().plot(kind='bar', y='ID', title='Distribution of Species')
+```
+
+![Bar plot example 3](/img/bar-plot/barex4.png)
