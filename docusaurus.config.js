@@ -5,8 +5,8 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
-const math = require('remark-math')
-const katex = require('rehype-katex')
+const math = require('remark-math');
+const katex = require('rehype-katex');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -52,6 +52,8 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/dsc-courses/bpd-reference/tree/main/',
+          // showLastUpdateTime: true,
+          // showLastUpdateAuthor: true,
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -59,17 +61,6 @@ const config = {
       }),
     ],
   ],
-
-  stylesheets: [
-    {
-      href: '/katex/katex.min.css',
-      type: 'text/css',
-      integrity:
-          'sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X',
-      crossorigin: 'anonymous',
-    },
-  ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({

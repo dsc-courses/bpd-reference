@@ -98,7 +98,7 @@ Using a significance level of 0.05...
 
 **Conclusion:**
 * Under the null hypothesis, we rarely see a difference greater than the observed value.
-* Therefore, we reject the null hypothesis: the evidence implies that the two groups do not come from the same distribution.
+* Therefore, we **reject** the null hypothesis: the evidence implies that the two groups do not come from the same distribution.
 * Still, we cannot conclude that species causes a different weight because there may be other factors at play.
 
 ---
