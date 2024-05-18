@@ -44,7 +44,7 @@ import '@site/src/css/chapters.css';
 
 <div className="method-container">
     <div className="method">
-        [<code>np.percentile</code>](np.percentile)(arr, p)
+        [<code>np.percentile</code>](np.percentile())(arr, p)
     </div>
     <div className="description">
         <p>The pth percentile of the numbers in arr.</p>
