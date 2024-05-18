@@ -1,5 +1,6 @@
 ---
-sidebar_position: 10
+sidebar_position: 2
+description: Checks for membership of object within a sequence.
 ---
 
 import DataFrameComponent from '../../../components/DataFrameComponent.jsx';
@@ -12,7 +13,7 @@ import '../../../src/css/function.css';
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <code> \<if body\> </code>
 
 <div className='base'>
-    <p><strong>Checks for membership of object within a sequence,</strong></p>
+    <p><strong>Checks for membership of object within a sequence.</strong></p>
 
     <dl>
         <dt className='term'>Operators:</dt>

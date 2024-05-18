@@ -2,11 +2,11 @@
 sidebar_position: 2
 ---
 
-import DataFrameComponent from '../../../components/DataFrameComponent.jsx';
-import SeriesComponent from '../../../components/SeriesComponent.jsx';
-import '../../../src/css/function.css';
+import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
+import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import '@site/src/css/function.css';
 
-<code>df.plot(kind='scatter', x = data_col, y=data_col)</code>
+<code>df.plot(kind='scatter', x=data_col, y=data_col)</code>
 
 <div className='base'>
     <p><strong>Create a scatter plot using a DataFrame.</strong></p>

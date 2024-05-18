@@ -9,7 +9,7 @@ import '../../../src/css/function.css';
 <code>np.array(input)</code>
 
 <div className='base'>
-    <p><strong>Casts an iterable (bpd.Series, bpd.Index, and list) into a numpy array</strong></p>
+    <p><strong>Casts an iterable (bpd.Series, bpd.Index, and list) into a NumPy array.</strong></p>
     
     <dl>
         <dt className='term'>Input:</dt>

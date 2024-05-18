@@ -12,8 +12,12 @@ import '../../../src/css/function.css';
     <p><strong>Returns element contained in Series at the given position.</strong></p>
     <dl>
         <dt className='term'>Note:</dt>
-        <dd>Positions start at 0</dd>
-        <dd>Often `ser` comes from `df.get(column_name)`</dd>
+        <dd>
+            <ul>
+                <li>Positions start at 0.</li>
+                <li>Often `ser` comes from `df.get(column_name)`.</li>
+            </ul>
+        </dd>
     </dl>
 </div>
 

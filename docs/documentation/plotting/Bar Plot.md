@@ -2,9 +2,9 @@
 sidebar_position: 3
 ---
 
-import DataFrameComponent from '../../../components/DataFrameComponent.jsx';
-import SeriesComponent from '../../../components/SeriesComponent.jsx';
-import '../../../src/css/function.css';
+import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
+import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import '@site/src/css/function.css';
 
 <code>df.plot(kind='bar', x=data_col, y=data_col)</code>
 

@@ -1,5 +1,6 @@
 ---
-sidebar_position: 11
+sidebar_position: 3
+description: Allows for multiple conditions to be combined at the same time.
 ---
 
 import DataFrameComponent from '../../../components/DataFrameComponent.jsx';
