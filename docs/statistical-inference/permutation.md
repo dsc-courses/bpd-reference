@@ -6,7 +6,7 @@ title: Permutation Testing
 
 import DataFrameComponent from '../../components/DataFrameComponent.jsx';
 
-<p style="font-size:20px;"><b>Key Idea: We use a permutation test to test whether two samples were drawn from the same population.</b></p>
+<h4><b>Key Idea: We use a permutation test to test whether two samples were drawn from the same population.</b></h4>
 
 The diagram provides an overview of conducting a permutation test, although it references a different dataset. For additional helpful visual guides, please visit the [Diagrams](https://dsc10.com/diagrams/) site.
 
