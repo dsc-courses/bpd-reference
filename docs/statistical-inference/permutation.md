@@ -71,7 +71,7 @@ def difference_in_means(cats_dogs):
     return np.abs((means.get('Weight').loc['dog'] - means.get('Weight').loc['cat']))
 ```
 
-*Note: Although we can simply do this in the for-loop showin in the next step, we can practice good coding habits by separating our code into readable bits!*
+*Note: Although we can simply do this in the for-loop shown in the next step, we can practice good coding habits by separating our code into readable bits!*
 
 ---
 

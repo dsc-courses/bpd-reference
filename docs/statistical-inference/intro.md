@@ -23,7 +23,7 @@ fontWeight: 'bold',
 <Tag color='#FF5733'>Assumption:</Tag>  Assume that `df` is a DataFrame, `ser` is a Series, `arr` is an array, and we already run `import babypandas as bpd` and `import numpy as np`.
 
 ---
-This section contains explanations and code implementations of theories covered in [**DSC 10**](https://dsc10.com). For examples in this section, refer to the `full_pets` DataFrame, which has more data than `pets` DataFrame (which is used in the Documentation section).
+This section provides explanations and code implementations of theories covered in [**DSC 10**](https://dsc10.com). For examples in this section, refer to the `full_pets` DataFrame, which has more data than `pets` DataFrame (which is used in the Documentation section).
 
 
 ```python

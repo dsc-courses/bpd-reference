@@ -56,7 +56,7 @@ function GoogleSlides({ src, sourceLink, width = "100%", height = "100%", paddin
                 onMouseOver={(e) => e.currentTarget.style.backgroundColor = '#45a049'}
                 onMouseOut={(e) => e.currentTarget.style.backgroundColor = '#4CAF50'}
             >
-                Restart Presentation
+                Restart Diagram
             </button>
         </>
     );
