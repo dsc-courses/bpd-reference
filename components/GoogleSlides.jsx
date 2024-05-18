@@ -1,4 +1,3 @@
-// GoogleSlides.jsx
 import React, { useState } from 'react';
 
 function GoogleSlides({ src, sourceLink, width = "100%", height = "100%", paddingBottom = "56.25%" }) {
@@ -21,13 +20,18 @@ function GoogleSlides({ src, sourceLink, width = "100%", height = "100%", paddin
         fontWeight: 'bold', // Font weight
         boxShadow: '0 4px 8px rgba(0,0,0,0.1)', // Subtle shadow
         transition: 'background-color 0.3s', // Smooth transition for hover effect
-        margin: '10px 0', // Margin for spacing
     };
 
     const linkStyle = {
         display: 'flex', // Use flex to center the link
         justifyContent: 'center', // Center horizontally
         margin: '20px 0' // Margin for spacing above and below
+    };
+
+    const buttonContainerStyle = {
+        display: 'flex', // Enables flexbox
+        justifyContent: 'center', // Centers the button horizontally
+        margin: '10px 0' // Adds vertical spacing around the button
     };
 
     return (
@@ -50,14 +54,16 @@ function GoogleSlides({ src, sourceLink, width = "100%", height = "100%", paddin
             <div style={linkStyle}>
                 <a href={sourceLink} target="_blank" rel="noopener noreferrer">(Source)</a>
             </div>
-            <button
-                onClick={restartPresentation}
-                style={buttonStyle}
-                onMouseOver={(e) => e.currentTarget.style.backgroundColor = '#45a049'}
-                onMouseOut={(e) => e.currentTarget.style.backgroundColor = '#4CAF50'}
-            >
-                Restart Diagram
-            </button>
+            <div style={buttonContainerStyle}>
+                <button
+                    onClick={restartPresentation}
+                    style={buttonStyle}
+                    onMouseOver={(e) => e.currentTarget.style.backgroundColor = '#45a049'}
+                    onMouseOut={(e) => e.currentTarget.style.backgroundColor = '#4CAF50'}
+                >
+                    Restart Diagram
+                </button>
+            </div>
         </>
     );
 }
