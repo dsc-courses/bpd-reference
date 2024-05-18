@@ -49,7 +49,7 @@ pets.get('Weight').apply(np.sqrt)
 
 ---
 
-**(Refer back to [Writing Functions](../documentation/Functions/Writing%20Functions) for categorize_animal.)**
+**(Refer back to [Writing Functions](../Functions/Writing%20Functions) for categorize_animal.)**
 
 ```python
 pets.get('ID').apply(categorize_animal)
