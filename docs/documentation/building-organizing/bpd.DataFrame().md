@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-import '../../../src/css/function.css';
+import '@site/src/css/function.css';
 
 <code>bpd.DataFrame()</code>
 

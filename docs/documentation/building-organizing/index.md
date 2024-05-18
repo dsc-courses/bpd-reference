@@ -1,7 +1,7 @@
 ---
 title: "Building and Organizing DataFrames"
 ---
-import '../../../src/css/chapters.css';
+import '@site/src/css/chapters.css';
 
 <p className="main-description">Each function/method creates a new DataFrame. Remember to save it!</p>
 

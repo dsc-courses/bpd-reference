@@ -3,7 +3,7 @@ sidebar_position: 1
 sidebar_label: Intro
 ---
 
-import DataFrameComponent from '../../components/DataFrameComponent.jsx';
+import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 
 export const Tag = ({children, color}) => (
     <span

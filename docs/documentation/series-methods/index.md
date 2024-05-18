@@ -2,7 +2,7 @@
 title: "Series Methods"
 ---
 
-import '../../../src/css/chapters.css';
+import '@site/src/css/chapters.css';
 
 <p className="main-description">Methods that can be performed on a Series.</p>
 

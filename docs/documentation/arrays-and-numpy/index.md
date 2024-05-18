@@ -2,7 +2,7 @@
 title: "Arrays and NumPy"
 ---
 
-import '../../../src/css/chapters.css';
+import '@site/src/css/chapters.css';
 
 <p className="main-description">Functions/methods for working with Arrays and NumPy.</p>
 

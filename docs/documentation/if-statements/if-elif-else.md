@@ -3,9 +3,9 @@ sidebar_position: 1
 description: Conditionally execute code. The elif and else blocks are optional.
 ---
 
-import DataFrameComponent from '../../../components/DataFrameComponent.jsx';
-import SeriesComponent from '../../../components/SeriesComponent.jsx';
-import '../../../src/css/function.css';
+import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
+import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import '@site/src/css/function.css';
 
 <code>if \<condition\>: <br/> </code> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <code> \<if body\> <br/> </code>

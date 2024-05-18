@@ -2,9 +2,9 @@
 sidebar_position: 4
 ---
 
-import DataFrameComponent from '../../../components/DataFrameComponent.jsx';
-import SeriesComponent from '../../../components/SeriesComponent.jsx';
-import '../../../src/css/function.css';
+import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
+import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import '@site/src/css/function.css';
 
 <code>df.drop(columns=column_name or [col_1_name, ..., col_k_name])</code>
 

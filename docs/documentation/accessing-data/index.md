@@ -2,7 +2,7 @@
 title: "Accessing Data"
 ---
 
-import '../../../src/css/chapters.css';
+import '@site/src/css/chapters.css';
 
 <p className="main-description"></p>
 

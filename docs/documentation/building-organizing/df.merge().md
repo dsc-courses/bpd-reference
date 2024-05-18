@@ -2,9 +2,9 @@
 sidebar_position: 8
 ---
 
-import DataFrameComponent from '../../../components/DataFrameComponent.jsx';
-import SeriesComponent from '../../../components/SeriesComponent.jsx';
-import '../../../src/css/function.css';
+import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
+import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import '@site/src/css/function.css';
 
 <code>df.merge(right, on=column, left_on=left_column, right_on=right_column, left_index=False, right_index=False)</code>
 
