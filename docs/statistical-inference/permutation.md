@@ -27,9 +27,11 @@ sourceLink="https://docs.google.com/presentation/d/1TTWoQ7FU4tzBGc7EskF6WYccIn1B
 
 ## 1. State the question/hypothesis
 
+:::info Hypotheses
 Our pair of hypotheses is:
 * **Null Hypothesis:** The mean weights of dogs and cats are the *same*.
 * **Alternative Hypothesis:** The mean weights of dogs and cats are *different*.
+:::
 
 Since the alternative hypothesis is of the form "A and B are different," the test statistic should measure distance and use an absolute value.
 
@@ -111,10 +113,11 @@ print("The p-value is:", p_value)
 
 Using a significance level of 0.05...
 
-**Conclusion:**
+:::info Conclusion
 * Under the null hypothesis, we rarely see a difference greater than the observed value.
 * Therefore, we **reject** the null hypothesis: the evidence implies that the two groups do not come from the same distribution.
 * Still, we cannot conclude that species causes a different weight because there may be other factors at play.
+:::
 
 ---
 
@@ -130,4 +133,4 @@ plt.axvline(x=observed, c='black', linewidth=4, label='population difference in 
 ```
 ![Distribution](/img/statistical-inference-plots/permutation-test.png)
 
-From this graph, we can tell that there is barely any data to the **right** of the black vertical line, meaning we have a very low p-value!
+From this graph, we can tell that there is barely any data to the **right** of the black vertical line (our test statistic), meaning we have a very low p-value!
