@@ -16,7 +16,10 @@ import GoogleSlides from '@site/components/GoogleSlides.jsx';
 
 The diagram provides an overview of conducting a permutation test, although it references a different dataset. For additional helpful visual guides, please visit the [Diagrams](https://dsc10.com/diagrams/) site.
 
-<GoogleSlides src="https://docs.google.com/presentation/d/e/2PACX-1vSovXDonR6EmjrT45h4pY1mwmcKFMWVSdgpbKHC5HNTm9sbG7dojvvCDEQCjuk2dk1oA4gmwMogr8ZL/embed?start=true&loop=false&delayms=3000&rm=minimal" />
+<GoogleSlides
+src="https://docs.google.com/presentation/d/e/2PACX-1vSovXDonR6EmjrT45h4pY1mwmcKFMWVSdgpbKHC5HNTm9sbG7dojvvCDEQCjuk2dk1oA4gmwMogr8ZL/embed?start=true&loop=false&delayms=3000&rm=minimal"
+sourceLink="https://docs.google.com/presentation/d/1TTWoQ7FU4tzBGc7EskF6WYccIn1BWQbTSizAiFc2p2o/edit?usp=sharing"
+/>
 
 ---
 
@@ -68,7 +71,7 @@ def difference_in_means(cats_dogs):
     return np.abs((means.get('Weight').loc['dog'] - means.get('Weight').loc['cat']))
 ```
 
-*Note: Although we can simply do this in the function, we can practice good coding habits by separating our code into readable bits!*
+*Note: Although we can simply do this in the for-loop showin in the next step, we can practice good coding habits by separating our code into readable bits!*
 
 ---
 
