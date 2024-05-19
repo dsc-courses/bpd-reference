@@ -19,7 +19,7 @@ import GoogleSlides from '@site/components/GoogleSlides.jsx';
 **Statistical Inference**: The practice of making conclusions about a population, using data from a random sample. In other words, the practice of using statistic to predict parameter.
 :::
 
-:::note Tip
+:::note 
 To remember: **p**arameter and **p**opulation both start with p, **s**tatistic and **s**ample both start with s.
 :::
 

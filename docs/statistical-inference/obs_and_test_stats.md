@@ -10,11 +10,15 @@ import GoogleSlides from '@site/components/GoogleSlides.jsx';
 ## Concept
 
 :::tip Terminology
-**Experiment**: a process whose outcome is random; for example, flipping 100 coins. 
+**Experiment**: A process whose outcome is random.
 
-**Observed Statistic**: a statistic computed from the outcome of an experiment; for example, the number of heads observed.
+- Example: flipping 100 coins.
 
-**Test Statistic**: 
+**Observed Statistic**: A statistic computed from the observed data.
+- Example: The number of heads observed.
+
+**Test Statistic**: A statistic computed from a sample generated under the assumption that the null hypothesis is true.
+- Think of the test statistic a number you write down each time you perform an experiment.
 :::
 
 
