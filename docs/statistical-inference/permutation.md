@@ -12,11 +12,13 @@ tags:
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import GoogleSlides from '@site/components/GoogleSlides.jsx';
 
+## Concept
+
 :::tip Key Idea
 We use a permutation test to test whether two samples are drawn from the same population.
 :::
 
-The diagram below provides an overview of conducting a permutation test, although it references a different dataset. For additional helpful visual guides, please visit the [Diagrams](https://dsc10.com/diagrams/) site.
+The diagram below provides an overview of conducting a permutation test, although it references a different dataset. [Here](https://www.jwilber.me/permutationtest/) is another useful visualization. For additional helpful visual guides, please visit the [Diagrams](https://dsc10.com/diagrams/) site.
 
 <GoogleSlides
 src="https://docs.google.com/presentation/d/e/2PACX-1vSovXDonR6EmjrT45h4pY1mwmcKFMWVSdgpbKHC5HNTm9sbG7dojvvCDEQCjuk2dk1oA4gmwMogr8ZL/embed?start=true&loop=false&delayms=3000&rm=minimal"
@@ -24,8 +26,9 @@ sourceLink="https://docs.google.com/presentation/d/1TTWoQ7FU4tzBGc7EskF6WYccIn1B
 />
 
 ---
+## Code Example
 
-## 1. State the question/hypothesis
+### 1. State the question/hypothesis
 
 :::info Hypotheses
 Our pair of hypotheses is:
@@ -39,7 +42,7 @@ $\therefore$ Use **absolute difference in group means** as the test statistic.
 
 ---
 
-## 2. Query the DataFrame
+### 2. Query the DataFrame
 
 Since we want to compare the distributions of only cats and dogs, we need to make sure to only include the relevant pieces of data (e.g., cats and dogs weights).
 
@@ -56,7 +59,7 @@ cats_dogs.take(np.arange(5))
 
 ---
 
-## 3. Create a function to calculate test statistic
+### 3. Create a function to calculate test statistic
 
 Since our hypotheses depend on the test statistic, create a function to be able to calculate it during every trial of our permutation test.
 
@@ -79,7 +82,7 @@ def difference_in_means(cats_dogs):
 
 ---
 
-## 4. Simulate the permutation test
+### 4. Simulate the permutation test
 
 ```python
 n = 500 # Number of simulations.
@@ -99,7 +102,7 @@ This code will run the permutation test 500 times, but a different reasonable nu
 
 ---
 
-## 5. Conclusion
+### 5. Conclusion
 
 ```python
 observed = difference_in_means(cats_dogs)
@@ -121,7 +124,7 @@ Using a significance level of 0.05...
 
 ---
 
-## 6. Extra
+### 6. Extra
 
 Let's see how our observed statistic compares to the overall simulated values!
 
