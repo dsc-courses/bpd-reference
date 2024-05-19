@@ -1,7 +1,7 @@
 ---
-sidebar_position: 2
-sidebar_label: Permutation Testing
-title: Permutation Testing
+sidebar_position: 7
+sidebar_label: Permutation Test
+title: Permutation Test
 tags: 
   - querying 
   - functions
@@ -114,7 +114,7 @@ print("The p-value is:", p_value)
 **The observed value of the test statistic is: 30.361111111111107** <br />
 **The p-value is: 0.004**
 
-Using a significance level of 0.05...
+Using a significance level of 0.05:
 
 :::info Conclusion
 * Under the null hypothesis, we rarely see a difference greater than the observed value.
