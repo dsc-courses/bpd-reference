@@ -26,9 +26,13 @@ We use a permutation test to test whether two samples are drawn from the same po
 **Permutation tests:** A permutation test is a type of A/B test (and a type of hypothesis test). It tests whether two samples come from the same population distribution. To conduct a permutation test:
 
 1. Shuffle the group labels (i.e. the Trues and Falses) to generate two new samples under the null.
-2. Compute the difference in group means (the test statistic).
-3. Repeat steps 1 and 2 to generate an empirical distribution of the difference in group means.
+2. Compute the test statistic (i.e. the difference in group means).
+3. Repeat steps 1 and 2 to generate an empirical distribution of the test statistics (i.e. the difference in group means).
 4. See where the observed statistic lies in the empirical distribution. If, in our simulations, we rarely saw a difference in group means as extreme as the observed difference in group means, we have evidence to reject the null.
+:::
+
+:::note
+While shuffling, the size of the two new samples should be the same as the observed samples.
 :::
 
 The diagram below provides an overview of conducting a permutation test, although it references a different dataset. [Here](https://www.jwilber.me/permutationtest/) is another useful visualization. For additional helpful visual guides, please visit the [Diagrams](https://dsc10.com/diagrams/) site.
