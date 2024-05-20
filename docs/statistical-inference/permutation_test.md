@@ -36,7 +36,7 @@ Our pair of hypotheses is:
 * **Alternative Hypothesis:** The mean weights of dogs and cats are *different*.
 :::
 
-Since the alternative hypothesis is of the form "A and B are different," the test statistic should measure distance and use an absolute value.
+Since the alternative hypothesis is of the form "A and B are different," the **test statistic** should measure distance and use an absolute value.
 
 $\therefore$ Use **absolute difference in group means** as the test statistic.
 
@@ -119,7 +119,7 @@ Using a significance level of 0.05:
 :::info Conclusion
 * Under the null hypothesis, we rarely see a difference greater than the observed value.
 * Therefore, we **reject** the null hypothesis: the evidence implies that the two groups do not come from the same distribution.
-* Still, we cannot conclude that species causes a different weight because there may be other factors at play.
+* Still, we cannot conclude that species causes a different weight because there may be other confounding variables.
 :::
 
 ---
