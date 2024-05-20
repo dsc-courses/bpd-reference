@@ -15,7 +15,7 @@ import GoogleSlides from '@site/components/GoogleSlides.jsx';
 ## Concept
 
 :::tip Key Idea
-
+We use a hypothesis test to test whether a sample was drawn from a population.
 :::
 
 ---
