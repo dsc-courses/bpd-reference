@@ -9,7 +9,7 @@ import GoogleSlides from '@site/components/GoogleSlides.jsx';
 
 ## Concept
 
-:::tip Terminology
+:::info Terminology
 **Experiment**: A process whose outcome is random.
 
 - Example: flipping 100 coins.

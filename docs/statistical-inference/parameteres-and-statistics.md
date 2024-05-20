@@ -9,7 +9,7 @@ import GoogleSlides from '@site/components/GoogleSlides.jsx';
 
 ## Concept
 
-:::tip Terminology
+:::info Terminology
 **Parameter**: A number associated with the population.
 - Example: The population mean.
 

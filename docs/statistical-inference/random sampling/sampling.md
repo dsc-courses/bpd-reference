@@ -9,7 +9,7 @@ import GoogleSlides from '@site/components/GoogleSlides.jsx';
 
 ## Concept
 
-:::tip Terminology
+:::info Terminology
 **Population**: The complete group of people, objects, or events that we want to learn something about.
 
 **Sample**: A subset of a **population**. 

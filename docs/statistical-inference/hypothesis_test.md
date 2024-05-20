@@ -18,6 +18,10 @@ import GoogleSlides from '@site/components/GoogleSlides.jsx';
 We use a hypothesis test to test whether a sample was drawn from a population.
 :::
 
+:::info Terminology
+
+:::
+
 ---
 ## Code Example
 

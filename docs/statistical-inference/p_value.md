@@ -9,7 +9,7 @@ import GoogleSlides from '@site/components/GoogleSlides.jsx';
 
 ## Concept
 
-:::tip Terminology
+:::info Terminology
 
 :::
 

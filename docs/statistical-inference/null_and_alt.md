@@ -9,7 +9,7 @@ import GoogleSlides from '@site/components/GoogleSlides.jsx';
 
 ## Concept
 
-:::tip Terminology
+:::info Terminology
 **Null Hypothesis**: A precise assumption about how the data was generated.
 - Example: The coin is fair.
 
