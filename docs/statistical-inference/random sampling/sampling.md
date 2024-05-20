@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 sidebar_label: Sampling
 title: Sampling
 ---
@@ -28,5 +28,4 @@ import GoogleSlides from '@site/components/GoogleSlides.jsx';
 
 - Bad idea ❌: Using **convenience samples**, which often contain hidden sources of **bias**.
 
----
-## Code Example
+
