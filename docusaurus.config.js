@@ -64,14 +64,14 @@ const config = {
 
   stylesheets: [
     {
-      href: '/katex/katex.min.css',
+      href: '/bpd-reference/katex/katex.min.css',
       type: 'text/css',
     },
   ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+    {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
@@ -181,7 +181,7 @@ const config = {
 
         //... other Algolia params
       },
-    }),
+    },
 };
 
 export default config;
