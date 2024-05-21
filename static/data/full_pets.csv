@@ -1,0 +1,20 @@
+,ID,Species,Color,Weight,Age,Is_Cat,Owner_Comment
+0,dog_001,dog,black,40.0,5.0,False,"      There are no bad dogs, only bad owners."
+1,cat_001,cat,golden,1.5,0.2,True,My best birthday present ever!!!
+2,cat_002,cat,black,15.0,9.0,True,****All you need is love and a cat.****
+3,dog_002,dog,white,80.0,2.0,False,Love is a wet nose and a wagging tail.
+4,dog_003,dog,black,25.0,0.5,False,Be the person your dog thinks you are.
+5,ham_001,hamster,black,1.0,3.0,False,"No, thank you!"
+6,ham_002,hamster,golden,0.25,0.2,False,"No, thank you!"
+7,cat_003,cat,black,10.0,0.0,True,"No, thank you!"
+8,dog_004,dog,black,45.0,6.7,False,"No, thank you!"
+9,dog_005,dog,white,10.0,7.0,False,"No, thank you!"
+10,dog_006,dog,golden,35.0,4.0,False,"No, thank you!"
+11,cat_004,cat,black,10.0,1.2,True,"No, thank you!"
+12,cat_005,cat,white,15.0,2.5,True,"No, thank you!"
+13,ham_003,hamster,black,0.5,0.1,False,"No, thank you!"
+14,dog_007,dog,white,50.0,6.1,False,"No, thank you!"
+15,ham_004,hamster,golden,0.25,0.2,False,"No, thank you!"
+16,dog_008,dog,black,40.0,5.0,False,"No, thank you!"
+17,dog_009,dog,white,30.0,4.8,False,"No, thank you!"
+18,cat_006,cat,black,3.0,0.5,True,"No, thank you!"
