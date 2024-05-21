@@ -19,7 +19,12 @@ We use a hypothesis test to test whether a sample was drawn from a population.
 :::
 
 :::info Terminology
+**Hypothesis Test**: A process that test whether a sample was drawn from a population, given a population distribution and a sample.
 
+To conduct a hypothesis test:
+1. Simulate the experiment many times under the assumption that the null hypothesis is true.
+2. Compute a test statistic on each of the simulated samples, as well as on the observed sample.
+3. Look at the resulting empirical distribution of test statistics and see where the observed test statistic falls. If it seems like an atypical value (too large or too small), we reject the null hypothesis; otherwise, we fail to reject the null.
 :::
 
 ---
