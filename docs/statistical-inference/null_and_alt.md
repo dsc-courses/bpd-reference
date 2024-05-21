@@ -14,7 +14,7 @@ import GoogleSlides from '@site/components/GoogleSlides.jsx';
 - Example: The coin is fair (p = 0.5).
 
 **Alternative Hypothesis**: A different view about how the data was generated.
-- Example: The coin is not fair (p != 0.5).
+- Example: The coin is not fair (p ≠ 0.5).
 :::
 
 :::note 
@@ -24,7 +24,3 @@ The **null hypothesis** must be written with **equal** sign. A statement with un
 
 Since the **alternative hypothesis** is different from the null, it can be less than, greater than, or not equal to, but cannot be $\geq$ or $\leq$.
 :::
-
-
-
-
