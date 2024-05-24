@@ -1,7 +1,7 @@
 ---
 sidebar_position: 8
-sidebar_label: Boostrapping 
-title: Bootstrapping
+sidebar_label: Boostrapping and Confidence Intervals
+title: Bootstrapping and Confidence Intervals
 tags: 
   - querying 
   - functions
@@ -14,15 +14,22 @@ import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 ## Concept
 
 :::tip Key Idea
-We use a bootstrapping to estimate the distribution of the sample statistic to see how different our sample statistic could have been.
+We use a bootstrapping to estimate the distribution of the sample statistic to see how different our sample statistic could have been. We use confidence intervals to define a range that captures most of the bootstrapped distribution of the sample statistic.
 :::
 
 :::info Terminology
 **Bootstrapping**: Bootstrapping is a type of hypothesis test that involves resampling from a single sample to estimate the 
 distribution of the sample statistic. It answers the question how different the sample statistic could have been if given a different sample. To conduct bootstrapping:
 
+1. Resample from the original sample with replacement.
+2. Calculate the sample statistic on the bootstrap resample.
+3. Save the results into an array.
+4. Repeat steps 1 and 2 to generate an empirical distribution of the test statistic.
+5. Calculate the confidence interest and see if the observed statistic lies in the confidence interval. If the observed statistic is not 
+in our confidence interval, we have evidence to reject the null.
 
-**Confidence Intervals:** A permutation test is a type of A/B test (and a type of hypothesis test). It tests whether two samples come from the same population distribution. To conduct a permutation test:
+
+**Confidence Intervals:** 
 
 <!-- 1. Shuffle the group labels (i.e. the Trues and Falses) to generate two new samples under the null.
 2. Compute the test statistic (i.e. the difference in group means).
