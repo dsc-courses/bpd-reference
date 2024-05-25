@@ -26,10 +26,10 @@ import GoogleSlides from '@site/components/GoogleSlides.jsx';
         - ✅ Used for assessing whether an "observed sample" was drawn randomly from a known **categorical distribution**:
 
     2. **Absolute Difference** in group mean/median/number of times a certain event happens.
-        - ✅ Used for measuring how different two **numerical distributions** are, and when the alternative hypothesis is 'not equal to'. For example, "the coin is biased" or "the probability of tossing a head is 0.5".
+        - ✅ Used for measuring how different two **numerical distributions** are, and when the alternative hypothesis is **_not equal to_**. For example, "the coin is biased" or "the probability of tossing a head is 0.5".
 
     3. **Difference** in group mean/median/number of times a certain event happens
-        - ✅ Used for measuring how different two **numerical distributions** are, and the alternative hypothesis is 'less than' or 'greater than'. For example, "the coin is biased towards heads" or "the probability of tossing a head is greater then 0.5".
+        - ✅ Used for measuring how different two **numerical distributions** are, and the alternative hypothesis is **_less than_** or **_greater than_**. For example, "the coin is biased towards heads" or "the probability of tossing a head is greater then 0.5".
 :::
 
 :::note
