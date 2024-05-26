@@ -13,18 +13,18 @@ import GoogleSlides from '@site/components/GoogleSlides.jsx';
 ## Concept
 
 :::tip Key Idea
-We use a bootstrapping to estimate the distribution of the sample statistic to see how different our sample statistic could have been. We use confidence intervals to define a range that captures most of the bootstrapped distribution of the sample statistic.
+We use a bootstrapping to estimate the distribution of the sample statistic to see how different our it could have been. We use confidence intervals to define a range that captures most of the bootstrapped distribution of the sample statistic.
 :::
 
 :::info Terminology
 **Bootstrapping**: Bootstrapping is a type of hypothesis test that involves resampling from a single sample to estimate the 
-distribution of the sample statistic. It answers the question how different the sample statistic could have been if given a different sample. To conduct bootstrapping:
+distribution of the sample statistic. It answers the question of how different the sample statistic could have been if given a different sample. To conduct bootstrapping:
 
 1. Resample from the original sample with replacement.
-2. Calculate the sample statistic on the bootstrap resample.
+2. Calculate the sample statistic on the bootstrapped resample.
 3. Save the results into an array.
-4. Repeat steps 1 and 2 to generate an empirical distribution of the test statistic.
-5. Calculate the confidence interest and see if the observed statistic lies in the confidence interval. If the observed statistic is not 
+4. Repeat steps 1 through 3 to generate an empirical distribution of the test statistic.
+5. Calculate the confidence interval and see if the observed statistic lies in it. If the observed statistic is not 
 in our confidence interval, we have evidence to reject the null.
 
 
@@ -40,11 +40,18 @@ true population parameter.
 When resampling, the size of the resample should be the same as the original sample with replacement.
 :::
 
-The diagram below provides an overview of conducting bootstrapping, although it references a different dataset. For additional helpful visual guides, please visit the [Diagrams](https://dsc10.com/diagrams/) site.
+The diagram below provides an overview of conducting bootstrapping, although it references a different dataset.
 
 <GoogleSlides
-src="https://docs.google.com/presentation/d/e/2PACX-1vSovXDonR6EmjrT45h4pY1mwmcKFMWVSdgpbKHC5HNTm9sbG7dojvvCDEQCjuk2dk1oA4gmwMogr8ZL/embed?start=true&loop=false&delayms=3000&rm=minimal"
+src="https://docs.google.com/presentation/d/e/2PACX-1vS_iYHJYXSVMMZ-YQVFwMEFR6EFN3FDSAvaMyUm-YJfLQgRMTHm3vI-wWJJ5999eFJq70nWp2hyItZg/embed?start=true&loop=false&delayms=3000&rm=minimal"
 sourceLink="https://docs.google.com/presentation/d/1oYakqMdI7z61BthvgWUJvbT21bKTXg01KmAibglepBI/edit?usp=sharing"
+/>
+
+The diagram below provides an overview of creating confidence intervals, although it references a different situation. For additional helpful visual guides, please visit the [Diagrams](https://dsc10.com/diagrams/) site.
+
+<GoogleSlides
+src="https://docs.google.com/presentation/d/e/2PACX-1vTaPZsueXI6fey_5cj2Y1TevkR1joBvpwaWVsZNvgBlnJSrw1EiBLHJywkFH_QNLU5Tdr6JZgDrhFxG/embed?start=true&loop=false&delayms=3000&rm=minimal"
+sourceLink="https://docs.google.com/presentation/d/1l5GVyl60FrornEaZnGL6REV4gjEydRncNVi6k1hHUsA/edit?usp=sharing"
 />
 
 ---
@@ -84,7 +91,7 @@ Median of pets_sample weight: 20.0
 
 Since we were only able to collect one random sample from the full population, we can't be sure if this singular guess predicts the 
 true population parameter well. We can't go out and collect 
-another random sample, so we will create bootstrap samples with replacement to simulate what could've been.
+another random sample, so we will resample from the original sample with replacement to simulate what could've been.
 
 ```python
 boot_medians = np.array([])
@@ -99,8 +106,8 @@ for i in np.arange(10000):
     boot_medians = np.append(boot_medians, boot_median)
 ```
 
-This code will create 10,000 bootstrap samples and calculate the median for each of these samples, but a different 
-reasonable number can be used instead. Since these samples are all random, the information in each sample and each 
+This code will create 10,000 bootstrapped samples and calculate the median for each of them, but a different 
+reasonable number can be used instead. Since these samples are all random, the information in each sample and 
 median will be different from one another.
 
 ---
@@ -114,7 +121,7 @@ left = np.percentile(boot_medians, 2.5) # 2.5th percentile
 right = np.percentile(boot_medians, 97.5) # 97.5th percentile
 ```
 
-Remember that the 95% confidence interval does not mean we have a 95% chance of containing the true population parameter. Instead, it means 
+Remember that the 95% confidence interval does not mean we have a 95% chance of containing the true population parameter. It means 
 that about 95% of all intervals we create will contain the true population parameter.
 
 ---
@@ -129,8 +136,8 @@ left, right
 
 :::info Conclusion
 * From this interval, we are 95% confident that the true population median lies somewhere between 1.75 and 40.
-* We have now way of knowing where exactly in this interval does the true population median falls or even if it is contained at all.
-* What we do know is that if we were to repeating the process and generate multiple confidence intervals, roughly 95% of them will 
+* We have no way of knowing where exactly in this interval does the true population median falls or even if it is contained at all.
+* What we do know is that if we were to repeat the process and generate multiple confidence intervals, roughly 95% of them will 
 contain the true population median.
 :::
 
@@ -147,6 +154,6 @@ plt.hist(boot_medians, bins=20, density=True, ec = 'w')
 
 plt.show()
 ```
-![Distribution](/img/statistical-inference-plots/permutation-test.png)
+![Distribution](/img/statistical-inference-plots/bootstrapping.png)
 
 A 95% confidence level means that **approximately 95% of the time, the intervals you create through this process will contain the true population parameter**.
