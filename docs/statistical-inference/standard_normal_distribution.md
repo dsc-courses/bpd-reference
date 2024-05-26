@@ -77,14 +77,6 @@ falls to the left of the mean. */
 ```
 
 ```
->>> print("Area from -inf to 0:", scipy.stats.norm.cdf(0))
-Area from -inf to 0: 0.5
-
-/* This means that 50% of the data in a standard normal curve 
-falls to the left of the mean. */
-```
-
-```
 >>> print("Area from -1 to 1:", scipy.stats.norm.cdf(1) - scipy.stats.norm.cdf(-1))
 Area from -1 to 1: 0.6826894921370859
 
