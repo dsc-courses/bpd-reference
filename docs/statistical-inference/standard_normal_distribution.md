@@ -18,6 +18,11 @@ inflection points at ±1. The shape of the the standard normal distribution is c
 **standard normal curve** or **bell curve**.
 :::
 
+![Curve](/img/statistical-inference-plots/bell-curve.png)
+
+This is what the standard normal distribution curve looks like. Don't worry about the formula
+at the top.
+
 :::note
 - The area under the standard normal curve is always equal to 1. 
 - The area between any values *a* and *b* is the **proportion of values** between *a* and *b*.
@@ -34,6 +39,12 @@ inflection points at ±1. The shape of the the standard normal distribution is c
 **68–95–99.7 rule**: states that 68% of the data under the standard normal distribution falls within 1 standard deviation above and below the mean,
 95% within 2 standard deviations, and 99.7% within 3 standard deviations.
 :::
+
+#### Inflection Points Visualized
+
+![Curve](/img/statistical-inference-plots/inflection-points.png)
+
+As you can see, the inflection points on a bell curve occur at 1 and -1.
 
 ---
 
