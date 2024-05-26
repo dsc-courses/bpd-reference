@@ -3,13 +3,12 @@ sidebar_position: 8
 sidebar_label: Boostrapping and Confidence Intervals
 title: Bootstrapping and Confidence Intervals
 tags: 
-  - querying 
-  - functions
   - for-loop 
   - histogram
 ---
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
+import GoogleSlides from '@site/components/GoogleSlides.jsx';
 
 ## Concept
 
@@ -29,129 +28,125 @@ distribution of the sample statistic. It answers the question how different the 
 in our confidence interval, we have evidence to reject the null.
 
 
-**Confidence Intervals:** 
-
-<!-- 1. Shuffle the group labels (i.e. the Trues and Falses) to generate two new samples under the null.
-2. Compute the test statistic (i.e. the difference in group means).
-3. Repeat steps 1 and 2 to generate an empirical distribution of the test statistics (i.e. the difference in group means).
-4. See where the observed statistic lies in the empirical distribution. If, in our simulations, we rarely saw a difference in group means as extreme as the observed difference in group means, we have evidence to reject the null. -->
+**Confidence Intervals:** A confidence interval is a range that captures most of the distribution of the bootstrapped sample statistic in 
+the hopes of also containing the true population parameter within it. If 
+we were to construct a 95% confidence interval, we aren't saying that there is a 95% chance that the true population parameter lies in the 
+interval as the interval either contains it or it doesn't. Instead, we are saying that approximately 95% of the time, the intervals you 
+create will contain the true population parameter. For example, if we generated 100 confidence intervals, about 95 of them will have the 
+true population parameter.
 :::
 
 :::note
-When resampling, make sure that you do it with replacement.
+When resampling, the size of the resample should be the same as the original sample with replacement.
 :::
 
-The diagram below provides an overview of conducting a permutation test, although it references a different dataset. [Here](https://www.jwilber.me/permutationtest/) is another useful visualization. For additional helpful visual guides, please visit the [Diagrams](https://dsc10.com/diagrams/) site.
+The diagram below provides an overview of conducting bootstrapping, although it references a different dataset. For additional helpful visual guides, please visit the [Diagrams](https://dsc10.com/diagrams/) site.
+
+<GoogleSlides
+src="https://docs.google.com/presentation/d/e/2PACX-1vSovXDonR6EmjrT45h4pY1mwmcKFMWVSdgpbKHC5HNTm9sbG7dojvvCDEQCjuk2dk1oA4gmwMogr8ZL/embed?start=true&loop=false&delayms=3000&rm=minimal"
+sourceLink="https://docs.google.com/presentation/d/1oYakqMdI7z61BthvgWUJvbT21bKTXg01KmAibglepBI/edit?usp=sharing"
+/>
 
 ---
 ## Code Example
 
-### 1. State the question/hypothesis
+### 1. Take a random sample of size 12 from the `full_pets` DataFrame.
 
-:::info Hypotheses
-Our pair of hypotheses is:
-* **Null Hypothesis:** The mean weights of dogs and cats are the *same*.
-* **Alternative Hypothesis:** The mean weights of dogs and cats are *different*.
-:::
+Let's say we didn't have access to all of the information in the `full_pets` DataFrame and were only able to collect a sample of 12 pets.
 
-Since the alternative hypothesis is of the form "A and B are different," the **test statistic** should measure distance and use an absolute value.
+```python
+# Magic to ensure that we get the same results every time this code is run. 
+np.random.seed(42)
 
-$\therefore$ Use **absolute difference in group means** as the test statistic.
+# sample
+pets_sample = full_pets.sample(12, replace=False)
+pets_sample
+```
+
+<DataFrameComponent data={'{"columns":["Unnamed: 0","ID","Species","Color","Weight","Age","Is_Cat","Owner_Comment"],"index":[18,14,4,13,10,7,6,3,2,15,17,8],"data":[[18,"cat_006","cat","black",3.0,0.5,true,"No, thank you!"],[14,"dog_007","dog","white",50.0,6.1,false,"No, thank you!"],[4,"dog_003","dog","black",25.0,0.5,false,"Be the person your dog thinks you are."],[13,"ham_003","hamster","black",0.5,0.1,false,"No, thank you!"],[10,"dog_006","dog","golden",35.0,4.0,false,"No, thank you!"],[7,"cat_003","cat","black",10.0,0.0,true,"No, thank you!"],[6,"ham_002","hamster","golden",0.25,0.2,false,"No, thank you!"],[3,"dog_002","dog","white",80.0,2.0,false,"Love is a wet nose and a wagging tail."],[2,"cat_002","cat","black",15.0,9.0,true,"****All you need is love and a cat.****"],[15,"ham_004","hamster","golden",0.25,0.2,false,"No, thank you!"],[17,"dog_009","dog","white",30.0,4.8,false,"No, thank you!"],[8,"dog_004","dog","black",45.0,6.7,false,"No, thank you!"]]}'} />
 
 ---
 
-### 2. Query the DataFrame
+### 2. Find the observed parameter
 
-Since we want to compare the distributions of only cats and dogs, we need to make sure to only include the relevant pieces of data (e.g., cats and dogs weights).
+In this case, we are interested in finding the median weight of the entire population.
 
 ```python
-# Create a boolean Series that references which rows fulfill either condition.
-querying_condition = (full_pets.get('Species') == 'dog') | (full_pets.get('Species') == 'cat')
-# Query.
-cats_dogs = full_pets[querying_condition]
-# Display the first 5 rows only.
-cats_dogs.take(np.arange(5)) 
+pets_sample = full_pets.sample(12, replace=False)
+print('Median of pets_sample weight:', pets_sample.get('Weight').median())
 ```
 
-<DataFrameComponent data={'{"columns":["ID","Species","Color","Weight","Age","Is_Cat","Owner_Comment"],"index":[0,1,2,3,4],"data":[["dog_001","dog","black",40.0,5.0,false,"      There are no bad dogs, only bad owners."],["cat_001","cat","golden",1.5,0.2,true,"My best birthday present ever!!!"],["cat_002","cat","black",15.0,9.0,true,"****All you need is love and a cat.****"],["dog_002","dog","white",80.0,2.0,false,"Love is a wet nose and a wagging tail."],["dog_003","dog","black",25.0,0.5,false,"Be the person your dog thinks you are."]]}'} />
+Median of pets_sample weight: 20.0
 
 ---
 
-### 3. Create a function to calculate test statistic
+### 3. Bootstrap the sample 10,000 times with replacement
 
-Since our hypotheses depend on the test statistic, create a function to be able to calculate it during every trial of our permutation test.
+Since we were only able to collect one random sample from the full population, we can't be sure if this singular guess predicts the 
+true population parameter well. We can't go out and collect 
+another random sample, so we will create bootstrap samples with replacement to simulate what could've been.
 
 ```python
-def difference_in_means(cats_dogs):
-    """
-    Calculate the absolute difference in the mean weight of dogs and cats.
-    ---
-    Input:
-      cats_dogs: a DataFrame containing the columns 'Species' and 'Weight'.
-    ---
-    Output:
-        The absolute difference in the mean weight of dogs and cats.
-    """
-    means = cats_dogs.groupby('Species').mean()
-    return np.abs((means.get('Weight').loc['dog'] - means.get('Weight').loc['cat']))
+boot_medians = np.array([])
+for i in np.arange(10000):
+    # 1. resample the data
+    resample = pets_sample.sample(pets_sample.shape[0], replace=True)
+
+    # 2. calculate the median of the resample
+    boot_median = resample.get('Weight').median()
+
+    # 3. append the median to the array
+    boot_medians = np.append(boot_medians, boot_median)
 ```
 
-*Note: Although we can simply do this in the for-loop shown in the next step, we can practice good coding habits by separating our code into readable bits!*
+This code will create 10,000 bootstrap samples and calculate the median for each of these samples, but a different 
+reasonable number can be used instead. Since these samples are all random, the information in each sample and each 
+median will be different from one another.
 
 ---
 
-### 4. Simulate the permutation test
+### 4. Create a 95% confidence interval
+Instead of using a single number to estimate the true population parameter, we create a range of where we think it is.
 
 ```python
-n = 500 # Number of simulations.
-statistics = np.array([]) # Array to keep track of the difference in means for each iteration.
-for i in np.arange(n): # Run the simulation `n` number of times
-    # 1. Shuffle the species.
-    shuffled = cats_dogs.assign(Species=np.random.permutation(cats_dogs.get('Species')))
-
-    # 2. Compute the test statistic.
-    statistic = difference_in_means(shuffled)
-
-    # 3. Save the result.
-    statistics = np.append(statistics, statistic)
+# Get the 95% confidence interval
+left = np.percentile(boot_medians, 2.5) # 2.5th percentile
+right = np.percentile(boot_medians, 97.5) # 97.5th percentile
 ```
 
-This code will run the permutation test 500 times, but a different reasonable number can be used instead. It is **crucial** to keep track of the difference in means each time our for-loop runs so that the number of simulated values can be displayed. 
+Remember that the 95% confidence interval does not mean we have a 95% chance of containing the true population parameter. Instead, it means 
+that about 95% of all intervals we create will contain the true population parameter.
 
 ---
 
 ### 5. Conclusion
 
 ```python
-observed = difference_in_means(cats_dogs)
-p_value = np.count_nonzero(statistics >= observed) / n
-
-print("The observed value of the test statistic is:", observed)
-print("The p-value is:", p_value)
+left, right
 ```
-**The observed value of the test statistic is: 30.361111111111107** <br />
-**The p-value is: 0.004**
 
-Using a significance level of 0.05:
+(1.75, 40.0)
 
 :::info Conclusion
-* Under the null hypothesis, we rarely see a difference greater than the observed value.
-* Therefore, we **reject** the null hypothesis: the evidence implies that the two groups do not come from the same distribution.
-* Still, we cannot conclude that species causes a different weight because there may be other confounding variables.
+* From this interval, we are 95% confident that the true population median lies somewhere between 1.75 and 40.
+* We have now way of knowing where exactly in this interval does the true population median falls or even if it is contained at all.
+* What we do know is that if we were to repeating the process and generate multiple confidence intervals, roughly 95% of them will 
+contain the true population median.
 :::
 
 ---
 
 ### 6. Extra
 
-Let's see how our observed statistic compares to the overall simulated values!
+Let's look at the distribution of the bootstrapped medians!
 
 ```python
 # Create the histogram.
-bpd.DataFrame().assign(statistics=statistics).plot(kind='hist', bins=20, density=True, ec='w')
-# Don't worry about this line - you won't need to know it for this course!
-plt.axvline(x=observed, c='black', linewidth=4, label='population difference in means')
+# Plot the histogram of boot_medians
+plt.hist(boot_medians, bins=20, density=True, ec = 'w')
+
+plt.show()
 ```
 ![Distribution](/img/statistical-inference-plots/permutation-test.png)
 
-From this graph, we can tell that there is barely any data to the **right** of the black vertical line (our test statistic), meaning we have a very low p-value!
+A 95% confidence level means that **approximately 95% of the time, the intervals you create through this process will contain the true population parameter**.
