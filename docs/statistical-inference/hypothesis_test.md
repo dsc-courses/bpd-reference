@@ -34,17 +34,17 @@ To conduct a hypothesis test:
 
 :::info Hypotheses
 We will test the following pair of hypotheses at the standard p = 0.05 significance level.
-* **Null Hypothesis:**  The proportion of "white" dogs among all dogs is equal to the proportion of "white" pets in the overall population.
-* **Alternative Hypothesis:** The distribution of "white" dogs among all dogs is greater than the proportion of "white" pets in the overall population.
+* **Null Hypothesis:**  The proportion of "white" dogs among all dogs is **equal** to the proportion of "white" pets in the overall population.
+* **Alternative Hypothesis:** The distribution of "white" dogs among all dogs is **greater than** the proportion of "white" pets in the overall population.
 :::
 
-Since the alternative hypothesis is of the form "A is **_greater than_** B," the **test statistic** should measure signed difference rather than absolute difference.
+Since the alternative hypothesis is of the form "A is **_greater than_** B," the **test statistic** should measure **signed difference** rather than absolute difference.
 
 $\therefore$ We use **the difference in proportions** of white dogs among all dogs and white pets in the overall poplulation as the test statistic.
 
 ---
 
-### 2. Calculate Overall Proportion
+### 2. Calculate the overall proportion
 
 We first compute the proportion of white pets in the overall population, which will be used for calculating the test statistic.
 
@@ -104,9 +104,9 @@ observed_stat
 n = 500 # Number of simulations.
 test_statistics = np.array([]) # Array to keep track of the test statistic for each iteration.
 for i in np.arange(n): # Run the simulation `n` number of times
-    # 1. Simulate the hamster distribution
+    # 1. Simulate the dogs distribution
     
-    # Calculte the smaple size (number of hamsters)
+    # Calculte the smaple size (number of dogs)
     sample_size = dogs_df.shape[0]
     
     # Proportion of "white" dogs among dogs is equal to the proportion of white pets among the overall population
@@ -118,7 +118,7 @@ for i in np.arange(n): # Run the simulation `n` number of times
     # 2. Compute the test statistic
     test_stat = difference_in_proportions(simulation_proportion, overall_prop)
 
-    # 3. Save the result.
+    # 3. Save the result
     test_statistics = np.append(test_statistics, test_stat)
 ```
 This code will run the permutation test 500 times, but a different reasonable number can be used instead. It is **crucial** to keep track of the test statistic each time our for-loop runs so that the number of simulated values can be stored.
