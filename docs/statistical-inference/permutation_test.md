@@ -48,14 +48,14 @@ sourceLink="https://docs.google.com/presentation/d/1TTWoQ7FU4tzBGc7EskF6WYccIn1B
 ### 1. State the question/hypothesis
 
 :::info Hypotheses
-Our pair of hypotheses is:
-* **Null Hypothesis:**  In the population, weights of dogs and cats have the same distribution, and the observed differences in our samples are due to random chance. 
-* **Alternative Hypothesis:** In the population, dogs and cats have different weights, on average. The observed differences in our samples cannot be explained by random chance alone. 
+We will test the following pair of hypotheses at the standard p = 0.05 significance level:
+* **Null Hypothesis:**  In the population, weights of dogs and cats have the **same** distribution, and the observed differences in our samples are due to random chance. 
+* **Alternative Hypothesis:** In the population, dogs and cats have **different** weights, on average. The observed differences in our samples cannot be explained by random chance alone. 
 :::
 
 Since the alternative hypothesis is of the form "A and B are different," the **test statistic** should measure distance and use an absolute value.
 
-$\therefore$ Use **absolute difference in group means** as the test statistic.
+$\therefore$ We use **absolute difference in group means** as the test statistic.
 
 ---
 

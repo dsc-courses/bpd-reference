@@ -33,7 +33,7 @@ import GoogleSlides from '@site/components/GoogleSlides.jsx';
 
     ### 3. Total Variation Distance (TVD)
     A test statistic that quantifies how different **two categorical distributions** are by calculating the sum of the absolute differences of their proportions, all divided by 2.
-        - The TVD is not used for permutation tests
+        - ✖️ The TVD is not used for permutation tests
         - ✅ Used for assessing whether an "observed sample" was drawn randomly from a known **categorical distribution**:
 :::note
 **3 Ways of Computing TVD** 🧮

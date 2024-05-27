@@ -33,10 +33,14 @@ To conduct a hypothesis test:
 ### 1. State the question/hypothesis
 
 :::info Hypotheses
-Our pair of hypotheses is:
-* **Null Hypothesis:** 
-* **Alternative Hypothesis:** 
+We will test the following pair of hypotheses at the standard p = 0.05 significance level.
+* **Null Hypothesis:**  The proportion of "golden" hamsters is equal to the proportion of "golden" pets in the overall population.
+* **Alternative Hypothesis:** The distribution of "golden" characters among hamsters is greater than the proportion of "golden" pets in the overall population.
 :::
+
+Since the alternative hypothesis is of the form "A is greater than B," the **test statistic** should measure signed difference rather than absolute difference.
+
+$\therefore$ We use **the difference in proportions** of golden hamsters and golden pets in the overall population as the test statistic.
 
 ---
 
