@@ -34,13 +34,13 @@ To conduct a hypothesis test:
 
 :::info Hypotheses
 We will test the following pair of hypotheses at the standard p = 0.05 significance level.
-* **Null Hypothesis:**  The proportion of "white" dogs among all dogs is **equal** to the proportion of "white" pets in the overall population.
-* **Alternative Hypothesis:** The distribution of "white" dogs among all dogs is **greater than** the proportion of "white" pets in the overall population.
+* **Null Hypothesis:**  The proportion of "white" dogs among dogs is **equal** to the proportion of "white" pets in the overall population.
+* **Alternative Hypothesis:** The distribution of "white" dogs among dogs is **greater than** the proportion of "white" pets in the overall population.
 :::
 
 Since the alternative hypothesis is of the form "A is **_greater than_** B," the **test statistic** should measure **signed difference** rather than absolute difference.
 
-$\therefore$ We use **the difference in proportions** of white dogs among all dogs and white pets in the overall poplulation as the test statistic.
+$\therefore$ We use **the difference in proportions** of white dogs among dogs and white pets in the overall poplulation as the test statistic.
 
 ---
 
@@ -68,10 +68,10 @@ Create a function to calculate the test statistic during every trial of our hypo
 ```python
 def difference_in_proportions(dogs_prop, overall_prop):
     """
-    Calculate the difference in proportions of golden hamsters and golden pets in the overall population.
+    Calculate the difference in proportions of white dogs among dogs and white pets in the overall population.
     ---
     Input:
-        hamsters_prop: the proportion of white dogs among all dogs.
+        dogs_prop: the proportion of white dogs among all dogs.
         overall_prop: the proportion of white pets in the overall population.
     ---
     Output:
@@ -109,7 +109,7 @@ for i in np.arange(n): # Run the simulation `n` number of times
     # Calculte the smaple size (number of dogs)
     sample_size = dogs_df.shape[0]
     
-    # Proportion of "white" dogs among dogs is equal to the proportion of white pets among the overall population
+    # Under the null hypothesis, proportion of "white" dogs among dogs is equal to the proportion of white pets among the overall population
     model_proportions = np.array([obs_dogs_prop, 1-obs_dogs_prop]) 
     
     # Calculate the the proportion of white dogs among all dogs.
