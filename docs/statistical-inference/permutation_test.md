@@ -153,4 +153,4 @@ plt.axvline(x=observed, c='black', linewidth=4, label='population difference in 
 ```
 ![Distribution](/img/statistical-inference-plots/permutation-test.png)
 
-From this graph, we can tell that there is barely any data to the **right** of the black vertical line (our test statistic), meaning we have a very low p-value!
+From this graph, we can tell that there is barely any data to the **right** of the black vertical line (our observed test statistic), meaning we have a very low p-value!
