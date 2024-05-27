@@ -86,7 +86,7 @@ def difference_in_means(cats_dogs):
     Calculate the absolute difference in the mean weight of dogs and cats.
     ---
     Input:
-      cats_dogs: a DataFrame containing the columns 'Species' and 'Weight'.
+        cats_dogs: a DataFrame containing the columns 'Species' and 'Weight'.
     ---
     Output:
         The absolute difference in the mean weight of dogs and cats.
