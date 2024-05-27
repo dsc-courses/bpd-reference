@@ -49,8 +49,8 @@ sourceLink="https://docs.google.com/presentation/d/1TTWoQ7FU4tzBGc7EskF6WYccIn1B
 
 :::info Hypotheses
 Our pair of hypotheses is:
-* **Null Hypothesis:** The mean weights of dogs and cats are the *same*.
-* **Alternative Hypothesis:** The mean weights of dogs and cats are *different*.
+* **Null Hypothesis:**  In the population, weights of dogs and cats have the same distribution, and the observed differences in our samples are due to random chance. 
+* **Alternative Hypothesis:** In the population, dogs and cats have different weights, on average. The observed differences in our samples cannot be explained by random chance alone. 
 :::
 
 Since the alternative hypothesis is of the form "A and B are different," the **test statistic** should measure distance and use an absolute value.

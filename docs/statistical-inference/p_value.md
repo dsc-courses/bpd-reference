@@ -14,10 +14,10 @@ import GoogleSlides from '@site/components/GoogleSlides.jsx';
 :::
 
 ## Result Interpretation
-    - If the p-value is sufficiently large, we say the data is consistent with the null hypothesis and so we "**fail to reject the null hypothesis**".
-    - If the p-value is below some cutoff, we say the data is inconsistent with the null hypothesis, and we "**reject the null hypothesis**".
-        - If a p-value is less than 0.05, the result is said to be **statistically significant**.
-        - If a p-value is less than 0.01, the result is said to be **highly statistically significant**.
+- If the p-value is sufficiently large, we say the data is consistent with the null hypothesis and so we "**fail to reject the null hypothesis**".
+- If the p-value is below some cutoff, we say the data is inconsistent with the null hypothesis, and we "**reject the null hypothesis**".
+    - If a p-value is less than 0.05, the result is said to be **statistically significant**.
+    - If a p-value is less than 0.01, the result is said to be **highly statistically significant**.
 
 ## Histogram Visualization
  p-values correspond to the "tail areas" of a histogram, starting at the observed statistic. (to do: add a diagram)
