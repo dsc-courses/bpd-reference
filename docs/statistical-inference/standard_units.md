@@ -3,7 +3,9 @@ sidebar_position: 7
 sidebar_label: Standard Units, Correlation, Regression
 title: Standard Units, Correlation, Regression
 tags: 
-  - querying
+  - standard units
+  - correlation
+  - regression
 ---
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
@@ -16,7 +18,7 @@ We use regression to make predictions about the data (based on the correlation b
 :::
 
 :::info Terminology
-**Association:** Any relationship or link between two variables in a scatter plot
+**Association:** Any relationship or link between two variables in a scatter plot.
 - Positive association: as one variable increases, the other tends to increase.
 - Negative association: as one variable increases, the other tends to decrease.
 
@@ -151,4 +153,28 @@ plt.scatter(x=full_pets.get('Age'), y=full_pets.get('Weight'))
 plt.plot(full_pets.get('Age'), all_predictions, color='red')
 # or plt.plot(full_pets.get('Age'), predict_weight(), color='red')
 ```
-![Distribution](/img/statistical-inference-plots/regression.png)
+![Regression](/img/statistical-inference-plots/regression.png)
+
+---
+## Residuals
+
+:::tip Key Idea
+If there is no pattern in a residual plot (patternless "cloud"), the regression line is a good linear fit.
+:::
+
+:::info Terminology
+**Errors:** Difference between the actual and predicted values.
+- $$\textnormal{error} = \textnormal{actual } y - \textnormal{predicted } y$$
+- Any set of predictions have errors.
+
+**Residuals**: Errors when using a regression line.
+- $$\textnormal{residual} = \textnormal{actual } y - \textnormal{predicted } y \textnormal{ by regression line}$$
+- There is one residual corresponding to each data point $(x, y)$ in the dataset.
+
+**Residual plots**: The scatter plot with the $x$ variable on the $x$-axis and residuals on the $y$-axis.
+- Residual plots describe how the error in the regression line's predictions varies.
+- The correlation $r$ does not tell the full story.
+:::
+
+#### Patternless "cloud" example from Anscombe's quartet:
+![Residuals](/img/statistical-inference-plots/residuals.png)
