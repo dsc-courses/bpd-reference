@@ -16,8 +16,7 @@ import '@site/src/css/function.css';
     <dl>
         <!-- Input -->
         <dt className='term'>Input:</dt>
-        <dd className='parameter'>arr</dd>
-        <dd className='parameter-description'><em>array, list, or integer</em></dd>
+        <dd className='parameter'>arr: <em>array, list, or integer</em></dd>
         <dd className='parameter-description'>If array or list, `np.random.choice` will sample from those elements. If integer (e.g. 5), `np.random.choice` will sample from `np.arange(5)` (aka `array([0, 1, 2, 3, 4])`).</dd>
         <dd className='parameter'>size : <em>integer, default 1</em></dd>
         <dd className='parameter-description'>Number of random samples to draw.</dd>

@@ -15,7 +15,7 @@ import '@site/src/css/function.css';
     <dl>
         <dt className='term'>Input:</dt>
         <dd className='parameter'>arr : <em>array, list, or integer</em></dd>
-        <dd className='parameter-description'>If array or list, randomly reorder array or list. If integer (e.g. 5), randonly reorder `np.arange(5)` (aka `array([0, 1, 2, 3, 4])`).</dd>
+        <dd className='parameter-description'>If array or list, randomly reorder array or list. If integer (e.g. 5), randomly reorder `np.arange(5)` (aka `np.array([0, 1, 2, 3, 4])`).</dd>
         <dt className='term'>Returns:</dt>
         <dd>Shuffled/reordered array</dd>
         <dt className='term'>Return Type:</dt>

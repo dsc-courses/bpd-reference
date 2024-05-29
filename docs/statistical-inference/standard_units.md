@@ -41,7 +41,9 @@ $$x_{i(su)}=\dfrac{x_{i}-\textnormal{mean of $x$}}{\textnormal{SD of $x$}}$$
 
 ```python
 def standard_units(col):
-    "Standardizes the units of a column."
+    """
+    Standardizes the units of a column.
+    """
     return (col - col.mean()) / np.std(col)
 ```
 
@@ -59,8 +61,10 @@ $$\textnormal{predicted y}_{i(su)} = r\cdot x_{i(su)} $$
 
 ```python
 def calculate_r(df, x, y):
-    '''Returns the average value of the product of x and y, 
-       when both are measured in standard units.'''
+    """
+    Returns the average value of the product of x and y, 
+    when both are measured in standard units.
+    """
     x_su = standard_units(df.get(x))
     y_su = standard_units(df.get(y))
     return (x_su * y_su).mean()
@@ -78,18 +82,22 @@ Re-arranged to the form $\textnormal{predicted } y = mx + b$
 - $$b = \textnormal{mean of } y - (m \cdot \textnormal{mean of } x)$$
 
 :::note
-- $r$, mean of x, mean of y, SD of x, and SD of y are constants
-- if you have a DataFrame with two columns, you can determine all 5 values
+- $r$, mean of x, mean of y, SD of x, and SD of y are constants.
+- if you have a DataFrame with two columns, you can determine all 5 values.
 :::
 
 ```python
 def slope(df, x, y):
-    "Returns the slope of the regression line between columns x and y in df (in original units)."
+    """
+    Returns the slope of the regression line between columns x and y in df (in original units).
+    """
     r = calculate_r(df, x, y)
     return r * np.std(df.get(y)) / np.std(df.get(x))
 
 def intercept(df, x, y):
-    "Returns the intercept of the regression line between columns x and y in df (in original units)."
+    """
+    Returns the intercept of the regression line between columns x and y in df (in original units).
+    """
     return df.get(y).mean() - slope(df, x, y) * df.get(x).mean()
 ```
 
@@ -98,7 +106,7 @@ def intercept(df, x, y):
 Predicting pet weight using the regression line of the <code>Age</code> and <code>Weight</code> columns.
 
 ### Method 1: Using SD and Mean
-**Convert** <code>Age</code> **values into standard units, find SD and mean of** <code>Weight</code>
+**Convert** <code>Age</code> **values into standard units, find SD and mean of** <code>Weight</code>.
 ```python
 x_su = standard_units(full_pets.get('Age')) # series of floats ('Age' values in standard units)
 y_sd = np.std(full_pets.get('Weight'))
@@ -107,7 +115,7 @@ y_mean = full_pets.get('Weight').mean()
 print("SD of y:", y_sd)
 print("Mean of y:", y_mean)
 ```
-**Plug into** $$\textnormal{predicted y}_{i(su)} = r\cdot x_{i(su)} $$ **and convert to original units**
+**Plug into** $$\textnormal{predicted y}_{i(su)} = r\cdot x_{i(su)} $$ **and convert to original units.**
 
 ```python
 def predict_weight():
@@ -118,7 +126,7 @@ def predict_weight():
 **This function returns an array of predicted** <code>Weight</code> **values.**
 
 ### Method 2: Slope-intercept Form
-**Calculate the correlation coefficient, slope, and intercept of the regression line**
+**Calculate the correlation coefficient, slope, and intercept of the regression line.**
 ```python
 r = calculate_r(full_pets, 'Age', 'Weight')
 m = slope(full_pets, 'Age', 'Weight')
