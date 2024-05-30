@@ -18,6 +18,8 @@ export default function HomepageFeatures() {
                 </p>
                 <div className={styles.imageContainer}>
                     <img src="img/dsc10graph.png" alt="DSC 10 Chart" className={styles.image}/>
+                    <a href="https://coursegrapher.app/" className={styles.link} target="_blank"
+                       rel="noopener noreferrer">Course Grapher</a>
                 </div>
             </div>
         </section>
