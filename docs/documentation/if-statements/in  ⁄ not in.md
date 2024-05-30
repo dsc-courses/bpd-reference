@@ -24,7 +24,7 @@ import '@site/src/css/function.css';
         <dd className='parameter-description'>Checks if object is not a member of a sequence</dd>
 
         <dt className='term'>Returns:</dt>
-        <dd>True or False</dd>
+        <dd>True or False.</dd>
 
         <dt className='term'>Return Type:</dt>
         <dd>Boolean</dd>

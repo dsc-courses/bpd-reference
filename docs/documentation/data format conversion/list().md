@@ -14,7 +14,7 @@ import '@site/src/css/function.css';
     <dl>
         <dt className='term'>Input:</dt>
         <dd className='parameter'>arr : <em>array</em></dd>
-        <dd className='parameter-description'>Array that you want to cast into a list</dd>
+        <dd className='parameter-description'>Array that you want to cast into a list.</dd>
 
         <dt className='term'>Returns:</dt>
         <dd>new_list - A new list that contains every element from the array, in list form.</dd>

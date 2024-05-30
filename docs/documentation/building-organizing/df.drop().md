@@ -14,7 +14,7 @@ import '@site/src/css/function.css';
     <dl>
         <dt className='term'>Input:</dt>
         <dd className='parameter'>columns : <em>string or list</em></dd>
-        <dd className='parameter-description'>column name(s) to drop.</dd>
+        <dd className='parameter-description'>Column name(s) to drop.</dd>
 
         <dt className='term'>Returns:</dt>
         <dd>df_without_cols - A new DataFrame without the column(s) specified in the method</dd>

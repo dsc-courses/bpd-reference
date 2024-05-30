@@ -18,7 +18,6 @@ import GoogleSlides from '@site/components/GoogleSlides.jsx';
     1. The coin is not fair (the probability of tossing a head is not equal to 0.5).
     2. The coin is biased towards heads (the probability of tossing a head is greater then 0.5).
     3. The coin is biased towards tails (the probability of tossing a head is less then 0.5).
-
 :::
 
 :::note 

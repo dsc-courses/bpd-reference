@@ -13,7 +13,7 @@ import '@site/src/css/function.css';
 
     <dl>
         <dt className='term'>Returns:</dt>
-        <dd>a tuple representing the dimensionality of the DataFrame.</dd>
+        <dd>A tuple representing the dimensionality of the DataFrame.</dd>
 
         <dt className='term'>Return Type:</dt>
         <dd>Tuple</dd>

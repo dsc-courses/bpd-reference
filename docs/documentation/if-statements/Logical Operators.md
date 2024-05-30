@@ -27,7 +27,7 @@ import '@site/src/css/function.css';
         <dd className='parameter-description'>If the reverse of the condition is satisfied, the if body is executed.</dd>
 
         <dt className='term'>Returns:</dt>
-        <dd>True or False</dd>
+        <dd>True or False.</dd>
 
         <dt className='term'>Return Type:</dt>
         <dd>Boolean</dd>

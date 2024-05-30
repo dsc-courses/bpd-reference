@@ -23,7 +23,7 @@ We use regression to make predictions about the data (based on the correlation b
 - Negative association: as one variable increases, the other tends to decrease.
 
 **Correlation coefficient $r$**: The correlation coefficient, $r$, of two variables $x$ and $y$ measures the strength of the linear association between them (how clustered points are around a straight line).
-- $r$ is always between -1 and 1
+- $r$ is always between -1 and 1.
 :::
 
 ---
@@ -35,8 +35,8 @@ Standardize your units to compare two variables with different units (ex. height
 $$x_{i(su)}=\dfrac{x_{i}-\textnormal{mean of $x$}}{\textnormal{SD of $x$}}$$
 
 :::note[variables]
-- **$$x_{i}$$** = value (in original units) from column x
-- **$$x_{i(su)}$$** = value of $x_{i}$ converted to standard units
+- **$$x_{i}$$** = value (in original units) from column x.
+- **$$x_{i(su)}$$** = value of $x_{i}$ converted to standard units.
 :::
 
 ```python
@@ -55,8 +55,8 @@ A line used to make **predictions** about the value of y based on the correlatio
 $$\textnormal{predicted y}_{i(su)} = r\cdot x_{i(su)} $$
 
 :::note[variables]
-- **$$x_{i(su)}$$** = value of $x_{i}$ converted to standard units
-- **$r$** = correlation coefficient, the strength of the linear association between $x$ and $y$
+- **$$x_{i(su)}$$** = value of $x_{i}$ converted to standard units.
+- **$r$** = correlation coefficient, the strength of the linear association between $x$ and $y$.
 :::
 
 ```python

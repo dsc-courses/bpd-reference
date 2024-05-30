@@ -9,7 +9,7 @@ import '@site/src/css/function.css';
 <code>df.assign(name_of_column=column_data)</code>
 
 <div className='base'>
-    <p><strong>Adds/replaces a column. name_of_column should not have quotes or spaces.</strong></p>
+    <p><strong>Adds/replaces a column. `name_of_column` should not have quotes or spaces.</strong></p>
     
     <dl>
         <dt className='term'>Input:</dt>

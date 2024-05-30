@@ -9,14 +9,14 @@ import '@site/src/css/function.css';
 <code>df.sort_values(by=column_name, ascending=True)</code>
 
 <div className='base'>
-    <p><strong>Sorts the entire DataFrame in ascending order by the values in the column. `ascending` can be omitted, as it's default value is `True`</strong></p>
+    <p><strong>Sorts the entire DataFrame in ascending order by the values in the column. `ascending` can be omitted, as it's default value is `True`</strong>.</p>
     
     <dl>
         <dt className='term'>Input:</dt>
         <dd className='parameter'>column_name : <em>string</em></dd>
-        <dd className='parameter-description'>column name to sort by.</dd>
+        <dd className='parameter-description'>Column name to sort by.</dd>
         <dd className='parameter'>ascending : <em>boolean, default 'True'</em></dd>
-        <dd className='parameter-description'>sort ascending vs. descending.</dd>
+        <dd className='parameter-description'>Sort ascending vs. descending.</dd>
 
         <dt className='term'>Returns:</dt>
         <dd>df_sorted - A new DataFrame with the specified column sorted in ascending/descending.</dd>

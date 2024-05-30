@@ -13,7 +13,7 @@ import '@site/src/css/function.css';
 
     <dl>
         <dt className='term'>Returns:</dt>
-        <dd>Series or Dataframe with the corresponding key(s)</dd>
+        <dd>Series or Dataframe with the corresponding key(s).</dd>
 
         <dt className='term'>Return Type:</dt>
         <dd>Series or DataFrame</dd>
