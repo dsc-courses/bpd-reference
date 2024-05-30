@@ -26,10 +26,10 @@ import '@site/src/css/function.css';
         <dd className='parameter-description'>Probabilities corresponding with each element in `arr`.</dd>
         <!-- Returns -->
         <dt className='term'>Returns:</dt>
-        <dd>Generated random samples</dd>
+        <dd>Generated random samples.</dd>
         <!-- Return Type -->
         <dt className='term'>Return Type:</dt>
-        <dd>integer or array</dd>
+        <dd>Integer or Array</dd>
         <dt className='term'>Note:</dt>
         <dd>
             <ul>
