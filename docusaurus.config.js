@@ -11,7 +11,7 @@ import rehypeKatex from 'rehype-katex';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'bpd',
-  tagline: 'dsc10 ❤️ bpd',
+  tagline: 'DSC 10 ❤️ bpd',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here

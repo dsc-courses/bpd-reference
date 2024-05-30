@@ -1,7 +1,22 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 
-function GoogleSlides({ src, sourceLink, width = "100%", height = "100%", paddingBottom = "56.25%" }) {
+function GoogleSlides({ src, sourceLink, aspectRatio = 16 / 9 }) {
     const [key, setKey] = useState(0); // Use key to force re-render
+    const [height, setHeight] = useState(0);
+    const containerRef = useRef(null);
+
+    useEffect(() => {
+        const handleResize = () => {
+            if (containerRef.current) {
+                const width = containerRef.current.offsetWidth;
+                setHeight(width / aspectRatio);
+            }
+        };
+
+        handleResize(); // Call initially to set the correct height
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, [aspectRatio]);
 
     const restartPresentation = () => {
         setKey(prevKey => prevKey + 1); // Increment key to re-render the iframe
@@ -36,17 +51,14 @@ function GoogleSlides({ src, sourceLink, width = "100%", height = "100%", paddin
 
     return (
         <>
-            <div style={{ position: 'relative', height: '0', paddingBottom, overflow: 'hidden', maxWidth: '100%' }}>
+            <div ref={containerRef} style={{ width: '100%', position: 'relative', maxWidth: '100%', backgroundColor: 'white' }}>
                 <iframe
                     key={key}
                     src={src}
                     style={{
-                        position: 'absolute',
-                        top: 0,
-                        left: 0,
-                        width,
-                        height,
-                        frameBorder: '0',
+                        width: '100%',
+                        height: `${height}px`,
+                        border: '0',
                         allowFullScreen: true
                     }}
                 ></iframe>

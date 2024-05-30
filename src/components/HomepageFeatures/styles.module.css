@@ -1,11 +1,45 @@
-.features {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+.container {
+  margin: 2rem auto;
+  max-width: 800px;
 }
 
-.featureSvg {
-  height: 200px;
-  width: 200px;
+.course {
+  display: flex;
+  align-items: baseline; /* Aligns text of different font sizes properly */
+}
+
+.course h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-right: 1rem; /* Adds space between the title and the (4) */
+}
+
+.course p {
+  font-size: 1.2rem;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.description {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+
+.imageContainer {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.code {
+  font-family: 'Courier New', Courier, monospace;
+  padding: 2px 4px;
+  border-radius: 4px;
 }
