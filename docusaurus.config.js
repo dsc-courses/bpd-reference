@@ -79,7 +79,7 @@ const config = {
         logo: {
           alt: 'bpd Logo',
           src: 'img/logo.svg',
-          srcDark: 'img/logo.svg',
+          srcDark: 'img/logo_dark.svg',
         },
         items: [
           {
@@ -145,10 +145,12 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Minchan Kim Built with Docusaurus.`,
       },
+
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+
       algolia: {
         // The application ID provided by Algolia
         appId: 'D5X89Z2PC8',
@@ -160,6 +162,12 @@ const config = {
 
         // Optional: see doc section below
         contextualSearch: true,
+      },
+
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: false,
+        respectPrefersColorScheme: true,
       },
     },
 };
