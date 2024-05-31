@@ -48,7 +48,6 @@ const config = {
           sidebarPath: './sidebars.js',
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
-          // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/dsc-courses/bpd-reference/tree/main/',
@@ -143,7 +142,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Minchan Kim Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} DSC 10 @ UCSD Built with Docusaurus.`,
       },
 
       prism: {
