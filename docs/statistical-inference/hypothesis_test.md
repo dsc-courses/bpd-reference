@@ -28,7 +28,7 @@ To conduct a hypothesis test:
 :::
 
 ---
-## Code Example
+## Code Example 1 (Difference)
 
 ### 1. State the question/hypothesis
 
@@ -98,7 +98,7 @@ observed_stat
 
 ---
 
-### 4. Simulate the hypothesis test under the null hypothesis
+### 5. Simulate the hypothesis test under the null hypothesis
 
 ```python
 n = 500 # Number of simulations.
@@ -125,7 +125,7 @@ This code will run the permutation test 500 times, but a different reasonable nu
 
 ---
 
-### 5. Conclusion
+### 6. Conclusion
 
 ```python
 p_value = np.count_nonzero(test_statistics >= observed_stat) / n
@@ -145,7 +145,7 @@ Using a significance level of 0.05:
 
 ---
 
-### 6. Extra
+### 7. Extra
 
 Let's see how our observed statistic compares to the overall simulated values!
 
@@ -162,3 +162,21 @@ plt.show()
 ![Distribution](/img/statistical-inference-plots/hypothesis-test.png)
 
 From this graph, we can see that more than half of the data are to the **right** of the black vertical line (our observed test statistic), meaning we have a relatively high p-value!
+
+---
+## Code Example 2 (TVD)
+
+### 1. State the question/hypothesis
+
+We found that the color distribution of dogs seems different from that of all pets.
+<DataFrameComponent data={'{"columns":["Pets_Dist","Dogs_Dist"],"index":["black","golden","white"],"data":[[0.53,0.44],[0.21,0.11],[0.26,0.44]]}'} />
+To see whether this difference is due to random chance, we will test the following pair of hypotheses at the standard p = 0.05 significance level.
+
+:::info Hypotheses
+* **Null Hypothesis:**  The color distribution of dogs is the **same as** the color distribution of pets.
+* **Alternative Hypothesis:** The color distribution of dogs is **different from** the color distribution of pets. 
+:::
+
+Since we are comparing two **categorical** distributions, we use Total Variation Distance (TVD) between the two distributions as our **test statistic**.
+
+---

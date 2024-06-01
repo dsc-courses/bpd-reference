@@ -35,14 +35,24 @@ import GoogleSlides from '@site/components/GoogleSlides.jsx';
     A test statistic that quantifies how different **two categorical distributions** are by calculating the sum of the absolute differences of their proportions, all divided by 2.
         - ❌️ The TVD is not used for permutation tests.
         - ✅ Used for assessing whether an "observed sample" was drawn randomly from a known **categorical distribution**.
+
+```python
+#code implementation
+def tvd(dist1, dist2):
+    return np.abs(dist1 - dist2).sum() / 2
+```
+
 :::note
 **3 Ways of Computing TVD:** 🧮\
 *Assume $P_i$ is one distribution and $Q_i$ is the other.*
 1. **Follow the definition:** Calculate the sum of the absolute differences of the two distributions' proportions, all divided by 2. \
 $$\text{TVD}=\frac{1}{2}\sum \mid P_i - Q_i\mid$$
-2. **Sum of positive differences:** Add only the values where one column (distribution) is greater than the other. This essentially sums the excessive probabilities in one distribution over the other. \
+
+2. **Sum of positive differences:** Add only the values where one distribution (e.g. P_i) is greater than the other (e.g. Q_i) . This essentially sums the excessive probabilities in one distribution over the other. \
 $$\text{TVD}=\sum max(P_i-Q_i,0)$$
-3. 
+
+3. **Sum of negative differences:** Add only the absolute values where the selected distribution (e.g. P_i) is less than the other (e.g. Q_i). This essentially sums the deficient probabilities in one distribution relative to the other. \
+$$\text{TVD}=\sum abs(min(P_i-Q_i,0))$$
 :::
 
 
