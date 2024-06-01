@@ -23,38 +23,47 @@ import GoogleSlides from '@site/components/GoogleSlides.jsx';
 :::
 ## Common Test Statistics 🌟
 
-    ### 1. Absolute Difference
+    ### 1. Absolute Difference 
     Absolute difference in group mean/median/number of times a certain event happens.
         - ✅ Used for measuring how different two **numerical distributions** are, and when the alternative hypothesis is **_not equal to_**. For example, "the coin is biased" or "the probability of tossing a head is 0.5".
+        - 💻 [Example](https://dsc-courses.github.io/bpd-reference/docs/statistical-inference/permutation_test#code-example-absolute-difference) of using absolute difference as the test statistic in a permutation test.
 
-    ### 2. Difference
+    ### 2. Difference 
     Difference in group mean/median/number of times a certain event happens.
         - ✅ Used for measuring how different two **numerical distributions** are, and the alternative hypothesis is **_less than_** or **_greater than_**. For example, "the coin is biased towards heads" or "the probability of tossing a head is greater then 0.5".
+        - 💻 [Example](https://dsc-courses.github.io/bpd-reference/docs/statistical-inference/hypothesis_test#code-example-1-difference) of using difference as the test statistic in a hypothesis test.
 
-    ### 3. Total Variation Distance (TVD)
+    ### 3. Total Variation Distance (TVD) 
     A test statistic that quantifies how different **two categorical distributions** are by calculating the sum of the absolute differences of their proportions, all divided by 2.
         - ❌️ The TVD is not used for permutation tests.
         - ✅ Used for assessing whether an "observed sample" was drawn randomly from a known **categorical distribution**.
+        - 💻 [Example](https://dsc-courses.github.io/bpd-reference/docs/statistical-inference/hypothesis_test#code-example-2-tvd) of using TVD as the test statistic in a hypothesis test.
 
 ```python
 #code implementation
 def tvd(dist1, dist2):
+    '''Computes the TVD between two categorical distributions, 
+       assuming the categories appear in the same order.'''
     return np.abs(dist1 - dist2).sum() / 2
 ```
 
 :::note
-**3 Ways of Computing TVD:** 🧮\
+**3 Ways of Manually Computing TVD:** 🧮
+
 to do: use an example
-*Assume $P_i$ is one distribution and $Q_i$ is the other.*
+
+*Assume $P_i$ is one distribution and $Q_i$ is the other, and the categories appear in the same order*
 1. **Follow the definition:** Calculate the sum of the absolute differences of the two distributions' proportions, all divided by 2. \
 $$\text{TVD}=\frac{1}{2}\sum \mid P_i - Q_i\mid$$
 
 2. **Sum of positive differences:** Add only the values where one distribution (e.g. P_i) is greater than the other (e.g. Q_i) . This essentially sums the excessive probabilities in one distribution over the other. \
 $$\text{TVD}=\sum max(P_i-Q_i,0)$$
+
 to do: replace formula with example DataFrame visualization
 
 3. **Sum of negative differences:** Add only the absolute values where the selected distribution (e.g. P_i) is less than the other (e.g. Q_i). This essentially sums the deficient probabilities in one distribution relative to the other. \
-$$\text{TVD}=\sum abs(min(P_i-Q_i,0))$$
+$$\text{TVD}=\sum abs(min(P_i-Q_i,0)) \ \text{or} \ \text{TVD}=\sum max(Q_i-P_i,0)$$
+
 to do: replace formula with example DataFrame visualization
 :::
 

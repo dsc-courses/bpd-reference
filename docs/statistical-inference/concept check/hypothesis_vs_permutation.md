@@ -9,12 +9,12 @@ import GoogleSlides from '@site/components/GoogleSlides.jsx';
 
 ## Difference
 
-**Hypothesis Testing**
+**(Standard) Hypothesis Test** 
 - A **population distribution**.
 - **One** observed **sample**.
 - Answers questions in the form: Does this sample look like it was drawn from the population?
 
-**Permutation Testing**
+**Permutation Test**
 - **No** information about any **population distributions**.
 - **Two** observed **samples**.
 - Answers questions in the form: Do these two samples look like they were drawn from the same population?
