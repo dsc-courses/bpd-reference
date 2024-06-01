@@ -37,7 +37,7 @@ import GoogleSlides from '@site/components/GoogleSlides.jsx';
     A test statistic that quantifies how different **two categorical distributions** are by calculating the sum of the absolute differences of their proportions, all divided by 2.
         - ❌️ The TVD is not used for permutation tests.
         - ✅ Used for assessing whether an "observed sample" was drawn randomly from a known **categorical distribution**.
-        - 💻 [Example](https://dsc-courses.github.io/bpd-reference/docs/statistical-inference/hypothesis_test#code-example-2-tvd) of using TVD as the test statistic in a hypothesis test.
+        - 💻 [Example](https://dsc-courses.github.io/bpd-reference/docs/statistical-inference/hypothesis_test/#code-example-2-tvd) of using TVD as the test statistic in a hypothesis test.
 
 ```python
 #code implementation
