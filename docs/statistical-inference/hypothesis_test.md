@@ -199,7 +199,7 @@ def total_variation_distance(dist1, dist2):
 
 ---
 
-### 4. Compute the observed statistic
+### 3. Compute the observed statistic
 
 ```python
 pets_color_dist = np.array([0.53, 0.21, 0.26])
@@ -211,7 +211,7 @@ observed_tvd
 
 ---
 
-### 5. Simulate the hypothesis test under the null hypothesis
+### 4. Simulate the hypothesis test under the null hypothesis
 
 ```python
 n = 5000 # Number of simulations.
@@ -239,7 +239,7 @@ This code will run the hypothesis test 5000 times, but a different reasonable nu
 
 ---
 
-### 6. Conclusion
+### 5. Conclusion
 
 ```python
 p_value = np.count_nonzero(tvds >= observed_tvd) / n
@@ -259,7 +259,7 @@ Using a significance level of 0.05:
 
 ---
 
-### 7. Extra
+### 6. Extra
 
 Let's see how our observed statistic compares to the overall simulated values!
 
