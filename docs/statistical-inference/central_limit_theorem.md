@@ -3,10 +3,8 @@ sidebar_position: 10
 sidebar_label: The Central Limit Theorem
 title: The Central Limit Theorem
 tags: 
-  - querying 
-  - functions
-  - for-loop 
-  - histogram
+  - the standard normal distribution
+  - confidence intervals
 ---
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
@@ -24,18 +22,34 @@ import GoogleSlides from '@site/components/GoogleSlides.jsx';
 
 $$
 \begin{align*}  
-\text{Mean of Distribution of Possible Sample Means} = \text{Population Mean}
-\end{align*}
+\text{Mean of Distribution of Possible Sample Means} 
+&= \text{Population Mean} \\
+&\approx \text{Sample Mean}
+\end{align*} 
 $$
 
-- **Spread:** The distribution's standard deviation will be described by the square root law: 
+- **Spread:** 
+    - The **distribution's standard deviation** will be described by the square root law: 
 
-$$
-\begin{align*} 
-\text{SD of Distribution of Possible Sample Means} &= \frac{\text{Population SD}}{\sqrt{\text{sample size}}} \\
-&\approx \frac{\text{Sample SD}}{\sqrt{\text{sample size}}} 
-\end{align*}
-$$
+    $$
+    \begin{align*} 
+    \text{SD of Distribution of Possible Sample Means} 
+    &= \frac{\text{Population SD}}{\sqrt{\text{sample size}}} \\
+    &\approx \frac{\text{Sample SD}}{\sqrt{\text{sample size}}} 
+    \end{align*}
+    $$
+
+    - A **95%** CLT-based confidence interval for the population mean is given by
+
+    $$
+    \left[\text{sample mean} - 2\cdot \frac{\text{sample SD}}{\sqrt{\text{sample size}}},
+    \text{sample mean} + 2\cdot \frac{\text{sample SD}}{\sqrt{\text{sample size}}}
+    \right]
+    $$
+
+:::note
+We often use the sample mean and SD instead of the population mean and SD, since we have this information for a sample, but not the population.
+:::
 
 The diagram below provides an overview of the Central Limit Theorem, although it references a different dataset. For additional helpful visual guides, please visit the [Diagrams](https://dsc10.com/diagrams/) site.
 
