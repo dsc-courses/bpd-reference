@@ -2,6 +2,9 @@
 sidebar_position: 1
 sidebar_label: Hypothesis Test vs. Permutation Test
 title: Hypothesis Test vs. Permutation Test
+tags: 
+  - hypothesis test
+  - permutation test
 ---
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
