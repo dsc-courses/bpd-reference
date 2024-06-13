@@ -38,7 +38,7 @@ Which test do you choose in each of the following scenarios (Hypothesis Test or 
 **Method 1:**
 Think about whether you need one column or two columns of data to perform the task.
 
-If you only need one column, then it is a hypothesis test. Otherwise, it is a permutation test.
+If you only need one column of data (e.g. Head/Tail), then it is a hypothesis test. If you need two columns (one with labels and one with values), then it is a permutation test.
 
 **Method 2:**
 If you can find the proportion of group B by only knowing the proportion of group A, then it is a hypothesis test. For instance, in the first scenario, since we know that DSC 10 students like either labs or homework, we can calculate the proportion of students who preferred labs by subtracting the proportion of students who preferred homework from the whole proportion (100%).
