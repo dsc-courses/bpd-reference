@@ -50,11 +50,23 @@ def tvd(dist1, dist2):
 :::note
 **3 Ways of Manually Computing TVD:** 🧮
 
-to do: use an example
+Let's use an example to show how TVD can be computed in three ways.
 
-*Assume $P_i$ is one distribution and $Q_i$ is the other, and the categories appear in the same order*
-1. **Follow the definition:** Calculate the sum of the absolute differences of the two distributions' proportions, all divided by 2. \
-$$\text{TVD}=\frac{1}{2}\sum \mid P_i - Q_i\mid$$
+In the `full_pets` DataFrame, we found that the color distribution of dogs seems different from that of all pets.
+
+<DataFrameComponent data={'{"columns":["Pets_Dist","Dogs_Dist"],"index":["black","golden","white"],"data":[[0.53,0.44],[0.21,0.12],[0.26,0.44]]}'} />
+
+*Assume $P$ is one distribution and $Q$ is the other, and the categories appear in the same order.*
+1. **Follow the definition:** Calculate the sum of the absolute differences of the proportions of the two distributions (P and Q), all divided by 2. 
+
+    $$
+    \begin{align*} 
+    \text{TVD}
+    &= \frac{1}{2}(|0.53-0.44|+|0.21-0.12|+|0.26-0.44|) \\
+    &= \frac{1}{2}(0.09+0.09+0.18) \\
+    &= 0.18
+    \end{align*} 
+    $$
 
 2. **Sum of positive differences:** Add only the values where one distribution (e.g. P_i) is greater than the other (e.g. Q_i) . This essentially sums the excessive probabilities in one distribution over the other. \
 $$\text{TVD}=\sum max(P_i-Q_i,0)$$
