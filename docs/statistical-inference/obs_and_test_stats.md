@@ -46,19 +46,28 @@ def tvd(dist1, dist2):
        assuming the categories appear in the same order.'''
     return np.abs(dist1 - dist2).sum() / 2
 ```
-
-:::note
+::::info note
 **3 Ways of Manually Computing TVD:** 🧮
+
+*Assume $P$ is the first distribution and $Q$ is the second distribution, and the categories appear in the same order.*
+
+1. **Follow the Definition:** Calculate the sum of the absolute differences of the proportions of the two distributions $P$ and $Q$, all divided by 2. 
+
+2. **Sum of Positive Differences:** Add only the values where the first distribution $P$ is greater than the second distribution $Q$. This essentially sums the excessive probabilities in one distribution over the other. 
+
+3. **Sum of Negative Differences:** Add only the absolute values where the first distribution $P$ is less than the second distribution $Q$. This can also be interpreted as adding only the values where the second distribution $Q$ is greater than the first distribution $P$.
+
+**Any of the three methods can be the optimal choice depending on specific distributions.**
+
+:::note Example 🌟
 
 Let's use an example to show how TVD can be computed in three ways.
 
-In the `full_pets` DataFrame, we found that the color distribution of dogs seems different from that of all pets.
+In the `full_pets` DataFrame, we found that the color distribution of dogs seems different from that of all pets. Let's compute the TVD between the two distributions `Pets_Dist` and `Dogs_Dist`.
 
 <DataFrameComponent data={'{"columns":["Pets_Dist","Dogs_Dist"],"index":["black","golden","white"],"data":[[0.53,0.44],[0.21,0.12],[0.26,0.44]]}'} />
 
-*Assume $P$ is one distribution and $Q$ is the other, and the categories appear in the same order.*
-1. **Follow the definition:** Calculate the sum of the absolute differences of the proportions of the two distributions (P and Q), all divided by 2. 
-
+**1. Follow the Definition**
     $$
     \begin{align*} 
     \text{TVD}
@@ -68,16 +77,37 @@ In the `full_pets` DataFrame, we found that the color distribution of dogs seems
     \end{align*} 
     $$
 
-2. **Sum of positive differences:** Add only the values where one distribution (e.g. P_i) is greater than the other (e.g. Q_i) . This essentially sums the excessive probabilities in one distribution over the other. \
-$$\text{TVD}=\sum max(P_i-Q_i,0)$$
+**2. Sum of Positive Differences & 3. Sum of Negative Differences**
+![tvd_calculation](/img/statistical-inference-plots/manually_computing_tvd.png)
+Assume `Pets_Dist` is the first distribution $P$, and `Dogs_Dist` is the second distribution $Q$,
 
-to do: replace formula with example DataFrame visualization
+Then, 
 
-3. **Sum of negative differences:** Add only the absolute values where the selected distribution (e.g. P_i) is less than the other (e.g. Q_i). This essentially sums the deficient probabilities in one distribution relative to the other. \
-$$\text{TVD}=\sum abs(min(P_i-Q_i,0)) \ \text{or} \ \text{TVD}=\sum max(Q_i-P_i,0)$$
+$$
+\begin{align*} 
+\text{TVD} 
+&= \text{Sum of positive differences} \\
+&= \text{Adding up the excessive blue bars} \\
+&= (0.53-0.44)+(0.21-0.12) \\   
+&= 0.09+0.09 \\
+&= 0.18
+\end{align*} 
+$$
 
-to do: replace formula with example DataFrame visualization
+$$
+\begin{align*} 
+\text{TVD} 
+&= \text{Sum of negative differences} \\
+&= \text{Adding up the excessive orange bar} \\
+&= |0.26-0.44| \\
+&= 0.18
+\end{align*} 
+$$
+
+In this example, sum of negative differences is the fastest way to compute TVD, but it is not always optimal. Any of the three methods can be the optimal choice depending on specific distributions.
 :::
+::::
+
 
 
 
