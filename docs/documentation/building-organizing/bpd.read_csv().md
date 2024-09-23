@@ -10,7 +10,7 @@ import '@site/src/css/function.css';
 
 <div className='base'>
     <!-- Description -->
-    <p><strong>Read a comma-separated values (csv) file into DataFrame.</strong></p>
+    <p><strong>Reads a CSV (comma-separated values) file into a DataFrame.</strong></p>
     <dl>
         <!-- Input -->
         <dt className='term'>Input:</dt>
