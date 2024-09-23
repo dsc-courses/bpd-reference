@@ -72,7 +72,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     {
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/bpd-reference-social.jpg',
       navbar: {
         title: 'bpd',
         logo: {
@@ -117,8 +117,12 @@ const config = {
             title: 'Course Links',
             items: [
               {
-                label: 'dsc10.com',
+                label: 'Course Site',
                 href: 'https://dsc10.com/',
+              },
+              {
+                label: 'Practice',
+                href: 'https://practice.dsc10.com/',
               },
               {
                 label: 'Edstem',
