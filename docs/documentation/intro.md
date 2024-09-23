@@ -24,7 +24,7 @@ export const Tag = ({children, color}) => (
 
 ---
 
-This section contains common and useful methods in the BabyPandas package. For examples in this section, refer to the `pets` DataFrame. 
+This section contains common and useful methods in the BabyPandas package. For examples in this section, refer to the `pets` DataFrame below. 
 
 ```python
 pets
