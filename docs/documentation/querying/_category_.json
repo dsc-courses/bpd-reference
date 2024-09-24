@@ -1,9 +1,0 @@
-{
-    "label": "Querying",
-    "position": 12,
-    "link": {
-      "type": "generated-index",
-      "description": "Create a new dataframe containing only rows satisfying a condition"
-    }
-}
-  

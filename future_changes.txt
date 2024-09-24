@@ -1,6 +1,0 @@
-Possible/Future Changes:
-1. Use JavaScript plotting libraries to create matplotlib style plots instead of using static images.
-2. Add pandas tutor.
-3. Add tags to every .md page.
-4. Make a "jupyter notebook" environment for students to edit and run.
-5. Feedback button/tab?

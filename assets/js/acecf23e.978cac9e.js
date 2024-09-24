@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbpd_reference=self.webpackChunkbpd_reference||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/bpd-reference/blog","blogTitle":"Blog"}')}}]);
