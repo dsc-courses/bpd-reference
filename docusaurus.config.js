@@ -72,7 +72,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     {
       // Replace with your project's social card
-      image: 'img/bpd-reference-social.jpg',
+      // image: 'img/bpd-reference-social.jpg',
       navbar: {
         title: 'bpd',
         logo: {
