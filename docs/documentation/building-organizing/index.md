@@ -22,7 +22,7 @@ import '@site/src/css/chapters.css';
         [<code>bpd.read_csv</code>](bpd.read_csv())(filepath)
     </div>
     <div className="description">
-        <p>Read a comma-separated values (csv) file into DataFrame.</p>
+        <p>Reads a CSV (comma-separated values) file into a DataFrame.</p>
     </div>
 </div>
 
@@ -40,7 +40,7 @@ import '@site/src/css/chapters.css';
         [<code>df.drop</code>](df.drop())(columns=column_name or [col_1_name, ..., col_k_name])
     </div>
     <div className="description">
-        <p>Drops a single column, or every column in a list of column names.</p>
+        <p>Drops a single column, or every column in a list of column names, from the DataFrame.</p>
     </div>
 </div>
 
@@ -52,7 +52,7 @@ import '@site/src/css/chapters.css';
         [<code>df.set_index</code>](df.set_index())(column_name)
     </div>
     <div className="description">
-        <p>Moves a column to the index.</p>
+        <p>Moves a column to the DataFrame's index.</p>
     </div>
 </div>
 
@@ -64,7 +64,7 @@ import '@site/src/css/chapters.css';
         [<code>df.reset_index</code>](df.reset_index())(drop=False)
     </div>
     <div className="description">
-        <p>Moves a column to the index.</p>
+        <p>Moves the index to a new column and uses the default index instead.</p>
     </div>
 </div>
 
