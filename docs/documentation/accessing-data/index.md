@@ -11,7 +11,7 @@ import '@site/src/css/chapters.css';
         [<code>df.shape</code>](df.shape)
     </div>
     <div className="description">
-        <p>Return a tuple representing the dimensionality of the DataFrame.</p>
+        <p>Returns a tuple representing the dimensions of the DataFrame.</p>
     </div>
 </div>
 
@@ -20,7 +20,7 @@ import '@site/src/css/chapters.css';
         [<code>df.get</code>](df.get())(column_name)
     </div>
     <div className="description">
-        <p>Return column(s) from DataFrame.</p>
+        <p>Returns column(s) from DataFrame.</p>
     </div>
 </div>
 
@@ -29,7 +29,7 @@ import '@site/src/css/chapters.css';
         [<code>ser.loc</code>](ser.loc[])[]
     </div>
     <div className="description">
-        <p>Return element of Series that corresponds to its row label.</p>
+        <p>Returns the element of Series that corresponds to its row label.</p>
     </div>
 </div>
 
@@ -38,7 +38,7 @@ import '@site/src/css/chapters.css';
         [<code>ser.iloc</code>](ser.iloc[])[]
     </div>
     <div className="description">
-        <p>Returns element contained in Series at the given position.</p>
+        <p>Returns the element contained in Series at the given position.</p>
     </div>
 </div>
 
@@ -65,6 +65,6 @@ import '@site/src/css/chapters.css';
         [<code>df.take</code>](df.take())(indices)
     </div>
     <div className="description">
-        <p>Return the elements in the given positional indices.</p>
+        <p>Returns the elements in the given positional indices.</p>
     </div>
 </div>
