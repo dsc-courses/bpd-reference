@@ -9,7 +9,7 @@ import '@site/src/css/function.css';
 <code>arr[index]</code>
 
 <div className='base'>
-    <p><strong>Retrieves the index-th element in `arr`. The first element is arr[0].</strong></p>
+    <p><strong>Retrieves the index-th element in `arr`. The first element is `arr[0]`, the second element is `arr[1]`, and so on.</strong></p>
 
     <dl>
         <dt className='term'>Input:</dt>
