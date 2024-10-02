@@ -9,7 +9,7 @@ import '@site/src/css/function.css';
 <code>df.drop(columns=column_name or [col_1_name, ..., col_k_name])</code>
 
 <div className='base'>
-    <p><strong>Drops a single column, or every column in a list of column names.</strong></p>
+    <p><strong>Drops a single column, or every column in a list of column names, from `df`.</strong></p>
 
     <dl>
         <dt className='term'>Input:</dt>
@@ -17,7 +17,7 @@ import '@site/src/css/function.css';
         <dd className='parameter-description'>Column name(s) to drop.</dd>
 
         <dt className='term'>Returns:</dt>
-        <dd>df_without_cols - A new DataFrame without the column(s) specified in the method</dd>
+        <dd>A new DataFrame without the column(s) specified in `columns`.</dd>
 
         <dt className='term'>Return Type:</dt>
         <dd>DataFrame</dd>

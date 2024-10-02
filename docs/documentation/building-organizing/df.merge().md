@@ -14,20 +14,20 @@ import '@site/src/css/function.css';
         <!-- Parameters -->
         <dt className='term'>Input:</dt>
         <dd className='parameter'>right : <em>DataFrame</em></dd>
-        <dd className='parameter-description'>DataFrame to merge with.</dd>
+        <dd className='parameter-description'>DataFrame to merge `df` with.</dd>
         <dd className='parameter'>on : <em>label or list</em></dd>
         <dd className='parameter-description'>Column or index names to join on.</dd>
         <dd className='parameter'>left_on : <em>label, list, or array-like</em></dd>
-        <dd className='parameter-description'>Column or index names to join on the in the left DataFrame.</dd>
+        <dd className='parameter-description'>Column or index names to join on in `df`.</dd>
         <dd className='parameter'>right_on : <em>label, list, or array-like</em></dd>
-        <dd className='parameter-description'>Column or index names to join on the in the right DataFrame.</dd>
+        <dd className='parameter-description'>Column or index names to join on in the right DataFrame.</dd>
         <dd className='parameter'>left_index : <em>boolean, default False</em></dd>
         <dd className='parameter-description'>Use index from left DataFrame as join key(s).</dd>
         <dd className='parameter'>right_index : <em>boolean, default False</em></dd>
         <dd className='parameter-description'>Use index from right DataFrame as join key(s).</dd>
         <!-- Returns -->
         <dt className='term'>Returns:</dt>
-        <dd>df_merged - A new DataFrame with the two DataFrames merged on the specified input combinations.</dd>
+        <dd>A new DataFrame with the two DataFrames merged on the specified input combinations.</dd>
         <!-- Return Type -->
         <dt className='term'>Return Type:</dt>
         <dd>DataFrame</dd>

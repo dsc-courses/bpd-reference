@@ -15,11 +15,11 @@ import '@site/src/css/function.css';
         <dt className='term'>Input:</dt>
         <dd className='parameter'>name_of_column : <em>string</em></dd>
         <dd className='parameter-description'>Name of column to assign list to.</dd>
-        <dd className='parameter'>column_data : <em>list</em></dd>
-        <dd className='parameter-description'>Data the column names contains.</dd>
+        <dd className='parameter'>column_data : <em>list or Series</em></dd>
+        <dd className='parameter-description'>The data `name_of_column` will contain.</dd>
 
         <dt className='term'>Returns:</dt>
-        <dd>df_with_cols - A new DataFrame with the columns in addition to all the existing columns.</dd>
+        <dd>A new DataFrame with `name_of_column` in addition to all the existing columns.</dd>
 
         <dt className='term'>Return Type:</dt>
         <dd>DataFrame</dd>

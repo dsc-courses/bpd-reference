@@ -17,7 +17,7 @@ import '@site/src/css/function.css';
         <dd className='parameter-description'>Column name to make as the index.</dd>
 
         <dt className='term'>Returns:</dt>
-        <dd>df_with_idx - A new DataFrame with the column set as the index.</dd>
+        <dd>A new DataFrame with the `column_name` column as the index.</dd>
 
         <dt className='term'>Return Type:</dt>
         <dd>DataFrame</dd>

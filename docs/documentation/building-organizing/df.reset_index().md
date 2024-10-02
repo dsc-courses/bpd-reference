@@ -9,15 +9,15 @@ import '@site/src/css/function.css';
 <code>df.reset_index(drop=False)</code>
 
 <div className='base'>
-    <p><strong>Moves the index to a column.</strong></p>
+    <p><strong>Resets the index of `df` to the default one.</strong></p>
     
     <dl>
         <dt className='term'>Input:</dt>
         <dd className='parameter'>drop : <em>boolean, default False</em></dd>
-        <dd className='parameter-description'>If False, adds index as a column to the DataFrame. If True, doesn't add index into the DataFrame.</dd>
+        <dd className='parameter-description'>If False, adds index as a column to the DataFrame. If True, doesn't add index as a column into the DataFrame.</dd>
 
         <dt className='term'>Returns:</dt>
-        <dd>df_without_idx - A new DataFrame with or without the column set as the index</dd>
+        <dd>A new DataFrame with or without the column set as the index</dd>
 
         <dt className='term'>Return Type:</dt>
         <dd>DataFrame</dd>

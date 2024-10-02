@@ -15,10 +15,10 @@ import '@site/src/css/function.css';
         <!-- Input -->
         <dt className='term'>Input:</dt>
         <dd className='parameter'>filepath : <em>string, path object, file-like object.</em></dd>
-        <dd className='parameter-description'>This should give a path to the CSV relative to the location of the notebook, or a URL that points to a CSV file. This must be a string, so don't forget to use quotes.</dd>
+        <dd className='parameter-description'>This should be a path to a CSV, relative to the location of the notebook, or a URL that points to a CSV file. This must be a string, so don't forget to use quotes.</dd>
         <!-- Returns -->
         <dt className='term'>Returns:</dt>
-        <dd>df - DataFrame with the contents of the CSV file.</dd>
+        <dd>A new DataFrame with the contents of the CSV file.</dd>
         <!-- Return Type -->
         <dt className='term'>Return Type:</dt>
         <dd>DataFrame</dd>
