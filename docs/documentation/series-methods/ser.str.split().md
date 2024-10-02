@@ -9,7 +9,7 @@ import '@site/src/css/function.css';
 <code>ser.str.split(pat = None)</code>
 
 <div className='base'>
-    <p><strong>Splits each string element in the Series from the beginning, at the specified seperator/delimiter string.</strong></p>
+    <p><strong>Splits each string element in the Series by the specified seperator/delimiter string.</strong></p>
     
     <dl>
         <dt className='term'>Input:</dt>

@@ -9,7 +9,7 @@ import '@site/src/css/function.css';
 <code>ser.str.strip(to_strip = None)</code>
 
 <div className='base'>
-    <p><strong>Removes the specified character from each string in the Series from left and right sides.</strong></p>
+    <p><strong>Removes the specified character(s) from each string in the Series from both the left and right side.</strong></p>
     
     <dl>
         <dt className='term'>Input:</dt>

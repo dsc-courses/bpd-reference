@@ -9,7 +9,7 @@ import '@site/src/css/function.css';
 <code>ser.count()</code>
 
 <div className='base'>
-    <p><strong>Returns number of non-NA/null observations in the Series. Essentially the length of a Series, assuming that every row has an observation.</strong></p>
+    <p><strong>Returns the number of non-NA/null observations in the Series. Essentially the length of a Series, assuming that every row has an observation.</strong></p>
 </div>
 
 ---

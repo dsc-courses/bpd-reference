@@ -9,7 +9,7 @@ import '@site/src/css/function.css';
 <code>ser.str.contains(substring)</code>
 
 <div className='base'>
-    <p><strong>Tests if a substring is contained within each element of the Series.</strong></p>
+    <p><strong>Checks each element in the Series if it contains the substring.</strong></p>
 
     <dl>
         <dt className='term'>Input:</dt>
@@ -17,7 +17,7 @@ import '@site/src/css/function.css';
         <dd className='parameter-description'>String to search for.</dd>
 
         <dt className='term'>Returns:</dt>
-        <dd>Returns a Series with a boolean value for each element expressing if each element contained the inputted substring.</dd>
+        <dd>Returns a Series of booleans expressing if the element contained the substring.</dd>
 
         <dt className='term'>Return Type:</dt>
         <dd>Series</dd>

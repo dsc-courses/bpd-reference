@@ -9,7 +9,7 @@ import '@site/src/css/function.css';
 <code>ser.str.replace(old, new)</code>
 
 <div className='base'>
-    <p><strong>Substitutes all `old` strings with the `new` string for every element of the Series.</strong></p>
+    <p><strong>Substitutes all occurences `old` with `new` for every element of the Series.</strong></p>
 
     <dl>
         <dt className='term'>Input:</dt>
@@ -19,7 +19,7 @@ import '@site/src/css/function.css';
         <dd className='parameter-description'>Replacement string.</dd>
 
         <dt className='term'>Returns:</dt>
-        <dd>Returns a Series with the substring old replaced by the new for count number of times.</dd>
+        <dd>Returns a Series where each occurence of the string `old` replaced by `new`.</dd>
 
         <dt className='term'>Return Type:</dt>
         <dd>Series</dd>

@@ -13,7 +13,7 @@ import '@site/src/css/function.css';
 
     <dl>
         <dt className='term'>Returns:</dt>
-        <dd>Returns a Series with each element lowercased.</dd>
+        <dd>Returns a Series with each element in lowercase.</dd>
 
         <dt className='term'>Return Type:</dt>
         <dd>Series</dd>

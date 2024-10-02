@@ -9,7 +9,7 @@ import '@site/src/css/function.css';
 <code>ser.str.capitalize()</code>
 
 <div className='base'>
-    <p><strong>Converts strings in the Series to be capitalized. Only the first character in the string will be capitalized.</strong></p>
+    <p><strong>Capitalizes the first character of each string in the Series.</strong></p>
 
     <dl>
         <dt className='term'>Returns:</dt>
@@ -28,7 +28,7 @@ comment_ser
 ```
 <SeriesComponent data={'{"name":"Owner_Comment","dtype":"object","index":[0,1,2,3,4,5,6,7],"data":["      There are no bad dogs, only bad owners.","My best birthday present ever!!!","****All you need is love and a cat.****","Love is a wet nose and a wagging tail.","Be the person your dog thinks you are.","No, thank you!","No, thank you!","No, thank you!"]}'} />
 
-<p><br></br> **Notice that `ser.str.capitalize()` only works when there are no special characters before the first letter in the sentence.** </p>
+<p><br></br> **Notice that `ser.str.capitalize()` only works when there are no special characters before the first letter in the string.** </p>
 
 ```python
 comment_ser.str.capitalize()

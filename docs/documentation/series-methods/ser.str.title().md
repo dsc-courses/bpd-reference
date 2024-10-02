@@ -9,11 +9,11 @@ import '@site/src/css/function.css';
 <code>ser.str.title()</code>
 
 <div className='base'>
-    <p><strong>Converts strings in the Series to titlecase. Every beginning character to a string of letters will be uppercased.</strong></p>
+    <p><strong>Converts strings in the Series to title case. Each beginning letter of a continuous string of letters will be uppercased.</strong></p>
 
     <dl>
         <dt className='term'>Returns:</dt>
-        <dd>Returns a Series with each element titlecased.</dd>
+        <dd>Returns a Series with each element in title case.</dd>
 
         <dt className='term'>Return Type:</dt>
         <dd>Series</dd>

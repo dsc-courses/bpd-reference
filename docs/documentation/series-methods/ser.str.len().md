@@ -9,11 +9,11 @@ import '@site/src/css/function.css';
 <code>ser.str.len()</code>
 
 <div className='base'>
-    <p><strong>Counts the number of characters in the Series for each element.</strong></p>
+    <p><strong>Counts the number of characters for each element in the Series.</strong></p>
 
     <dl>
         <dt className='term'>Returns:</dt>
-        <dd>Returns a Series with the number of characters for each element.</dd>
+        <dd>Returns a Series with the number of characters of each element.</dd>
 
         <dt className='term'>Return Type:</dt>
         <dd>Series</dd>
