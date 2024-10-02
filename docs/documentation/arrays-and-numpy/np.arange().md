@@ -9,7 +9,7 @@ import '@site/src/css/function.css';
 <code>np.arange(start, stop, step)</code>
 
 <div className='base'>
-    <p><strong>An array of numbers starting with start, increasing/decreasing in increments of step, and stopping before (excluding) stop. If start or step are omitted, the default values are 0 and 1, respectively.</strong></p>
+    <p><strong>Returns an array of numbers beginning with `start`, incrementing by `step`, and ending before `stop`. If `start` or `step` is omitted, the default values will be 0 and 1, respectively.</strong></p>
 
     <dl>
         <dt className='term'>Input:</dt>
@@ -21,7 +21,7 @@ import '@site/src/css/function.css';
         <dd className='parameter-description'>The difference between each two consecutive values.</dd>
 
         <dt className='term'>Returns:</dt>
-        <dd>array - an array of numbers from start to stop, incremented by step</dd>
+        <dd>An array of numbers from start to stop, incremented by step.</dd>
 
         <dt className='term'>Return Type:</dt>
         <dd>array</dd>

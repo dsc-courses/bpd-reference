@@ -9,7 +9,7 @@ import '@site/src/css/function.css';
 <code>np.count_nonzero(arr)</code>
 
 <div className='base'>
-    <p><strong>The number of non-zero entries in arr. True counts as 1, False counts as 0.</strong></p>
+    <p><strong>Returns the number of non-zero entries in `arr`. True counts as 1, False counts as 0.</strong></p>
 
     <dl>
         <dt className='term'>Input:</dt>
@@ -17,7 +17,7 @@ import '@site/src/css/function.css';
         <dd className='parameter-description'>The array to count non-zero entries in.</dd>
 
         <dt className='term'>Returns:</dt>
-        <dd>count - The number of non-zero entries in the array.</dd>
+        <dd>The number of non-zero entries in the array.</dd>
 
         <dt className='term'>Return Type:</dt>
         <dd>integer</dd>

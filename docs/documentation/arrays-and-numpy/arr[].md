@@ -9,7 +9,7 @@ import '@site/src/css/function.css';
 <code>arr[index]</code>
 
 <div className='base'>
-    <p><strong>Retrieve the element at position index in the array arr. The first element is arr[0].</strong></p>
+    <p><strong>Retrieves the index-th element in `arr`. The first element is arr[0].</strong></p>
 
     <dl>
         <dt className='term'>Input:</dt>
@@ -17,7 +17,7 @@ import '@site/src/css/function.css';
         <dd className='parameter-description'>Position of desired element to retrieve in array.</dd>
 
         <dt className='term'>Returns:</dt>
-        <dd>element - data in the specified index of the array</dd>
+        <dd>The element at the specified index of the array</dd>
 
         <dt className='term'>Return Type:</dt>
         <dd>integer, float, string, list, etc.</dd>

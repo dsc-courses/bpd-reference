@@ -9,8 +9,8 @@ import '@site/src/css/function.css';
 <code>np.append(arr, value)</code>
 
 <div className='base'>
-    <p><strong>A copy of arr with value appended to the end. This does not
-    change arr unless you store the result in arr.</strong></p>
+    <p><strong>Returns a copy of `arr` with `value` appended at the end. This does not
+    change `arr` unless you store the result in `arr`.</strong></p>
 
     <dl>
         <dt className='term'>Input:</dt>
@@ -20,7 +20,7 @@ import '@site/src/css/function.css';
         <dd className='parameter-description'>The value to append to the array.</dd>
 
         <dt className='term'>Returns:</dt>
-        <dd>new_arr - a new array containing the elements of the original array followed by the appended value</dd>
+        <dd>A new array containing the elements of the original array followed by the appended value</dd>
 
         <dt className='term'>Return Type:</dt>
         <dd>array</dd>

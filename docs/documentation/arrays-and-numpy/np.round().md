@@ -19,7 +19,7 @@ import '@site/src/css/function.css';
         <dd className='parameter-description'>Number of decimal places to round to. If omitted, defaults to 0, meaning rounding to the nearest integer.</dd>
 
         <dt className='term'>Returns:</dt>
-        <dd>rounded_array - An array of the same shape as `a`, with each element rounded to the specified number of decimal places.</dd>
+        <dd>An array of the same shape as `arr`, with each element rounded to the specified number of decimal places.</dd>
 
         <dt className='term'>Return Type:</dt>
         <dd>ndarray</dd>
