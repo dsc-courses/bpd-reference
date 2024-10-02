@@ -9,13 +9,13 @@ import '@site/src/css/function.css';
 <code>ser.iloc[position]</code>
 
 <div className='base'>
-    <p><strong>Returns element contained in Series at the given position.</strong></p>
+    <p><strong>Returns the element in the Series at the given position.</strong></p>
     <dl>
         <dt className='term'>Note:</dt>
         <dd>
             <ul>
                 <li>Positions start at 0.</li>
-                <li>Often `ser` comes from `df.get(column_name)`.</li>
+                <li>`ser` often comes from `df.get(column_name)`.</li>
             </ul>
         </dd>
     </dl>
@@ -33,3 +33,8 @@ species_ser
 species_ser.iloc[2]
 ```
 'cat'
+
+```python
+species_ser.iloc[3]
+```
+'dog'

@@ -9,7 +9,7 @@ import '@site/src/css/function.css';
 <code>ser.loc[label]</code>
 
 <div className='base'>
-    <p><strong>Return element of Series that corresponds to its row label.</strong></p>
+    <p><strong>Returns the element of the Series that corresponds to its row label.</strong></p>
     <dl>
         <dt className='term'>Note:</dt>
         <dd>Often `ser` comes from `df.get(column_name)`.</dd>

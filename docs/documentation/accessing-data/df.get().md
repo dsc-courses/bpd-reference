@@ -9,17 +9,17 @@ import '@site/src/css/function.css';
 <code>df.get(column_name)</code><strong>or</strong><code>df.get([col_1_name, ..., col_k_name])</code>
 
 <div className='base'>
-    <p><strong>Return column(s) from DataFrame.</strong></p>
+    <p><strong>Returns column(s) from DataFrame.</strong></p>
 
     <dl>
         <dt className='term'>Returns:</dt>
-        <dd>Series or Dataframe with the corresponding key(s).</dd>
+        <dd>Series or DataFrame with the corresponding key(s).</dd>
 
         <dt className='term'>Return Type:</dt>
         <dd>Series or DataFrame</dd>
 
         <dt className='term'>Note:</dt>
-        <dd>Can return a dataframe of one column by putting the column name in square brackets</dd>
+        <dd>Can return a DataFrame with one column by putting the column name in square brackets.</dd>
     </dl>
 </div>
 

@@ -18,7 +18,7 @@ import '@site/src/css/function.css';
         <dd className='parameter-description'>An array of ints indicating which positions to take.</dd>
         <!-- Return -->
         <dt className='term'>Returns:</dt>
-        <dd>df - DataFrame with only the indices specified.</dd>
+        <dd>A DataFrame with only the indices specified.</dd>
         <!-- Return Type -->
         <dt className='term'>Return Type:</dt>
         <dd>DataFrame</dd>

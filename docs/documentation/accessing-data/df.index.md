@@ -16,7 +16,7 @@ import '@site/src/css/function.css';
         <dt className='term'>Note:</dt>
         <dd>
             <ul>
-                <li>The index of a DataFrame is a series of labels that identify each row. The labels can be integers, strings, or any other hashable type.</li>
+                <li>The index of a DataFrame is a Series of labels that identify each row. The labels can be integers, strings, or any other hashable type.</li>
                 <li>Positions start at 0. Negative positions start from the end of the DataFrame.</li>
                 <li>The return type is bpd.Index. Use `np.array()` to convert it to a numpy array.</li>
             </ul>

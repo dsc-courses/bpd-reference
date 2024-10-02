@@ -9,11 +9,11 @@ import '@site/src/css/function.css';
 <code>df.shape</code>
 
 <div className='base'>
-    <p><strong>Return a tuple representing the dimensionality of the DataFrame.</strong></p>
+    <p><strong>Returns a tuple representing the dimensions of the DataFrame.</strong></p>
 
     <dl>
         <dt className='term'>Returns:</dt>
-        <dd>A tuple representing the dimensionality of the DataFrame.</dd>
+        <dd>A tuple representing the dimensions of the DataFrame.</dd>
 
         <dt className='term'>Return Type:</dt>
         <dd>Tuple</dd>
