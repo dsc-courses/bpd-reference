@@ -116,7 +116,7 @@ import '@site/src/css/chapters.css';
         [<code>ser.str.capitalize</code>](ser.str.capitalize())()
     </div>
     <div className="description">
-        <p>Converts every first character in Series' elements to be capitalized.</p>
+        <p>Capitalizes the first character in of every element in the Series.</p>
     </div>
 </div>
 
@@ -125,7 +125,7 @@ import '@site/src/css/chapters.css';
         [<code>ser.str.title</code>](ser.str.title())()
     </div>
     <div className="description">
-        <p>Converts strings in the Series to be titlecased.</p>
+        <p>Converts strings in the Series to title case.</p>
     </div>
 </div>
 
