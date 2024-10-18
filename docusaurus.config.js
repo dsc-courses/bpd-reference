@@ -72,6 +72,13 @@ const config = {
     },
   ],
 
+  scripts: [
+    {
+      src: '/bpd-reference/js/accordion.js',
+      async: true,
+    },
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     {
