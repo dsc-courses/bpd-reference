@@ -9,7 +9,7 @@ import '@site/src/css/function.css';
 <code>df.plot(kind='hist', y=data_col, bins=the_bins, density=True, ec='w')</code>
 
 <div className='base'>
-    <p><strong>Create a histogram using a DataFrame.</strong></p>
+    <p><strong>Creates a histogram using a DataFrame.</strong></p>
 
     <dl>
         <dt className='term'>Input:</dt>
@@ -34,7 +34,7 @@ import '@site/src/css/function.css';
         <!-- Include LaTEX for probability density calculation? -->
 
         <dt className='term'>Returns:</dt>
-        <dd>plot - Matplotlib plot created using [parameters](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.html).</dd>
+        <dd>Matplotlib plot created using [parameters](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.html).</dd>
 
         <dt className='term'>Return Type:</dt>
         <dd>Matplotlib plot</dd>
@@ -43,7 +43,7 @@ import '@site/src/css/function.css';
         <dd>
             <ul>
                 <li>In a histogram, only the last bin is inclusive of the right endpoint! [left, right)</li>
-                <li>The bins you specity don't have to include all data values; data values not in any bin won't be shown in the histogram.</li>
+                <li>The bins you specify don't have to include all data values; data values not in any bin won't be shown in the histogram.</li>
             </ul>
         </dd>
     </dl>

@@ -9,7 +9,7 @@ import '@site/src/css/function.css';
 <code>df.plot(kind='scatter', x=data_col, y=data_col)</code>
 
 <div className='base'>
-    <p><strong>Create a scatter plot using a DataFrame.</strong></p>
+    <p><strong>Creates a scatter plot using a DataFrame.</strong></p>
 
     <dl>
         <dt className='term'>Input:</dt>
@@ -23,7 +23,7 @@ import '@site/src/css/function.css';
         <dd className='parameter-description'>Column for vertical coordinates of each point..</dd>
 
         <dt className='term'>Returns:</dt>
-        <dd>plot - Matplotlib plot created using [parameters](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.html).</dd>
+        <dd>Matplotlib plot created using [parameters](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.html).</dd>
 
         <dt className='term'>Return Type:</dt>
         <dd>Matplotlib plot</dd>

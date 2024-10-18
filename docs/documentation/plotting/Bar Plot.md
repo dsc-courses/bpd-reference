@@ -9,7 +9,7 @@ import '@site/src/css/function.css';
 <code>df.plot(kind='bar', x=data_col, y=data_col)</code>
 
 <div className='base'>
-    <p><strong>Create a bar plot using a DataFrame.</strong></p>
+    <p><strong>Creates a bar plot using a DataFrame.</strong></p>
 
     <dl>
         <dt className='term'>Input:</dt>
@@ -24,15 +24,15 @@ import '@site/src/css/function.css';
         <dd className='parameter-description'>Column containing numerical data for the groups in x. If not specified, all numerical columns are used.</dd>
 
         <dt className='term'>Returns:</dt>
-        <dd>plot - Matplotlib plot created using [parameters](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.html).</dd>
+        <dd>Matplotlib plot created using [parameters](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.html).</dd>
 
         <dt className='term'>Return Type:</dt>
         <dd>Matplotlib plot</dd>
         <dt className='term'>Note:</dt>
         <dd>
             <ul>
-                <li>When kind='bar', you can sort your DataFrame in <em>descending</em> order by your y column before plotting to create a <em>vertical</em> bar plot that goes from tall to short from left to right.</li>
-                <li>When kind='barh', you can sort your DataFrame in <em>ascending</em> order by your y column before plotting to create a <em>horizontal</em> bar plot that goes from tall to short from top to bottom.</li>
+                <li>When kind='bar', you can sort your DataFrame in <em>descending</em> order by your y column before plotting to create a <em>vertical</em> bar plot that goes from tall to short, left to right.</li>
+                <li>When kind='barh', you can sort your DataFrame in <em>ascending</em> order by your y column before plotting to create a <em>horizontal</em> bar plot that goes from tall to short, top to bottom.</li>
             </ul>
         </dd>
     </dl>
