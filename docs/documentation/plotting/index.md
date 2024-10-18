@@ -11,7 +11,7 @@ import '@site/src/css/chapters.css';
         [<code>df.plot</code>](Histogram)(kind='hist', y=data_col, bins=the_bins, density=True, ec='w')
     </div>
     <div className="description">
-        <p>Create a histogram using a DataFrame.</p>
+        <p>Creates a histogram using a DataFrame.</p>
     </div>
 </div>
 
@@ -20,7 +20,7 @@ import '@site/src/css/chapters.css';
         [<code>df.plot</code>](Scatter%20Plot)(kind='scatter', x=data_col, y=data_col)
     </div>
     <div className="description">
-        <p>Create a scatter plot using a DataFrame.</p>
+        <p>Creates a scatter plot using a DataFrame.</p>
     </div>
 </div>
 
@@ -29,7 +29,7 @@ import '@site/src/css/chapters.css';
         [<code>df.plot</code>](Bar%20Plot)(kind='bar', x=data_col, y=data_col)
     </div>
     <div className="description">
-        <p>Create a bar plot using a DataFrame.</p>
+        <p>Creates a bar plot using a DataFrame.</p>
     </div>
 </div>
 
@@ -38,6 +38,6 @@ import '@site/src/css/chapters.css';
         [<code>df.plot</code>](Line%20Plot)(kind='line', x=data_col, y=data_col)
     </div>
     <div className="description">
-        <p>Create a line plot using a DataFrame.</p>
+        <p>Creates a line plot using a DataFrame.</p>
     </div>
 </div>

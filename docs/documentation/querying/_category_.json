@@ -3,7 +3,7 @@
     "position": 12,
     "link": {
       "type": "generated-index",
-      "description": "Create a new dataframe containing only rows satisfying a condition"
+      "description": "Creates a new DataFrame containing only the rows that satisfy certain conditions"
     }
 }
   

@@ -9,7 +9,7 @@ import '@site/src/css/function.css';
 <code>df[condition]</code>
 
 <div className='base'>
-    <p><strong>Creates a new dataframe containing only the rows that satisfy a specific condition. </strong></p>
+    <p><strong>Creates a new DataFrame containing only the rows that satisfy specific conditions. </strong></p>
     
     <dl>
         <dt className='term'>Input:</dt>
