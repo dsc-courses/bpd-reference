@@ -91,3 +91,46 @@
 .katex .base {
   padding-left: 0;
 }
+
+/* Controls style of search button */
+.DocSearch-Button {
+  background-color: #ff5733;
+  color: #fff;
+  border: 2px solid #ff4500;
+  border-radius: 25px;
+  width: 300px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+[data-theme='light'] .DocSearch-Button {
+  background-color: var(--search-background-light);
+  color: var(--search-text-color-light);
+}
+
+[data-theme='dark'] .DocSearch-Button {
+  background-color: var(--search-background-dark);
+  color: var(--search-text-color-dark);
+}
+
+/* Controls style of search button on hover */
+.DocSearch-Button:hover {
+  background-color: #ff4500;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Controls style of search button on focus */
+.DocSearch-Button-Placeholder {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Ensure inner elements scale with search button */
+.DocSearch-Button-Container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.DocSearch-Button-Placeholder {
+  font-size: 18px;
+}
