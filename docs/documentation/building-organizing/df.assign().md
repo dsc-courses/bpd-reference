@@ -29,8 +29,8 @@ import '@site/src/css/function.css';
 ---
 
 ```python
-pets = pets.assign(New_column_1=['this', 'is', 'a', 'new', 'column', 'I', 'assigned'], 
-                   New_column_2=['this', 'is', 'another', 'new', 'column', 'I', 'assigned'])
+pets = pets.assign(New_column_1=['this', 'is', 'a', 'new', 'column', 'I', 'assigned', '.'], 
+                   New_column_2=['this', 'is', 'another', 'new', 'column', 'I', 'assigned', '.'])
 pets
 ```
 
