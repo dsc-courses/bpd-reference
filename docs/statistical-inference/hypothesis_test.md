@@ -39,7 +39,7 @@ To conduct a hypothesis test:
 :::info Hypotheses
 We will test the following pair of hypotheses at the standard p = 0.05 significance level.
 * **Null Hypothesis:**  The proportion of "white" dogs among dogs is **equal** to the proportion of "white" pets in the overall population.
-* **Alternative Hypothesis:** The distribution of "white" dogs among dogs is **greater than** the proportion of "white" pets in the overall population.
+* **Alternative Hypothesis:** The proportion of "white" dogs among dogs is **greater than** the proportion of "white" pets in the overall population.
 :::
 
 Since the alternative hypothesis is of the form "A is **_greater than_** B," the **test statistic** should measure **signed difference** rather than absolute difference.
