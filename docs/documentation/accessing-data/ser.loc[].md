@@ -12,8 +12,8 @@ import '@site/src/css/function.css';
     <p><strong>Returns the element of the Series that corresponds to its row label.</strong></p>
     <dl>
         <dt className='term'>Note:</dt>
-        <dd>Often `ser` comes from `df.get(column_name)`.</dd>
-        <dd>In DSC 10, we only use loc and iloc on Series, and never on DataFrames. That's because we want to avoid working with row objects, which contain data of varying types. To extract something from a data frame, you should should always use `get` first to grab the column as a series, then use loc or iloc to get the individual entry.</dd>
+        - <dd>Often `ser` comes from `df.get(column_name)`.</dd>
+        - <dd>In DSC 10, we only use loc and iloc on Series, and never on DataFrames. That's because we want to avoid working with row objects, which contain data of varying types. To extract something from a data frame, you should should always use `get` first to grab the column as a series, then use loc or iloc to get the individual entry.</dd>
     </dl>
 </div>
 ---
