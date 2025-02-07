@@ -1,4 +1,6 @@
 .series-container {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
     max-width: 500px; 
     margin: 0; /* Move Series to left */
 }
