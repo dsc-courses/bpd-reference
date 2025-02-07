@@ -10,6 +10,10 @@ import '@site/src/css/function.css';
 
 <div className='base'>
     <p><strong>Returns the minimum of the values in the Series.</strong></p>
+     <dl>
+        <dt className='term'>Note:</dt>
+        <dd> Not to be confused with python's own `min` function. Learn more about it <a href="https://docs.python.org/3/library/functions.html#min" target="_blank" rel="noopener noreferrer">here</a>.</dd>
+    </dl>
 </div>
 
 ---
