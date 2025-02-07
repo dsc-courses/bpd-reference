@@ -12,14 +12,11 @@ import '@site/src/css/function.css';
     <p><strong>Returns the element in the Series at the given position.</strong></p>
     <dl>
         <dt className='term'>Note:</dt>
-        <dd>
-            <ul>
+        <ul>
                 <li>Positions start at 0.</li>
                 <li>`ser` often comes from `df.get(column_name)`.</li>
-                <li> In DSC 10, we only use `loc` and `iloc` on Series, and never on DataFrames. That's because we want to avoid working with row objects, which contain data of varying types. To extract something from a data frame, you should should always use `get` first to grab the column as a series, then use `loc` or `iloc` to get the individual entry.
-                </li>
-            </ul>
-        </dd>
+                <li> In DSC 10, we only use `loc` and `iloc` on Series, and never on DataFrames. That's because we want to avoid working with row objects, which contain data of varying types. To extract something from a data frame, you should always use `get` first to grab the column as a series, then use `loc` or `iloc` to get the individual entry.</li>
+        </ul>
     </dl>
 </div>
 
