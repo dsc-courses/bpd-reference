@@ -105,6 +105,11 @@ const config = {
             label: 'Statistical Inference',
           },
           {
+            label: 'Feedback',
+            href: 'https://forms.gle/pnZaMu5K5EBeQvg76',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/dsc-courses/bpd-reference',
             className: 'header-github-link',
             position: 'right',
