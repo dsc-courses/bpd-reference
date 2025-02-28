@@ -13,7 +13,7 @@ import '@site/src/css/function.css';
 
     <dl>
         <dt className='term'>Input:</dt>
-        <dd className='parameter'>arr : <em>array</em></dd>
+        <dd className='parameter'>arr : <em>numpy array</em></dd>
         <dd className='parameter-description'>The array to count non-zero entries in.</dd>
 
         <dt className='term'>Returns:</dt>

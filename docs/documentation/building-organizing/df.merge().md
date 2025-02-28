@@ -4,6 +4,7 @@ sidebar_position: 8
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import GoogleSlides from '@site/components/GoogleSlides.jsx';
 import '@site/src/css/function.css';
 
 <code>df.merge(right, on=column, left_on=left_column, right_on=right_column, left_index=False, right_index=False)</code>
@@ -41,6 +42,19 @@ import '@site/src/css/function.css';
         </dd>
     </dl>
 </div>
+
+---
+The diagrams below are two visualizations of how merge works albeit with different datasets from the main one we use here on bpd reference. For additional helpful visual guides, please visit the [Diagrams](https://dsc10.com/diagrams/) site.
+<GoogleSlides
+src="https://docs.google.com/presentation/d/e/2PACX-1vQ8NBJswhPdgN73JKS6a7uK9S5MH0y_qhnhMv1wSusMJXwBcI1CTj2T20zJ5vVH45lVPt06gH1oTr7H/embed?start=true&loop=false&delayms=3000&rm=minimal"
+sourceLink="https://docs.google.com/presentation/d/1d3NNWbMx-6oWawPmVHjdclX-ybqy5I8k4mCcqSW-Whw/edit?usp=sharing"
+/>
+
+<GoogleSlides
+src="https://docs.google.com/presentation/d/e/2PACX-1vTF-cjLbCZleyguK3MpX5xSnaSU4ICPeClvhuha8G8lHjT5XAd9RoSF4BDj-5Eao0CStO-5TOXhseaS/embed?start=true&loop=false&delayms=3000&rm=minimal"
+sourceLink="https://docs.google.com/presentation/d/1sDTa08hqZnI5Mejs5b1C-aq2nToT6K3BRetldpAdBWc/edit?usp=sharing"
+/>
+
 
 ---
 

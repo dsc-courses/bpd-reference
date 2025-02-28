@@ -34,15 +34,21 @@ We use a permutation test to test whether two samples are drawn from the same po
 :::note
 While shuffling, the size of the two new samples should be the same as the observed samples.
 :::
-
+---
 The diagram below provides an overview of conducting a permutation test, although it references a different dataset. [Here](https://www.jwilber.me/permutationtest/) is another useful visualization. For additional helpful visual guides, please visit the [Diagrams](https://dsc10.com/diagrams/) site.
+
 
 <GoogleSlides
 src="https://docs.google.com/presentation/d/e/2PACX-1vSovXDonR6EmjrT45h4pY1mwmcKFMWVSdgpbKHC5HNTm9sbG7dojvvCDEQCjuk2dk1oA4gmwMogr8ZL/embed?start=true&loop=false&delayms=3000&rm=minimal"
 sourceLink="https://docs.google.com/presentation/d/1TTWoQ7FU4tzBGc7EskF6WYccIn1BWQbTSizAiFc2p2o/edit?usp=sharing"
 />
 
+
+<GoogleSlides
+src="https://docs.google.com/presentation/d/e/2PACX-1vT3IfZAbqXtscEPu-nTl6lWZcXh6AWfjKsXZpWDNc0UhueXsOYQ7ivShlwbn-PW1EZm7CunTLtq7rmt/embed?start=true&loop=false&delayms=3000&rm=minimal"
+sourceLink="https://docs.google.com/presentation/d/1P96Q5nnDn_K85XWx_fqiaV75cBVm0On8OZTamHgsLSw/edit?usp=sharing"/>
 ---
+
 ## Code Example (Absolute Difference)
 
 ### 1. State the question/hypothesis

@@ -24,7 +24,7 @@ import '@site/src/css/function.css';
         <dd>An array of numbers from start to stop, incremented by step.</dd>
 
         <dt className='term'>Return Type:</dt>
-        <dd>array</dd>
+        <dd>numpy array</dd>
     </dl>
 </div>
 

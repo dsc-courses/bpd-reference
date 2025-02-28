@@ -13,7 +13,7 @@ import '@site/src/css/function.css';
 
     <dl>
         <dt className='term'>Input:</dt>
-        <dd className='parameter'>arr : <em>array</em></dd>
+        <dd className='parameter'>arr : <em>numpy array</em></dd>
         <dd className='parameter-description'>The array to calculate the percentile of.</dd>
         <dd className='parameter'>p : <em>float or array of floats</em></dd>
         <dd className='parameter-description'>Percentile or sequence of percentiles to compute, all of which must be between 0 and 100 inclusive.</dd>
@@ -22,7 +22,7 @@ import '@site/src/css/function.css';
         <dd>The p-th percentile of the array values.</dd>
 
         <dt className='term'>Return Type:</dt>
-        <dd>float or ndarray</dd>
+        <dd>float or numpy ndarray</dd>
         <dd className='return-description'>The result is a single float if `p` is a single percentile or an ndarray if multiple percentiles are given.</dd>
     </dl>
 </div>

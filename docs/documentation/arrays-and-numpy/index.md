@@ -59,3 +59,12 @@ import '@site/src/css/chapters.css';
         <p>Rounds each element of `arr` to the `decimals` number of places.</p>
     </div>
 </div>
+
+<div className="method-container">
+    <div className="method">
+        [<code>np.repeat</code>](np.repeat())(arr, repeats, axis=None)
+    </div>
+    <div className="description">
+        <p>Repeat each element of an array after themselves</p>
+    </div>
+</div>

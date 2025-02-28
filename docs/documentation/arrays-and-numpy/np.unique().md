@@ -13,14 +13,14 @@ import '@site/src/css/function.css';
 
     <dl>
         <dt className='term'>Input:</dt>
-        <dd className='parameter'>arr : <em>array</em></dd>
+        <dd className='parameter'>arr : <em>numpy array</em></dd>
         <dd className='parameter-description'>The input array to find unique values for.</dd>
 
         <dt className='term'>Returns:</dt>
         <dd>The sorted unique values.</dd>
 
         <dt className='term'>Return Type:</dt>
-        <dd>array</dd>
+        <dd>numpy array</dd>
     </dl>
 </div>
 

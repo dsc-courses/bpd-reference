@@ -5,6 +5,7 @@ sidebar_position: 1
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
 import '@site/src/css/function.css';
+import GoogleSlides from '@site/components/GoogleSlides.jsx';
 
 <code>def function_name(parameters):</code>
 
@@ -23,6 +24,13 @@ import '@site/src/css/function.css';
         <dd>The type of the returned object depends on the value provided by the return expression. If no return statement is used, the return type is NoneType.</dd>
     </dl>
 </div>
+
+The diagram below provides an example of how a function is composed. For additional helpful visual guides, please visit the [Diagrams](https://dsc10.com/diagrams/) site.
+
+<GoogleSlides
+src="https://docs.google.com/presentation/d/e/2PACX-1vRisa4gt_LCTloFnQENLPQNzUU5l1MrRE34HANzlCatXV0AgANBDB1y2siv30MZl5ZpcAu3voH_f5JJ/embed?start=true&loop=false&delayms=3000&rm=minimal"
+sourceLink="https://docs.google.com/presentation/d/1Yq3CwX3IGrnU66ip3riaXAEHYD_QI6cwmOoEV6GTxug/edit?usp=sharing"
+/>
 
 ---
 

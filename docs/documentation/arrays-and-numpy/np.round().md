@@ -22,7 +22,7 @@ import '@site/src/css/function.css';
         <dd>An array of the same shape as `arr`, with each element rounded to the specified number of decimal places.</dd>
 
         <dt className='term'>Return Type:</dt>
-        <dd>ndarray</dd>
+        <dd>numpy ndarray</dd>
         <dd className='return-description'>A new array containing the rounded values.</dd>
     </dl>
 </div>

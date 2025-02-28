@@ -14,7 +14,7 @@ import '@site/src/css/function.css';
 
     <dl>
         <dt className='term'>Input:</dt>
-        <dd className='parameter'>arr : <em>array</em></dd>
+        <dd className='parameter'>arr : <em>numpy array</em></dd>
         <dd className='parameter-description'>The original array to which a value will be appended.</dd>
         <dd className='parameter'>value : <em>any type</em></dd>
         <dd className='parameter-description'>The value to append to the array.</dd>
@@ -23,7 +23,7 @@ import '@site/src/css/function.css';
         <dd>A new array containing the elements of the original array followed by the appended value</dd>
 
         <dt className='term'>Return Type:</dt>
-        <dd>array</dd>
+        <dd>numpy array</dd>
     </dl>
 </div>
 

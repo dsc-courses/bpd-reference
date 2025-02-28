@@ -48,9 +48,10 @@ const config = {
           sidebarPath: './sidebars.js',
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
+
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/dsc-courses/bpd-reference/tree/main/',
+          //editUrl:
+          //'https://github.com/dsc-courses/bpd-reference/tree/main/',
           // showLastUpdateTime: true,
           // showLastUpdateAuthor: true,
         },
@@ -125,6 +126,15 @@ const config = {
             ],
           },
           {
+            title: 'Feedback',
+            items: [
+              {
+                label: 'Feedback form',
+                href: 'https://forms.gle/cPdGGZ17j3XeQ6PE8',
+              },
+            ],
+          },
+          {
             title: 'Course Links',
             items: [
               {
@@ -185,5 +195,6 @@ const config = {
       },
     },
 };
+
 
 export default config;

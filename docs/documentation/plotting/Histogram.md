@@ -4,6 +4,7 @@ sidebar_position: 1
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import GoogleSlides from '@site/components/GoogleSlides.jsx';
 import '@site/src/css/function.css';
 
 <code>df.plot(kind='hist', y=data_col, bins=the_bins, density=True, ec='w')</code>
@@ -49,7 +50,17 @@ import '@site/src/css/function.css';
     </dl>
 </div>
 
+
 ---
+
+The diagram below provides a visualization of how histograms are formed. For additional helpful visual guides, please visit the [Diagrams](https://dsc10.com/diagrams/) site.
+<GoogleSlides
+src="https://docs.google.com/presentation/d/e/2PACX-1vTnRGwEnKP2V-Z82DlxW1b1nMb2F0zWyrXIzFSpQx_8Wd3MFaf56y2_u3JrLwZ5SjWmfapL5BJLfsDG/embed?start=true&loop=false&delayms=3000&rm=minimal"
+sourceLink="https://docs.google.com/presentation/d/1D4YhRuCjRivWVbjluXtxx_GgsdcMDBdesnwDtCEfDXY/edit?usp=sharing"
+/>
+
+---
+
 
 ```python
 pets.plot(kind='hist', y='Age', bins=np.arange(0, 15, 3), density=True, ec='w')

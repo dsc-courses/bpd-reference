@@ -4,6 +4,7 @@ sidebar_position: 7
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import GoogleSlides from '@site/components/GoogleSlides.jsx';
 import '@site/src/css/function.css';
 
 <code>df.groupby(column_name)</code><strong>or</strong><code>df.groupby([column_names])</code>
@@ -33,6 +34,17 @@ import '@site/src/css/function.css';
         [<code>.mean()</code>](aggregation/mean()) &nbsp; [<code>.median()</code>](aggregation/median()) &nbsp; [<code>.count()</code>](aggregation/count()) &nbsp; [<code>.max()</code>](aggregation/max()) &nbsp; [<code>.min()</code>](aggregation/min()) &nbsp; [<code>.sum()</code>](aggregation/sum())
     </dl>
 </div>
+
+The diagram below provides a visualization of how groupby works using a variation of our main dataset. For additional helpful visual guides, please visit the [Diagrams](https://dsc10.com/diagrams/) site.
+<GoogleSlides
+src="https://docs.google.com/presentation/d/e/2PACX-1vTgVlFngQcLMYHP-z1vq5lVXjsBgcHebc-3TX7SW6L_gjX6TD1gsflvVDQUpWiDdeEPqJASenUIfBVd/embed?start=true&loop=false&delayms=3000&rm=minimal"
+sourceLink="https://docs.google.com/presentation/d/1XZ-nuM5XMFR5WgqZ2rt3mn9gDCPfB8ESu07okHKchqw/edit?usp=sharing"
+/>
+
+
+
+
+
 
 ---
 
