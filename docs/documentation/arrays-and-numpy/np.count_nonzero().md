@@ -4,6 +4,7 @@ sidebar_position: 1
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>np.count_nonzero(arr)</code>

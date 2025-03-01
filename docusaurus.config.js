@@ -131,15 +131,6 @@ const config = {
             ],
           },
           {
-            title: 'Feedback',
-            items: [
-              {
-                label: 'Feedback form',
-                href: 'https://forms.gle/cPdGGZ17j3XeQ6PE8',
-              },
-            ],
-          },
-          {
             title: 'Course Links',
             items: [
               {
