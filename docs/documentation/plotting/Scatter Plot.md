@@ -4,6 +4,7 @@ sidebar_position: 2
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>df.plot(kind='scatter', x=data_col, y=data_col)</code>
@@ -37,3 +38,8 @@ pets.plot(kind='scatter', x='Age', y='Weight')
 ```
 
 ![Scatter plot example 1](/img/scatter-plot/scatex1.png)
+
+
+
+---
+<SuggestionForm/>

@@ -4,6 +4,7 @@ sidebar_position: 13
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>ser.str.title()</code>
@@ -32,3 +33,6 @@ comment_ser
 comment_ser.str.title()
 ```
 <SeriesComponent data={'{"name":"Owner_Comment","dtype":"object","index":[0,1,2,3,4,5,6,7],"data":["      There Are No Bad Dogs, Only Bad Owners.","My Best Birthday Present Ever!!!","****All You Need Is Love And A Cat.****","Love Is A Wet Nose And A Wagging Tail.","Be The Person Your Dog Thinks You Are.","No, Thank You!","No, Thank You!","No, Thank You!"]}'} />
+
+---
+<SuggestionForm/>

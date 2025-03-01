@@ -4,6 +4,7 @@ sidebar_position: 1
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import GoogleSlides from '@site/components/GoogleSlides.jsx';
 import '@site/src/css/function.css';
 
@@ -94,3 +95,9 @@ pets.plot(kind='hist', y='Weight', density=True, ec='w')
 ```
 
 ![Histogram example 4](/img/histogram/histex4.png)
+
+
+
+
+---
+<SuggestionForm/>

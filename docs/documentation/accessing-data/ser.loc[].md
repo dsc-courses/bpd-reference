@@ -4,6 +4,7 @@ sidebar_position: 3
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>ser.loc[label]</code>
@@ -30,3 +31,7 @@ species_ser
 species_ser.loc['dog_002']
 ```
 'dog'
+
+
+---
+<SuggestionForm/>

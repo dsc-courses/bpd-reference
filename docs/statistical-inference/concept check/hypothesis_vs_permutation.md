@@ -8,6 +8,7 @@ tags:
 ---
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import GoogleSlides from '@site/components/GoogleSlides.jsx';
 
 ## Difference
@@ -49,6 +50,10 @@ However, for the second scenario, we cannot infer one proportion from another. T
 
 
 
+
+
+---
+<SuggestionForm/>
 
 
 

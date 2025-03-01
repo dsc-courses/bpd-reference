@@ -4,6 +4,7 @@ sidebar_position: 1
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>np.arange(start, stop, step)</code>
@@ -40,3 +41,7 @@ array([1, 3, 5, 7])
 np.arange(10, 2, -3)
 ```
 array([10,  7,  4])
+
+
+---
+<SuggestionForm/>

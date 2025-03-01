@@ -4,6 +4,7 @@ sidebar_position: 14
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>ser.str.replace(old, new)</code>
@@ -45,3 +46,9 @@ comment_ser.str.replace('dog', 'cat')
 comment_ser.str.replace('dog', 'cat').str.replace('birthday', '🍰')
 ```
 <SeriesComponent data={'{"name":"Owner_Comment","dtype":"object","index":[0,1,2,3,4,5,6,7],"data":["      There are no bad cats, only bad owners.","My best \\ud83c\\udf70 present ever!!!","****All you need is love and a cat.****","Love is a wet nose and a wagging tail.","Be the person your cat thinks you are.","No, thank you!","No, thank you!","No, thank you!"]}'} />
+
+
+
+
+---
+<SuggestionForm/>

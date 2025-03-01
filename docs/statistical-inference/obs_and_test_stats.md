@@ -6,6 +6,7 @@ title: Observed & Test Statistic
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import GoogleSlides from '@site/components/GoogleSlides.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 
 ## Concept
 
@@ -109,6 +110,5 @@ In this example, sum of negative differences is the fastest way to compute TVD, 
 ::::
 
 
-
-
-
+---
+<SuggestionForm/>

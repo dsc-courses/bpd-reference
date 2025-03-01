@@ -9,6 +9,7 @@ tags:
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import GoogleSlides from '@site/components/GoogleSlides.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 
 ## Concept
 
@@ -78,3 +79,8 @@ The graph above illustrates the distribution of weight values intentionally chos
 
 Despite the deviation from normality, Chebyshev's Inequality still applies, providing a conservative estimate of the proportion of data within a certain number of standard deviations from the mean.
 :::
+
+
+
+---
+<SuggestionForm/>

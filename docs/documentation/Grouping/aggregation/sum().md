@@ -4,6 +4,7 @@ sidebar_position: 7
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>df.groupby(column_name).sum()</code>
@@ -32,3 +33,6 @@ pets.groupby('Species').sum()
 <DataFrameComponent data={'{"columns":["Weight","Age","Is_Cat"],"index":["cat","dog","hamster"],"data":[[26.5,9.2,3],[145.0,7.5,0],[1.25,3.2,0]]}'} />
 
 
+
+---
+<SuggestionForm/>

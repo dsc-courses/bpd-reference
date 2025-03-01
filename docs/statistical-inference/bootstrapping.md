@@ -8,6 +8,7 @@ tags:
 ---
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import GoogleSlides from '@site/components/GoogleSlides.jsx';
 
 ## Concept
@@ -157,3 +158,7 @@ plt.show()
 ![Distribution](/img/statistical-inference-plots/bootstrapping.png)
 
 A 95% confidence level means that **approximately 95% of the time, the intervals you create through this process will contain the true population parameter**.
+
+
+---
+<SuggestionForm/>

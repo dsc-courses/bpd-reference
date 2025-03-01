@@ -4,6 +4,7 @@ sidebar_position: 7
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>df.groupby(column_name).max()</code>
@@ -30,3 +31,8 @@ pets.groupby('Species').max()
 ```
 
 <DataFrameComponent data={'{"columns":["ID","Color","Weight","Age","Is_Cat","Owner_Comment"],"index":["cat","dog","hamster"],"data":[["cat_003","golden",15.0,9.0,true,"No, thank you!"],["dog_003","white",80.0,5.0,false,"Love is a wet nose and a wagging tail."],["ham_002","golden",1.0,3.0,false,"No, thank you!"]]}'} />
+
+
+
+---
+<SuggestionForm/>

@@ -4,6 +4,7 @@ sidebar_position: 6
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>ser.median()</code>
@@ -24,3 +25,8 @@ weight_ser
 weight_ser.median()
 ```
 12.5
+
+
+
+---
+<SuggestionForm/>

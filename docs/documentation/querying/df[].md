@@ -4,6 +4,7 @@ sidebar_position: 2
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>df[condition]</code>
@@ -94,3 +95,9 @@ pets[pets.index > 3]
 ```
 
 <DataFrameComponent data = {'{"columns":["ID","Species","Color","Weight","Age","Is_Cat","Owner_Comment"],"index":[4,5,6,7],"data":[["dog_003","dog","black",25.0,0.5,false,"Be the person your dog thinks you are."],["ham_001","hamster","black",1.0,3.0,false,"No, thank you!"],["ham_002","hamster","golden",0.25,0.2,false,"No, thank you!"],["cat_003","cat","black",10.0,0.0,true,"No, thank you!"]]}'} />
+
+
+
+
+---
+<SuggestionForm/>

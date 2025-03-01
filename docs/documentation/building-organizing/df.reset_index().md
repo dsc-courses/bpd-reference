@@ -4,6 +4,7 @@ sidebar_position: 6
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>df.reset_index(drop=False)</code>
@@ -46,3 +47,7 @@ pets.reset_index(drop=True)
 ```
 
 <DataFrameComponent data={'{"columns":["Species","Color","Weight","Age","Is_Cat","Owner_Comment"],"index":[0,1,2,3,4,5,6,7],"data":[["dog","black",40.0,5.0,false,"      There are no bad dogs, only bad owners."],["cat","golden",1.5,0.2,true,"My best birthday present ever!!!"],["cat","black",15.0,9.0,true,"****All you need is love and a cat.****"],["dog","white",80.0,2.0,false,"Love is a wet nose and a wagging tail."],["dog","black",25.0,0.5,false,"Be the person your dog thinks you are."],["hamster","black",1.0,3.0,false,"No, thank you!"],["hamster","golden",0.25,0.2,false,"No, thank you!"],["cat","black",10.0,0.0,true,"No, thank you!"]]}'} />
+
+
+---
+<SuggestionForm/>

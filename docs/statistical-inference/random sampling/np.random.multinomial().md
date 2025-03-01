@@ -6,6 +6,7 @@ title: Random Multinomial
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>np.random.multinomial(n, [p_0, p_1, p_2, ...])</code>
@@ -56,3 +57,8 @@ def manual_multinomial(n, p):
 manual_multinomial(100, [0.1, 0.1, 0.8])
 ```
 array([10, 16, 74])
+
+
+
+---
+<SuggestionForm/>

@@ -4,6 +4,7 @@ sidebar_position: 7
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>df.take(indices)</code>
@@ -45,3 +46,7 @@ pets.take(np.arange(5))
 pets.take(np.arange(0, 6, 2))
 ```
 <DataFrameComponent data={'{"columns":["ID","Species","Color","Weight","Age","Is_Cat","Owner_Comment"],"index":[0,2,4],"data":[["dog_001","dog","black",40.0,5.0,false,"      There are no bad dogs, only bad owners."],["cat_002","cat","black",15.0,9.0,true,"****All you need is love and a cat.****"],["dog_003","dog","black",25.0,0.5,false,"Be the person your dog thinks you are."]]}'} />
+
+
+---
+<SuggestionForm/>

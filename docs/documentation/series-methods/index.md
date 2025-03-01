@@ -3,6 +3,7 @@ title: "Series Methods"
 ---
 
 import '@site/src/css/chapters.css';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 
 <p className="main-description">Methods that can be performed on a Series.</p>
 
@@ -155,3 +156,8 @@ import '@site/src/css/chapters.css';
         <p>Tests if a substring is contained within each element of the Series.</p>
     </div>
 </div>
+
+
+
+---
+<SuggestionForm/>

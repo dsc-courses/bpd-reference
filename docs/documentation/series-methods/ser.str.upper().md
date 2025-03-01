@@ -4,6 +4,7 @@ sidebar_position: 11
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>ser.str.upper()</code>
@@ -32,3 +33,8 @@ comment_ser
 comment_ser.str.upper()
 ```
 <SeriesComponent data={'{"name":"Owner_Comment","dtype":"object","index":[0,1,2,3,4,5,6,7],"data":["      THERE ARE NO BAD DOGS, ONLY BAD OWNERS.","MY BEST BIRTHDAY PRESENT EVER!!!","****ALL YOU NEED IS LOVE AND A CAT.****","LOVE IS A WET NOSE AND A WAGGING TAIL.","BE THE PERSON YOUR DOG THINKS YOU ARE.","NO, THANK YOU!","NO, THANK YOU!","NO, THANK YOU!"]}'} />
+
+
+
+---
+<SuggestionForm/>

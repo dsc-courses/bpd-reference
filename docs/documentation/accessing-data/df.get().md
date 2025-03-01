@@ -4,6 +4,7 @@ sidebar_position: 2
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>df.get(column_name)</code><strong>or</strong><code>df.get([col_1_name, ..., col_k_name])</code>
@@ -47,3 +48,6 @@ pets.get(['Species'])
 pets.get(['Species', 'Color'])
 ```
 <DataFrameComponent data={'{"columns":["Species","Color"],"index":[0,1,2,3,4,5,6,7],"data":[["dog","black"],["cat","golden"],["cat","black"],["dog","white"],["dog","black"],["hamster","black"],["hamster","golden"],["cat","black"]]}'} />
+
+---
+<SuggestionForm/>

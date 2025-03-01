@@ -4,6 +4,7 @@ sidebar_position: 1
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>np.round(arr, decimals)</code>
@@ -52,3 +53,7 @@ array([40.,  2., 15., 80., 25.,  1.,  0., 10.])
 np.round(weight_arr, 1) # Rounds to the nearest tenth - notice what happens to 0.25!
 ```
 array([40. ,  1.5, 15. , 80. , 25. ,  1. ,  0.2, 10. ])
+
+---
+<SuggestionForm/>
+

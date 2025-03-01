@@ -4,6 +4,7 @@ sidebar_position: 9
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>ser.str.strip(to_strip = None)</code>
@@ -54,3 +55,8 @@ comment_ser.str.strip('?')
 comment_ser.str.strip('* ')
 ```
 <SeriesComponent data={'{"name":"Owner_Comment","dtype":"object","index":[0,1,2,3,4,5,6,7],"data":["There are no bad dogs, only bad owners.","My best birthday present ever!!!","All you need is love and a cat.","Love is a wet nose and a wagging tail.","Be the person your dog thinks you are.","No, thank you!","No, thank you!","No, thank you!"]}'} />
+
+
+
+---
+<SuggestionForm/>

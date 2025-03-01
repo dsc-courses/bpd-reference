@@ -2,6 +2,7 @@
 title: "Building and Organizing DataFrames"
 ---
 import '@site/src/css/chapters.css';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 
 <p className="main-description">Each function/method creates a new DataFrame. Remember to save it!</p>
 
@@ -88,3 +89,7 @@ import '@site/src/css/chapters.css';
         <p>Merges two DataFrames by specified columns or indexes, using the specified type of merge.</p>
     </div>
 </div>
+
+
+---
+<SuggestionForm/>

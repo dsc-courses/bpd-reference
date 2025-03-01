@@ -10,6 +10,7 @@ tags:
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import GoogleSlides from '@site/components/GoogleSlides.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 
 ## Concept
 
@@ -186,3 +187,6 @@ If there is no pattern in a residual plot (patternless "cloud"), the regression 
 
 #### Patternless "cloud" example from Anscombe's quartet:
 ![Residuals](/img/statistical-inference-plots/residuals.png)
+
+---
+<SuggestionForm/>

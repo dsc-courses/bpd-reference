@@ -8,6 +8,7 @@ tags:
 ---
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import GoogleSlides from '@site/components/GoogleSlides.jsx';
 
 ## Difference
@@ -26,10 +27,5 @@ In other words, the CLT is a **shortcut** to bootstrapping!
 
 
 
-
-
-
-
-
-
-
+---
+<SuggestionForm/>

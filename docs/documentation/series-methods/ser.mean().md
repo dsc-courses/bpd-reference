@@ -4,6 +4,7 @@ sidebar_position: 5
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>ser.mean()</code>
@@ -24,3 +25,8 @@ weight_ser
 weight_ser.mean()
 ```
 21.59375
+
+
+
+---
+<SuggestionForm/>

@@ -4,6 +4,7 @@ sidebar_position: 3
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>str.lower()</code>
@@ -39,3 +40,7 @@ txt_lowered = txt.lower()
 print(txt.lower()) 
 ```
 "i love baby pandas"
+
+
+---
+<SuggestionForm/>

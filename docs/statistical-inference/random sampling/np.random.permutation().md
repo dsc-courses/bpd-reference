@@ -6,6 +6,7 @@ title: Random Permutation
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import GoogleSlides from '@site/components/GoogleSlides.jsx';
 import '@site/src/css/function.css';
 
@@ -50,3 +51,7 @@ for i in range(5):
 
 5st random permutation:
 [2 4 1 3 5]
+
+
+---
+<SuggestionForm/>

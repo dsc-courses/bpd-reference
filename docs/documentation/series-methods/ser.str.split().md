@@ -4,6 +4,7 @@ sidebar_position: 8
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>ser.str.split(pat = None)</code>
@@ -45,3 +46,8 @@ comment_ser.str.split()
 comment_ser.str.split(',')
 ```
 <SeriesComponent data={'{"name":"Owner_Comment", "dtype":"object", "index":[0,1,2,3,4,5,6,7],"data":[["      There are no bad dogs"," only bad owners."],["My best birthday present ever!!!"],["****All you need is love and a cat.****"],["Love is a wet nose and a wagging tail."],["Be the person your dog thinks you are."],["No"," thank you!"],["No"," thank you!"],["No"," thank you!"]]}'} />
+
+
+
+---
+<SuggestionForm/>

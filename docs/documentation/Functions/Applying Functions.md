@@ -5,6 +5,7 @@ sidebar_position: 2
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
 import GoogleSlides from '@site/components/GoogleSlides.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>df.get(column_name).apply(function_name)</code>
@@ -65,3 +66,7 @@ pets.get('ID').apply(categorize_animal)
 ```
 
 <SeriesComponent data='{"name":"description","dtype":"object","index":[0,1,2,3,4,5,6,7],"data":["Adult Normal","Kitten Underweight","Adult Overweight","Adult Overweight","Puppy Normal","Senior Overweight","Young Normal","Kitten Normal"]}' />
+
+
+---
+<SuggestionForm/>

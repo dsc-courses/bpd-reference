@@ -4,6 +4,7 @@ sidebar_position: 15
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>ser.str.len()</code>
@@ -32,3 +33,8 @@ comment_ser
 comment_ser.str.len()
 ```
 <SeriesComponent data={'{"name":"Owner_Comment","dtype":"int64","index":[0,1,2,3,4,5,6,7],"data":[45,32,39,38,38,14,14,14]}'} />
+
+
+
+---
+<SuggestionForm/>

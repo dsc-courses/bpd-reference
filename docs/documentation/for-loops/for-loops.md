@@ -4,6 +4,7 @@ sidebar_position: 8
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>for \<loop variable\> in \<sequence\>: <br/> </code> 
@@ -56,3 +57,7 @@ This is a dog with pet id dog_003, age 0.5, and weight 25.0 <br/>
 This is a hamster with pet id ham_001, age 3.0, and weight 1.0 <br/>
 This is a hamster with pet id ham_002, age 0.2, and weight 0.25 <br/>
 This is a cat with pet id cat_003, age 0.0, and weight 10.0
+
+
+---
+<SuggestionForm/>

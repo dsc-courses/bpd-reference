@@ -4,6 +4,7 @@ sidebar_position: 7
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>df.groupby(column_name).count()</code>
@@ -30,3 +31,6 @@ pets.groupby('Species').count()
 ```
 
 <DataFrameComponent data={'{"columns":["ID","Color","Weight","Age"],"index":["cat","dog","hamster"],"data":[[2,2,2,2],[3,3,3,3],[2,2,2,2]]}'} />
+
+---
+<SuggestionForm/>

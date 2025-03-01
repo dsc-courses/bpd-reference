@@ -6,6 +6,7 @@ title: Sampling
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import GoogleSlides from '@site/components/GoogleSlides.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 
 ## Concept
 
@@ -29,3 +30,7 @@ import GoogleSlides from '@site/components/GoogleSlides.jsx';
 - Bad idea ❌: Using **convenience samples**, which often contain hidden sources of **bias**.
 
 
+
+
+---
+<SuggestionForm/>

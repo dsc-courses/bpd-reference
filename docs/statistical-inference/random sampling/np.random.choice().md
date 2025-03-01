@@ -6,6 +6,7 @@ title: Random Choice
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>np.random.choice(arr, size, replace=True, p=[p_0, p_1, ...])</code>
@@ -72,3 +73,8 @@ np.random.choice([1, 2], 3, replace=False, p=[0.8, 0.2])
 ```
 ValueError: Cannot take a larger sample than population when 'replace=False'
 
+
+
+
+---
+<SuggestionForm/>

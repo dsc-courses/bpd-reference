@@ -5,6 +5,7 @@ sidebar_position: 8
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
 import GoogleSlides from '@site/components/GoogleSlides.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>df.merge(right, on=column, left_on=left_column, right_on=right_column, left_index=False, right_index=False)</code>
@@ -88,3 +89,7 @@ pets.merge(pets_info2, on='ID')
 ```
 
 <DataFrameComponent data={'{"columns":["ID","Species","Color","Weight","Age","Is_Cat","Owner_Comment","Breed","Owner"],"index":[0,1,2,3,4,5],"data":[["dog_001","dog","black",40.0,5.0,false,"      There are no bad dogs, only bad owners.","Labrador","Jason"],["cat_001","cat","golden",1.5,0.2,true,"My best birthday present ever!!!","Sphinx","Lauren"],["cat_002","cat","black",15.0,9.0,true,"****All you need is love and a cat.****","Siamese","Cassidy"],["dog_002","dog","white",80.0,2.0,false,"Love is a wet nose and a wagging tail.","Chihuahua","Bobby"],["dog_003","dog","black",25.0,0.5,false,"Be the person your dog thinks you are.","Labrador","Dhruv"],["ham_001","hamster","black",1.0,3.0,false,"No, thank you!","Roborovski","Cassidy"]]}'} />
+
+
+---
+<SuggestionForm/>

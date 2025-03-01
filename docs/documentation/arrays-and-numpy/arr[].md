@@ -4,6 +4,7 @@ sidebar_position: 1
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx'; 
 import '@site/src/css/function.css';
 
 <code>arr[index]</code>
@@ -44,3 +45,7 @@ array([40.  , 15.  , 20.  , 80.  , 25.  ,  1.  ,  0.25])
 weight_arr[2]
 ```
 20.0
+
+
+---
+<SuggestionForm/>

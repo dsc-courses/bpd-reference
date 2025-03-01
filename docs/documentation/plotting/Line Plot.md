@@ -4,6 +4,7 @@ sidebar_position: 4
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>df.plot(kind='line', x = data_col, y=data_col)</code>
@@ -37,3 +38,8 @@ pets.sort_values(by='Age').plot(kind='line', x='Age', y='Weight')
 ```
 
 ![Line plot example 1](/img/line-plot/lineex1.png)
+
+
+
+---
+<SuggestionForm/>

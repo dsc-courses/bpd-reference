@@ -3,6 +3,7 @@ title: "Accessing Data"
 ---
 
 import '@site/src/css/chapters.css';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 
 <p className="main-description"></p>
 
@@ -68,3 +69,7 @@ import '@site/src/css/chapters.css';
         <p>Returns the elements in the given positional indices.</p>
     </div>
 </div>
+
+
+---
+<SuggestionForm/>

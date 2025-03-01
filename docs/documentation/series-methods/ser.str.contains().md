@@ -4,6 +4,7 @@ sidebar_position: 16
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>ser.str.contains(substring)</code>
@@ -36,3 +37,8 @@ comment_ser
 comment_ser.str.contains('dog')
 ```
 <SeriesComponent data={'{"name":"Owner_Comment","dtype":"bool","index":[0,1,2,3,4,5,6,7],"data":[true,false,false,false,true,false,false,false]}'} />
+
+
+
+---
+<SuggestionForm/>

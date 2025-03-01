@@ -6,6 +6,7 @@ title: Sample
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>df.sample(n, replace=False)</code>
@@ -53,3 +54,8 @@ pets.shape[0]
 pets.sample(9, replace=False)
 ```
 ValueError: Cannot take a larger sample than length of DataFrame when 'replace=False'
+
+
+
+---
+<SuggestionForm/>

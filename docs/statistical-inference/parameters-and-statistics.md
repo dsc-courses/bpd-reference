@@ -6,6 +6,7 @@ title: Parameters and Statistics
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import GoogleSlides from '@site/components/GoogleSlides.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 
 ## Concept
 
@@ -25,3 +26,6 @@ To remember: **p**arameter and **p**opulation both start with p, **s**tatistic a
 
 The diagram below provides an overview of relationship between parameter and statistic. 
 
+
+---
+<SuggestionForm/>

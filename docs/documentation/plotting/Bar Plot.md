@@ -4,6 +4,7 @@ sidebar_position: 3
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>df.plot(kind='bar', x=data_col, y=data_col)</code>
@@ -80,3 +81,8 @@ pets.groupby('Species').count().plot(kind='bar', y='ID', title='Distribution of 
 ```
 
 ![Bar plot example 3](/img/bar-plot/barex4.png)
+
+
+
+---
+<SuggestionForm/>

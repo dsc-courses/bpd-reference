@@ -11,6 +11,7 @@ tags:
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import GoogleSlides from '@site/components/GoogleSlides.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 
 ## Concept
 
@@ -160,3 +161,8 @@ plt.axvline(x=observed, c='black', linewidth=4, label='population difference in 
 ![Distribution](/img/statistical-inference-plots/permutation-test.png)
 
 From this graph, we can tell that there is barely any data to the **right** of the black vertical line (our observed statistic), meaning we have a very low p-value!
+
+
+
+---
+<SuggestionForm/>

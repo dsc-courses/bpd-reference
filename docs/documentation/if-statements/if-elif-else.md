@@ -5,6 +5,7 @@ description: Conditionally execute code. The elif and else blocks are optional.
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>if \<condition\>: <br/> </code> 
@@ -85,3 +86,8 @@ cat_and_dog_info('cat_009')
 ```
 
 'This pet is not in our record'
+
+
+
+---
+<SuggestionForm/>

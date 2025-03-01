@@ -6,6 +6,7 @@ title: P-value
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import GoogleSlides from '@site/components/GoogleSlides.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 
 ## Concept
 
@@ -25,3 +26,6 @@ import GoogleSlides from '@site/components/GoogleSlides.jsx';
 to do: add an example (code + graph) / or link to a coding example
 
 
+
+---
+<SuggestionForm/>

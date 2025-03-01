@@ -3,6 +3,7 @@ title: "Plotting"
 ---
 
 import '@site/src/css/chapters.css';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 
 <p className="main-description">Plotting and visualization of DataFrames.</p>
 
@@ -41,3 +42,8 @@ import '@site/src/css/chapters.css';
         <p>Creates a line plot using a DataFrame.</p>
     </div>
 </div>
+
+
+
+---
+<SuggestionForm/>

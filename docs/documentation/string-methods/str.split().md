@@ -4,6 +4,7 @@ sidebar_position: 1
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>str.split(separator, maxsplit)</code>
@@ -53,3 +54,8 @@ print(x)
 
 ```
 ['Split', 'By', 'Delimiter']
+
+
+
+---
+<SuggestionForm/>

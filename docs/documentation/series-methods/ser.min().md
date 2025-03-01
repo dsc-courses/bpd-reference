@@ -4,6 +4,7 @@ sidebar_position: 3
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>ser.min()</code>
@@ -28,3 +29,8 @@ weight_ser
 weight_ser.min()
 ```
 0.25
+
+
+
+---
+<SuggestionForm/>

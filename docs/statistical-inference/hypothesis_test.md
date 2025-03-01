@@ -11,6 +11,7 @@ tags:
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import GoogleSlides from '@site/components/GoogleSlides.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 
 ## Concept
 
@@ -274,3 +275,7 @@ plt.legend();
 ![Distribution](/img/statistical-inference-plots/hypothesis-test2.png)
 
 From this graph, we can see that almost half of the data are to the **right** of the black vertical line (our observed statistic), meaning we have a relatively high p-value!
+
+
+---
+<SuggestionForm/>

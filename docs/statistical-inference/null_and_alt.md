@@ -6,6 +6,7 @@ title: Null & Alternative Hypothesis
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import GoogleSlides from '@site/components/GoogleSlides.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 
 ## Concept
 
@@ -27,3 +28,7 @@ The **null hypothesis** must be written with **equal** sign. A statement with un
 
 Since the **alternative hypothesis** is different from the null, it can be less than, greater than, or not equal to, but cannot be $\geq$ or $\leq$.
 :::
+
+
+---
+<SuggestionForm/>

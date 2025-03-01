@@ -8,6 +8,7 @@ tags:
 ---
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
+import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import GoogleSlides from '@site/components/GoogleSlides.jsx';
 
 ## Concept
@@ -57,3 +58,8 @@ The diagram below provides an overview of the Central Limit Theorem, although it
 src="https://docs.google.com/presentation/d/e/2PACX-1vTIYviveyB3wk7ck7_gFpyZTEwT67jTl0aDdidTn1iqtjRRT70ihB7HKT4rwO68dcUtr80OgOlyvsHn/embed?start=true&loop=false&delayms=3000&rm=minimal"
 sourceLink="https://docs.google.com/presentation/d/1GX74m6k0PbLU6j5zPUuylbkcgsel2MPfcpfACZ45AVQ/edit?usp=sharing"
 />
+
+
+
+---
+<SuggestionForm/>
