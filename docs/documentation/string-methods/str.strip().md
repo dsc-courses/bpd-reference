@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+sidebar_position: 6
 ---
 
 import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
@@ -28,17 +28,13 @@ import '@site/src/css/function.css';
 ---
 
 ```python
-txt = "     panda     "
-print(txt.strip())
-
+"     panda     ".strip()
 ```
 "panda"
 
 ```python
-txt = ",,,,,rrttgg.....panda....rrr"
-x = txt.strip(",.grt")
-print(x)
-
+# The 'y' in 'baby' does not get stripped since its in the middle.
+"...baby panda?!   ".strip(".?! y")
 ```
 "panda"
 
