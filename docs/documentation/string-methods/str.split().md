@@ -21,7 +21,7 @@ import '@site/src/css/function.css';
         <dd>A list object of the separated string.</dd>
 
         <dt className='term'>Return Type:</dt>
-        <dd>array</dd>
+        <dd>list</dd>
     </dl>
 </div>
 
