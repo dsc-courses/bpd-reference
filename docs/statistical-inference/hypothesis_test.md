@@ -103,7 +103,7 @@ observed_stat
 
 ---
 
-### 5. Simulate the hypothesis test under the null hypothesis
+### 5. Simulate the distribution of the test statistic under the null hypothesis
 
 ```python
 n = 500 # Number of simulations.
@@ -113,7 +113,7 @@ test_statistics = np.array([]) # Array to keep track of the test statistic for e
 sample_size = dogs_df.shape[0]
 
 # Under the null hypothesis, proportion of "white" dogs among dogs is equal to the proportion of white pets among the overall population
-model_proportions = np.array([obs_dogs_prop, 1-obs_dogs_prop]) 
+model_proportions = np.array([overall_prop, 1-overall_prop]) 
 
 for i in np.arange(n): # Run the simulation `n` number of times
     
