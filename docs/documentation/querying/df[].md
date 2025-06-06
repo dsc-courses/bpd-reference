@@ -38,7 +38,7 @@ pets
 (pets.get('Species')=='dog') & (pets.get('Color')=='white')
 ```
 
-<SeriesComponent data = {'{"name":"Species is a dog AND color is white","index":[0,1,2,3,4,5,6,7],"data":[false,false,false,true,false,false,false,false]}'} />
+<SeriesComponent data = {'{"name":"Species is a dog AND color is white","dtype":"bool","index":[0,1,2,3,4,5,6,7],"data":[false,false,false,true,false,false,false,false]}'} />
 
 <p><strong> DataFrame where Species is a dog AND Color is white </strong></p>
 
@@ -53,7 +53,7 @@ pets[(pets.get('Species')=='dog') & (pets.get('Color')=='white')]
 ```python
 (pets.get('Species')=='dog') | (pets.get('Color')=='white')
 ```
-<SeriesComponent data = {'{"name":"Species is a dog OR color is white","index":[0,1,2,3,4,5,6,7],"data":[true,false,false,true,true,false,false,false]}'} />
+<SeriesComponent data = {'{"name":"Species is a dog OR color is white","dtype":"bool","index":[0,1,2,3,4,5,6,7],"data":[true,false,false,true,true,false,false,false]}'} />
 
 <p><strong> DataFrame where Species is a dog OR Color is white</strong></p>
 
@@ -72,13 +72,13 @@ pets[pets.get('Weight') >= 25]
 <DataFrameComponent data = {'{"columns":["ID","Species","Color","Weight","Age","Is_Cat","Owner_Comment"],"index":[0,3,4],"data":[["dog_001","dog","black",40.0,5.0,false,"      There are no bad dogs, only bad owners."],["dog_002","dog","white",80.0,2.0,false,"Love is a wet nose and a wagging tail."],["dog_003","dog","black",25.0,0.5,false,"Be the person your dog thinks you are."]]}'} />
 
 ```python
-pets[pets[(pets.get('Weight') >= 25) &  (pets.get('Weight') < 80)]]
+pets[(pets.get('Weight') >= 25) &  (pets.get('Weight') < 80)]
 ```
 
 <DataFrameComponent data = {'{"columns":["ID","Species","Color","Weight","Age","Is_Cat","Owner_Comment"],"index":[0,4],"data":[["dog_001","dog","black",40.0,5.0,false,"      There are no bad dogs, only bad owners."],["dog_003","dog","black",25.0,0.5,false,"Be the person your dog thinks you are."]]}'} />
 
 ```python
-pets[pets[pets.get('Color').str.contains('e')]]
+pets[pets.get('Color').str.contains('e')]
 ```
 
 <DataFrameComponent data = {'{"columns":["ID","Species","Color","Weight","Age","Is_Cat","Owner_Comment"],"index":[1,3,6],"data":[["cat_001","cat","golden",1.5,0.2,true,"My best birthday present ever!!!"],["dog_002","dog","white",80.0,2.0,false,"Love is a wet nose and a wagging tail."],["ham_002","hamster","golden",0.25,0.2,false,"No, thank you!"]]}'} />
