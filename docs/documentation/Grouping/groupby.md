@@ -38,7 +38,7 @@ import '@site/src/css/function.css';
 
 The diagram below provides a visualization of how groupby works using a variation of our main dataset. For additional helpful visual guides, please visit the [Diagrams](https://dsc10.com/diagrams/) site.
 <GoogleSlides
-src="https://docs.google.com/presentation/d/e/2PACX-1vTgVlFngQcLMYHP-z1vq5lVXjsBgcHebc-3TX7SW6L_gjX6TD1gsflvVDQUpWiDdeEPqJASenUIfBVd/embed?start=true&loop=false&delayms=3000&rm=minimal"
+src="https://docs.google.com/presentation/d/1IBMwlqBtnD-Ml1Zhmqs6pnYV6jcYayr3VGFqN9Dg3xk/embed?start=true&loop=false&delayms=3000&rm=minimal"
 sourceLink="https://docs.google.com/presentation/d/1XZ-nuM5XMFR5WgqZ2rt3mn9gDCPfB8ESu07okHKchqw/edit?usp=sharing"
 />
 
