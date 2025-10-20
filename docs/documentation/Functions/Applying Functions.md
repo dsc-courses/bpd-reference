@@ -31,7 +31,7 @@ import '@site/src/css/function.css';
 The diagram below provides an example of applying a function to a column of a dataframe. For additional helpful visual guides, please visit the [Diagrams](https://dsc10.com/diagrams/) site.
 
 <GoogleSlides
-src="https://docs.google.com/presentation/d/e/2PACX-1vQXwk0rIpa1cFU5CxUMsxXBLG12zBZ8S2mzUIcNP6Kd2sisefT85kjIh6qTOyRB7n2o9Ls8ne1920u-/embed?start=true&loop=false&delayms=3000&rm=minimal"
+src="https://docs.google.com/presentation/d/1qk0vkw8YPhqTtaSrwLcCeCGAopKMN9Bn0S5DntIZhbk/embed?start=true&loop=false&delayms=3000&rm=minimal"
 sourceLink="https://docs.google.com/presentation/d/1hsXbnQi31R-7lI-dOKH5rRPLqD41xJoHnXD-4RlH5p4/edit?usp=sharing"
 />
 
