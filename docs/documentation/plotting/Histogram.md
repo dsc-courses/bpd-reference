@@ -56,7 +56,7 @@ import '@site/src/css/function.css';
 
 The diagram below provides a visualization of how histograms are formed. For additional helpful visual guides, please visit the [Diagrams](https://dsc10.com/diagrams/) site.
 <GoogleSlides
-src="https://docs.google.com/presentation/d/e/2PACX-1vTnRGwEnKP2V-Z82DlxW1b1nMb2F0zWyrXIzFSpQx_8Wd3MFaf56y2_u3JrLwZ5SjWmfapL5BJLfsDG/embed?start=true&loop=false&delayms=3000&rm=minimal"
+src="https://docs.google.com/presentation/d/17-vkRiBApVy9oZUu87NCVtuZvyq6YpqxyGF5vvXxEA8/embed?start=true&loop=false&delayms=3000&rm=minimal"
 sourceLink="https://docs.google.com/presentation/d/1D4YhRuCjRivWVbjluXtxx_GgsdcMDBdesnwDtCEfDXY/edit?usp=sharing"
 />
 
