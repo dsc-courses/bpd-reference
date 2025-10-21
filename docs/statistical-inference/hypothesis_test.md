@@ -16,7 +16,7 @@ import SuggestionForm from '@site/components/SuggestionForm.jsx';
 ## Concept
 
 :::note Note 🌟
-This page refers to the **standard** hypothesis test.
+This page refers to the **standard** hypothesis test. 
 :::
 
 :::tip Key Idea
