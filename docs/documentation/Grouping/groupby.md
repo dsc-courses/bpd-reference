@@ -6,7 +6,7 @@ import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
 import SeriesComponent from '@site/components/SeriesComponent.jsx';
 import GoogleSlides from '@site/components/GoogleSlides.jsx';
 import SuggestionForm from '@site/components/SuggestionForm.jsx';
-import '@site/src/css/function.css';
+import '@site/src/css/function.css'; 
 
 <code>df.groupby(column_name)</code><strong>or</strong><code>df.groupby([column_names])</code>
 
