@@ -10,6 +10,7 @@ import '@site/src/css/function.css';
 <code>ser.loc[label]</code>
 
 <div className='base'>
+    <p>Troubleshooting test!</p>
     <p><strong>Returns the element of the Series that corresponds to its row label.</strong></p>
     <dl>
         <dt className='term'>Note:</dt>
