@@ -13,7 +13,7 @@ import '@site/src/css/function.css';
 <div className='base'>
     <p><strong>Groups all DataFrame rows with the same value in <em>column_name</em> or list of <em>column_names</em></strong>.</p>
     
-    <p>A groupby operation groups large amounts of data based on the column name(s).</p>
+    <p>A groupby operation groups large amounts of data based on the column name(s).</p> 
 
     <dl>
         <dt className='term'>Input:</dt>
