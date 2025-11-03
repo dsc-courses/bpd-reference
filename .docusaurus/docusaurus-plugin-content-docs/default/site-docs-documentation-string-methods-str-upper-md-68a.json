@@ -1,0 +1,22 @@
+{
+  "id": "documentation/string-methods/str.upper()",
+  "title": "str.upper()",
+  "description": "str.upper()",
+  "source": "@site/docs/documentation/string-methods/str.upper().md",
+  "sourceDirName": "documentation/string-methods",
+  "slug": "/documentation/string-methods/str.upper()",
+  "permalink": "/bpd-reference/docs/documentation/string-methods/str.upper()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "str.title()",
+    "permalink": "/bpd-reference/docs/documentation/string-methods/str.title()"
+  }
+}

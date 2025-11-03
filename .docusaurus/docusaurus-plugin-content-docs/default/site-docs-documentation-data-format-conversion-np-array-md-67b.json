@@ -1,0 +1,26 @@
+{
+  "id": "documentation/data-format-conversion/np.array()",
+  "title": "np.array()",
+  "description": "np.array(input)",
+  "source": "@site/docs/documentation/data-format-conversion/np.array().md",
+  "sourceDirName": "documentation/data-format-conversion",
+  "slug": "/documentation/data-format-conversion/np.array()",
+  "permalink": "/bpd-reference/docs/documentation/data-format-conversion/np.array()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Data Format Conversion",
+    "permalink": "/bpd-reference/docs/documentation/data-format-conversion/"
+  },
+  "next": {
+    "title": "list()",
+    "permalink": "/bpd-reference/docs/documentation/data-format-conversion/list()"
+  }
+}

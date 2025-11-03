@@ -1,0 +1,25 @@
+{
+  "id": "documentation/arrays-and-numpy/index",
+  "title": "Arrays and NumPy",
+  "description": "Functions/methods for working with Arrays and NumPy.",
+  "source": "@site/docs/documentation/arrays-and-numpy/index.md",
+  "sourceDirName": "documentation/arrays-and-numpy",
+  "slug": "/documentation/arrays-and-numpy/",
+  "permalink": "/bpd-reference/docs/documentation/arrays-and-numpy/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Arrays and NumPy"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "ser.str.contains()",
+    "permalink": "/bpd-reference/docs/documentation/series-methods/ser.str.contains()"
+  },
+  "next": {
+    "title": "arr[]",
+    "permalink": "/bpd-reference/docs/documentation/arrays-and-numpy/arr[]"
+  }
+}

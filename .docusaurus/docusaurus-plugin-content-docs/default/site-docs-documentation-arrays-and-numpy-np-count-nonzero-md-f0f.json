@@ -1,0 +1,26 @@
+{
+  "id": "documentation/arrays-and-numpy/np.count_nonzero()",
+  "title": "np.count_nonzero()",
+  "description": "np.count_nonzero(arr)",
+  "source": "@site/docs/documentation/arrays-and-numpy/np.count_nonzero().md",
+  "sourceDirName": "documentation/arrays-and-numpy",
+  "slug": "/documentation/arrays-and-numpy/np.count_nonzero()",
+  "permalink": "/bpd-reference/docs/documentation/arrays-and-numpy/np.count_nonzero()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "np.arange()",
+    "permalink": "/bpd-reference/docs/documentation/arrays-and-numpy/np.arange()"
+  },
+  "next": {
+    "title": "np.percentile()",
+    "permalink": "/bpd-reference/docs/documentation/arrays-and-numpy/np.percentile()"
+  }
+}

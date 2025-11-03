@@ -1,0 +1,26 @@
+{
+  "id": "documentation/string-methods/str.strip()",
+  "title": "str.strip()",
+  "description": "str.strip(characters)",
+  "source": "@site/docs/documentation/string-methods/str.strip().md",
+  "sourceDirName": "documentation/string-methods",
+  "slug": "/documentation/string-methods/str.strip()",
+  "permalink": "/bpd-reference/docs/documentation/string-methods/str.strip()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "str.split()",
+    "permalink": "/bpd-reference/docs/documentation/string-methods/str.split()"
+  },
+  "next": {
+    "title": "str.title()",
+    "permalink": "/bpd-reference/docs/documentation/string-methods/str.title()"
+  }
+}

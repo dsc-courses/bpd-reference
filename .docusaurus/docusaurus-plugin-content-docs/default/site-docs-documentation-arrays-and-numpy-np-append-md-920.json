@@ -1,0 +1,26 @@
+{
+  "id": "documentation/arrays-and-numpy/np.append()",
+  "title": "np.append()",
+  "description": "np.append(arr, value)",
+  "source": "@site/docs/documentation/arrays-and-numpy/np.append().md",
+  "sourceDirName": "documentation/arrays-and-numpy",
+  "slug": "/documentation/arrays-and-numpy/np.append()",
+  "permalink": "/bpd-reference/docs/documentation/arrays-and-numpy/np.append()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "arr[]",
+    "permalink": "/bpd-reference/docs/documentation/arrays-and-numpy/arr[]"
+  },
+  "next": {
+    "title": "np.arange()",
+    "permalink": "/bpd-reference/docs/documentation/arrays-and-numpy/np.arange()"
+  }
+}

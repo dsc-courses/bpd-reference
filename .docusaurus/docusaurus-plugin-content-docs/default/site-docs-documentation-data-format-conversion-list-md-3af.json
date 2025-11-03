@@ -1,0 +1,26 @@
+{
+  "id": "documentation/data-format-conversion/list()",
+  "title": "list()",
+  "description": "list(arr)",
+  "source": "@site/docs/documentation/data-format-conversion/list().md",
+  "sourceDirName": "documentation/data-format-conversion",
+  "slug": "/documentation/data-format-conversion/list()",
+  "permalink": "/bpd-reference/docs/documentation/data-format-conversion/list()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "np.array()",
+    "permalink": "/bpd-reference/docs/documentation/data-format-conversion/np.array()"
+  },
+  "next": {
+    "title": "Querying",
+    "permalink": "/bpd-reference/docs/category/querying"
+  }
+}

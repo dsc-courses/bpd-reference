@@ -1,0 +1,28 @@
+{
+  "id": "statistical-inference/random sampling/sampling",
+  "title": "Sampling",
+  "description": "Concept",
+  "source": "@site/docs/statistical-inference/random sampling/sampling.md",
+  "sourceDirName": "statistical-inference/random sampling",
+  "slug": "/statistical-inference/random sampling/sampling",
+  "permalink": "/bpd-reference/docs/statistical-inference/random sampling/sampling",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "sidebar_label": "Sampling",
+    "title": "Sampling"
+  },
+  "sidebar": "statsSidebar",
+  "previous": {
+    "title": "Intro",
+    "permalink": "/bpd-reference/docs/statistical-inference/intro"
+  },
+  "next": {
+    "title": "Random Choice",
+    "permalink": "/bpd-reference/docs/statistical-inference/random sampling/np.random.choice()"
+  }
+}

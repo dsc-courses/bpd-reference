@@ -1,0 +1,26 @@
+{
+  "id": "documentation/string-methods/str.title()",
+  "title": "str.title()",
+  "description": "str.title()",
+  "source": "@site/docs/documentation/string-methods/str.title().md",
+  "sourceDirName": "documentation/string-methods",
+  "slug": "/documentation/string-methods/str.title()",
+  "permalink": "/bpd-reference/docs/documentation/string-methods/str.title()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "str.strip()",
+    "permalink": "/bpd-reference/docs/documentation/string-methods/str.strip()"
+  },
+  "next": {
+    "title": "str.upper()",
+    "permalink": "/bpd-reference/docs/documentation/string-methods/str.upper()"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "id": "statistical-inference/permutation_test",
+  "title": "Permutation Test",
+  "description": "Concept",
+  "source": "@site/docs/statistical-inference/permutation_test.md",
+  "sourceDirName": "statistical-inference",
+  "slug": "/statistical-inference/permutation_test",
+  "permalink": "/bpd-reference/docs/statistical-inference/permutation_test",
+  "draft": false,
+  "unlisted": false,
+  "tags": [
+    {
+      "label": "querying",
+      "permalink": "/bpd-reference/docs/tags/querying"
+    },
+    {
+      "label": "functions",
+      "permalink": "/bpd-reference/docs/tags/functions"
+    },
+    {
+      "label": "for-loop",
+      "permalink": "/bpd-reference/docs/tags/for-loop"
+    },
+    {
+      "label": "histogram",
+      "permalink": "/bpd-reference/docs/tags/histogram"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "sidebar_label": "Permutation Test",
+    "title": "Permutation Test",
+    "tags": [
+      "querying",
+      "functions",
+      "for-loop",
+      "histogram"
+    ]
+  },
+  "sidebar": "statsSidebar",
+  "previous": {
+    "title": "Boostrapping and Confidence Intervals",
+    "permalink": "/bpd-reference/docs/statistical-inference/bootstrapping"
+  },
+  "next": {
+    "title": "Standard Units, Correlation, Regression",
+    "permalink": "/bpd-reference/docs/statistical-inference/standard_units"
+  }
+}

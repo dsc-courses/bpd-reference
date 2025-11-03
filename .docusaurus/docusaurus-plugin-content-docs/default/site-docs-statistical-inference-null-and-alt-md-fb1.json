@@ -1,0 +1,28 @@
+{
+  "id": "statistical-inference/null_and_alt",
+  "title": "Null & Alternative Hypothesis",
+  "description": "Concept",
+  "source": "@site/docs/statistical-inference/null_and_alt.md",
+  "sourceDirName": "statistical-inference",
+  "slug": "/statistical-inference/null_and_alt",
+  "permalink": "/bpd-reference/docs/statistical-inference/null_and_alt",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "sidebar_label": "Null & Alternative Hypothesis",
+    "title": "Null & Alternative Hypothesis"
+  },
+  "sidebar": "statsSidebar",
+  "previous": {
+    "title": "Parameters and Statistics",
+    "permalink": "/bpd-reference/docs/statistical-inference/parameters-and-statistics"
+  },
+  "next": {
+    "title": "Observed & Test Statistic",
+    "permalink": "/bpd-reference/docs/statistical-inference/obs_and_test_stats"
+  }
+}

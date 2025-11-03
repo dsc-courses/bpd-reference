@@ -1,0 +1,26 @@
+{
+  "id": "documentation/accessing-data/df.index",
+  "title": "df.index",
+  "description": "df.index",
+  "source": "@site/docs/documentation/accessing-data/df.index.md",
+  "sourceDirName": "documentation/accessing-data",
+  "slug": "/documentation/accessing-data/df.index",
+  "permalink": "/bpd-reference/docs/documentation/accessing-data/df.index",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "ser.iloc[]",
+    "permalink": "/bpd-reference/docs/documentation/accessing-data/ser.iloc[]"
+  },
+  "next": {
+    "title": "df.columns",
+    "permalink": "/bpd-reference/docs/documentation/accessing-data/df.columns"
+  }
+}

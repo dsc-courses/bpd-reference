@@ -1,0 +1,41 @@
+{
+  "id": "statistical-inference/concept check/hypothesis_vs_permutation",
+  "title": "Hypothesis Test vs. Permutation Test",
+  "description": "Difference",
+  "source": "@site/docs/statistical-inference/concept check/hypothesis_vs_permutation.md",
+  "sourceDirName": "statistical-inference/concept check",
+  "slug": "/statistical-inference/concept check/hypothesis_vs_permutation",
+  "permalink": "/bpd-reference/docs/statistical-inference/concept check/hypothesis_vs_permutation",
+  "draft": false,
+  "unlisted": false,
+  "tags": [
+    {
+      "label": "hypothesis test",
+      "permalink": "/bpd-reference/docs/tags/hypothesis-test"
+    },
+    {
+      "label": "permutation test",
+      "permalink": "/bpd-reference/docs/tags/permutation-test"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "sidebar_label": "Hypothesis Test vs. Permutation Test",
+    "title": "Hypothesis Test vs. Permutation Test",
+    "tags": [
+      "hypothesis test",
+      "permutation test"
+    ]
+  },
+  "sidebar": "statsSidebar",
+  "previous": {
+    "title": "The Central Limit Theorem",
+    "permalink": "/bpd-reference/docs/statistical-inference/central_limit_theorem"
+  },
+  "next": {
+    "title": "Bootstrapping vs. the CLT",
+    "permalink": "/bpd-reference/docs/statistical-inference/concept check/bootstrapping_vs_the_CLT"
+  }
+}

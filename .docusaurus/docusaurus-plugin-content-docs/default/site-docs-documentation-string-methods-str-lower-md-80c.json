@@ -1,0 +1,26 @@
+{
+  "id": "documentation/string-methods/str.lower()",
+  "title": "str.lower()",
+  "description": "str.lower()",
+  "source": "@site/docs/documentation/string-methods/str.lower().md",
+  "sourceDirName": "documentation/string-methods",
+  "slug": "/documentation/string-methods/str.lower()",
+  "permalink": "/bpd-reference/docs/documentation/string-methods/str.lower()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "str.join()",
+    "permalink": "/bpd-reference/docs/documentation/string-methods/str.join()"
+  },
+  "next": {
+    "title": "str.replace()",
+    "permalink": "/bpd-reference/docs/documentation/string-methods/str.replace()"
+  }
+}

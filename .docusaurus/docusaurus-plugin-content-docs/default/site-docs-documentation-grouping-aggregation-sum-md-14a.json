@@ -1,0 +1,26 @@
+{
+  "id": "documentation/Grouping/aggregation/sum()",
+  "title": "sum()",
+  "description": "df.groupby(column_name).sum()",
+  "source": "@site/docs/documentation/Grouping/aggregation/sum().md",
+  "sourceDirName": "documentation/Grouping/aggregation",
+  "slug": "/documentation/Grouping/aggregation/sum()",
+  "permalink": "/bpd-reference/docs/documentation/Grouping/aggregation/sum()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "min()",
+    "permalink": "/bpd-reference/docs/documentation/Grouping/aggregation/min()"
+  },
+  "next": {
+    "title": "String methods",
+    "permalink": "/bpd-reference/docs/documentation/string-methods/"
+  }
+}

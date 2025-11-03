@@ -1,0 +1,26 @@
+{
+  "id": "documentation/accessing-data/ser.iloc[]",
+  "title": "ser.iloc[]",
+  "description": "ser.iloc[position]",
+  "source": "@site/docs/documentation/accessing-data/ser.iloc[].md",
+  "sourceDirName": "documentation/accessing-data",
+  "slug": "/documentation/accessing-data/ser.iloc[]",
+  "permalink": "/bpd-reference/docs/documentation/accessing-data/ser.iloc[]",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "ser.loc[]",
+    "permalink": "/bpd-reference/docs/documentation/accessing-data/ser.loc[]"
+  },
+  "next": {
+    "title": "df.index",
+    "permalink": "/bpd-reference/docs/documentation/accessing-data/df.index"
+  }
+}

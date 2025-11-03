@@ -1,0 +1,26 @@
+{
+  "id": "documentation/for-loops/for-loops",
+  "title": "for-loops",
+  "description": "for \\ in \\:",
+  "source": "@site/docs/documentation/for-loops/for-loops.md",
+  "sourceDirName": "documentation/for-loops",
+  "slug": "/documentation/for-loops/",
+  "permalink": "/bpd-reference/docs/documentation/for-loops/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Line Plot",
+    "permalink": "/bpd-reference/docs/documentation/plotting/Line Plot"
+  },
+  "next": {
+    "title": "if-statements",
+    "permalink": "/bpd-reference/docs/category/if-statements"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "documentation/accessing-data/df.columns",
+  "title": "df.columns",
+  "description": "df.columns",
+  "source": "@site/docs/documentation/accessing-data/df.columns.md",
+  "sourceDirName": "documentation/accessing-data",
+  "slug": "/documentation/accessing-data/df.columns",
+  "permalink": "/bpd-reference/docs/documentation/accessing-data/df.columns",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "df.index",
+    "permalink": "/bpd-reference/docs/documentation/accessing-data/df.index"
+  },
+  "next": {
+    "title": "df.take()",
+    "permalink": "/bpd-reference/docs/documentation/accessing-data/df.take()"
+  }
+}

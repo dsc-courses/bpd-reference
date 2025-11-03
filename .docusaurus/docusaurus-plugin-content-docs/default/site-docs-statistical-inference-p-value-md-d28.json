@@ -1,0 +1,28 @@
+{
+  "id": "statistical-inference/p_value",
+  "title": "P-value",
+  "description": "Concept",
+  "source": "@site/docs/statistical-inference/p_value.md",
+  "sourceDirName": "statistical-inference",
+  "slug": "/statistical-inference/p_value",
+  "permalink": "/bpd-reference/docs/statistical-inference/p_value",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "sidebar_label": "P-value",
+    "title": "P-value"
+  },
+  "sidebar": "statsSidebar",
+  "previous": {
+    "title": "Observed & Test Statistic",
+    "permalink": "/bpd-reference/docs/statistical-inference/obs_and_test_stats"
+  },
+  "next": {
+    "title": "Hypothesis Test",
+    "permalink": "/bpd-reference/docs/statistical-inference/hypothesis_test"
+  }
+}

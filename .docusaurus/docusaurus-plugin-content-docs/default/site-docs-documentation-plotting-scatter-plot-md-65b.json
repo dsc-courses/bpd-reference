@@ -1,0 +1,26 @@
+{
+  "id": "documentation/plotting/Scatter Plot",
+  "title": "Scatter Plot",
+  "description": "df.plot(kind='scatter', x=datacol, y=datacol)",
+  "source": "@site/docs/documentation/plotting/Scatter Plot.md",
+  "sourceDirName": "documentation/plotting",
+  "slug": "/documentation/plotting/Scatter Plot",
+  "permalink": "/bpd-reference/docs/documentation/plotting/Scatter Plot",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Histogram",
+    "permalink": "/bpd-reference/docs/documentation/plotting/Histogram"
+  },
+  "next": {
+    "title": "Bar Plot",
+    "permalink": "/bpd-reference/docs/documentation/plotting/Bar Plot"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "documentation/building-organizing/df.set_index()",
+  "title": "df.set_index()",
+  "description": "df.setindex(columnname)",
+  "source": "@site/docs/documentation/building-organizing/df.set_index().md",
+  "sourceDirName": "documentation/building-organizing",
+  "slug": "/documentation/building-organizing/df.set_index()",
+  "permalink": "/bpd-reference/docs/documentation/building-organizing/df.set_index()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "df.drop()",
+    "permalink": "/bpd-reference/docs/documentation/building-organizing/df.drop()"
+  },
+  "next": {
+    "title": "df.reset_index()",
+    "permalink": "/bpd-reference/docs/documentation/building-organizing/df.reset_index()"
+  }
+}

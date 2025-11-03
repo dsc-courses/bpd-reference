@@ -1,0 +1,25 @@
+{
+  "id": "documentation/accessing-data/index",
+  "title": "Accessing Data",
+  "description": "df.shape",
+  "source": "@site/docs/documentation/accessing-data/index.md",
+  "sourceDirName": "documentation/accessing-data",
+  "slug": "/documentation/accessing-data/",
+  "permalink": "/bpd-reference/docs/documentation/accessing-data/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Accessing Data"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "df.merge()",
+    "permalink": "/bpd-reference/docs/documentation/building-organizing/df.merge()"
+  },
+  "next": {
+    "title": "df.shape",
+    "permalink": "/bpd-reference/docs/documentation/accessing-data/df.shape"
+  }
+}

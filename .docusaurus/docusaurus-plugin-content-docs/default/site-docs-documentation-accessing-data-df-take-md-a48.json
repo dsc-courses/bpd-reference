@@ -1,0 +1,26 @@
+{
+  "id": "documentation/accessing-data/df.take()",
+  "title": "df.take()",
+  "description": "df.take(indices)",
+  "source": "@site/docs/documentation/accessing-data/df.take().md",
+  "sourceDirName": "documentation/accessing-data",
+  "slug": "/documentation/accessing-data/df.take()",
+  "permalink": "/bpd-reference/docs/documentation/accessing-data/df.take()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "df.columns",
+    "permalink": "/bpd-reference/docs/documentation/accessing-data/df.columns"
+  },
+  "next": {
+    "title": "Series Methods",
+    "permalink": "/bpd-reference/docs/documentation/series-methods/"
+  }
+}

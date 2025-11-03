@@ -1,0 +1,25 @@
+{
+  "id": "documentation/building-organizing/index",
+  "title": "Building and Organizing DataFrames",
+  "description": "Each function/method creates a new DataFrame. Remember to save it!",
+  "source": "@site/docs/documentation/building-organizing/index.md",
+  "sourceDirName": "documentation/building-organizing",
+  "slug": "/documentation/building-organizing/",
+  "permalink": "/bpd-reference/docs/documentation/building-organizing/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Building and Organizing DataFrames"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Intro",
+    "permalink": "/bpd-reference/docs/documentation/intro"
+  },
+  "next": {
+    "title": "bpd.DataFrame()",
+    "permalink": "/bpd-reference/docs/documentation/building-organizing/bpd.DataFrame()"
+  }
+}

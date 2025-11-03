@@ -1,0 +1,27 @@
+{
+  "id": "documentation/if-statements/if-elif-else",
+  "title": "if-elif-else",
+  "description": "Conditionally execute code. The elif and else blocks are optional.",
+  "source": "@site/docs/documentation/if-statements/if-elif-else.md",
+  "sourceDirName": "documentation/if-statements",
+  "slug": "/documentation/if-statements/if-elif-else",
+  "permalink": "/bpd-reference/docs/documentation/if-statements/if-elif-else",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "description": "Conditionally execute code. The elif and else blocks are optional."
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "if-statements",
+    "permalink": "/bpd-reference/docs/category/if-statements"
+  },
+  "next": {
+    "title": "in  ⁄ not in",
+    "permalink": "/bpd-reference/docs/documentation/if-statements/in  ⁄ not in"
+  }
+}

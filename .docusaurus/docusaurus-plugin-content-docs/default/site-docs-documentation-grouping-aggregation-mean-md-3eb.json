@@ -1,0 +1,26 @@
+{
+  "id": "documentation/Grouping/aggregation/mean()",
+  "title": "mean()",
+  "description": "df.groupby(column_name).mean()",
+  "source": "@site/docs/documentation/Grouping/aggregation/mean().md",
+  "sourceDirName": "documentation/Grouping/aggregation",
+  "slug": "/documentation/Grouping/aggregation/mean()",
+  "permalink": "/bpd-reference/docs/documentation/Grouping/aggregation/mean()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "max()",
+    "permalink": "/bpd-reference/docs/documentation/Grouping/aggregation/max()"
+  },
+  "next": {
+    "title": "median()",
+    "permalink": "/bpd-reference/docs/documentation/Grouping/aggregation/median()"
+  }
+}

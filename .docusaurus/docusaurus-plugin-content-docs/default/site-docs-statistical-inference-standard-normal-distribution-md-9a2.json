@@ -1,0 +1,41 @@
+{
+  "id": "statistical-inference/standard_normal_distribution",
+  "title": "The Standard Normal Distribution",
+  "description": "Concept",
+  "source": "@site/docs/statistical-inference/standard_normal_distribution.md",
+  "sourceDirName": "statistical-inference",
+  "slug": "/statistical-inference/standard_normal_distribution",
+  "permalink": "/bpd-reference/docs/statistical-inference/standard_normal_distribution",
+  "draft": false,
+  "unlisted": false,
+  "tags": [
+    {
+      "label": "normal distributions",
+      "permalink": "/bpd-reference/docs/tags/normal-distributions"
+    },
+    {
+      "label": "standard units",
+      "permalink": "/bpd-reference/docs/tags/standard-units"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9,
+    "sidebar_label": "The Standard Normal Distribution",
+    "title": "The Standard Normal Distribution",
+    "tags": [
+      "normal distributions",
+      "standard units"
+    ]
+  },
+  "sidebar": "statsSidebar",
+  "previous": {
+    "title": "Standard Units, Correlation, Regression",
+    "permalink": "/bpd-reference/docs/statistical-inference/standard_units"
+  },
+  "next": {
+    "title": "The Central Limit Theorem",
+    "permalink": "/bpd-reference/docs/statistical-inference/central_limit_theorem"
+  }
+}

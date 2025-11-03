@@ -1,0 +1,26 @@
+{
+  "id": "documentation/series-methods/ser.str.strip()",
+  "title": "ser.str.strip()",
+  "description": "ser.str.strip(to_strip = None)",
+  "source": "@site/docs/documentation/series-methods/ser.str.strip().md",
+  "sourceDirName": "documentation/series-methods",
+  "slug": "/documentation/series-methods/ser.str.strip()",
+  "permalink": "/bpd-reference/docs/documentation/series-methods/ser.str.strip()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "ser.str.split()",
+    "permalink": "/bpd-reference/docs/documentation/series-methods/ser.str.split()"
+  },
+  "next": {
+    "title": "ser.str.lower()",
+    "permalink": "/bpd-reference/docs/documentation/series-methods/ser.str.lower()"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "statistical-inference/random sampling/np.random.multinomial()",
+  "title": "Random Multinomial",
+  "description": "np.random.multinomial(n, [p0, p1, p_2, ...])",
+  "source": "@site/docs/statistical-inference/random sampling/np.random.multinomial().md",
+  "sourceDirName": "statistical-inference/random sampling",
+  "slug": "/statistical-inference/random sampling/np.random.multinomial()",
+  "permalink": "/bpd-reference/docs/statistical-inference/random sampling/np.random.multinomial()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "sidebar_label": "Random Multinomial",
+    "title": "Random Multinomial"
+  },
+  "sidebar": "statsSidebar",
+  "previous": {
+    "title": "Random Choice",
+    "permalink": "/bpd-reference/docs/statistical-inference/random sampling/np.random.choice()"
+  },
+  "next": {
+    "title": "Random Permutation",
+    "permalink": "/bpd-reference/docs/statistical-inference/random sampling/np.random.permutation()"
+  }
+}

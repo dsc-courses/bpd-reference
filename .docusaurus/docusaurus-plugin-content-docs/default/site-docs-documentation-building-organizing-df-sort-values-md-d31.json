@@ -1,0 +1,26 @@
+{
+  "id": "documentation/building-organizing/df.sort_values()",
+  "title": "df.sort_values()",
+  "description": "df.sortvalues(by=columnname, ascending=True)",
+  "source": "@site/docs/documentation/building-organizing/df.sort_values().md",
+  "sourceDirName": "documentation/building-organizing",
+  "slug": "/documentation/building-organizing/df.sort_values()",
+  "permalink": "/bpd-reference/docs/documentation/building-organizing/df.sort_values()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "df.reset_index()",
+    "permalink": "/bpd-reference/docs/documentation/building-organizing/df.reset_index()"
+  },
+  "next": {
+    "title": "df.merge()",
+    "permalink": "/bpd-reference/docs/documentation/building-organizing/df.merge()"
+  }
+}

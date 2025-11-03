@@ -1,0 +1,26 @@
+{
+  "id": "documentation/accessing-data/df.shape",
+  "title": "df.shape",
+  "description": "df.shape",
+  "source": "@site/docs/documentation/accessing-data/df.shape.md",
+  "sourceDirName": "documentation/accessing-data",
+  "slug": "/documentation/accessing-data/df.shape",
+  "permalink": "/bpd-reference/docs/documentation/accessing-data/df.shape",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Accessing Data",
+    "permalink": "/bpd-reference/docs/documentation/accessing-data/"
+  },
+  "next": {
+    "title": "df.get()",
+    "permalink": "/bpd-reference/docs/documentation/accessing-data/df.get()"
+  }
+}

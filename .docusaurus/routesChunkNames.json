@@ -1,0 +1,632 @@
+{
+  "/bpd-reference/blog-70d": {
+    "__comp": "a6aa9e1f",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "f4f34a3a"
+      },
+      {
+        "content": "8717b14a"
+      },
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "__props": "83aa63f8"
+  },
+  "/bpd-reference/blog/archive-2ac": {
+    "__comp": "9e4087bc",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "__props": "d9ae1e76"
+  },
+  "/bpd-reference/blog/first-blog-post-99b": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "e273c56f"
+  },
+  "/bpd-reference/blog/long-blog-post-521": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "73664a40"
+  },
+  "/bpd-reference/blog/mdx-blog-post-7ea": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "59362658"
+  },
+  "/bpd-reference/blog/tags-2ec": {
+    "__comp": "01a85c17",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "__props": "abde3fc7"
+  },
+  "/bpd-reference/blog/tags/docusaurus-961": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "f4f34a3a"
+      },
+      {
+        "content": "8717b14a"
+      },
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "__props": "9a1a2feb"
+  },
+  "/bpd-reference/blog/tags/facebook-93a": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      }
+    ],
+    "__props": "ce5ff83d"
+  },
+  "/bpd-reference/blog/tags/hello-f98": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "7661071f"
+      },
+      {
+        "content": "8717b14a"
+      }
+    ],
+    "__props": "ca8a4f49"
+  },
+  "/bpd-reference/blog/tags/hola-16f": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "925b3f96"
+      }
+    ],
+    "__props": "be5f280b"
+  },
+  "/bpd-reference/blog/welcome-3c3": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "36994c47"
+    },
+    "sidebar": "814f3328",
+    "content": "d9f32620"
+  },
+  "/bpd-reference/search-ec9": {
+    "__comp": "1a4e3797",
+    "__context": {
+      "plugin": "c141421f"
+    }
+  },
+  "/bpd-reference/docs-d32": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "aba21aa0"
+    }
+  },
+  "/bpd-reference/docs-4f1": {
+    "__comp": "a7bd4aaa",
+    "__props": "1f418535"
+  },
+  "/bpd-reference/docs/tags-eb7": {
+    "__comp": "3720c009",
+    "__props": "ffd9fdf4"
+  },
+  "/bpd-reference/docs/tags/bootstrapping-729": {
+    "__comp": "df203c0f",
+    "__props": "b2bdf99d"
+  },
+  "/bpd-reference/docs/tags/chebyshevs-inequality-107": {
+    "__comp": "df203c0f",
+    "__props": "cd67c8da"
+  },
+  "/bpd-reference/docs/tags/confidence-intervals-2bc": {
+    "__comp": "df203c0f",
+    "__props": "a98da3ba"
+  },
+  "/bpd-reference/docs/tags/correlation-af5": {
+    "__comp": "df203c0f",
+    "__props": "a5d86b03"
+  },
+  "/bpd-reference/docs/tags/for-loop-122": {
+    "__comp": "df203c0f",
+    "__props": "79080f49"
+  },
+  "/bpd-reference/docs/tags/functions-364": {
+    "__comp": "df203c0f",
+    "__props": "29759c23"
+  },
+  "/bpd-reference/docs/tags/histogram-75f": {
+    "__comp": "df203c0f",
+    "__props": "541bd1cc"
+  },
+  "/bpd-reference/docs/tags/hypothesis-test-a61": {
+    "__comp": "df203c0f",
+    "__props": "ac5712c7"
+  },
+  "/bpd-reference/docs/tags/normal-distributions-225": {
+    "__comp": "df203c0f",
+    "__props": "0784c833"
+  },
+  "/bpd-reference/docs/tags/permutation-test-f4c": {
+    "__comp": "df203c0f",
+    "__props": "d16c2311"
+  },
+  "/bpd-reference/docs/tags/querying-f82": {
+    "__comp": "df203c0f",
+    "__props": "8b4ce11c"
+  },
+  "/bpd-reference/docs/tags/regression-bf9": {
+    "__comp": "df203c0f",
+    "__props": "e6a51af0"
+  },
+  "/bpd-reference/docs/tags/standard-deviation-9dd": {
+    "__comp": "df203c0f",
+    "__props": "80c4c602"
+  },
+  "/bpd-reference/docs/tags/standard-units-63b": {
+    "__comp": "df203c0f",
+    "__props": "ce9b9f25"
+  },
+  "/bpd-reference/docs/tags/the-central-limit-theorem-df0": {
+    "__comp": "df203c0f",
+    "__props": "807a8ce9"
+  },
+  "/bpd-reference/docs/tags/the-standard-normal-distribution-d13": {
+    "__comp": "df203c0f",
+    "__props": "5ad2bf6e"
+  },
+  "/bpd-reference/docs-b2a": {
+    "__comp": "a94703ab"
+  },
+  "/bpd-reference/docs/category/if-statements-84b": {
+    "__comp": "14eb3368",
+    "__props": "8d72dfa8"
+  },
+  "/bpd-reference/docs/category/querying-ff8": {
+    "__comp": "14eb3368",
+    "__props": "83b8ee67"
+  },
+  "/bpd-reference/docs/documentation/accessing-data/-764": {
+    "__comp": "17896441",
+    "content": "e06ba05c"
+  },
+  "/bpd-reference/docs/documentation/accessing-data/df.columns-336": {
+    "__comp": "17896441",
+    "content": "6e05dac9"
+  },
+  "/bpd-reference/docs/documentation/accessing-data/df.get()-8a5": {
+    "__comp": "17896441",
+    "content": "0708938a"
+  },
+  "/bpd-reference/docs/documentation/accessing-data/df.index-92f": {
+    "__comp": "17896441",
+    "content": "f9684ee2"
+  },
+  "/bpd-reference/docs/documentation/accessing-data/df.shape-16f": {
+    "__comp": "17896441",
+    "content": "80770d40"
+  },
+  "/bpd-reference/docs/documentation/accessing-data/df.take()-c4a": {
+    "__comp": "17896441",
+    "content": "a4805c9a"
+  },
+  "/bpd-reference/docs/documentation/accessing-data/ser.iloc[]-22f": {
+    "__comp": "17896441",
+    "content": "6e7a31fd"
+  },
+  "/bpd-reference/docs/documentation/accessing-data/ser.loc[]-810": {
+    "__comp": "17896441",
+    "content": "202baea0"
+  },
+  "/bpd-reference/docs/documentation/arrays-and-numpy/-3d6": {
+    "__comp": "17896441",
+    "content": "8ded1294"
+  },
+  "/bpd-reference/docs/documentation/arrays-and-numpy/arr[]-82e": {
+    "__comp": "17896441",
+    "content": "cdae2dcc"
+  },
+  "/bpd-reference/docs/documentation/arrays-and-numpy/np.append()-851": {
+    "__comp": "17896441",
+    "content": "920988e2"
+  },
+  "/bpd-reference/docs/documentation/arrays-and-numpy/np.arange()-376": {
+    "__comp": "17896441",
+    "content": "de98ccb0"
+  },
+  "/bpd-reference/docs/documentation/arrays-and-numpy/np.count_nonzero()-0f6": {
+    "__comp": "17896441",
+    "content": "f0fd5c00"
+  },
+  "/bpd-reference/docs/documentation/arrays-and-numpy/np.percentile()-68b": {
+    "__comp": "17896441",
+    "content": "5d6a2894"
+  },
+  "/bpd-reference/docs/documentation/arrays-and-numpy/np.repeat()-1bf": {
+    "__comp": "17896441",
+    "content": "ab942b58"
+  },
+  "/bpd-reference/docs/documentation/arrays-and-numpy/np.round()-b0e": {
+    "__comp": "17896441",
+    "content": "2efbf384"
+  },
+  "/bpd-reference/docs/documentation/arrays-and-numpy/np.unique()-37c": {
+    "__comp": "17896441",
+    "content": "33e11bf9"
+  },
+  "/bpd-reference/docs/documentation/building-organizing/-aa2": {
+    "__comp": "17896441",
+    "content": "eaaf288f"
+  },
+  "/bpd-reference/docs/documentation/building-organizing/bpd.DataFrame()-184": {
+    "__comp": "17896441",
+    "content": "0c6397b1"
+  },
+  "/bpd-reference/docs/documentation/building-organizing/bpd.read_csv()-68e": {
+    "__comp": "17896441",
+    "content": "f39390d7"
+  },
+  "/bpd-reference/docs/documentation/building-organizing/df.assign()-2bf": {
+    "__comp": "17896441",
+    "content": "f3b65525"
+  },
+  "/bpd-reference/docs/documentation/building-organizing/df.drop()-bfc": {
+    "__comp": "17896441",
+    "content": "b7ff327f"
+  },
+  "/bpd-reference/docs/documentation/building-organizing/df.merge()-ea1": {
+    "__comp": "17896441",
+    "content": "c94468d5"
+  },
+  "/bpd-reference/docs/documentation/building-organizing/df.reset_index()-ffd": {
+    "__comp": "17896441",
+    "content": "f2b0891e"
+  },
+  "/bpd-reference/docs/documentation/building-organizing/df.set_index()-956": {
+    "__comp": "17896441",
+    "content": "9e1896f0"
+  },
+  "/bpd-reference/docs/documentation/building-organizing/df.sort_values()-c18": {
+    "__comp": "17896441",
+    "content": "d3196d0d"
+  },
+  "/bpd-reference/docs/documentation/data-format-conversion/-9b7": {
+    "__comp": "17896441",
+    "content": "60263bc8"
+  },
+  "/bpd-reference/docs/documentation/data-format-conversion/list()-bd2": {
+    "__comp": "17896441",
+    "content": "3afe2ed8"
+  },
+  "/bpd-reference/docs/documentation/data-format-conversion/np.array()-c0e": {
+    "__comp": "17896441",
+    "content": "67b0249f"
+  },
+  "/bpd-reference/docs/documentation/for-loops/-57d": {
+    "__comp": "17896441",
+    "content": "dfefbedb"
+  },
+  "/bpd-reference/docs/documentation/Functions/Applying Functions-054": {
+    "__comp": "17896441",
+    "content": "8d40581b"
+  },
+  "/bpd-reference/docs/documentation/Functions/Writing Functions-a88": {
+    "__comp": "17896441",
+    "content": "6a26c916"
+  },
+  "/bpd-reference/docs/documentation/Grouping/aggregation/count()-c02": {
+    "__comp": "17896441",
+    "content": "907d0c45"
+  },
+  "/bpd-reference/docs/documentation/Grouping/aggregation/max()-32f": {
+    "__comp": "17896441",
+    "content": "b69909d7"
+  },
+  "/bpd-reference/docs/documentation/Grouping/aggregation/mean()-278": {
+    "__comp": "17896441",
+    "content": "3eb51302"
+  },
+  "/bpd-reference/docs/documentation/Grouping/aggregation/median()-4fe": {
+    "__comp": "17896441",
+    "content": "f4434bba"
+  },
+  "/bpd-reference/docs/documentation/Grouping/aggregation/min()-7ad": {
+    "__comp": "17896441",
+    "content": "10f7d562"
+  },
+  "/bpd-reference/docs/documentation/Grouping/aggregation/sum()-c41": {
+    "__comp": "17896441",
+    "content": "14acb028"
+  },
+  "/bpd-reference/docs/documentation/Grouping/groupby-716": {
+    "__comp": "17896441",
+    "content": "37002ad4"
+  },
+  "/bpd-reference/docs/documentation/if-statements/if-elif-else-c17": {
+    "__comp": "17896441",
+    "content": "3f791b14"
+  },
+  "/bpd-reference/docs/documentation/if-statements/in  ⁄ not in-b7e": {
+    "__comp": "17896441",
+    "content": "b0c30e46"
+  },
+  "/bpd-reference/docs/documentation/if-statements/Logical Operators-690": {
+    "__comp": "17896441",
+    "content": "1fc0ff79"
+  },
+  "/bpd-reference/docs/documentation/intro-c28": {
+    "__comp": "17896441",
+    "content": "739bf370"
+  },
+  "/bpd-reference/docs/documentation/plotting/-f0f": {
+    "__comp": "17896441",
+    "content": "10297ef4"
+  },
+  "/bpd-reference/docs/documentation/plotting/Bar Plot-0f6": {
+    "__comp": "17896441",
+    "content": "499d47b2"
+  },
+  "/bpd-reference/docs/documentation/plotting/Histogram-e59": {
+    "__comp": "17896441",
+    "content": "6e2ca103"
+  },
+  "/bpd-reference/docs/documentation/plotting/Line Plot-18b": {
+    "__comp": "17896441",
+    "content": "dd3b6db1"
+  },
+  "/bpd-reference/docs/documentation/plotting/Scatter Plot-a24": {
+    "__comp": "17896441",
+    "content": "65beeb93"
+  },
+  "/bpd-reference/docs/documentation/querying/df[]-2c6": {
+    "__comp": "17896441",
+    "content": "8c496670"
+  },
+  "/bpd-reference/docs/documentation/series-methods/-e90": {
+    "__comp": "17896441",
+    "content": "6b67e948"
+  },
+  "/bpd-reference/docs/documentation/series-methods/ser.count()-a99": {
+    "__comp": "17896441",
+    "content": "03f8d3d3"
+  },
+  "/bpd-reference/docs/documentation/series-methods/ser.max()-d33": {
+    "__comp": "17896441",
+    "content": "655190df"
+  },
+  "/bpd-reference/docs/documentation/series-methods/ser.mean()-ead": {
+    "__comp": "17896441",
+    "content": "46ccc97a"
+  },
+  "/bpd-reference/docs/documentation/series-methods/ser.median()-2fc": {
+    "__comp": "17896441",
+    "content": "acb40918"
+  },
+  "/bpd-reference/docs/documentation/series-methods/ser.min()-64b": {
+    "__comp": "17896441",
+    "content": "dcbe5aac"
+  },
+  "/bpd-reference/docs/documentation/series-methods/ser.str.capitalize()-6e1": {
+    "__comp": "17896441",
+    "content": "82ff9878"
+  },
+  "/bpd-reference/docs/documentation/series-methods/ser.str.contains()-5d2": {
+    "__comp": "17896441",
+    "content": "9746c0ef"
+  },
+  "/bpd-reference/docs/documentation/series-methods/ser.str.len()-bf0": {
+    "__comp": "17896441",
+    "content": "b78139e1"
+  },
+  "/bpd-reference/docs/documentation/series-methods/ser.str.lower()-85b": {
+    "__comp": "17896441",
+    "content": "26533384"
+  },
+  "/bpd-reference/docs/documentation/series-methods/ser.str.replace()-b28": {
+    "__comp": "17896441",
+    "content": "ffbcff43"
+  },
+  "/bpd-reference/docs/documentation/series-methods/ser.str.split()-5f1": {
+    "__comp": "17896441",
+    "content": "2be9118b"
+  },
+  "/bpd-reference/docs/documentation/series-methods/ser.str.strip()-80a": {
+    "__comp": "17896441",
+    "content": "2141c98b"
+  },
+  "/bpd-reference/docs/documentation/series-methods/ser.str.title()-c65": {
+    "__comp": "17896441",
+    "content": "62efbc4a"
+  },
+  "/bpd-reference/docs/documentation/series-methods/ser.str.upper()-1ee": {
+    "__comp": "17896441",
+    "content": "5ddb68ca"
+  },
+  "/bpd-reference/docs/documentation/series-methods/ser.sum()-786": {
+    "__comp": "17896441",
+    "content": "9ac7dbcc"
+  },
+  "/bpd-reference/docs/documentation/series-methods/ser.unique()-877": {
+    "__comp": "17896441",
+    "content": "81322b72"
+  },
+  "/bpd-reference/docs/documentation/string-methods/-dfc": {
+    "__comp": "17896441",
+    "content": "00323010"
+  },
+  "/bpd-reference/docs/documentation/string-methods/str.count()-4e7": {
+    "__comp": "17896441",
+    "content": "5f431c61"
+  },
+  "/bpd-reference/docs/documentation/string-methods/str.join()-67a": {
+    "__comp": "17896441",
+    "content": "22fe7a91"
+  },
+  "/bpd-reference/docs/documentation/string-methods/str.lower()-089": {
+    "__comp": "17896441",
+    "content": "80c054da"
+  },
+  "/bpd-reference/docs/documentation/string-methods/str.replace()-b9b": {
+    "__comp": "17896441",
+    "content": "e17bd472"
+  },
+  "/bpd-reference/docs/documentation/string-methods/str.split()-096": {
+    "__comp": "17896441",
+    "content": "67aac9b9"
+  },
+  "/bpd-reference/docs/documentation/string-methods/str.strip()-d78": {
+    "__comp": "17896441",
+    "content": "af454fdb"
+  },
+  "/bpd-reference/docs/documentation/string-methods/str.title()-4b0": {
+    "__comp": "17896441",
+    "content": "8f78c48f"
+  },
+  "/bpd-reference/docs/documentation/string-methods/str.upper()-a82": {
+    "__comp": "17896441",
+    "content": "68a78d6e"
+  },
+  "/bpd-reference/docs/statistical-inference/bootstrapping-81d": {
+    "__comp": "17896441",
+    "content": "f095f4cd"
+  },
+  "/bpd-reference/docs/statistical-inference/central_limit_theorem-899": {
+    "__comp": "17896441",
+    "content": "97247bb2"
+  },
+  "/bpd-reference/docs/statistical-inference/concept check/bootstrapping_vs_the_CLT-141": {
+    "__comp": "17896441",
+    "content": "d01a85b0"
+  },
+  "/bpd-reference/docs/statistical-inference/concept check/hypothesis_vs_permutation-0bc": {
+    "__comp": "17896441",
+    "content": "d4f68316"
+  },
+  "/bpd-reference/docs/statistical-inference/hypothesis_test-db9": {
+    "__comp": "17896441",
+    "content": "f03ae67e"
+  },
+  "/bpd-reference/docs/statistical-inference/intro-85c": {
+    "__comp": "17896441",
+    "content": "a278cdf6"
+  },
+  "/bpd-reference/docs/statistical-inference/null_and_alt-14d": {
+    "__comp": "17896441",
+    "content": "fb17983f"
+  },
+  "/bpd-reference/docs/statistical-inference/obs_and_test_stats-de6": {
+    "__comp": "17896441",
+    "content": "60c4aef6"
+  },
+  "/bpd-reference/docs/statistical-inference/p_value-96f": {
+    "__comp": "17896441",
+    "content": "d28047a2"
+  },
+  "/bpd-reference/docs/statistical-inference/parameters-and-statistics-90f": {
+    "__comp": "17896441",
+    "content": "099c0b96"
+  },
+  "/bpd-reference/docs/statistical-inference/permutation_test-39d": {
+    "__comp": "17896441",
+    "content": "9f1843d8"
+  },
+  "/bpd-reference/docs/statistical-inference/random sampling/df.sample()-c54": {
+    "__comp": "17896441",
+    "content": "1774e1e3"
+  },
+  "/bpd-reference/docs/statistical-inference/random sampling/np.random.choice()-f00": {
+    "__comp": "17896441",
+    "content": "f4c1c84a"
+  },
+  "/bpd-reference/docs/statistical-inference/random sampling/np.random.multinomial()-6e8": {
+    "__comp": "17896441",
+    "content": "187e374f"
+  },
+  "/bpd-reference/docs/statistical-inference/random sampling/np.random.permutation()-a4e": {
+    "__comp": "17896441",
+    "content": "36d89dbe"
+  },
+  "/bpd-reference/docs/statistical-inference/random sampling/sampling-f3e": {
+    "__comp": "17896441",
+    "content": "62552850"
+  },
+  "/bpd-reference/docs/statistical-inference/spread_of_a_distribution-750": {
+    "__comp": "17896441",
+    "content": "f8d80a2f"
+  },
+  "/bpd-reference/docs/statistical-inference/standard_normal_distribution-c60": {
+    "__comp": "17896441",
+    "content": "9a265863"
+  },
+  "/bpd-reference/docs/statistical-inference/standard_units-7f5": {
+    "__comp": "17896441",
+    "content": "61546123"
+  },
+  "/bpd-reference/-eff": {
+    "__comp": "c4f5d8e4",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
+  "/bpd-reference/-173": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "f3976560"
+  }
+}

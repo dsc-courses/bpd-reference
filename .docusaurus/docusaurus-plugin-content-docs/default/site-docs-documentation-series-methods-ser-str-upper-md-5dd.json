@@ -1,0 +1,26 @@
+{
+  "id": "documentation/series-methods/ser.str.upper()",
+  "title": "ser.str.upper()",
+  "description": "ser.str.upper()",
+  "source": "@site/docs/documentation/series-methods/ser.str.upper().md",
+  "sourceDirName": "documentation/series-methods",
+  "slug": "/documentation/series-methods/ser.str.upper()",
+  "permalink": "/bpd-reference/docs/documentation/series-methods/ser.str.upper()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 11,
+  "frontMatter": {
+    "sidebar_position": 11
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "ser.str.lower()",
+    "permalink": "/bpd-reference/docs/documentation/series-methods/ser.str.lower()"
+  },
+  "next": {
+    "title": "ser.str.capitalize()",
+    "permalink": "/bpd-reference/docs/documentation/series-methods/ser.str.capitalize()"
+  }
+}

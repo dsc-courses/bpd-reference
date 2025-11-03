@@ -1,0 +1,27 @@
+{
+  "id": "documentation/if-statements/in  ⁄ not in",
+  "title": "in  ⁄ not in",
+  "description": "Checks for membership of object within a sequence.",
+  "source": "@site/docs/documentation/if-statements/in  ⁄ not in.md",
+  "sourceDirName": "documentation/if-statements",
+  "slug": "/documentation/if-statements/in  ⁄ not in",
+  "permalink": "/bpd-reference/docs/documentation/if-statements/in  ⁄ not in",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "description": "Checks for membership of object within a sequence."
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "if-elif-else",
+    "permalink": "/bpd-reference/docs/documentation/if-statements/if-elif-else"
+  },
+  "next": {
+    "title": "Logical Operators",
+    "permalink": "/bpd-reference/docs/documentation/if-statements/Logical Operators"
+  }
+}

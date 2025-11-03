@@ -1,0 +1,25 @@
+{
+  "id": "documentation/series-methods/index",
+  "title": "Series Methods",
+  "description": "Methods that can be performed on a Series.",
+  "source": "@site/docs/documentation/series-methods/index.md",
+  "sourceDirName": "documentation/series-methods",
+  "slug": "/documentation/series-methods/",
+  "permalink": "/bpd-reference/docs/documentation/series-methods/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Series Methods"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "df.take()",
+    "permalink": "/bpd-reference/docs/documentation/accessing-data/df.take()"
+  },
+  "next": {
+    "title": "ser.count()",
+    "permalink": "/bpd-reference/docs/documentation/series-methods/ser.count()"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "documentation/string-methods/str.join()",
+  "title": "str.join()",
+  "description": "str.join(iterable)",
+  "source": "@site/docs/documentation/string-methods/str.join().md",
+  "sourceDirName": "documentation/string-methods",
+  "slug": "/documentation/string-methods/str.join()",
+  "permalink": "/bpd-reference/docs/documentation/string-methods/str.join()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "str.count()",
+    "permalink": "/bpd-reference/docs/documentation/string-methods/str.count()"
+  },
+  "next": {
+    "title": "str.lower()",
+    "permalink": "/bpd-reference/docs/documentation/string-methods/str.lower()"
+  }
+}

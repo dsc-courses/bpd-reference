@@ -1,0 +1,26 @@
+{
+  "id": "documentation/building-organizing/df.drop()",
+  "title": "df.drop()",
+  "description": "df.drop(columns=columnname or [col1name, ..., colk_name])",
+  "source": "@site/docs/documentation/building-organizing/df.drop().md",
+  "sourceDirName": "documentation/building-organizing",
+  "slug": "/documentation/building-organizing/df.drop()",
+  "permalink": "/bpd-reference/docs/documentation/building-organizing/df.drop()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "df.assign()",
+    "permalink": "/bpd-reference/docs/documentation/building-organizing/df.assign()"
+  },
+  "next": {
+    "title": "df.set_index()",
+    "permalink": "/bpd-reference/docs/documentation/building-organizing/df.set_index()"
+  }
+}

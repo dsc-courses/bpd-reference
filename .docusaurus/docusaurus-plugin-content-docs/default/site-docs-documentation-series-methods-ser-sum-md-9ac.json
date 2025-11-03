@@ -1,0 +1,26 @@
+{
+  "id": "documentation/series-methods/ser.sum()",
+  "title": "ser.sum()",
+  "description": "ser.sum()",
+  "source": "@site/docs/documentation/series-methods/ser.sum().md",
+  "sourceDirName": "documentation/series-methods",
+  "slug": "/documentation/series-methods/ser.sum()",
+  "permalink": "/bpd-reference/docs/documentation/series-methods/ser.sum()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "ser.min()",
+    "permalink": "/bpd-reference/docs/documentation/series-methods/ser.min()"
+  },
+  "next": {
+    "title": "ser.mean()",
+    "permalink": "/bpd-reference/docs/documentation/series-methods/ser.mean()"
+  }
+}

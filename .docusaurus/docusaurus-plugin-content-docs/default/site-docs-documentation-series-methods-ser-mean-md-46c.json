@@ -1,0 +1,26 @@
+{
+  "id": "documentation/series-methods/ser.mean()",
+  "title": "ser.mean()",
+  "description": "ser.mean()",
+  "source": "@site/docs/documentation/series-methods/ser.mean().md",
+  "sourceDirName": "documentation/series-methods",
+  "slug": "/documentation/series-methods/ser.mean()",
+  "permalink": "/bpd-reference/docs/documentation/series-methods/ser.mean()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "ser.sum()",
+    "permalink": "/bpd-reference/docs/documentation/series-methods/ser.sum()"
+  },
+  "next": {
+    "title": "ser.median()",
+    "permalink": "/bpd-reference/docs/documentation/series-methods/ser.median()"
+  }
+}

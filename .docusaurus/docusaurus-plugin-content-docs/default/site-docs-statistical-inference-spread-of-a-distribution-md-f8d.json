@@ -1,0 +1,41 @@
+{
+  "id": "statistical-inference/spread_of_a_distribution",
+  "title": "Spread of a Distribution",
+  "description": "Concept",
+  "source": "@site/docs/statistical-inference/spread_of_a_distribution.md",
+  "sourceDirName": "statistical-inference",
+  "slug": "/statistical-inference/spread_of_a_distribution",
+  "permalink": "/bpd-reference/docs/statistical-inference/spread_of_a_distribution",
+  "draft": false,
+  "unlisted": false,
+  "tags": [
+    {
+      "label": "standard deviation",
+      "permalink": "/bpd-reference/docs/tags/standard-deviation"
+    },
+    {
+      "label": "chebyshev’s inequality",
+      "permalink": "/bpd-reference/docs/tags/chebyshevs-inequality"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "sidebar_label": "Spread of a Distribution",
+    "title": "Spread of a Distribution",
+    "tags": [
+      "standard deviation",
+      "chebyshev’s inequality"
+    ]
+  },
+  "sidebar": "statsSidebar",
+  "previous": {
+    "title": "Hypothesis Test",
+    "permalink": "/bpd-reference/docs/statistical-inference/hypothesis_test"
+  },
+  "next": {
+    "title": "Boostrapping and Confidence Intervals",
+    "permalink": "/bpd-reference/docs/statistical-inference/bootstrapping"
+  }
+}

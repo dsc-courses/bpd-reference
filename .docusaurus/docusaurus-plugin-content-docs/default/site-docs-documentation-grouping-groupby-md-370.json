@@ -1,0 +1,26 @@
+{
+  "id": "documentation/Grouping/groupby",
+  "title": "groupby",
+  "description": "df.groupby(columnname)ordf.groupby([columnnames])",
+  "source": "@site/docs/documentation/Grouping/groupby.md",
+  "sourceDirName": "documentation/Grouping",
+  "slug": "/documentation/Grouping/groupby",
+  "permalink": "/bpd-reference/docs/documentation/Grouping/groupby",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Applying Functions",
+    "permalink": "/bpd-reference/docs/documentation/Functions/Applying Functions"
+  },
+  "next": {
+    "title": "count()",
+    "permalink": "/bpd-reference/docs/documentation/Grouping/aggregation/count()"
+  }
+}

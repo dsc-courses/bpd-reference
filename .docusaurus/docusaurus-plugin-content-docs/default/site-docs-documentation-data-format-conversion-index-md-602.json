@@ -1,0 +1,25 @@
+{
+  "id": "documentation/data-format-conversion/index",
+  "title": "Data Format Conversion",
+  "description": "Converting things to arrays!",
+  "source": "@site/docs/documentation/data-format-conversion/index.md",
+  "sourceDirName": "documentation/data-format-conversion",
+  "slug": "/documentation/data-format-conversion/",
+  "permalink": "/bpd-reference/docs/documentation/data-format-conversion/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Data Format Conversion"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Logical Operators",
+    "permalink": "/bpd-reference/docs/documentation/if-statements/Logical Operators"
+  },
+  "next": {
+    "title": "np.array()",
+    "permalink": "/bpd-reference/docs/documentation/data-format-conversion/np.array()"
+  }
+}

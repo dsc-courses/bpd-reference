@@ -1,0 +1,28 @@
+{
+  "id": "statistical-inference/random sampling/np.random.choice()",
+  "title": "Random Choice",
+  "description": "np.random.choice(arr, size, replace=True, p=[p0, p1, ...])",
+  "source": "@site/docs/statistical-inference/random sampling/np.random.choice().md",
+  "sourceDirName": "statistical-inference/random sampling",
+  "slug": "/statistical-inference/random sampling/np.random.choice()",
+  "permalink": "/bpd-reference/docs/statistical-inference/random sampling/np.random.choice()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "sidebar_label": "Random Choice",
+    "title": "Random Choice"
+  },
+  "sidebar": "statsSidebar",
+  "previous": {
+    "title": "Sampling",
+    "permalink": "/bpd-reference/docs/statistical-inference/random sampling/sampling"
+  },
+  "next": {
+    "title": "Random Multinomial",
+    "permalink": "/bpd-reference/docs/statistical-inference/random sampling/np.random.multinomial()"
+  }
+}

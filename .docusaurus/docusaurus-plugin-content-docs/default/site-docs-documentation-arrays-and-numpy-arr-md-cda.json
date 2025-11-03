@@ -1,0 +1,26 @@
+{
+  "id": "documentation/arrays-and-numpy/arr[]",
+  "title": "arr[]",
+  "description": "arr[index]",
+  "source": "@site/docs/documentation/arrays-and-numpy/arr[].md",
+  "sourceDirName": "documentation/arrays-and-numpy",
+  "slug": "/documentation/arrays-and-numpy/arr[]",
+  "permalink": "/bpd-reference/docs/documentation/arrays-and-numpy/arr[]",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Arrays and NumPy",
+    "permalink": "/bpd-reference/docs/documentation/arrays-and-numpy/"
+  },
+  "next": {
+    "title": "np.append()",
+    "permalink": "/bpd-reference/docs/documentation/arrays-and-numpy/np.append()"
+  }
+}

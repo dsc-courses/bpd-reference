@@ -1,0 +1,26 @@
+{
+  "id": "documentation/series-methods/ser.str.contains()",
+  "title": "ser.str.contains()",
+  "description": "ser.str.contains(substring)",
+  "source": "@site/docs/documentation/series-methods/ser.str.contains().md",
+  "sourceDirName": "documentation/series-methods",
+  "slug": "/documentation/series-methods/ser.str.contains()",
+  "permalink": "/bpd-reference/docs/documentation/series-methods/ser.str.contains()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 16,
+  "frontMatter": {
+    "sidebar_position": 16
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "ser.str.len()",
+    "permalink": "/bpd-reference/docs/documentation/series-methods/ser.str.len()"
+  },
+  "next": {
+    "title": "Arrays and NumPy",
+    "permalink": "/bpd-reference/docs/documentation/arrays-and-numpy/"
+  }
+}

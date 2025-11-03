@@ -1,0 +1,51 @@
+{
+  "id": "statistical-inference/hypothesis_test",
+  "title": "Hypothesis Test",
+  "description": "Concept",
+  "source": "@site/docs/statistical-inference/hypothesis_test.md",
+  "sourceDirName": "statistical-inference",
+  "slug": "/statistical-inference/hypothesis_test",
+  "permalink": "/bpd-reference/docs/statistical-inference/hypothesis_test",
+  "draft": false,
+  "unlisted": false,
+  "tags": [
+    {
+      "label": "querying",
+      "permalink": "/bpd-reference/docs/tags/querying"
+    },
+    {
+      "label": "functions",
+      "permalink": "/bpd-reference/docs/tags/functions"
+    },
+    {
+      "label": "for-loop",
+      "permalink": "/bpd-reference/docs/tags/for-loop"
+    },
+    {
+      "label": "histogram",
+      "permalink": "/bpd-reference/docs/tags/histogram"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "sidebar_label": "Hypothesis Test",
+    "title": "Hypothesis Test",
+    "tags": [
+      "querying",
+      "functions",
+      "for-loop",
+      "histogram"
+    ]
+  },
+  "sidebar": "statsSidebar",
+  "previous": {
+    "title": "P-value",
+    "permalink": "/bpd-reference/docs/statistical-inference/p_value"
+  },
+  "next": {
+    "title": "Spread of a Distribution",
+    "permalink": "/bpd-reference/docs/statistical-inference/spread_of_a_distribution"
+  }
+}

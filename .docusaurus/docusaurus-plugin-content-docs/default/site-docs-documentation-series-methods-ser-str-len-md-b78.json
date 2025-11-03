@@ -1,0 +1,26 @@
+{
+  "id": "documentation/series-methods/ser.str.len()",
+  "title": "ser.str.len()",
+  "description": "ser.str.len()",
+  "source": "@site/docs/documentation/series-methods/ser.str.len().md",
+  "sourceDirName": "documentation/series-methods",
+  "slug": "/documentation/series-methods/ser.str.len()",
+  "permalink": "/bpd-reference/docs/documentation/series-methods/ser.str.len()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 15,
+  "frontMatter": {
+    "sidebar_position": 15
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "ser.str.replace()",
+    "permalink": "/bpd-reference/docs/documentation/series-methods/ser.str.replace()"
+  },
+  "next": {
+    "title": "ser.str.contains()",
+    "permalink": "/bpd-reference/docs/documentation/series-methods/ser.str.contains()"
+  }
+}

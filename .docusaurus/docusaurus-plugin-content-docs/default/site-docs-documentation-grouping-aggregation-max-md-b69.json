@@ -1,0 +1,26 @@
+{
+  "id": "documentation/Grouping/aggregation/max()",
+  "title": "max()",
+  "description": "df.groupby(column_name).max()",
+  "source": "@site/docs/documentation/Grouping/aggregation/max().md",
+  "sourceDirName": "documentation/Grouping/aggregation",
+  "slug": "/documentation/Grouping/aggregation/max()",
+  "permalink": "/bpd-reference/docs/documentation/Grouping/aggregation/max()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "count()",
+    "permalink": "/bpd-reference/docs/documentation/Grouping/aggregation/count()"
+  },
+  "next": {
+    "title": "mean()",
+    "permalink": "/bpd-reference/docs/documentation/Grouping/aggregation/mean()"
+  }
+}

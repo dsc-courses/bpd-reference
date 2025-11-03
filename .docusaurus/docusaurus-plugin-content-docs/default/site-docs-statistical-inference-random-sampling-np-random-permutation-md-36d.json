@@ -1,0 +1,28 @@
+{
+  "id": "statistical-inference/random sampling/np.random.permutation()",
+  "title": "Random Permutation",
+  "description": "np.random.permutation(arr)",
+  "source": "@site/docs/statistical-inference/random sampling/np.random.permutation().md",
+  "sourceDirName": "statistical-inference/random sampling",
+  "slug": "/statistical-inference/random sampling/np.random.permutation()",
+  "permalink": "/bpd-reference/docs/statistical-inference/random sampling/np.random.permutation()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "sidebar_label": "Random Permutation",
+    "title": "Random Permutation"
+  },
+  "sidebar": "statsSidebar",
+  "previous": {
+    "title": "Random Multinomial",
+    "permalink": "/bpd-reference/docs/statistical-inference/random sampling/np.random.multinomial()"
+  },
+  "next": {
+    "title": "Sample",
+    "permalink": "/bpd-reference/docs/statistical-inference/random sampling/df.sample()"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "documentation/Grouping/aggregation/median()",
+  "title": "median()",
+  "description": "df.groupby(column_name).median()",
+  "source": "@site/docs/documentation/Grouping/aggregation/median().md",
+  "sourceDirName": "documentation/Grouping/aggregation",
+  "slug": "/documentation/Grouping/aggregation/median()",
+  "permalink": "/bpd-reference/docs/documentation/Grouping/aggregation/median()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "mean()",
+    "permalink": "/bpd-reference/docs/documentation/Grouping/aggregation/mean()"
+  },
+  "next": {
+    "title": "min()",
+    "permalink": "/bpd-reference/docs/documentation/Grouping/aggregation/min()"
+  }
+}

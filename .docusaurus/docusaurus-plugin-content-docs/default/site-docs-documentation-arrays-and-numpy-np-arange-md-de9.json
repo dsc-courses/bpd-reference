@@ -1,0 +1,26 @@
+{
+  "id": "documentation/arrays-and-numpy/np.arange()",
+  "title": "np.arange()",
+  "description": "np.arange(start, stop, step)",
+  "source": "@site/docs/documentation/arrays-and-numpy/np.arange().md",
+  "sourceDirName": "documentation/arrays-and-numpy",
+  "slug": "/documentation/arrays-and-numpy/np.arange()",
+  "permalink": "/bpd-reference/docs/documentation/arrays-and-numpy/np.arange()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "np.append()",
+    "permalink": "/bpd-reference/docs/documentation/arrays-and-numpy/np.append()"
+  },
+  "next": {
+    "title": "np.count_nonzero()",
+    "permalink": "/bpd-reference/docs/documentation/arrays-and-numpy/np.count_nonzero()"
+  }
+}

@@ -1,0 +1,523 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/bpd-reference/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/bpd-reference/docs",
+          "mainDocId": "documentation/intro",
+          "docs": [
+            {
+              "id": "documentation/accessing-data/df.columns",
+              "path": "/bpd-reference/docs/documentation/accessing-data/df.columns",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/accessing-data/df.get()",
+              "path": "/bpd-reference/docs/documentation/accessing-data/df.get()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/accessing-data/df.index",
+              "path": "/bpd-reference/docs/documentation/accessing-data/df.index",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/accessing-data/df.shape",
+              "path": "/bpd-reference/docs/documentation/accessing-data/df.shape",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/accessing-data/df.take()",
+              "path": "/bpd-reference/docs/documentation/accessing-data/df.take()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/accessing-data/index",
+              "path": "/bpd-reference/docs/documentation/accessing-data/",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/accessing-data/ser.iloc[]",
+              "path": "/bpd-reference/docs/documentation/accessing-data/ser.iloc[]",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/accessing-data/ser.loc[]",
+              "path": "/bpd-reference/docs/documentation/accessing-data/ser.loc[]",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/arrays-and-numpy/arr[]",
+              "path": "/bpd-reference/docs/documentation/arrays-and-numpy/arr[]",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/arrays-and-numpy/index",
+              "path": "/bpd-reference/docs/documentation/arrays-and-numpy/",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/arrays-and-numpy/np.append()",
+              "path": "/bpd-reference/docs/documentation/arrays-and-numpy/np.append()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/arrays-and-numpy/np.arange()",
+              "path": "/bpd-reference/docs/documentation/arrays-and-numpy/np.arange()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/arrays-and-numpy/np.count_nonzero()",
+              "path": "/bpd-reference/docs/documentation/arrays-and-numpy/np.count_nonzero()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/arrays-and-numpy/np.percentile()",
+              "path": "/bpd-reference/docs/documentation/arrays-and-numpy/np.percentile()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/arrays-and-numpy/np.repeat()",
+              "path": "/bpd-reference/docs/documentation/arrays-and-numpy/np.repeat()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/arrays-and-numpy/np.round()",
+              "path": "/bpd-reference/docs/documentation/arrays-and-numpy/np.round()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/arrays-and-numpy/np.unique()",
+              "path": "/bpd-reference/docs/documentation/arrays-and-numpy/np.unique()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/building-organizing/bpd.DataFrame()",
+              "path": "/bpd-reference/docs/documentation/building-organizing/bpd.DataFrame()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/building-organizing/bpd.read_csv()",
+              "path": "/bpd-reference/docs/documentation/building-organizing/bpd.read_csv()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/building-organizing/df.assign()",
+              "path": "/bpd-reference/docs/documentation/building-organizing/df.assign()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/building-organizing/df.drop()",
+              "path": "/bpd-reference/docs/documentation/building-organizing/df.drop()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/building-organizing/df.merge()",
+              "path": "/bpd-reference/docs/documentation/building-organizing/df.merge()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/building-organizing/df.reset_index()",
+              "path": "/bpd-reference/docs/documentation/building-organizing/df.reset_index()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/building-organizing/df.set_index()",
+              "path": "/bpd-reference/docs/documentation/building-organizing/df.set_index()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/building-organizing/df.sort_values()",
+              "path": "/bpd-reference/docs/documentation/building-organizing/df.sort_values()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/building-organizing/index",
+              "path": "/bpd-reference/docs/documentation/building-organizing/",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/data-format-conversion/index",
+              "path": "/bpd-reference/docs/documentation/data-format-conversion/",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/data-format-conversion/list()",
+              "path": "/bpd-reference/docs/documentation/data-format-conversion/list()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/data-format-conversion/np.array()",
+              "path": "/bpd-reference/docs/documentation/data-format-conversion/np.array()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/for-loops/for-loops",
+              "path": "/bpd-reference/docs/documentation/for-loops/",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/Functions/Applying Functions",
+              "path": "/bpd-reference/docs/documentation/Functions/Applying Functions",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/Functions/Writing Functions",
+              "path": "/bpd-reference/docs/documentation/Functions/Writing Functions",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/Grouping/aggregation/count()",
+              "path": "/bpd-reference/docs/documentation/Grouping/aggregation/count()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/Grouping/aggregation/max()",
+              "path": "/bpd-reference/docs/documentation/Grouping/aggregation/max()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/Grouping/aggregation/mean()",
+              "path": "/bpd-reference/docs/documentation/Grouping/aggregation/mean()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/Grouping/aggregation/median()",
+              "path": "/bpd-reference/docs/documentation/Grouping/aggregation/median()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/Grouping/aggregation/min()",
+              "path": "/bpd-reference/docs/documentation/Grouping/aggregation/min()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/Grouping/aggregation/sum()",
+              "path": "/bpd-reference/docs/documentation/Grouping/aggregation/sum()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/Grouping/groupby",
+              "path": "/bpd-reference/docs/documentation/Grouping/groupby",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/if-statements/if-elif-else",
+              "path": "/bpd-reference/docs/documentation/if-statements/if-elif-else",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/if-statements/in  ⁄ not in",
+              "path": "/bpd-reference/docs/documentation/if-statements/in  ⁄ not in",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/if-statements/Logical Operators",
+              "path": "/bpd-reference/docs/documentation/if-statements/Logical Operators",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/intro",
+              "path": "/bpd-reference/docs/documentation/intro",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/plotting/Bar Plot",
+              "path": "/bpd-reference/docs/documentation/plotting/Bar Plot",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/plotting/Histogram",
+              "path": "/bpd-reference/docs/documentation/plotting/Histogram",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/plotting/index",
+              "path": "/bpd-reference/docs/documentation/plotting/",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/plotting/Line Plot",
+              "path": "/bpd-reference/docs/documentation/plotting/Line Plot",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/plotting/Scatter Plot",
+              "path": "/bpd-reference/docs/documentation/plotting/Scatter Plot",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/querying/df[]",
+              "path": "/bpd-reference/docs/documentation/querying/df[]",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/series-methods/index",
+              "path": "/bpd-reference/docs/documentation/series-methods/",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/series-methods/ser.count()",
+              "path": "/bpd-reference/docs/documentation/series-methods/ser.count()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/series-methods/ser.max()",
+              "path": "/bpd-reference/docs/documentation/series-methods/ser.max()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/series-methods/ser.mean()",
+              "path": "/bpd-reference/docs/documentation/series-methods/ser.mean()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/series-methods/ser.median()",
+              "path": "/bpd-reference/docs/documentation/series-methods/ser.median()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/series-methods/ser.min()",
+              "path": "/bpd-reference/docs/documentation/series-methods/ser.min()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/series-methods/ser.str.capitalize()",
+              "path": "/bpd-reference/docs/documentation/series-methods/ser.str.capitalize()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/series-methods/ser.str.contains()",
+              "path": "/bpd-reference/docs/documentation/series-methods/ser.str.contains()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/series-methods/ser.str.len()",
+              "path": "/bpd-reference/docs/documentation/series-methods/ser.str.len()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/series-methods/ser.str.lower()",
+              "path": "/bpd-reference/docs/documentation/series-methods/ser.str.lower()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/series-methods/ser.str.replace()",
+              "path": "/bpd-reference/docs/documentation/series-methods/ser.str.replace()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/series-methods/ser.str.split()",
+              "path": "/bpd-reference/docs/documentation/series-methods/ser.str.split()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/series-methods/ser.str.strip()",
+              "path": "/bpd-reference/docs/documentation/series-methods/ser.str.strip()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/series-methods/ser.str.title()",
+              "path": "/bpd-reference/docs/documentation/series-methods/ser.str.title()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/series-methods/ser.str.upper()",
+              "path": "/bpd-reference/docs/documentation/series-methods/ser.str.upper()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/series-methods/ser.sum()",
+              "path": "/bpd-reference/docs/documentation/series-methods/ser.sum()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/series-methods/ser.unique()",
+              "path": "/bpd-reference/docs/documentation/series-methods/ser.unique()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/string-methods/index",
+              "path": "/bpd-reference/docs/documentation/string-methods/",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/string-methods/str.count()",
+              "path": "/bpd-reference/docs/documentation/string-methods/str.count()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/string-methods/str.join()",
+              "path": "/bpd-reference/docs/documentation/string-methods/str.join()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/string-methods/str.lower()",
+              "path": "/bpd-reference/docs/documentation/string-methods/str.lower()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/string-methods/str.replace()",
+              "path": "/bpd-reference/docs/documentation/string-methods/str.replace()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/string-methods/str.split()",
+              "path": "/bpd-reference/docs/documentation/string-methods/str.split()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/string-methods/str.strip()",
+              "path": "/bpd-reference/docs/documentation/string-methods/str.strip()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/string-methods/str.title()",
+              "path": "/bpd-reference/docs/documentation/string-methods/str.title()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "documentation/string-methods/str.upper()",
+              "path": "/bpd-reference/docs/documentation/string-methods/str.upper()",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "statistical-inference/bootstrapping",
+              "path": "/bpd-reference/docs/statistical-inference/bootstrapping",
+              "sidebar": "statsSidebar"
+            },
+            {
+              "id": "statistical-inference/central_limit_theorem",
+              "path": "/bpd-reference/docs/statistical-inference/central_limit_theorem",
+              "sidebar": "statsSidebar"
+            },
+            {
+              "id": "statistical-inference/concept check/bootstrapping_vs_the_CLT",
+              "path": "/bpd-reference/docs/statistical-inference/concept check/bootstrapping_vs_the_CLT",
+              "sidebar": "statsSidebar"
+            },
+            {
+              "id": "statistical-inference/concept check/hypothesis_vs_permutation",
+              "path": "/bpd-reference/docs/statistical-inference/concept check/hypothesis_vs_permutation",
+              "sidebar": "statsSidebar"
+            },
+            {
+              "id": "statistical-inference/hypothesis_test",
+              "path": "/bpd-reference/docs/statistical-inference/hypothesis_test",
+              "sidebar": "statsSidebar"
+            },
+            {
+              "id": "statistical-inference/intro",
+              "path": "/bpd-reference/docs/statistical-inference/intro",
+              "sidebar": "statsSidebar"
+            },
+            {
+              "id": "statistical-inference/null_and_alt",
+              "path": "/bpd-reference/docs/statistical-inference/null_and_alt",
+              "sidebar": "statsSidebar"
+            },
+            {
+              "id": "statistical-inference/obs_and_test_stats",
+              "path": "/bpd-reference/docs/statistical-inference/obs_and_test_stats",
+              "sidebar": "statsSidebar"
+            },
+            {
+              "id": "statistical-inference/p_value",
+              "path": "/bpd-reference/docs/statistical-inference/p_value",
+              "sidebar": "statsSidebar"
+            },
+            {
+              "id": "statistical-inference/parameters-and-statistics",
+              "path": "/bpd-reference/docs/statistical-inference/parameters-and-statistics",
+              "sidebar": "statsSidebar"
+            },
+            {
+              "id": "statistical-inference/permutation_test",
+              "path": "/bpd-reference/docs/statistical-inference/permutation_test",
+              "sidebar": "statsSidebar"
+            },
+            {
+              "id": "statistical-inference/random sampling/df.sample()",
+              "path": "/bpd-reference/docs/statistical-inference/random sampling/df.sample()",
+              "sidebar": "statsSidebar"
+            },
+            {
+              "id": "statistical-inference/random sampling/np.random.choice()",
+              "path": "/bpd-reference/docs/statistical-inference/random sampling/np.random.choice()",
+              "sidebar": "statsSidebar"
+            },
+            {
+              "id": "statistical-inference/random sampling/np.random.multinomial()",
+              "path": "/bpd-reference/docs/statistical-inference/random sampling/np.random.multinomial()",
+              "sidebar": "statsSidebar"
+            },
+            {
+              "id": "statistical-inference/random sampling/np.random.permutation()",
+              "path": "/bpd-reference/docs/statistical-inference/random sampling/np.random.permutation()",
+              "sidebar": "statsSidebar"
+            },
+            {
+              "id": "statistical-inference/random sampling/sampling",
+              "path": "/bpd-reference/docs/statistical-inference/random sampling/sampling",
+              "sidebar": "statsSidebar"
+            },
+            {
+              "id": "statistical-inference/spread_of_a_distribution",
+              "path": "/bpd-reference/docs/statistical-inference/spread_of_a_distribution",
+              "sidebar": "statsSidebar"
+            },
+            {
+              "id": "statistical-inference/standard_normal_distribution",
+              "path": "/bpd-reference/docs/statistical-inference/standard_normal_distribution",
+              "sidebar": "statsSidebar"
+            },
+            {
+              "id": "statistical-inference/standard_units",
+              "path": "/bpd-reference/docs/statistical-inference/standard_units",
+              "sidebar": "statsSidebar"
+            },
+            {
+              "id": "/category/if-statements",
+              "path": "/bpd-reference/docs/category/if-statements",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "/category/querying",
+              "path": "/bpd-reference/docs/category/querying",
+              "sidebar": "docsSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "docsSidebar": {
+              "link": {
+                "path": "/bpd-reference/docs/documentation/intro",
+                "label": "Intro"
+              }
+            },
+            "statsSidebar": {
+              "link": {
+                "path": "/bpd-reference/docs/statistical-inference/intro",
+                "label": "Intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  },
+  "docusaurus-plugin-google-gtag": {
+    "default": {
+      "trackingID": [
+        "G-KNXVEML00C"
+      ],
+      "anonymizeIP": true,
+      "id": "default"
+    }
+  }
+}

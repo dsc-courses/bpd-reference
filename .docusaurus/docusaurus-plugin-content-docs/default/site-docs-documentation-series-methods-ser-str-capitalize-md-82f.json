@@ -1,0 +1,26 @@
+{
+  "id": "documentation/series-methods/ser.str.capitalize()",
+  "title": "ser.str.capitalize()",
+  "description": "ser.str.capitalize()",
+  "source": "@site/docs/documentation/series-methods/ser.str.capitalize().md",
+  "sourceDirName": "documentation/series-methods",
+  "slug": "/documentation/series-methods/ser.str.capitalize()",
+  "permalink": "/bpd-reference/docs/documentation/series-methods/ser.str.capitalize()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 12,
+  "frontMatter": {
+    "sidebar_position": 12
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "ser.str.upper()",
+    "permalink": "/bpd-reference/docs/documentation/series-methods/ser.str.upper()"
+  },
+  "next": {
+    "title": "ser.str.title()",
+    "permalink": "/bpd-reference/docs/documentation/series-methods/ser.str.title()"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "documentation/if-statements/Logical Operators",
+  "title": "Logical Operators",
+  "description": "Allows for multiple conditions to be combined at the same time.",
+  "source": "@site/docs/documentation/if-statements/Logical Operators.md",
+  "sourceDirName": "documentation/if-statements",
+  "slug": "/documentation/if-statements/Logical Operators",
+  "permalink": "/bpd-reference/docs/documentation/if-statements/Logical Operators",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "description": "Allows for multiple conditions to be combined at the same time."
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "in  ⁄ not in",
+    "permalink": "/bpd-reference/docs/documentation/if-statements/in  ⁄ not in"
+  },
+  "next": {
+    "title": "Data Format Conversion",
+    "permalink": "/bpd-reference/docs/documentation/data-format-conversion/"
+  }
+}

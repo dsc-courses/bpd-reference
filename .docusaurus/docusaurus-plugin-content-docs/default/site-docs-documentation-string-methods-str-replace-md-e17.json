@@ -1,0 +1,26 @@
+{
+  "id": "documentation/string-methods/str.replace()",
+  "title": "str.replace()",
+  "description": "str.replace(oldvalue, newvalue)",
+  "source": "@site/docs/documentation/string-methods/str.replace().md",
+  "sourceDirName": "documentation/string-methods",
+  "slug": "/documentation/string-methods/str.replace()",
+  "permalink": "/bpd-reference/docs/documentation/string-methods/str.replace()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "str.lower()",
+    "permalink": "/bpd-reference/docs/documentation/string-methods/str.lower()"
+  },
+  "next": {
+    "title": "str.split()",
+    "permalink": "/bpd-reference/docs/documentation/string-methods/str.split()"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "documentation/string-methods/str.split()",
+  "title": "str.split()",
+  "description": "str.split(separator)",
+  "source": "@site/docs/documentation/string-methods/str.split().md",
+  "sourceDirName": "documentation/string-methods",
+  "slug": "/documentation/string-methods/str.split()",
+  "permalink": "/bpd-reference/docs/documentation/string-methods/str.split()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "str.replace()",
+    "permalink": "/bpd-reference/docs/documentation/string-methods/str.replace()"
+  },
+  "next": {
+    "title": "str.strip()",
+    "permalink": "/bpd-reference/docs/documentation/string-methods/str.strip()"
+  }
+}

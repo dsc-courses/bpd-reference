@@ -1,0 +1,41 @@
+{
+  "id": "statistical-inference/central_limit_theorem",
+  "title": "The Central Limit Theorem",
+  "description": "Concept",
+  "source": "@site/docs/statistical-inference/central_limit_theorem.md",
+  "sourceDirName": "statistical-inference",
+  "slug": "/statistical-inference/central_limit_theorem",
+  "permalink": "/bpd-reference/docs/statistical-inference/central_limit_theorem",
+  "draft": false,
+  "unlisted": false,
+  "tags": [
+    {
+      "label": "the standard normal distribution",
+      "permalink": "/bpd-reference/docs/tags/the-standard-normal-distribution"
+    },
+    {
+      "label": "confidence intervals",
+      "permalink": "/bpd-reference/docs/tags/confidence-intervals"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "sidebar_position": 10,
+    "sidebar_label": "The Central Limit Theorem",
+    "title": "The Central Limit Theorem",
+    "tags": [
+      "the standard normal distribution",
+      "confidence intervals"
+    ]
+  },
+  "sidebar": "statsSidebar",
+  "previous": {
+    "title": "The Standard Normal Distribution",
+    "permalink": "/bpd-reference/docs/statistical-inference/standard_normal_distribution"
+  },
+  "next": {
+    "title": "Hypothesis Test vs. Permutation Test",
+    "permalink": "/bpd-reference/docs/statistical-inference/concept check/hypothesis_vs_permutation"
+  }
+}

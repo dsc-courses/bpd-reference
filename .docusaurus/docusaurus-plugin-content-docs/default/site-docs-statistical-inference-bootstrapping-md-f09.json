@@ -1,0 +1,41 @@
+{
+  "id": "statistical-inference/bootstrapping",
+  "title": "Bootstrapping and Confidence Intervals",
+  "description": "Concept",
+  "source": "@site/docs/statistical-inference/bootstrapping.md",
+  "sourceDirName": "statistical-inference",
+  "slug": "/statistical-inference/bootstrapping",
+  "permalink": "/bpd-reference/docs/statistical-inference/bootstrapping",
+  "draft": false,
+  "unlisted": false,
+  "tags": [
+    {
+      "label": "for-loop",
+      "permalink": "/bpd-reference/docs/tags/for-loop"
+    },
+    {
+      "label": "histogram",
+      "permalink": "/bpd-reference/docs/tags/histogram"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "sidebar_label": "Boostrapping and Confidence Intervals",
+    "title": "Bootstrapping and Confidence Intervals",
+    "tags": [
+      "for-loop",
+      "histogram"
+    ]
+  },
+  "sidebar": "statsSidebar",
+  "previous": {
+    "title": "Spread of a Distribution",
+    "permalink": "/bpd-reference/docs/statistical-inference/spread_of_a_distribution"
+  },
+  "next": {
+    "title": "Permutation Test",
+    "permalink": "/bpd-reference/docs/statistical-inference/permutation_test"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "documentation/string-methods/index",
+  "title": "String methods",
+  "description": "Python String methods used in the scope of this course.",
+  "source": "@site/docs/documentation/string-methods/index.md",
+  "sourceDirName": "documentation/string-methods",
+  "slug": "/documentation/string-methods/",
+  "permalink": "/bpd-reference/docs/documentation/string-methods/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "String methods"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "sum()",
+    "permalink": "/bpd-reference/docs/documentation/Grouping/aggregation/sum()"
+  },
+  "next": {
+    "title": "str.count()",
+    "permalink": "/bpd-reference/docs/documentation/string-methods/str.count()"
+  }
+}

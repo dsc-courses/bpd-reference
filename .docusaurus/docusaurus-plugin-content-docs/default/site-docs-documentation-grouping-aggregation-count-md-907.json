@@ -1,0 +1,26 @@
+{
+  "id": "documentation/Grouping/aggregation/count()",
+  "title": "count()",
+  "description": "df.groupby(column_name).count()",
+  "source": "@site/docs/documentation/Grouping/aggregation/count().md",
+  "sourceDirName": "documentation/Grouping/aggregation",
+  "slug": "/documentation/Grouping/aggregation/count()",
+  "permalink": "/bpd-reference/docs/documentation/Grouping/aggregation/count()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "groupby",
+    "permalink": "/bpd-reference/docs/documentation/Grouping/groupby"
+  },
+  "next": {
+    "title": "max()",
+    "permalink": "/bpd-reference/docs/documentation/Grouping/aggregation/max()"
+  }
+}

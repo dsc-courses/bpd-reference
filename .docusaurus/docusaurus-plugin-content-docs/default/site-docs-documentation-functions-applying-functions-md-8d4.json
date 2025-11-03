@@ -1,0 +1,26 @@
+{
+  "id": "documentation/Functions/Applying Functions",
+  "title": "Applying Functions",
+  "description": "df.get(columnname).apply(functionname)",
+  "source": "@site/docs/documentation/Functions/Applying Functions.md",
+  "sourceDirName": "documentation/Functions",
+  "slug": "/documentation/Functions/Applying Functions",
+  "permalink": "/bpd-reference/docs/documentation/Functions/Applying Functions",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Writing Functions",
+    "permalink": "/bpd-reference/docs/documentation/Functions/Writing Functions"
+  },
+  "next": {
+    "title": "groupby",
+    "permalink": "/bpd-reference/docs/documentation/Grouping/groupby"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/bpd-reference/",
+  "source": "@site/src/pages/index.md",
+  "title": "Markdown page example",
+  "description": "You don't need React to write simple standalone pages.",
+  "frontMatter": {
+    "title": "Markdown page example"
+  },
+  "unlisted": false
+}

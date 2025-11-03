@@ -1,0 +1,26 @@
+{
+  "id": "documentation/Grouping/aggregation/min()",
+  "title": "min()",
+  "description": "df.groupby(column_name).min()",
+  "source": "@site/docs/documentation/Grouping/aggregation/min().md",
+  "sourceDirName": "documentation/Grouping/aggregation",
+  "slug": "/documentation/Grouping/aggregation/min()",
+  "permalink": "/bpd-reference/docs/documentation/Grouping/aggregation/min()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "median()",
+    "permalink": "/bpd-reference/docs/documentation/Grouping/aggregation/median()"
+  },
+  "next": {
+    "title": "sum()",
+    "permalink": "/bpd-reference/docs/documentation/Grouping/aggregation/sum()"
+  }
+}

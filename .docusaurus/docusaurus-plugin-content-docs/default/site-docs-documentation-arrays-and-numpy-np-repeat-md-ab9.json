@@ -1,0 +1,26 @@
+{
+  "id": "documentation/arrays-and-numpy/np.repeat()",
+  "title": "np.repeat()",
+  "description": "np.repeat()",
+  "source": "@site/docs/documentation/arrays-and-numpy/np.repeat().md",
+  "sourceDirName": "documentation/arrays-and-numpy",
+  "slug": "/documentation/arrays-and-numpy/np.repeat()",
+  "permalink": "/bpd-reference/docs/documentation/arrays-and-numpy/np.repeat()",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "np.percentile()",
+    "permalink": "/bpd-reference/docs/documentation/arrays-and-numpy/np.percentile()"
+  },
+  "next": {
+    "title": "np.round()",
+    "permalink": "/bpd-reference/docs/documentation/arrays-and-numpy/np.round()"
+  }
+}

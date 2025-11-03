@@ -1,0 +1,23 @@
+{
+  "id": "documentation/intro",
+  "title": "intro",
+  "description": "Assumption:  Assume that df is a DataFrame, ser is a Series, arr is an array, and we already ran import babypandas as bpd and import numpy as np.",
+  "source": "@site/docs/documentation/intro.md",
+  "sourceDirName": "documentation",
+  "slug": "/documentation/intro",
+  "permalink": "/bpd-reference/docs/documentation/intro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "sidebar_label": "Intro"
+  },
+  "sidebar": "docsSidebar",
+  "next": {
+    "title": "Building and Organizing DataFrames",
+    "permalink": "/bpd-reference/docs/documentation/building-organizing/"
+  }
+}

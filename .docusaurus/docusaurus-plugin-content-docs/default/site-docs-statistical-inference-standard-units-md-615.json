@@ -1,0 +1,46 @@
+{
+  "id": "statistical-inference/standard_units",
+  "title": "Standard Units, Correlation, Regression",
+  "description": "Concept",
+  "source": "@site/docs/statistical-inference/standard_units.md",
+  "sourceDirName": "statistical-inference",
+  "slug": "/statistical-inference/standard_units",
+  "permalink": "/bpd-reference/docs/statistical-inference/standard_units",
+  "draft": false,
+  "unlisted": false,
+  "tags": [
+    {
+      "label": "standard units",
+      "permalink": "/bpd-reference/docs/tags/standard-units"
+    },
+    {
+      "label": "correlation",
+      "permalink": "/bpd-reference/docs/tags/correlation"
+    },
+    {
+      "label": "regression",
+      "permalink": "/bpd-reference/docs/tags/regression"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "sidebar_label": "Standard Units, Correlation, Regression",
+    "title": "Standard Units, Correlation, Regression",
+    "tags": [
+      "standard units",
+      "correlation",
+      "regression"
+    ]
+  },
+  "sidebar": "statsSidebar",
+  "previous": {
+    "title": "Permutation Test",
+    "permalink": "/bpd-reference/docs/statistical-inference/permutation_test"
+  },
+  "next": {
+    "title": "The Standard Normal Distribution",
+    "permalink": "/bpd-reference/docs/statistical-inference/standard_normal_distribution"
+  }
+}
