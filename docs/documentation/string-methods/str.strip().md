@@ -36,7 +36,7 @@ import '@site/src/css/function.css';
 # The 'y' in 'baby' does not get stripped since its in the middle.
 "...baby panda?!   ".strip(".?! y")
 ```
-"panda"
+"baby panda"
 
 
 
