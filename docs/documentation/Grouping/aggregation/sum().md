@@ -14,7 +14,7 @@ import '@site/src/css/function.css';
 
     <dl>
         <dt className='term'>Note:</dt>
-        <dd>Only for columns of type <code>int</code> or <code>float</code>, all other columns are automatically dropped.</dd>
+        <dd>Only for columns of type <code>int</code> or <code>float</code>, columns of other types will result in an error</dd>
     </dl>
 </div>
 
