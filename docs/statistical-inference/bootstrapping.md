@@ -44,15 +44,15 @@ When resampling, the size of the resample should be the same as the original sam
 The diagram below provides an overview of conducting bootstrapping, although it references a different dataset.
 
 <GoogleSlides
-src="https://docs.google.com/presentation/d/e/2PACX-1vS_iYHJYXSVMMZ-YQVFwMEFR6EFN3FDSAvaMyUm-YJfLQgRMTHm3vI-wWJJ5999eFJq70nWp2hyItZg/embed?start=true&loop=false&delayms=3000&rm=minimal"
-sourceLink="https://docs.google.com/presentation/d/1oYakqMdI7z61BthvgWUJvbT21bKTXg01KmAibglepBI/edit?usp=sharing"
+src="https://docs.google.com/presentation/d/1xLd-rhbmyzp3sq9fVtgHluqIzq15m_YHsoo6ZbHoo2A/embed?start=true&loop=false&delayms=3000&rm=minimal"
+sourceLink="https://docs.google.com/presentation/d/1xLd-rhbmyzp3sq9fVtgHluqIzq15m_YHsoo6ZbHoo2A/edit?usp=sharing"
 />
 
 The diagram below provides an overview of creating confidence intervals, although it references a different situation. For additional helpful visual guides, please visit the [Diagrams](https://dsc10.com/diagrams/) site.
 
 <GoogleSlides
-src="https://docs.google.com/presentation/d/e/2PACX-1vTaPZsueXI6fey_5cj2Y1TevkR1joBvpwaWVsZNvgBlnJSrw1EiBLHJywkFH_QNLU5Tdr6JZgDrhFxG/embed?start=true&loop=false&delayms=3000&rm=minimal"
-sourceLink="https://docs.google.com/presentation/d/1l5GVyl60FrornEaZnGL6REV4gjEydRncNVi6k1hHUsA/edit?usp=sharing"
+src="https://docs.google.com/presentation/d/1zS7G38UiJIm9qRzXOvdXUV4I0dn_3t10A8K5VeAjE2w/embed?start=true&loop=false&delayms=3000&rm=minimal"
+sourceLink="https://docs.google.com/presentation/d/1zS7G38UiJIm9qRzXOvdXUV4I0dn_3t10A8K5VeAjE2w/edit?usp=sharing"
 />
 
 ---
