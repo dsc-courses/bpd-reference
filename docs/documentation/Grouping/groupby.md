@@ -28,6 +28,9 @@ import '@site/src/css/function.css';
         <dt className='term'>Return Type:</dt>
         <dd>DataFrame</dd>
 
+        <dt className='term'>Clarification (groupby / pandas 2.0):</dt>
+        <dd>A Pandas 2.0+ no longer silently drops columns that can’t be aggregated after a groupby. We must use `.get()` to select the column(s) we want before `.groupby(...).mean()` (or other aggregations) so that our code runs properly on current pandas. </dd>
+
         <dt className='term'>Note:</dt>
         <dd>A `groupby()` is usually followed by an <strong>aggregate method</strong>. A `groupby()` <strong>without</strong> an aggregate method will return a <strong>DataFrameGroupBy object</strong> rather than a DataFrame.</dd>
 
