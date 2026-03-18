@@ -2,9 +2,6 @@
 sidebar_position: 8
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>for \<loop variable\> in \<sequence\>: <br/> </code> 
@@ -59,5 +56,10 @@ This is a hamster with pet id ham_002, age 0.2, and weight 0.25 <br/>
 This is a cat with pet id cat_003, age 0.0, and weight 10.0
 
 
+
 ---
+:::info See Also
+[`np.append()`](<../arrays-and-numpy/np.append().md>) · [`np.arange()`](<../arrays-and-numpy/np.arange().md>) · [`Writing Functions`](../Functions/Writing Functions.md) · [`if / elif / else`](../if-statements/if-elif-else.md)
+:::
+
 <SuggestionForm/>

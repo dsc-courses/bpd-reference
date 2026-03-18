@@ -2,9 +2,6 @@
 sidebar_position: 7
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>df.sort_values(by=column_name, ascending=True)</code>
@@ -45,5 +42,10 @@ pets
 
 
 
+
 ---
+:::info See Also
+[`df[]`](<../querying/df[].md>) · [`df.get()`](<../accessing-data/df.get().md>)
+:::
+
 <SuggestionForm/>

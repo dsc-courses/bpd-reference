@@ -2,9 +2,6 @@
 sidebar_position: 3
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>ser.loc[label]</code>
@@ -34,5 +31,10 @@ species_ser.loc['dog_002']
 'dog'
 
 
+
 ---
+:::info See Also
+[`ser.iloc[]`](<../accessing-data/ser.iloc[].md>) · [`df.get()`](<../accessing-data/df.get().md>) · [`df.set_index()`](<../building-organizing/df.set_index().md>)
+:::
+
 <SuggestionForm/>

@@ -2,9 +2,6 @@
 sidebar_position: 8
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>str.title()</code>
@@ -31,5 +28,10 @@ txt.title()
 
 
 
+
 ---
+:::info See Also
+[`str.lower()`](<../string-methods/str.lower().md>) · [`str.upper()`](<../string-methods/str.upper().md>) · [`ser.str.title()`](<../series-methods/ser.str.title().md>)
+:::
+
 <SuggestionForm/>

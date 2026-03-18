@@ -2,9 +2,6 @@
 sidebar_position: 11
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>ser.str.upper()</code>
@@ -36,5 +33,10 @@ comment_ser.str.upper()
 
 
 
+
 ---
+:::info See Also
+[`ser.str.lower()`](<../series-methods/ser.str.lower().md>) · [`ser.str.title()`](<../series-methods/ser.str.title().md>) · [`str.upper()`](<../string-methods/str.upper().md>)
+:::
+
 <SuggestionForm/>

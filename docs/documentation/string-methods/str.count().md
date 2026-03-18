@@ -2,9 +2,6 @@
 sidebar_position: 1
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>str.count(value)</code>
@@ -32,5 +29,10 @@ import '@site/src/css/function.css';
 ```
 3
 
+
 ---
+:::info See Also
+[`ser.str.contains()`](<../series-methods/ser.str.contains().md>) · [`str.split()`](<../string-methods/str.split().md>)
+:::
+
 <SuggestionForm/>

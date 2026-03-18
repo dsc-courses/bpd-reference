@@ -2,9 +2,6 @@
 sidebar_position: 7
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>ser.unique()</code>
@@ -34,5 +31,10 @@ len(weight_ser.unique())
 
 
 
+
 ---
+:::info See Also
+[`ser.count()`](<../series-methods/ser.count().md>) · [`np.unique()`](<../arrays-and-numpy/np.unique().md>)
+:::
+
 <SuggestionForm/>

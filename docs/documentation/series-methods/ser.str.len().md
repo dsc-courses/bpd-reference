@@ -2,9 +2,6 @@
 sidebar_position: 15
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>ser.str.len()</code>
@@ -36,5 +33,10 @@ comment_ser.str.len()
 
 
 
+
 ---
+:::info See Also
+[`ser.str.contains()`](<../series-methods/ser.str.contains().md>) · [`ser.count()`](<../series-methods/ser.count().md>)
+:::
+
 <SuggestionForm/>

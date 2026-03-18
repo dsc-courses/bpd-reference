@@ -2,9 +2,6 @@
 sidebar_position: 2
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>ser.max()</code>
@@ -29,3 +26,10 @@ weight_ser
 weight_ser.max()
 ```
 80.0
+
+---
+:::info See Also
+[`ser.min()`](<../series-methods/ser.min().md>) · [`ser.mean()`](<../series-methods/ser.mean().md>) · [`ser.median()`](<../series-methods/ser.median().md>)
+:::
+
+<SuggestionForm/>

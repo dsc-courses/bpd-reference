@@ -2,9 +2,6 @@
 sidebar_position: 7
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>df.groupby(column_name).mean()</code>
@@ -32,5 +29,10 @@ pets.get(['Weight', 'Age', 'Species', 'Is_Cat']).groupby('Species').mean()
 
 <DataFrameComponent data={'{"columns":["Weight","Age","Is_Cat"],"index":["cat","dog","hamster"],"data":[[8.8333333333,3.0666666667,1.0],[48.3333333333,2.5,0.0],[0.625,1.6,0.0]]}'} />
 
+
 ---
+:::info See Also
+[`groupby`](../../Grouping/groupby.md) · [`median()`](<../../Grouping/aggregation/median().md>) · [`sum()`](<../../Grouping/aggregation/sum().md>) · [`ser.mean()`](<../../series-methods/ser.mean().md>)
+:::
+
 <SuggestionForm/>

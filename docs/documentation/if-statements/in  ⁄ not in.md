@@ -3,9 +3,6 @@ sidebar_position: 2
 description: Checks for membership of object within a sequence.
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>if \<object\> in \<sequence\>: <br/></code>
@@ -56,5 +53,10 @@ cat_and_dog_info('cat_009')
 
 
 
+
 ---
+:::info See Also
+[`if / elif / else`](../if-statements/if-elif-else.md) · [`Logical Operators`](../if-statements/Logical Operators.md)
+:::
+
 <SuggestionForm/>

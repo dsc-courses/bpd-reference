@@ -2,9 +2,6 @@
 sidebar_position: 2
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>str.join(iterable)</code>
@@ -38,5 +35,10 @@ import '@site/src/css/function.css';
 "pandas#are#the#best"
 
 
+
 ---
+:::info See Also
+[`str.split()`](<../string-methods/str.split().md>)
+:::
+
 <SuggestionForm/>

@@ -2,9 +2,6 @@
 sidebar_position: 1
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>np.append(arr, value)</code>
@@ -37,5 +34,10 @@ np.append(weight_arr, 2)
 array([40.  ,  1.5 , 15.  , 80.  , 25.  ,  1.  ,  0.25, 10.  ,  2.  ])
 
 
+
 ---
+:::info See Also
+[`np.arange()`](<../arrays-and-numpy/np.arange().md>) · [`np.repeat()`](<../arrays-and-numpy/np.repeat().md>) · [`for loops`](../for-loops/for-loops.md)
+:::
+
 <SuggestionForm/>

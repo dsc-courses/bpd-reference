@@ -4,9 +4,6 @@ sidebar_label: Random Multinomial
 title: Random Multinomial
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>np.random.multinomial(n, [p_0, p_1, p_2, ...])</code>

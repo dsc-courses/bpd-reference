@@ -2,9 +2,6 @@
 sidebar_position: 6
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>ser.median()</code>
@@ -28,5 +25,10 @@ weight_ser.median()
 
 
 
+
 ---
+:::info See Also
+[`ser.mean()`](<../series-methods/ser.mean().md>) · [`ser.min()`](<../series-methods/ser.min().md>) · [`ser.max()`](<../series-methods/ser.max().md>)
+:::
+
 <SuggestionForm/>

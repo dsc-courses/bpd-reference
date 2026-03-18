@@ -3,9 +3,6 @@ sidebar_position: 3
 description: Allows for multiple conditions to be combined at the same time.
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>if \<condition\> and \<condition\>: <br/></code>
@@ -82,5 +79,10 @@ cat_and_dog_info('cat_009')
 
 
 
+
 ---
+:::info See Also
+[`if / elif / else`](../if-statements/if-elif-else.md) · [`in / not in`](<../if-statements/in  ⁄ not in.md>) · [`df[]`](<../querying/df[].md>)
+:::
+
 <SuggestionForm/>

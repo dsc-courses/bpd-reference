@@ -2,9 +2,6 @@
 sidebar_position: 2
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>list(arr)</code>
@@ -41,5 +38,10 @@ pet_list
 ["dog", "cat", "hamster", "cat", "cat", "dog", "dog", "hamster", "hamster"]
 
 
+
 ---
+:::info See Also
+[`np.array()`](<../data-format-conversion/np.array().md>) · [`np.arange()`](<../arrays-and-numpy/np.arange().md>)
+:::
+
 <SuggestionForm/>

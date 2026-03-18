@@ -2,11 +2,7 @@
 sidebar_position: 1
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
 import '@site/src/css/function.css';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
-import GoogleSlides from '@site/components/GoogleSlides.jsx';
 
 <code>def function_name(parameters):</code>
 
@@ -138,5 +134,10 @@ categorize_animal(pets.get('ID').iloc[0])
 'Adult Normal'
 
 
+
 ---
+:::info See Also
+[`Applying Functions`](<../Functions/Applying Functions.md>) · [`for loops`](../for-loops/for-loops.md)
+:::
+
 <SuggestionForm/>

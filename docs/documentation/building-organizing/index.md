@@ -2,7 +2,6 @@
 title: "Building and Organizing DataFrames"
 ---
 import '@site/src/css/chapters.css';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 
 <p className="main-description">Each function/method creates a new DataFrame. Remember to save it!</p>
 

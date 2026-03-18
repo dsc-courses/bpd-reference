@@ -3,7 +3,6 @@ title: "String methods"
 ---
 
 import '@site/src/css/chapters.css';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 
 <p className="main-description"> Python String methods used in the scope of this course.</p>
 

@@ -2,9 +2,6 @@
 sidebar_position: 7
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>df.groupby(column_name).median()</code>
@@ -33,5 +30,10 @@ pets.get(['Weight', 'Age', 'Species', 'Is_Cat']).groupby('Species').median()
 
 <DataFrameComponent data={'{"columns":["Weight","Age","Is_Cat"],"index":["cat","dog","hamster"],"data":[[10.0,0.2,1.0],[40.0,2.0,0.0],[0.625,1.6,0.0]]}'} />
 
+
 ---
+:::info See Also
+[`groupby`](../../Grouping/groupby.md) · [`mean()`](<../../Grouping/aggregation/mean().md>) · [`ser.median()`](<../../series-methods/ser.median().md>)
+:::
+
 <SuggestionForm/>

@@ -2,9 +2,6 @@
 sidebar_position: 5
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>df.index</code>
@@ -62,5 +59,10 @@ array(['dog_001', 'cat_001', 'cat_002', 'dog_002', 'dog_003', 'ham_001',
        'ham_002', 'cat_003'], dtype=object)
 
 
+
 ---
+:::info See Also
+[`df.columns`](../accessing-data/df.columns.md) · [`df.set_index()`](<../building-organizing/df.set_index().md>) · [`df.reset_index()`](<../building-organizing/df.reset_index().md>)
+:::
+
 <SuggestionForm/>

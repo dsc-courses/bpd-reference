@@ -2,9 +2,6 @@
 sidebar_position: 3
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>df.plot(kind='bar', x=data_col, y=data_col)</code>
@@ -84,5 +81,10 @@ pets.groupby('Species').count().plot(kind='bar', y='ID', title='Distribution of 
 
 
 
+
 ---
+:::info See Also
+[`Histogram`](../plotting/Histogram.md) · [`Scatter Plot`](../plotting/Scatter Plot.md) · [`df.groupby()`](../Grouping/groupby.md) · [`df.sort_values()`](<../building-organizing/df.sort_values().md>)
+:::
+
 <SuggestionForm/>

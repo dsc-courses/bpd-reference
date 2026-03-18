@@ -2,9 +2,6 @@
 sidebar_position: 9
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>ser.str.strip(to_strip = None)</code>
@@ -58,5 +55,10 @@ comment_ser.str.strip('* ')
 
 
 
+
 ---
+:::info See Also
+[`ser.str.split()`](<../series-methods/ser.str.split().md>) · [`ser.str.replace()`](<../series-methods/ser.str.replace().md>) · [`str.strip()`](<../string-methods/str.strip().md>)
+:::
+
 <SuggestionForm/>

@@ -2,9 +2,6 @@
 sidebar_position: 6
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>df.columns</code>
@@ -47,5 +44,10 @@ col_arr
 array(['ID', 'Species', 'Color', 'Weight', 'Age', 'Is_Cat',
        'Owner_Comment'], dtype=object)
 
+
 ---
+:::info See Also
+[`df.index`](../accessing-data/df.index.md) · [`df.shape`](../accessing-data/df.shape.md) · [`df.get()`](<../accessing-data/df.get().md>)
+:::
+
 <SuggestionForm/>

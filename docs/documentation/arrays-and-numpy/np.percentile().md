@@ -2,9 +2,6 @@
 sidebar_position: 1
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>np.percentile(arr, p)</code>
@@ -48,5 +45,10 @@ np.percentile(weight_arr, 50)
 ```
 12.5
 
+
 ---
+:::info See Also
+[`ser.mean()`](<../series-methods/ser.mean().md>) · [`ser.median()`](<../series-methods/ser.median().md>) · [`np.round()`](<../arrays-and-numpy/np.round().md>)
+:::
+
 <SuggestionForm/>

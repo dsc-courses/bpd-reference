@@ -2,9 +2,6 @@
 sidebar_position: 14
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>ser.str.replace(old, new)</code>
@@ -50,5 +47,10 @@ comment_ser.str.replace('dog', 'cat').str.replace('birthday', '🍰')
 
 
 
+
 ---
+:::info See Also
+[`ser.str.strip()`](<../series-methods/ser.str.strip().md>) · [`ser.str.contains()`](<../series-methods/ser.str.contains().md>) · [`str.replace()`](<../string-methods/str.replace().md>)
+:::
+
 <SuggestionForm/>

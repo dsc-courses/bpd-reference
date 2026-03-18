@@ -4,9 +4,6 @@ sidebar_label: Random Choice
 title: Random Choice
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>np.random.choice(arr, size, replace=True, p=[p_0, p_1, ...])</code>

@@ -2,9 +2,6 @@
 sidebar_position: 3
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>str.lower()</code>
@@ -29,5 +26,10 @@ txt.lower()
 ```
 "i love baby pandas"
 
+
 ---
+:::info See Also
+[`str.upper()`](<../string-methods/str.upper().md>) · [`str.title()`](<../string-methods/str.title().md>) · [`ser.str.lower()`](<../series-methods/ser.str.lower().md>)
+:::
+
 <SuggestionForm/>

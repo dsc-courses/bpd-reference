@@ -3,8 +3,6 @@ sidebar_position: 1
 sidebar_label: Intro
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 
 export const Tag = ({children, color}) => (
     <span

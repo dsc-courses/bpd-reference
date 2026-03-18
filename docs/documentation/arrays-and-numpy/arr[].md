@@ -2,9 +2,6 @@
 sidebar_position: 1
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx'; 
 import '@site/src/css/function.css';
 
 <code>arr[index]</code>
@@ -47,5 +44,10 @@ weight_arr[2]
 20.0
 
 
+
 ---
+:::info See Also
+[`ser.iloc[]`](<../accessing-data/ser.iloc[].md>) · [`np.arange()`](<../arrays-and-numpy/np.arange().md>) · [`np.append()`](<../arrays-and-numpy/np.append().md>)
+:::
+
 <SuggestionForm/>

@@ -3,7 +3,6 @@ title: "Accessing Data"
 ---
 
 import '@site/src/css/chapters.css';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 
 <p className="main-description"></p>
 

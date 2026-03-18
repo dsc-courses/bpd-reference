@@ -2,9 +2,6 @@
 sidebar_position: 2
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>df[condition]</code>
@@ -99,5 +96,10 @@ pets[pets.index > 3]
 
 
 
+
 ---
+:::info See Also
+[`df.get()`](<../accessing-data/df.get().md>) · [`Logical Operators`](../if-statements/Logical Operators.md) · [`ser.str.contains()`](<../series-methods/ser.str.contains().md>)
+:::
+
 <SuggestionForm/>

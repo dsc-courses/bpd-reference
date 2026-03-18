@@ -26,7 +26,11 @@ const config = {
   projectName: 'bpd-reference', // Usually your repo name.
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   // Allow live coding.
   themes: ['@docusaurus/theme-live-codeblock'],

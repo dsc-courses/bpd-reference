@@ -2,9 +2,6 @@
 sidebar_position: 2
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>df.plot(kind='scatter', x=data_col, y=data_col)</code>
@@ -41,5 +38,10 @@ pets.plot(kind='scatter', x='Age', y='Weight')
 
 
 
+
 ---
+:::info See Also
+[`Line Plot`](../plotting/Line Plot.md) · [`Bar Plot`](../plotting/Bar Plot.md)
+:::
+
 <SuggestionForm/>

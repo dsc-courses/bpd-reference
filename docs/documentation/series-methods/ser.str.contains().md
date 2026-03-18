@@ -2,9 +2,6 @@
 sidebar_position: 16
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>ser.str.contains(substring)</code>
@@ -40,5 +37,10 @@ comment_ser.str.contains('dog')
 
 
 
+
 ---
+:::info See Also
+[`df[]`](<../querying/df[].md>) · [`ser.str.replace()`](<../series-methods/ser.str.replace().md>) · [`ser.str.len()`](<../series-methods/ser.str.len().md>)
+:::
+
 <SuggestionForm/>

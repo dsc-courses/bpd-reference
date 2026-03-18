@@ -2,9 +2,6 @@
 sidebar_position: 6
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>str.strip(characters)</code>
@@ -41,5 +38,10 @@ import '@site/src/css/function.css';
 
 
 
+
 ---
+:::info See Also
+[`str.replace()`](<../string-methods/str.replace().md>) · [`ser.str.strip()`](<../series-methods/ser.str.strip().md>)
+:::
+
 <SuggestionForm/>

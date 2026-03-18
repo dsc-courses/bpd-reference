@@ -7,9 +7,6 @@ tags:
   - permutation test
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
-import GoogleSlides from '@site/components/GoogleSlides.jsx';
 
 ## Difference
 

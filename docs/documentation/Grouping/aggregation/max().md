@@ -2,9 +2,6 @@
 sidebar_position: 7
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>df.groupby(column_name).max()</code>
@@ -34,5 +31,10 @@ pets.groupby('Species').max()
 
 
 
+
 ---
+:::info See Also
+[`groupby`](../../Grouping/groupby.md) · [`min()`](<../../Grouping/aggregation/min().md>) · [`ser.max()`](<../../series-methods/ser.max().md>)
+:::
+
 <SuggestionForm/>

@@ -4,10 +4,6 @@ sidebar_label: Random Permutation
 title: Random Permutation
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
-import GoogleSlides from '@site/components/GoogleSlides.jsx';
 import '@site/src/css/function.css';
 
 <code>np.random.permutation(arr)</code>

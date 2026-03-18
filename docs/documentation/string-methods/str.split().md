@@ -2,9 +2,6 @@
 sidebar_position: 5
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>str.split(separator)</code>
@@ -42,5 +39,10 @@ txt.split("#")
 
 
 
+
 ---
+:::info See Also
+[`str.join()`](<../string-methods/str.join().md>) · [`ser.str.split()`](<../series-methods/ser.str.split().md>)
+:::
+
 <SuggestionForm/>

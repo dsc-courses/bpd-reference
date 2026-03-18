@@ -3,8 +3,6 @@ sidebar_position: 1
 ---
 
 import '@site/src/css/function.css';
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 
 <code>bpd.DataFrame()</code>
 
@@ -23,5 +21,10 @@ example_df
 <DataFrameComponent data={'{"columns": ["Pet_ID", "Breed", "Color"],"index": [0, 1, 2, 3, 4, 5],"data": [["dog_001", "Labrador", "black"],["cat_001", "Sphinx", "golden"],["cat_002", "Siamese", "black"],["dog_002", "Chihuahua", "white"],["dog_003", "Labrador", "golden"],["ham_001", "Roborovski", "black"]]}'} />
 
 
+
 ---
+:::info See Also
+[`bpd.read_csv()`](<../building-organizing/bpd.read_csv().md>) · [`df.assign()`](<../building-organizing/df.assign().md>)
+:::
+
 <SuggestionForm/>

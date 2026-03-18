@@ -3,7 +3,6 @@ title: "Arrays and NumPy"
 ---
 
 import '@site/src/css/chapters.css';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 
 <p className="main-description">Functions/methods for working with Arrays and NumPy.</p>
 

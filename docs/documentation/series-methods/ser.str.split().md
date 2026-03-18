@@ -2,9 +2,6 @@
 sidebar_position: 8
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>ser.str.split(pat = None)</code>
@@ -49,5 +46,10 @@ comment_ser.str.split(',')
 
 
 
+
 ---
+:::info See Also
+[`ser.str.strip()`](<../series-methods/ser.str.strip().md>) · [`ser.str.contains()`](<../series-methods/ser.str.contains().md>) · [`str.split()`](<../string-methods/str.split().md>)
+:::
+
 <SuggestionForm/>

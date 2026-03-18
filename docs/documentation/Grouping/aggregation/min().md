@@ -2,9 +2,6 @@
 sidebar_position: 7
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>df.groupby(column_name).min()</code>
@@ -32,5 +29,10 @@ pets.groupby('Species').min()
 
 <DataFrameComponent data={'{"columns":["ID","Color","Weight","Age","Is_Cat","Owner_Comment"],"index":["cat","dog","hamster"],"data":[["cat_001","black",1.5,0.0,true,"****All you need is love and a cat.****"],["dog_001","black",25.0,0.5,false,"      There are no bad dogs, only bad owners."],["ham_001","black",0.25,0.2,false,"No, thank you!"]]}'} />
 
+
 ---
+:::info See Also
+[`groupby`](../../Grouping/groupby.md) · [`max()`](<../../Grouping/aggregation/max().md>) · [`ser.min()`](<../../series-methods/ser.min().md>)
+:::
+
 <SuggestionForm/>

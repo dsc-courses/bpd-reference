@@ -2,9 +2,6 @@
 sidebar_position: 1
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>df.shape</code>
@@ -49,5 +46,10 @@ pets.shape[1]
 ```
 7
 
+
 ---
+:::info See Also
+[`df.columns`](../accessing-data/df.columns.md) · [`df.index`](../accessing-data/df.index.md) · [`df.get()`](<../accessing-data/df.get().md>)
+:::
+
 <SuggestionForm/>

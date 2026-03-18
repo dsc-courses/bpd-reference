@@ -2,9 +2,6 @@
 sidebar_position: 4
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>str.replace(oldvalue, newvalue)</code>
@@ -44,5 +41,10 @@ txt.replace(" ", "")
 "RemoveAllTheSpaceHere!"
 
 
+
 ---
+:::info See Also
+[`str.strip()`](<../string-methods/str.strip().md>) · [`ser.str.replace()`](<../series-methods/ser.str.replace().md>)
+:::
+
 <SuggestionForm/>

@@ -2,10 +2,6 @@
 sidebar_position: 1
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
-import GoogleSlides from '@site/components/GoogleSlides.jsx';
 import '@site/src/css/function.css';
 
 <code>df.plot(kind='hist', y=data_col, bins=the_bins, density=True, ec='w')</code>
@@ -99,5 +95,10 @@ pets.plot(kind='hist', y='Weight', density=True, ec='w')
 
 
 
+
 ---
+:::info See Also
+[`Bar Plot`](../plotting/Bar Plot.md) · [`np.arange()`](<../arrays-and-numpy/np.arange().md>)
+:::
+
 <SuggestionForm/>

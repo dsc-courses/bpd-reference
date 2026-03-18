@@ -8,9 +8,6 @@ tags:
   - regression
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import GoogleSlides from '@site/components/GoogleSlides.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 
 ## Concept
 

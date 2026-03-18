@@ -2,9 +2,6 @@
 sidebar_position: 1
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>np.repeat()</code>
@@ -62,5 +59,10 @@ array(
  [3, 4]]
 )
 
+
 ---
+:::info See Also
+[`np.append()`](<../arrays-and-numpy/np.append().md>) · [`np.arange()`](<../arrays-and-numpy/np.arange().md>) · [`for loops`](../for-loops/for-loops.md)
+:::
+
 <SuggestionForm/>

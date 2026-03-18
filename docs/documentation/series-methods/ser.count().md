@@ -2,9 +2,6 @@
 sidebar_position: 1
 ---
 
-import DataFrameComponent from '@site/components/DataFrameComponent.jsx';
-import SeriesComponent from '@site/components/SeriesComponent.jsx';
-import SuggestionForm from '@site/components/SuggestionForm.jsx';
 import '@site/src/css/function.css';
 
 <code>ser.count()</code>
@@ -28,5 +25,10 @@ weight_ser.count()
 
 
 
+
 ---
+:::info See Also
+[`ser.sum()`](<../series-methods/ser.sum().md>) · [`ser.unique()`](<../series-methods/ser.unique().md>) · [`np.count_nonzero()`](<../arrays-and-numpy/np.count_nonzero().md>)
+:::
+
 <SuggestionForm/>
