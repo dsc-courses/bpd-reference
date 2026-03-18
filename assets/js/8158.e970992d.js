@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkbpd_reference=globalThis.webpackChunkbpd_reference||[]).push([[8158],{8158(e,a,r){r.r(a),r.d(a,{DocSearchModal:()=>c.a1});var c=r(3219)}}]);
