@@ -29,7 +29,7 @@ import '@site/src/css/function.css';
 
 ```python
 txt = "I like potato, wanna mash my potato, won't you mash your potato with me?"
-txt.replace("avocado", "potato")
+txt.replace("potato", "avocado")
 ```
 "I like avocado, wanna mash my avocado, won't you mash your avocado with me?" 
 
